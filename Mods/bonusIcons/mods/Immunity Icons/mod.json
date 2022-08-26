@@ -1,0 +1,15 @@
+{
+	"name" : "Spell Immunity Bonus Icons",
+	"description" : "Spell Immunity icons for VCMI",
+	"author" : "Andruids",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "0.6",
+	"modType" : "Graphic",	
+
+	"spells" :
+	[
+		"spellImmunityIcons.json",
+		"abilityImmunityIcons.json"
+	]
+
+}

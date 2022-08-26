@@ -1,0 +1,63 @@
+{
+	"type": "Container",
+	"items": [
+		{
+			"type": "Grid",
+			"width": 156,
+			"height": 50,
+			"columns": 3,
+			"top": 120,
+			"items": [
+				{ "type": "Button", "def": "hdmod/armRight.DEF", "hover": "Move all army to the right", "click": "@controller.moveArmyToTheRight()" },
+				{ "type": "Button", "def": "hdmod/swapAll.DEF", "hover": "Swap armies", "click": "@controller.swapArmy()" },
+				{ "type": "Button", "def": "hdmod/armLeft.DEF", "hover": "Move all army to the left", "click": "@controller.moveArmyToTheLeft()" },
+				{ "type": "Button", "def": "hdmod/artRight.DEF", "hover": "Move all artifacts to the right", "click": "@controller.moveArtsToTheRight()" },
+				{ "type": "Button", "def": "hdmod/swapAll.DEF", "hover": "Swap artifacts", "click": "@controller.swapArts()" },
+				{ "type": "Button", "def": "hdmod/artLeft.DEF", "hover": "Move all artifacts to the left", "click": "@controller.moveArtsToTheLeft()" }
+			]
+		},
+		{
+			"type": "Grid",
+			"width": 257,
+			"height": 22,
+			"columns": 7,
+			"top": 153,
+			"left": 66,
+			"items": [
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(0)" },
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(1)" },
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(2)" },
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(3)" },
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(4)" },
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(5)" },
+				{ "type": "Button", "def": "hdmod/unitRight.DEF", "hover": "Move unit to the right", "click": "@controller.moveUnitToTheRight(6)" }
+			]
+		},
+		{
+			"type": "Grid",
+			"width": 257,
+			"height": 22,
+			"columns": 7,
+			"top": 153,
+			"left": 484,
+			"items": [
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(0)" },
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(1)" },
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(2)" },
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(3)" },
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(4)" },
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(5)" },
+				{ "type": "Button", "def": "hdmod/unitLeft.DEF", "hover": "Move unit to the left", "click": "@controller.moveUnitToTheLeft(6)" }
+			]
+		}
+	]
+}
+
+{
+	t: c,
+	exchangeButtons: {
+		t: grid
+		b1: {
+			
+		}
+	}

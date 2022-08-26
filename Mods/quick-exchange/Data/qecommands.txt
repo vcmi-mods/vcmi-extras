@@ -1,0 +1,6 @@
+move stack
+move all stacks
+swap armies
+move all artifacts
+swap artifact
+test6

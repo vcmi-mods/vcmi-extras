@@ -1,0 +1,164 @@
+{
+	"core:blind" : {
+		"graphics":
+		{
+			"iconImmune":"spellimmunity/imm_blind.bmp"
+		}
+		},
+		"core:antiMagic" : {
+			"graphics":
+			{
+				"iconImmune":"spellimmunity/imm_antimagic.bmp"
+			}
+			},		 
+			"core:armageddon" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_armageddon.bmp"
+				}
+			},
+			"core:destroyUndead" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_banish.bmp"
+				}
+			},
+			"core:berserk" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_berserk.bmp"
+				}
+			},
+			"core:chainLightning" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_chain.bmp"
+				}
+			},
+			"core:curse" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_curse.bmp"
+				}
+			},
+			"core:deathRipple" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_deathripple.bmp"
+				}
+			},
+			"core:dispel" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_dispel.bmp"
+				}
+			},
+			"core:disruptingRay" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_disrupt.bmp"
+				}
+			},
+			"core:fireball" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_fireball.bmp"
+				}
+			},
+			"core:fireWall" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_fireWall.bmp"
+				}
+			},
+			"core:forgetfulness" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_forget.bmp"
+				}
+			},
+			"core:frostRing" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_frostring.bmp"
+				}
+			},
+			"core:hypnotize" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_hypnosis.bmp"
+				}
+			},
+			"core:iceBolt" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_icebolt.bmp"
+				}
+			},
+			"core:implosion" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_implosion.bmp"
+				}
+			},
+			"core:inferno" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_inferno.bmp"
+				}
+			},
+			"core:lightningBolt" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_lightning.bmp"
+				}
+			},
+			"core:magicArrow" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_magicarrow.bmp"
+				}
+			},
+			"core:meteorShower" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_meteor.bmp"
+				}
+			},
+			"core:landMine" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_mine.bmp"
+				}
+			},
+			"core:misfortune" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_misfortune.bmp"
+				}
+			},
+			"core:slow" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_slow.bmp"
+				}
+			},
+			"core:sorrow" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_sorrow.bmp"
+				}
+			},
+			"core:titanBolt" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_titanbolt.bmp"
+				}
+			},
+			"core:weakness" : {
+				"graphics":
+				{
+					"iconImmune":"spellimmunity/imm_weakness.bmp"
+				}
+			}	
+}
