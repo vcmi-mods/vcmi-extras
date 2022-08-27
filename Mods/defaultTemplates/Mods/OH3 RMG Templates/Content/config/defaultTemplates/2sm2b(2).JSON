@@ -30,7 +30,7 @@
 				"mines" : { "wood" : 1, "ore" : 1, "sulfur" : 1 },
 				"treasureLikeZone" : 1
 			},
-			"4" :
+			"3" :
 			{
 				"type" : "treasure",
 				"size" : 11,
@@ -44,7 +44,7 @@
 					{ "min" : 10000, "max" : 15000, "density" : 9 }
 				]
 			},
-			"5" :
+			"4" :
 			{
 				"type" : "treasure",
 				"size" : 11,
@@ -53,7 +53,7 @@
 				"mines" : { "crystal" : 1, "gems" : 1, "gold" : 1 },
 				"treasureLikeZone" : 3
 			},
-			"3" :
+			"5" :
 			{
 				"type" : "playerStart",
 				"size" : 11,
