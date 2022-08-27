@@ -2,10 +2,14 @@
 	"name" : "VCMI essential files",
 	"description" : "Essential files required for VCMI to run correctly",
 
-	"version" : "1.03",
+	"version" : "1.04",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
+	"changelog" :
+	{
+		"1.04" : ["Update defaultTemplates submod"]
+	},
 
 	"filesystem":
 	{
