@@ -1,29 +1,14 @@
 {
-	"name" : "VCMI essential files",
-	"description" : "Essential files required for VCMI to run correctly",
+	"name" : "VCMI extras",
+	"description" : "Extra mods to enable core VCMI functionality",
 
-	"version" : "1.04",
+	"version" : "2.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
-		"1.04" : ["Update defaultTemplates submod"]
-	},
-
-	"filesystem":
-	{
-		"DATA/" :
-		[
-			{"type" : "dir",  "path" : "/Data"}
-		],
-		"SPRITES/":
-		[
-			{"type" : "dir",  "path" : "/Sprites"}
-		],
-		"MAPS/":
-		[
-			{"type" : "dir",  "path" : "/Maps"}
-		]
+		"2.0" : ["Restructure of the essential files mod"],
+		"1.00" : ["Update defaultTemplates submod"]
 	}
 }
