@@ -1,0 +1,17 @@
+{
+	"core:arrowTower":
+	{
+		"graphics" :
+		{
+			"iconSmall": "iconsSmall/towerSmall.png",
+			"iconLarge": "iconsBig/towerBig.png"
+		},
+
+		"sound":
+		{
+			"attack": "shootat.wav",
+			"killed": "killat.wav",
+			"shoot": "shootat.wav"
+		}
+	}	
+}

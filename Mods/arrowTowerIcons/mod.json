@@ -1,0 +1,13 @@
+{
+	"name" : "Arrow Tower Icons",
+	"description" : "Two Arrow Towers icons for initiative bar.",
+	"version" : "1.0",
+	"author" : "avatar, Graphic: witchking",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Graphical",
+	"creatures" : [ "config/arrowTowers" ],
+	"compatibility":
+	{
+	"min" : "1.0.0"
+	}
+}
