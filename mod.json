@@ -8,6 +8,7 @@
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"2.1" : ["Added Resourceful AI as submod"],
 		"2.0" : ["Restructure of the essential files mod"],
 		"1.00" : ["Update defaultTemplates submod"]
 	}

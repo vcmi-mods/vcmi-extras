@@ -1,0 +1,11 @@
+{
+	"name" : "Resourceful AI",
+	"description" : "What this mod does is changing starting resources, so that AI gets extra resources and gold, thus AI can build every turn in the towns it owns and pose at least some threat to a human player. There is also an option in the mod that will limt on map heroes to two per player. This way AI will play very fast turns (Nullkiller AI) as it will not do complicated pathfinding/goals or use hero-chains, also AI heroes will tend to reach high levels.",
+	"version" : "1.1",
+	"author" : "val-gaav",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "AI",
+	"keepDisabled" : true
+}

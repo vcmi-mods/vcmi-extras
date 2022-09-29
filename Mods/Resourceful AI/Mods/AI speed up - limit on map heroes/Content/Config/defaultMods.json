@@ -1,0 +1,13 @@
+// default configuration for mod system loaded at launch
+
+{
+
+	"hardcodedFeatures" :
+	{
+
+		"MAX_HEROES_AVAILABLE_PER_PLAYER" : 2,
+		"MAX_HEROES_ON_MAP_PER_PLAYER" : 2,
+
+	}
+
+}
