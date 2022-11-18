@@ -2,12 +2,13 @@
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
 
-	"version" : "2.1",
+	"version" : "2.2",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"2.2" : ["Remove Resourceful AI as submod"],
 		"2.1" : ["Added Resourceful AI as submod"],
 		"2.0" : ["Restructure of the essential files mod"],
 		"1.00" : ["Update defaultTemplates submod"]
