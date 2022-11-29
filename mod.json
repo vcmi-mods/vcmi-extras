@@ -2,12 +2,13 @@
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
 
-	"version" : "2.2",
+	"version" : "2.3",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"2.3" : ["Added resolution 1366x644 fits better for iPhone"],
 		"2.2" : ["Remove Resourceful AI as submod"],
 		"2.1" : ["Added Resourceful AI as submod"],
 		"2.0" : ["Restructure of the essential files mod"],
