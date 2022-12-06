@@ -1,17 +1,101 @@
 {
-	"core:arrowTower":
+	"core:castle":
 	{
-		"graphics" :
+		"town":
 		{
-			"iconSmall": "iconsSmall/towerSmall.png",
-			"iconLarge": "iconsBig/towerBig.png"
-		},
-
-		"sound":
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},
+	"core:rampart":
+	{
+		"town":
 		{
-			"attack": "shootat.wav",
-			"killed": "killat.wav",
-			"shoot": "shootat.wav"
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},	
+	"core:tower":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},	
+	"core:inferno":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},
+	"core:necropolis":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},	
+	"core:dungeon":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},
+	"core:stronghold":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},
+	"core:fortress":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
+		}
+	},	
+	"core:conflux":
+	{
+		"town":
+		{
+			"siege" :
+			{
+				"towerIconSmall": "iconsSmall/towerSmall.png",
+				"towerIconLarge": "iconsBig/towerBig.png"
+			}
 		}
 	}	
 }
