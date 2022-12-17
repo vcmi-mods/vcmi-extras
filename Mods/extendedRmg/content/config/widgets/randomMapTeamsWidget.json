@@ -1,0 +1,51 @@
+{
+	"items":
+	[
+		{
+			"overrides": {"rect": "backgroundRect"}, //do not modify
+			"name": "background",
+			"type": "texture",
+			"image": "Bl3DCvex",
+		},
+		{
+			"overrides": {"position": "okButtonPosition"}, //do not modify
+			"type": "button",
+			"image": "MUBCHCK",
+			"zelp": 560,
+			"callback": "ok",
+		},
+		{
+			"overrides": {"position": "cancelButtonPosition"}, //do not modify
+			"type": "button",
+			"image": "MUBCANC",
+			"zelp": 561,
+			"callback": "cancel",
+		}
+	],
+	"variables":
+	{
+		"windowSize": {"x": 80, "y": 80}, //minimul size of window - actually borders
+		"cellOffset": {"x": 40, "y": 20}, //point where first cell will be created
+		"cellMargin": {"x": 32, "y": 32}, //distance between cells
+		"button": //cell button
+		{
+			"overrides": {"position": "point"}, //do not modify
+			"name": "button",
+			"type": "toggleButton",
+			"image": "TeamPlSl"
+		},
+		"flagsAnimation": //when cell is checked
+		{
+			"type": "image",
+			"position": {"x": 8, "y": 8},
+			"group": 0,
+			"image": "ITGFLAGS",
+			"overrides": {"frame": "player_id"} //do not modify
+		},
+		"buttonsOffset":
+		{
+			"ok": {"x": 40, "y": 40}, //offset for ok button
+			"cancel": {"x": 120, "y": 40} //offset for calncel button
+		}
+	}
+}

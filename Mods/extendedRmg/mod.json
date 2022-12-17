@@ -1,0 +1,12 @@
+{
+	"name" : "Extended RMG options",
+	"description" : "Additional controls for random maps: bigger maps, template selection, road disabling and team alignments",
+	"version" : "1.0",
+	"author" : "Nordsoft",
+	"contact" : "nordsoft@yahoo.com",
+	"modType" : "Interface",
+	"compatibility":
+	{
+		"min" : "1.2.0"
+	}
+}

@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "2.5",
+	"version" : "3.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.0" : ["Added extended RMG mod"],
 		"2.5" : ["Updated tower arrows mod for new format"],
 		"2.4" : ["Adder arrow tower mod"],
 		"2.3" : ["Added resolution 1366x644 fits better for iPhone"],
