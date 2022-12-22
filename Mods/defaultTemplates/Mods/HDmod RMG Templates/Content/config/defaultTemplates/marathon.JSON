@@ -327,7 +327,7 @@
 	},
 	"" :
 	{
-		"minSize" : "xl+u", "maxSize" : "xl+u",
+		"minSize" : "xl+u", "maxSize" : "g+u",
 		"players" : "2",
 		"zones" :
 		{

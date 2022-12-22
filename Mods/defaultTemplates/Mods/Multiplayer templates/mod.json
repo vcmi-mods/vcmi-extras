@@ -1,12 +1,15 @@
 {
-	"name" : "Deux Paires",
-	"description" : "2 vs 2, L+U/XL+U",
+	"name" : "Multiplayer templates",
+	"description" : "Templates for more than 2 human players",
 
-	"version" : "0.99a",
+	"version" : "1.00",
 	"author" : "Bjorn190, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Templates",
 	"templates" : [
-		"config/defaultTemplates/deux paires"
+		"config/defaultTemplates/deux paires",
+		"config/defaultTemplates/meetingInMuzgob",
+		"config/defaultTemplates/triad",
+		"config/defaultTemplates/vortex"
 	]
 }
