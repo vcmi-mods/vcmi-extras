@@ -1,7 +1,7 @@
 {
 	"8XM8 Huge" :
 	{
-		"minSize" : "s", "maxSize" : "xl+u",
+		"minSize" : "xl+u", "maxSize" : "xh+u",
 		"players" : "2-8",
 		"zones" :
 		{

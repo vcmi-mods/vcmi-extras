@@ -1,7 +1,7 @@
 {
 	"Doubled 8MM6" :
 	{
-		"minSize" : "s", "maxSize" : "xl+u",
+		"minSize" : "xl", "maxSize" : "h+u",
 		"players" : "2-8",
 		"zones" :
 		{

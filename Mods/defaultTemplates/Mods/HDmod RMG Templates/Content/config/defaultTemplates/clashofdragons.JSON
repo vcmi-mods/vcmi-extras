@@ -1,224 +1,201 @@
 {
-	"Clash of Dragons" :
+	"Clash of Dragons 1.2":
 	{
-		"minSize" : "xl", "maxSize" : "xl+u",
+		"minSize" : "l+u", "maxSize" : "xl+u",
 		"players" : "2",
-		"zones" :
+		"zones":
 		{
-			"1" :
+			"1":
 			{
-				"type" : "playerStart",
-				"size" : 100,
-				"owner" : 1,
-				"monsters" : "weak",
+				"type" : "playerStart", "size" : 100, "owner" : 1,
 				"playerTowns" : { "castles" : 1 },
 				"neutralTowns" : { "towns" : 2 },
-				"mines" : { "wood" : 1, "ore" : 1, "gold" : 1 },
-				"treasure" :
-				[
-					{ "min" : 2000, "max" : 5000, "density" : 4 },
-					{ "min" : 5000, "max" : 9000, "density" : 6 },
-					{ "min" : 300, "max" : 1900, "density" : 15 }
-				]
+				"monsters" : "weak",
+				"mines" : {"wood" : 1, "ore" : 1, "gold" : 1},
+				"treasure" : [
+								{"min" : 2000, "max": 5000, "density": 4},
+								{"min" : 5000, "max": 9000, "density": 6},
+								{"min" : 300, "max": 1900, "density": 15}
+							]
 			},
-			"2" :
+			"2":
 			{
-				"type" : "treasure",
-				"size" : 100,
+				"type" : "treasure", "size" : 100,
+				"neutralTowns" : { "towns" : 1 },
+				"terrainTypes" : ["grass"], "matchTerrainToTown" : false,
 				"monsters" : "normal",
+				"mines" : {"gems" : 1, "crystal" : 1, "sulfur" : 1, "mercury" : 1, "gold" : 1},
+				"treasure" : [
+								{"min" : 5000, "max": 12000, "density": 2},
+								{"min" : 10000, "max": 20000, "density": 4},
+								{"min" : 300, "max": 1900, "density": 15}
+							]
+			},
+			"3":
+			{
+				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "grass" ],
-				"mines" : { "mercury" : 1, "sulfur" : 1, "crystal" : 1, "gems" : 1, "gold" : 1 },
-				"treasure" :
-				[
-					{ "min" : 5000, "max" : 12000, "density" : 2 },
-					{ "min" : 10000, "max" : 20000, "density" : 4 },
-					{ "min" : 300, "max" : 1900, "density" : 15 }
-				]
-			},
-			"3" :
-			{
-				"type" : "treasure",
-				"size" : 100,
+				"terrainTypes" : ["lava"], "matchTerrainToTown" : false,
 				"monsters" : "strong",
+				"mines" : {"wood" : 1, "ore" : 1, "gems" : 1, "crystal" : 1, "sulfur" : 1, "mercury" : 1, "gold" : 1},
+				"treasure" : [
+								{"min" : 20000, "max": 25000, "density": 10},
+								{"min" : 10000, "max": 15000, "density": 8},
+								{"min" : 300, "max": 1900, "density": 10}
+							]
+			},
+			"4":
+			{
+				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "lava" ],
-				"mines" : { "wood" : 1, "mercury" : 1, "ore" : 1, "sulfur" : 1, "crystal" : 1, "gems" : 1, "gold" : 1 },
-				"treasure" :
-				[
-					{ "min" : 20000, "max" : 25000, "density" : 10 },
-					{ "min" : 10000, "max" : 15000, "density" : 8 },
-					{ "min" : 300, "max" : 1900, "density" : 10 }
-				]
-			},
-			"4" :
-			{
-				"type" : "treasure",
-				"size" : 100,
+				"terrainTypes" : ["dirt"], "matchTerrainToTown" : false,
 				"monsters" : "strong",
+				"mines" : {"gold" : 2},
+				"treasure" : [
+								{"min" : 20000, "max": 25000, "density": 15},
+								{"min" : 10000, "max": 15000, "density": 10},
+								{"min" : 300, "max": 1900, "density": 6}
+							]
+			},
+			"5":
+			{
+				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "castles" : 1 },
-				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "dirt" ],
-				"mines" : { "gold" : 2 },
-				"treasure" :
-				[
-					{ "min" : 20000, "max" : 25000, "density" : 15 },
-					{ "min" : 15000, "max" : 20000, "density" : 10 },
-					{ "min" : 300, "max" : 1900, "density" : 6 }
-				]
-			},
-			"5" :
-			{
-				"type" : "treasure",
-				"size" : 100,
+				"terrainTypes" : ["snow"], "matchTerrainToTown" : false,
+				"allowedTowns" : ["tower"],
 				"monsters" : "strong",
-				"neutralTowns" : { "castles" : 1 },
-				"allowedTowns" : [ "tower" ],
-				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "snow" ],
-				"mines" : { "mercury" : 1, "sulfur" : 1, "crystal" : 1, "gems" : 1 },
-				"treasure" :
-				[
-					{ "min" : 20000, "max" : 30000, "density" : 15 }
-				]
+				"mines" : {"gold" : 2},
+				"treasure" : [
+								{"min" : 20000, "max": 30000, "density": 15}
+							]
 			},
-			"6" :
+			"6":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypes" : ["grass"], "matchTerrainToTown" : false,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 2,
-				"mines" : { "mercury" : 1, "gold" : 1 },
-				"treasure" :
-				[
-					{ "min" : 80000, "max" : 120000, "density" : 10 }
-				]
+				"mines" : {"mercury" : 1, "gold" : 1},
+				"treasure" : [
+								{"min" : 80000, "max": 120000, "density": 10}
+							]
 			},
-			"7" :
+			"7":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypeLikeZone" : 6,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 2,
-				"mines" : { "sulfur" : 1, "gold" : 1 },
+				"mines" : {"sulfur" : 1, "gold" : 1},
 				"treasureLikeZone" : 6
 			},
-			"8" :
+			"8":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypeLikeZone" : 6,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 2,
-				"mines" : { "crystal" : 1, "gold" : 1 },
+				"mines" : {"crystal" : 1, "gold" : 1},
 				"treasureLikeZone" : 6
 			},
-			"9" :
+			"9":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypeLikeZone" : 6,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 2,
-				"mines" : { "gems" : 1, "gold" : 1 },
+				"mines" : {"gems" : 1, "gold" : 1},
 				"treasureLikeZone" : 6
 			},
-			"10" :
+			"10":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypes" : ["snow"], "matchTerrainToTown" : false,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 5,
-				"minesLikeZone" : 6,
-				"treasure" :
-				[
-					{ "min" : 80000, "max" : 80000, "density" : 10 }
-				]
+				"mines" : {"mercury" : 1, "gold" : 1},
+				"treasure" : [
+								{"min" : 80000, "max": 80000, "density": 10}
+							]
 			},
-			"11" :
+			"11":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypeLikeZone" : 10,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 5,
-				"minesLikeZone" : 6,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 10
 			},
-			"12" :
+			"12":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypeLikeZone" : 10,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 5,
-				"minesLikeZone" : 6,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 10
 			},
-			"13" :
+			"13":
 			{
-				"type" : "treasure",
-				"size" : 40,
+				"type" : "treasure", "size" : 40,
+				"terrainTypeLikeZone" : 10,
+				"allowedTowns" : ["tower", "castle", "neutral"],
+				"allowedMonsters" : ["neutral", "rampart", "dungeon"],
 				"monsters" : "strong",
-				"allowedMonsters" : [ "rampart", "dungeon", "neutral" ],
-				"terrainTypeLikeZone" : 5,
-				"minesLikeZone" : 6,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 10
 			},
-			"14" :
+			"14":
 			{
-				"type" : "playerStart",
-				"size" : 100,
-				"owner" : 2,
-				"monsters" : "weak",
+				"type" : "playerStart", "size" : 100, "owner" : 2,
 				"playerTowns" : { "castles" : 1 },
 				"neutralTowns" : { "towns" : 2 },
+				"monsters" : "weak",
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"15" :
+			"15":
 			{
-				"type" : "treasure",
-				"size" : 100,
-				"monsters" : "normal",
+				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"terrainTypeLikeZone" : 2,
+				"terrainTypes" : ["grass"], "matchTerrainToTown" : false,
+				"monsters" : "normal",
 				"minesLikeZone" : 2,
 				"treasureLikeZone" : 2
 			},
-			"16" :
+			"16":
 			{
-				"type" : "treasure",
-				"size" : 100,
-				"monsters" : "strong",
+				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"terrainTypeLikeZone" : 3,
+				"terrainTypes" : ["lava"], "matchTerrainToTown" : false,
+				"monsters" : "strong",
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
 			},
-			"17" :
+			"17":
 			{
-				"type" : "treasure",
-				"size" : 100,
+				"type" : "treasure", "size" : 100,
+				"neutralTowns" : { "towns" : 1 },
+				"terrainTypes" : ["dirt"], "matchTerrainToTown" : false,
 				"monsters" : "strong",
-				"neutralTowns" : { "castles" : 1 },
-				"terrainTypeLikeZone" : 4,
 				"minesLikeZone" : 4,
 				"treasureLikeZone" : 4
 			},
-			"18" :
+			"18":
 			{
-				"type" : "treasure",
-				"size" : 100,
-				"monsters" : "strong",
+				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "castles" : 1 },
-				"allowedTowns" : [ "tower" ],
-				"terrainTypeLikeZone" : 5,
+				"terrainTypes" : ["snow"], "matchTerrainToTown" : false,
+				"allowedTowns" : ["tower"],
+				"monsters" : "strong",
 				"minesLikeZone" : 5,
 				"treasureLikeZone" : 5
 			}
