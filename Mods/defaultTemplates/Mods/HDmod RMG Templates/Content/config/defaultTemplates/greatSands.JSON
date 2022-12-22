@@ -1,7 +1,7 @@
 {
 	"GreatSands XL 2-8" :
 	{
-		"minSize" : "xl", "maxSize" : "xl",
+		"minSize" : "xl", "maxSize" : "h",
 		"players" : "2-8",
 		"zones" :
 		{

@@ -1,0 +1,12 @@
+{
+	"name" : "Anarchy",
+	"description" : "Unpredictable collection of random templates",
+
+	"version" : "1.00",
+	"author" : "various authors, conversion: Kantor",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?p=15342#15342",
+	"modType" : "Templates",
+	"templates" : [
+		"config/defaultTemplates/anarchy v1_01"
+	]
+}
