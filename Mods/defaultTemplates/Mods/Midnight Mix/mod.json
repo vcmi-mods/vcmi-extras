@@ -1,0 +1,12 @@
+{
+	"name" : "Midnight Mix",
+	"description" : "A collection of 49 but templates stripped from their distinct features. You can never be sure what awaits in the next zone.",
+
+	"version" : "1.0.0",
+	"author" : "Bjorn190, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Templates",
+	"templates" : [
+		"config/defaultTemplates/midnightmix"
+	]
+}

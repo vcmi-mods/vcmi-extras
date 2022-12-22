@@ -1,7 +1,7 @@
 {
 	"Jebus Cross":
 	{
-		"minSize" : "l+u", "maxSize" : "xl+u",
+		"minSize" : "xl", "maxSize" : "xl+u",
 		"players" : "2-4",
 		"zones":
 		{
