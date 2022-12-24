@@ -388,8 +388,7 @@
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 11,
-				"treasureLikeZone" : 1
+				"treasureLikeZone" : 17
 			},
 			"44" :
 			{
@@ -397,8 +396,7 @@
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 12,
-				"treasureLikeZone" : 1
+				"treasureLikeZone" : 18
 			},
 			"45" :
 			{
