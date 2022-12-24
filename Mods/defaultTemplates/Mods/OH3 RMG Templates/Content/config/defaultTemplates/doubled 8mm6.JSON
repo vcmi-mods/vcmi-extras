@@ -1,7 +1,7 @@
 {
 	"Doubled 8MM6" :
 	{
-		"minSize" : "xl", "maxSize" : "g+u",
+		"minSize" : "xl+u", "maxSize" : "g+u",
 		"players" : "2-8",
 		"zones" :
 		{
@@ -115,13 +115,33 @@
 				"mines" : { "crystal" : 1, "gems" : 1 },
 				"treasureLikeZone" : 3
 			},
+			"13" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"neutralTowns" : { "towns" : 1 },
+				"matchTerrainToTown" : false,
+				"minesLikeZone": 11,
+				"treasureLikeZone" : 3
+			},
+			"14" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"neutralTowns" : { "towns" : 1 },
+				"matchTerrainToTown" : false,
+				"minesLikeZone": 12,
+				"treasureLikeZone" : 3
+			},
 			"15" :
 			{
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"16" :
@@ -130,7 +150,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"17" :
@@ -160,7 +180,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"20" :
@@ -169,7 +189,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"21" :
@@ -178,7 +198,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"22" :
@@ -187,7 +207,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"23" :
@@ -212,7 +232,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"26" :
@@ -221,7 +241,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"27" :
@@ -311,7 +331,7 @@
 				"monsters" : "strong",
 				"neutralTowns" : { "towns" : 1 },
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 3
 			},
 			"38" :
@@ -321,7 +341,27 @@
 				"monsters" : "strong",
 				"neutralTowns" : { "towns" : 1 },
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
+				"treasureLikeZone" : 3
+			},
+			"39" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"neutralTowns" : { "towns" : 1 },
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 11,
+				"treasureLikeZone" : 3
+			},
+			"40" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"neutralTowns" : { "towns" : 1 },
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 3
 			},
 			"41" :
@@ -330,7 +370,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"42" :
@@ -339,24 +379,26 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"43" :
 			{
 				"type" : "treasure",
-				"size" : 10,
-				"monsters" : "strong",
+				"size" : 20,
+				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"treasureLikeZone" : 13
+				"minesLikeZone" : 11,
+				"treasureLikeZone" : 1
 			},
 			"44" :
 			{
 				"type" : "treasure",
-				"size" : 10,
-				"monsters" : "strong",
+				"size" : 20,
+				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"treasureLikeZone" : 13
+				"minesLikeZone" : 12,
+				"treasureLikeZone" : 1
 			},
 			"45" :
 			{
@@ -364,7 +406,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"46" :
@@ -373,7 +415,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"47" :
@@ -382,7 +424,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"48" :
@@ -391,7 +433,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			},
 			"49" :
@@ -416,7 +458,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 9,
+				"minesLikeZone" : 11,
 				"treasureLikeZone" : 1
 			},
 			"52" :
@@ -425,7 +467,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"minesLikeZone" : 10,
+				"minesLikeZone" : 12,
 				"treasureLikeZone" : 1
 			}
 		},
@@ -453,6 +495,8 @@
 			{ "a" : "12", "b" : "19", "guard" : 9000 },
 			{ "a" : "12", "b" : "21", "guard" : 9000 },
 			{ "a" : "12", "b" : "22", "guard" : 9000 },
+			{ "a" : "13", "b" : "25", "guard" : 9000 },
+			{ "a" : "14", "b" : "26", "guard" : 9000 },
 			{ "a" : "17", "b" : "19", "guard" : 12500 },
 			{ "a" : "18", "b" : "20", "guard" : 12500 },
 			{ "a" : "23", "b" : "21", "guard" : 12500 },
@@ -479,6 +523,8 @@
 			{ "a" : "38", "b" : "45", "guard" : 9000 },
 			{ "a" : "38", "b" : "47", "guard" : 9000 },
 			{ "a" : "38", "b" : "48", "guard" : 9000 },
+			{ "a" : "39", "b" : "51", "guard" : 9000 },
+			{ "a" : "40", "b" : "52", "guard" : 9000 },
 			{ "a" : "43", "b" : "45", "guard" : 12500 },
 			{ "a" : "44", "b" : "46", "guard" : 12500 },
 			{ "a" : "49", "b" : "47", "guard" : 12500 },
