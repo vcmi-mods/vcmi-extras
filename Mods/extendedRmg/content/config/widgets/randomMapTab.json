@@ -465,5 +465,9 @@
 				}
 			]
 		}
-	]
+	],
+	"variables":
+	{
+		"defaultTemplate": "randomMapTab/widgets/defaultTemplate"
+	}
 }

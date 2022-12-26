@@ -23,7 +23,7 @@
 
 		//now list elements
 		{ //0
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 76},
 			"items":
 			[
@@ -45,7 +45,7 @@
 		},
 
 		{ //1
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 101},
 			"items":
 			[
@@ -67,7 +67,7 @@
 		},
 
 		{ //2
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 126},
 			"items":
 			[
@@ -89,7 +89,7 @@
 		},
 
 		{ //3
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 151},
 			"items":
 			[
@@ -111,7 +111,7 @@
 		},
 
 		{ //4
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 176},
 			"items":
 			[
@@ -133,7 +133,7 @@
 		},
 
 		{ //5
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 201},
 			"items":
 			[
@@ -155,7 +155,7 @@
 		},
 
 		{ //6
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 226},
 			"items":
 			[
@@ -177,7 +177,7 @@
 		},
 
 		{ //7
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 251},
 			"items":
 			[
@@ -199,7 +199,7 @@
 		},
 
 		{ //8
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 276},
 			"items":
 			[
@@ -221,7 +221,7 @@
 		},
 
 		{ //9
-			"type": "custom",
+			"type": "templateListItem",
 			"position": {"x": 158, "y": 301},
 			"items":
 			[
@@ -241,5 +241,9 @@
 				}
 			]
 		}
-	]
+	],
+	"variables":
+	{
+		"defaultTemplate": "randomMapTab/widgets/defaultTemplate"
+	}
 }
