@@ -11,14 +11,14 @@
 			"overrides": {"position": "okButtonPosition"}, //do not modify
 			"type": "button",
 			"image": "MUBCHCK",
-			"zelp": 560,
+			"help": "core.help.560",
 			"callback": "ok",
 		},
 		{
 			"overrides": {"position": "cancelButtonPosition"}, //do not modify
 			"type": "button",
 			"image": "MUBCANC",
-			"zelp": 561,
+			"help": "core.help.561",
 			"callback": "cancel",
 		}
 	],
