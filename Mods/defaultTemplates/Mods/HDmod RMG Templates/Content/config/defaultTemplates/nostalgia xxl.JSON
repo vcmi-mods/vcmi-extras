@@ -1,7 +1,7 @@
 {
 	"Nostalgia" :
 	{
-		"minSize" : "xl", "maxSize" : "xl+u",
+		"minSize" : "xl", "maxSize" : "h+u",
 		"players" : "2-8",
 		"zones" :
 		{

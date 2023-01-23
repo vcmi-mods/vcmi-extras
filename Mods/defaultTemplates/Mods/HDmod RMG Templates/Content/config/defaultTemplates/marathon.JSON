@@ -13,7 +13,6 @@
 				"monsters" : "normal",
 				"playerTowns" : { "castles" : 1 },
 				"allowedTowns" : [ "castle", "rampart", "tower", "inferno", "dungeon", "stronghold", "fortress" ],
-				"allowedMonsters" : [ "castle", "rampart", "tower", "inferno", "necropolis", "dungeon", "stronghold", "fortress", "neutral" ],
 				"mines" : { "wood" : 1, "ore" : 1 },
 				"treasure" :
 				[
@@ -29,7 +28,6 @@
 				"monsters" : "normal",
 				"playerTowns" : { "castles" : 1 },
 				"allowedTowns" : [ "castle", "rampart", "tower", "inferno", "dungeon", "stronghold", "fortress" ],
-				"allowedMonsters" : [ "castle", "rampart", "tower", "inferno", "necropolis", "dungeon", "stronghold", "fortress", "neutral" ],
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -325,9 +323,9 @@
 			{ "a" : "23", "b" : "21", "guard" : 280000 }
 		]
 	},
-	"" :
+	"Marathon (ban fly/DD, 2 player, 31-May-03, midnight design) xlu+" :
 	{
-		"minSize" : "xl+u", "maxSize" : "xl+u",
+		"minSize" : "xl+u", "maxSize" : "g+u",
 		"players" : "2",
 		"zones" :
 		{
@@ -339,7 +337,6 @@
 				"monsters" : "normal",
 				"playerTowns" : { "castles" : 1 },
 				"allowedTowns" : [ "castle", "rampart", "tower", "inferno", "dungeon", "stronghold", "fortress" ],
-				"allowedMonsters" : [ "castle", "rampart", "tower", "inferno", "necropolis", "dungeon", "stronghold", "fortress", "neutral" ],
 				"mines" : { "wood" : 1, "ore" : 1 },
 				"treasure" :
 				[
@@ -355,7 +352,6 @@
 				"monsters" : "normal",
 				"playerTowns" : { "castles" : 1 },
 				"allowedTowns" : [ "castle", "rampart", "tower", "inferno", "dungeon", "stronghold", "fortress" ],
-				"allowedMonsters" : [ "castle", "rampart", "tower", "inferno", "necropolis", "dungeon", "stronghold", "fortress", "neutral" ],
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},

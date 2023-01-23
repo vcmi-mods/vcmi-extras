@@ -1,5 +1,5 @@
 {
-	"Cross 3" :
+	"Cross 3_1" :
 	{
 		"minSize" : "m", "maxSize" : "xl+u",
 		"players" : "2-4",
@@ -168,7 +168,7 @@
 			{ "a" : "3", "b" : "8", "guard" : 3000 }
 		]
 	},
-	"Cross" :
+	"Cross 3_2" :
 	{
 		"minSize" : "m", "maxSize" : "xl+u",
 		"players" : "4",

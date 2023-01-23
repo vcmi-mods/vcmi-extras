@@ -2,7 +2,7 @@
 	"name" : "OH3 RMGs",
 	"description" : "Random map templates from original HoMM3 game",
 
-	"version" : "0.99a",
+	"version" : "1.00",
 	"author" : "NWC, conversion: Kantor",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?p=15342#15342",
 	"modType" : "Templates",
@@ -50,12 +50,10 @@
 		"config/defaultTemplates/8xm12", //HotA template
 		"config/defaultTemplates/8xm8 huge", //HotA template
 		"config/defaultTemplates/8xm8",
-//		"config/defaultTemplates/doubled 8mm6", //HotA template
-		"config/defaultTemplates/dragons",
+		"config/defaultTemplates/doubled 8mm6", //HotA template
 		"config/defaultTemplates/dwarvenTunnels",
 		"config/defaultTemplates/gauntlet",
 		"config/defaultTemplates/golemsaplenty",
-		"config/defaultTemplates/meetingInMuzgob",
 		"config/defaultTemplates/monksRetreat",
 		"config/defaultTemplates/newcomers",
 		"config/defaultTemplates/riseOfPhoenix",
