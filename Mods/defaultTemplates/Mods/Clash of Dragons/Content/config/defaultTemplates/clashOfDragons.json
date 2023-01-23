@@ -166,7 +166,7 @@
 			{
 				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"terrainTypes" : ["grass"], "matchTerrainToTown" : false,
+				"terrainTypeLikeZone" : 2,
 				"monsters" : "normal",
 				"minesLikeZone" : 2,
 				"treasureLikeZone" : 2
@@ -175,7 +175,7 @@
 			{
 				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"terrainTypes" : ["lava"], "matchTerrainToTown" : false,
+				"terrainTypeLikeZone" : 3,
 				"monsters" : "strong",
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
@@ -184,7 +184,7 @@
 			{
 				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "towns" : 1 },
-				"terrainTypes" : ["dirt"], "matchTerrainToTown" : false,
+				"terrainTypeLikeZone" : 4,
 				"monsters" : "strong",
 				"minesLikeZone" : 4,
 				"treasureLikeZone" : 4
@@ -193,8 +193,8 @@
 			{
 				"type" : "treasure", "size" : 100,
 				"neutralTowns" : { "castles" : 1 },
-				"terrainTypes" : ["snow"], "matchTerrainToTown" : false,
-				"allowedTowns" : ["tower"],
+				"terrainTypeLikeZone" : 5,
+				"townTypeLikeZone" : 5,
 				"monsters" : "strong",
 				"minesLikeZone" : 5,
 				"treasureLikeZone" : 5

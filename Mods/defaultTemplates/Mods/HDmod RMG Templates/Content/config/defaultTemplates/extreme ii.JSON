@@ -162,9 +162,9 @@
 			{ "a" : "4", "b" : "8", "guard" : 60000 }
 		]
 	},
-	"EXTREME II (ban fly/DD/orb inhibition/Castle-Necro-Conflux towns, 2 player, 3-Aug-03, midnight design) xl+":
+	"" :
 	{
-		"minSize" : "xl", "maxSize" : "xh",
+		"minSize" : "xl", "maxSize" : "xl",
 		"players" : "2",
 		"zones" :
 		{

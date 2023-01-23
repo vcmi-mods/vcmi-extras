@@ -2,8 +2,13 @@
 	"name" : "Default templates",
 	"description" : "A set of random map templates for VCMI",
 
-	"version" : "1.1.1",
+	"version" : "0.100",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Templates"
+	"modType" : "Templates",
+	"changelog" :
+	{
+		"0.99a" : [ "Initial release" ],
+		"0.100" : [ "Fix bugs in rmg templates" ]
+	}
 }
