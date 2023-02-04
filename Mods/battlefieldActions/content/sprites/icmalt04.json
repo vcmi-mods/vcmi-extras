@@ -1,0 +1,14 @@
+{
+    "sequences" :
+    [
+        {
+            "group" : 0,
+            "frames" :
+            [
+                "icmalt040.bmp",
+                "icmalt041.bmp",
+                "icmalt042.bmp"
+            ]
+        }
+    ]
+}
