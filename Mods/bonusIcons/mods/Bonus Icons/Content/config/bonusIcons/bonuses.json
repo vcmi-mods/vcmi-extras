@@ -4,7 +4,7 @@
 // LEVEL_SPELL_IMMUNITY
 
 {
-	"ADDITIONAL_ATTACK":
+	"core:ADDITIONAL_ATTACK":
 	{
 		"graphics":
 		{
@@ -12,7 +12,7 @@
 		}
 	},
 
-	"ADDITIONAL_RETALIATION":
+	"core:ADDITIONAL_RETALIATION":
 	{
 		"graphics":
 		{
@@ -20,7 +20,7 @@
 		}
 	},
 
-	"AIR_IMMUNITY":
+	"core:AIR_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -28,7 +28,7 @@
 		}
 	},
 
-	"ATTACKS_ALL_ADJACENT":
+	"core:ATTACKS_ALL_ADJACENT":
 	{
 		"graphics":
 		{
@@ -36,7 +36,7 @@
 		}
 	},
 
-	"BLOCKS_RETALIATION":
+	"core:BLOCKS_RETALIATION":
 	{
 		"graphics":
 		{
@@ -44,7 +44,7 @@
 		}
 	},
 
-	"CATAPULT":
+	"core:CATAPULT":
 	{
 		"graphics":
 		{
@@ -52,7 +52,7 @@
 		}
 	},
 	
-	"CATAPULT_EXTRA_SHOTS":
+	"core:CATAPULT_EXTRA_SHOTS":
 	{
 		"graphics":
 		{
@@ -60,7 +60,7 @@
 		}
 	},
 
-	"CHANGES_SPELL_COST_FOR_ALLY":
+	"core:CHANGES_SPELL_COST_FOR_ALLY":
 	{
 		"graphics":
 		{
@@ -68,7 +68,7 @@
 		}
 	},
 
-	"CHANGES_SPELL_COST_FOR_ENEMY":
+	"core:CHANGES_SPELL_COST_FOR_ENEMY":
 	{
 		"graphics":
 		{
@@ -76,7 +76,7 @@
 		}
 	},
 
-	"CHARGE_IMMUNITY":
+	"core:CHARGE_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -84,7 +84,7 @@
 		}
 	},
 
-	"DAEMON_SUMMONING":
+	"core:DAEMON_SUMMONING":
 	{
 		"graphics":
 		{
@@ -92,7 +92,7 @@
 		}
 	},
 
-	"DARKNESS":
+	"core:DARKNESS":
 	{
 		"graphics":
 		{
@@ -100,7 +100,7 @@
 		}		
 	},
 
-	"DEATH_STARE":
+	"core:DEATH_STARE":
 	{
 		"graphics":
 		{
@@ -108,7 +108,7 @@
 		}
 	},
 
-	"DEFENSIVE_STANCE":
+	"core:DEFENSIVE_STANCE":
 	{
 		"graphics":
 		{
@@ -116,7 +116,7 @@
 		}
 	},
 
-	"DOUBLE_DAMAGE_CHANCE":
+	"core:DOUBLE_DAMAGE_CHANCE":
 	{
 		"graphics":
 		{
@@ -124,7 +124,7 @@
 		}
 	},
 
-	"DRAGON_NATURE":
+	"core:DRAGON_NATURE":
 	{
 		"graphics":
 		{
@@ -132,7 +132,7 @@
 		}
 	},
 
-	"DIRECT_DAMAGE_IMMUNITY":
+	"core:DIRECT_DAMAGE_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -140,12 +140,12 @@
 		}
 	},
 
-	"DISGUISED":
+	"core:DISGUISED":
 	{
 		"hidden": true
 	},
 
-	"EARTH_IMMUNITY":
+	"core:EARTH_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -153,7 +153,7 @@
 		}
 	},
 
-	"ENCHANTER":
+	"core:ENCHANTER":
 	{
 		"graphics":
 		{
@@ -161,7 +161,7 @@
 		}
 	},
 
-	"ENCHANTED":
+	"core:ENCHANTED":
 	{
 		"graphics":
 		{
@@ -169,7 +169,7 @@
 		}
 	},
 
-	"ENEMY_DEFENCE_REDUCTION":
+	"core:ENEMY_DEFENCE_REDUCTION":
 	{
 		"graphics":
 		{
@@ -177,7 +177,7 @@
 		}
 	},
 
-	"FIRE_IMMUNITY":
+	"core:FIRE_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -185,7 +185,7 @@
 		}
 	},
 
-	"FIRE_SHIELD":
+	"core:FIRE_SHIELD":
 	{
 		"graphics":
 		{
@@ -193,7 +193,7 @@
 		}
 	},
 	
-	"FEAR":
+	"core:FEAR":
 	{
 		"graphics":
 		{
@@ -201,7 +201,7 @@
 		}
 	},
 
-	"FEARLESS":
+	"core:FEARLESS":
 	{
 		"graphics":
 		{
@@ -209,7 +209,7 @@
 		}
 	},
 
-	"FLYING":
+	"core:FLYING":
 	{
 		"graphics":
 		{
@@ -218,7 +218,7 @@
 
 	},
 
-	"FREE_SHOOTING":
+	"core:FREE_SHOOTING":
 	{
 		"graphics":
 		{
@@ -227,7 +227,7 @@
 
 	},
 
-	"FULL_HP_REGENERATION":
+	"core:FULL_HP_REGENERATION":
 	{
 		"graphics":
 		{
@@ -235,7 +235,7 @@
 		}
 	},
 
-	"GARGOYLE":
+	"core:GARGOYLE":
 	{
 		"graphics":
 		{
@@ -243,7 +243,7 @@
 		}
 	},
 	
-	"GENERAL_DAMAGE_REDUCTION":
+	"core:GENERAL_DAMAGE_REDUCTION":
 	{
 		"graphics":
 		{
@@ -251,7 +251,7 @@
 		}
 	},
 
-	"HATE":
+	"core:HATE":
 	{
 		"graphics":
 		{
@@ -259,7 +259,7 @@
 		}
 	},
 
-	"HEALER":
+	"core:HEALER":
 	{
 		"graphics":
 		{
@@ -267,7 +267,7 @@
 		}
 	},
 
-	"HP_REGENERATION":
+	"core:HP_REGENERATION":
 	{
 		"graphics":
 		{
@@ -275,7 +275,7 @@
 		}
 	},
 	
-	"JOUSTING":
+	"core:JOUSTING":
 	{
 		"graphics":
 		{
@@ -283,7 +283,7 @@
 		}
 	},
 
-	"KING1":
+	"core:KING1":
 	{
 		"graphics":
 		{
@@ -291,7 +291,7 @@
 		}
 	},
 
-	"KING2":
+	"core:KING2":
 	{
 		"graphics":
 		{
@@ -299,7 +299,7 @@
 		}
 	},
 
-	"KING3":
+	"core:KING3":
 	{
 		"graphics":
 		{
@@ -307,7 +307,7 @@
 		}
 	},
 
-	"LEVEL_SPELL_IMMUNITY":
+	"core:LEVEL_SPELL_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -315,7 +315,7 @@
 		}
 	},
 
-	"LIFE_DRAIN":
+	"core:LIFE_DRAIN":
 	{
 		"graphics":
 		{
@@ -323,7 +323,7 @@
 		}
 	},
 
-	"MANA_CHANNELING":
+	"core:MANA_CHANNELING":
 	{
 		"graphics":
 		{
@@ -331,7 +331,7 @@
 		}
 	},
 	
-	"MANA_DRAIN":
+	"core:MANA_DRAIN":
 	{
 		"graphics":
 		{
@@ -339,7 +339,7 @@
 		}
 	},
 
-	"MAGIC_MIRROR":
+	"core:MAGIC_MIRROR":
 	{
 		"graphics":
 		{
@@ -347,7 +347,7 @@
 		}
 	},
 
-	"MAGIC_RESISTANCE":
+	"core:MAGIC_RESISTANCE":
 	{
 		"graphics":
 		{
@@ -355,7 +355,7 @@
 		}
 	},
 
-	"MIND_IMMUNITY":
+	"core:MIND_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -363,12 +363,12 @@
 		}
 	},
 
-	"NONE":
+	"core:NONE":
 	{
 		"hidden": true
 	},
 
-	"NO_DISTANCE_PENALTY":
+	"core:NO_DISTANCE_PENALTY":
 	{
 		"graphics":
 		{
@@ -376,7 +376,7 @@
 		}
 	},
 	
-	"NO_MELEE_PENALTY":
+	"core:NO_MELEE_PENALTY":
 	{
 		"graphics":
 		{
@@ -384,7 +384,7 @@
 		}
 	},
 
-	"NO_MORALE":
+	"core:NO_MORALE":
 	{
 		"graphics":
 		{
@@ -405,7 +405,7 @@
 //			"icon":  "zvs/Lib1.res/NEGATIVELUCK"
 //		}
 //	},	
-	"NO_WALL_PENALTY":
+	"core:NO_WALL_PENALTY":
 	{
 		"graphics":
 		{
@@ -413,12 +413,12 @@
 		}
 	},
 
-	"NO_TERRAIN_PENALTY":
+	"core:NO_TERRAIN_PENALTY":
 	{
 		"hidden": true
 	},
 
-	"NON_LIVING":
+	"core:NON_LIVING":
 	{
 		"graphics":
 		{
@@ -426,7 +426,7 @@
 		}
 	},
 
-	"RANDOM_SPELLCASTER":
+	"core:RANDOM_SPELLCASTER":
 	{
 		"graphics":
 		{
@@ -434,7 +434,7 @@
 		}
 	},
 
-	"RECEPTIVE":
+	"core:RECEPTIVE":
 	{
 		"graphics":
 		{
@@ -442,7 +442,7 @@
 		}
 	},
 	
-	"REBIRTH":
+	"core:REBIRTH":
 	{
 		"graphics":
 		{
@@ -450,7 +450,7 @@
 		}
 	},
 
-	"RETURN_AFTER_STRIKE":
+	"core:RETURN_AFTER_STRIKE":
 	{
 		"graphics":
 		{
@@ -458,13 +458,7 @@
 		}
 	},
 
-	"SECONDARY_SKILL_PREMY":
-	{
-		"hidden": true
-		//todo: selector based config
-	},
-
-	"SELF_LUCK":
+	"core:SELF_LUCK":
 	{
 		"graphics":
 		{
@@ -472,7 +466,7 @@
 		}
 	},
 
-	"SELF_MORALE":
+	"core:SELF_MORALE":
 	{
 		"graphics":
 		{
@@ -480,7 +474,7 @@
 		}
 	},
 
-	"SHOOTER":
+	"core:SHOOTER":
 	{
 		"graphics":
 		{
@@ -488,7 +482,7 @@
 		}
 	},
 	
-	"SOUL_STEAL":
+	"core:SOUL_STEAL":
 	{
 		"graphics":
 		{
@@ -496,7 +490,7 @@
 		}
 	},
 	
-	"SPELLCASTER":
+	"core:SPELLCASTER":
 	{
 		"graphics":
 		{
@@ -504,7 +498,7 @@
 		}
 	},
 
-	"SPELL_AFTER_ATTACK":
+	"core:SPELL_AFTER_ATTACK":
 	{
 		"graphics":
 		{
@@ -512,7 +506,7 @@
 		}
 	},
 
-	"SPELL_BEFORE_ATTACK":
+	"core:SPELL_BEFORE_ATTACK":
 	{
 		"graphics":
 		{
@@ -520,7 +514,7 @@
 		}
 	},
 
-	"SPELL_DAMAGE_REDUCTION":
+	"core:SPELL_DAMAGE_REDUCTION":
 	{
 		"graphics":
 		{
@@ -528,7 +522,7 @@
 		}
 	},
 
-	"SPELL_IMMUNITY":
+	"core:SPELL_IMMUNITY":
 	{
 		"graphics":
 		{
@@ -536,7 +530,7 @@
 		}
 	},
 
-	"SPELL_LIKE_ATTACK":
+	"core:SPELL_LIKE_ATTACK":
 	{
 		"graphics":
 		{
@@ -544,7 +538,7 @@
 		}
 	},
 
-	"SPELL_RESISTANCE_AURA":
+	"core:SPELL_RESISTANCE_AURA":
 	{
 		"graphics":
 		{
@@ -552,7 +546,7 @@
 		}
 	},
 
-	"TWO_HEX_ATTACK_BREATH":
+	"core:TWO_HEX_ATTACK_BREATH":
 	{
 		"graphics":
 		{
@@ -560,7 +554,7 @@
 		}
 	},
 
-	"THREE_HEADED_ATTACK":
+	"core:THREE_HEADED_ATTACK":
 	{
 		"graphics":
 		{
@@ -568,7 +562,7 @@
 		}
 	},
 	
-	"TRANSMUTATION":
+	"core:TRANSMUTATION":
 	{
 		"graphics":
 		{
@@ -576,7 +570,7 @@
 		}
 	},
 
-	"UNDEAD":
+	"core:UNDEAD":
 	{
 		"graphics":
 		{
@@ -584,7 +578,7 @@
 		}
 	},
 	
-	"UNLIMITED_RETALIATIONS":
+	"core:UNLIMITED_RETALIATIONS":
 	{
 		"graphics":
 		{
@@ -592,61 +586,61 @@
 		}
 	},
 
-	"VISIONS":
+	"core:VISIONS":
 	{
 		"hidden": true
 	},
 	
-	"WATER_IMMUNITY":
+	"core:WATER_IMMUNITY":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_SPWATER1"
 		}
 	},
-	"SHOOTS_ALL_ADJACENT":
+	"core:SHOOTS_ALL_ADJACENT":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/AREASHOT"
 		}
 	},
-	"DESTRUCTION":
+	"core:DESTRUCTION":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/DESTROYER"
 		}
 	},
-	"RANGED_RETALIATION":
+	"core:RANGED_RETALIATION":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/RANGEDCOUNTER"
 		}
 	},
-	"BLOCKS_RANGED_RETALIATION":
+	"core:BLOCKS_RANGED_RETALIATION":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/RANGEDBLOCK"
 		}
 	},
-	"FIRST_STRIKE":
+	"core:FIRST_STRIKE":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/FIRSTSTRIKE"
 		}
 	},
-	"WIDE_BREATH":
+	"core:WIDE_BREATH":
 	{
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/MEGABREATH"
 		}
 	},	
-	"SUMMON_GUARDIANS":
+	"core:SUMMON_GUARDIANS":
 	{
 		"graphics":
 		{
