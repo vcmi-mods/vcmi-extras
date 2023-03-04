@@ -3,6 +3,11 @@
 	"description" : "Bonus icons for VCMI.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.7",
-	"modType" : "Graphic"
+	"version" : "0.8",
+	"modType" : "Graphic",
+
+	"bonuses" :
+	[
+		"config/bonusIcons/bonuses.json"
+	]
 }
