@@ -1,5 +1,6 @@
 {
-	"Triad (ban fly/DD, 3 players, 9-Jan-03, midnight design)" :
+	"Triad" :
+	//(ban fly/DD, 3 players, 9-Jan-03, midnight design)
 	{
 		"minSize" : "l", "maxSize" : "l",
 		"players" : "2-3",
