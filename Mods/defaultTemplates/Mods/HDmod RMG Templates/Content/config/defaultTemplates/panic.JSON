@@ -1,5 +1,6 @@
 {
-	"Panic (ban fly/DD, 2 player, 3-Aug-03, midnight design)" :
+	"Panic" :
+	//(ban fly/DD, 2 player, 3-Aug-03, midnight design)
 	{
 		"minSize" : "m+u", "maxSize" : "l+u",
 		"players" : "2",
