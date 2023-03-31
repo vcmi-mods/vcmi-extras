@@ -1,13 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.2.3",
+	"version" : "3.3.3",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
-		"3.2.3" : ["Added Andruid's icon for LIMITED_SHOOTING_RANGE bonus"],
+		"3.3.3" : ["Added Andruid's icon for LIMITED_SHOOTING_RANGE bonus"],
 		"3.2.2" : ["Fixed mod validation for vcmi-1.2"],
 		"3.2.1" : ["Adopt extended RMG submod to latest develop changes"],
 		"3.2.0" : ["Added battlefieldActions submod"],
