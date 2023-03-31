@@ -322,6 +322,14 @@
 			"icon":  "zvs/Lib1.res/DrainLife"
 		}
 	},
+	
+	"core:LIMITED_SHOOTING_RANGE":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/LIM_SHOOT"
+		}
+	},
 
 	"core:MANA_CHANNELING":
 	{
@@ -458,7 +466,7 @@
 		}
 	},
 
-	"core:SELF_LUCK":
+	"core:LUCK":
 	{
 		"graphics":
 		{
@@ -466,7 +474,7 @@
 		}
 	},
 
-	"core:SELF_MORALE":
+	"core:MORALE":
 	{
 		"graphics":
 		{
