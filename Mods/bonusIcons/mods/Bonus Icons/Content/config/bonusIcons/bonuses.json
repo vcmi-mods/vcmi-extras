@@ -466,22 +466,6 @@
 		}
 	},
 
-	"core:LUCK":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/POSITIVELUCK"
-		}
-	},
-
-	"core:MORALE":
-	{
-		"graphics":
-		{
-			"icon":  "zvs/Lib1.res/E_MINOT"
-		}
-	},
-
 	"core:SHOOTER":
 	{
 		"graphics":
