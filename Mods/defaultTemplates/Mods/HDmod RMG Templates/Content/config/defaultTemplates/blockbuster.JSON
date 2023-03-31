@@ -1,5 +1,6 @@
 {
-	"Blockbuster (ban fly/DD, 2 player, 15-Jun-03, midnight design)" :
+	"Blockbuster" :
+	//(ban fly/DD, 2 player, 15-Jun-03, midnight design)
 	{
 		"minSize" : "m", "maxSize" : "m",
 		"players" : "2",

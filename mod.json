@@ -7,7 +7,9 @@
 	"modType" : "Graphical",
 	"changelog" :
 	{
-		"3.1.3" : ["Fixed mod validation for vcmi-1.2"],
+		"3.2.2" : ["Fixed mod validation for vcmi-1.2"],
+		"3.2.1" : ["Adopt extended RMG submod to latest develop changes"],
+		"3.2.0" : ["Added battlefieldActions submod"],
 		"3.1.2" : ["Added three testing G+U-sized templates"],
 		"3.1.1" : ["Fixed 'doubled 8mm6' RMG template"],
 		"3.1" : ["Tweaked many RMG templates"],

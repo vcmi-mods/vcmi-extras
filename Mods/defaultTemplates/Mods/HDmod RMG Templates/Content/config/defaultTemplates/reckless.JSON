@@ -1,5 +1,6 @@
 {
-	"Reckless (2 player, 6-Jan-03, midnight design)" :
+	"Reckless" :
+	//(2 player, 6-Jan-03, midnight design)
 	{
 		"minSize" : "l", "maxSize" : "xl+u",
 		"players" : "2",

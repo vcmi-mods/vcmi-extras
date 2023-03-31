@@ -1,5 +1,6 @@
 {
-	"Skirmish (ban fly/DD, 2 player, 3-Aug-03, midnight design)" :
+	"Skirmish" :
+	//(ban fly/DD, 2 player, 3-Aug-03, midnight design)
 	{
 		"minSize" : "m", "maxSize" : "m",
 		"players" : "2",

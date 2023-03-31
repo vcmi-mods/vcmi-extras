@@ -1,5 +1,6 @@
 {
-	"Marathon (ban fly/DD, 2 player, 31-May-03, midnight design)" :
+	"Marathon xl" :
+	// (ban fly/DD, 2 player, 31-May-03, midnight design)"
 	{
 		"minSize" : "xl", "maxSize" : "xl",
 		"players" : "2",
@@ -296,15 +297,9 @@
 			{ "a" : "3", "b" : "11", "guard" : 27000 },
 			{ "a" : "6", "b" : "12", "guard" : 18000 },
 			{ "a" : "7", "b" : "12", "guard" : 23000 },
-			{ "a" : "7", "b" : "13", "guard" : 20000 },
-			{ "a" : "8", "b" : "13", "guard" : 23000 },
-			{ "a" : "8", "b" : "14", "guard" : 16000 },
-			{ "a" : "7", "b" : "13", "guard" : 20000 },
 			{ "a" : "8", "b" : "13", "guard" : 23000 },
 			{ "a" : "8", "b" : "14", "guard" : 18000 },
 			{ "a" : "7", "b" : "13", "guard" : 20000 },
-			{ "a" : "8", "b" : "13", "guard" : 23000 },
-			{ "a" : "8", "b" : "14", "guard" : 18000 },
 			{ "a" : "6", "b" : "14", "guard" : 27000 },
 			{ "a" : "9", "b" : "15", "guard" : 40000 },
 			{ "a" : "10", "b" : "16", "guard" : 45000 },
@@ -323,7 +318,8 @@
 			{ "a" : "23", "b" : "21", "guard" : 280000 }
 		]
 	},
-	"Marathon (ban fly/DD, 2 player, 31-May-03, midnight design) xlu+" :
+	"Marathon xl+u":
+	//(ban fly/DD, 2 player, 31-May-03, midnight design) xlu+"
 	{
 		"minSize" : "xl+u", "maxSize" : "g+u",
 		"players" : "2",
@@ -620,12 +616,6 @@
 			{ "a" : "3", "b" : "11", "guard" : 29000 },
 			{ "a" : "6", "b" : "12", "guard" : 18000 },
 			{ "a" : "7", "b" : "12", "guard" : 25000 },
-			{ "a" : "7", "b" : "13", "guard" : 22000 },
-			{ "a" : "8", "b" : "13", "guard" : 23000 },
-			{ "a" : "8", "b" : "14", "guard" : 16000 },
-			{ "a" : "7", "b" : "13", "guard" : 22000 },
-			{ "a" : "8", "b" : "13", "guard" : 23000 },
-			{ "a" : "8", "b" : "14", "guard" : 18000 },
 			{ "a" : "7", "b" : "13", "guard" : 22000 },
 			{ "a" : "8", "b" : "13", "guard" : 23000 },
 			{ "a" : "8", "b" : "14", "guard" : 18000 },
