@@ -1,7 +1,7 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.1.2",
+	"version" : "3.3.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
