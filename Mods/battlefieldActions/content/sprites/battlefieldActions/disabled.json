@@ -1,0 +1,16 @@
+{
+	"basepath" : "battlefieldActions/",
+
+	"sequences" :
+	[
+		{
+			"group" : 0,
+			"frames" :
+			[
+				"disabled.bmp",
+				"disabled.bmp",
+				"disabled.bmp"
+			]
+		}
+	]
+}

@@ -13,7 +13,7 @@
 			"name": "menuBattle",
 			"playerColored" : true,
 			"position": {"x": 1, "y": 555},
-			"image": "CBAR.bmp"
+			"image": "battlefieldActions/battle-panel-background.bmp"
 		},
 		{
 			"type": "button",
@@ -88,7 +88,7 @@
 		{
 			"type": "button",
 			"name": "consoleUp",
-			"position": {"x": 582, "y": 560},
+			"position": {"x": 578, "y": 560},
 			"image": "ComSlide",
 			"callback": "consoleUp",
 			"imageOrder": [0, 1, 0, 0],
@@ -98,7 +98,7 @@
 		{
 			"type": "button",
 			"name": "consoleDown",
-			"position": {"x": 582, "y": 579},
+			"position": {"x": 578, "y": 579},
 			"image": "ComSlide",
 			"callback": "consoleDown",
 			"imageOrder": [2, 3, 2, 2],
@@ -108,8 +108,8 @@
 		{
 			"type": "battleConsole",
 			"name": "console",
-			"imagePosition" : { "x" : 214, "y" : 7 },
-			"rect": {"x": 215, "y": 562, "w": 368, "h": 32}
+			"imagePosition" : { "x" : 209, "y" : 7 },
+			"rect": {"x": 210, "y": 562, "w": 363, "h": 32}
 		},
 		
 		{
@@ -133,20 +133,20 @@
 		{
 			"type": "button",
 			"name": "alternativeAction",
-			"position": {"x": 601, "y": 560},
-			"image": "icmalt00",
+			"position": {"x": 599, "y": 560},
+			"image": "battlefieldActions/disabled",
 			"callback": "alternativeAction",
 			"hotkey": "s"
 		}
 	],
 	"variables":
 	{
-		"actionIconDefault": "icmalt00",
-		"actionIconAttack": "icmalt01",
-		"actionIconShoot": "icmalt02",
-		"actionIconSpell": "icmalt03",
-		"actionIconWalk": "icmalt04",
-		"actionIconReturn": "icmalt05",
-		"actionIconNoReturn": "icmalt06",
+		"actionIconDefault": "battlefieldActions/disabled",
+		"actionIconAttack": "battlefieldActions/melee",
+		"actionIconShoot": "battlefieldActions/ranged",
+		"actionIconSpell": "battlefieldActions/cast",
+		"actionIconWalk": "battlefieldActions/move",
+		"actionIconReturn": "battlefieldActions/return",
+		"actionIconNoReturn": "battlefieldActions/noreturn",
 	}
 }

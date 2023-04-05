@@ -1,0 +1,16 @@
+{
+	"basepath" : "battlefieldActions/",
+
+	"sequences" :
+	[
+		{
+			"group" : 0,
+			"frames" :
+			[
+				"return-normal.bmp",
+				"return-pressed.bmp",
+				"return-blocked.bmp"
+			]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	"name" : "Battlefield actions",
 	"description" : "Allows to control special abilities of creatures,",
-	"version" : "0.1",
+	"version" : "0.2",
 	"author" : "Nordsoft",
 	"contact" : "nordsoft@yahoo.com",
 	"modType" : "Interface",
