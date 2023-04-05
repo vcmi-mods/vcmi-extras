@@ -1,0 +1,39 @@
+{
+	// Original HoMM 3 bitmap fonts
+	// Stored in H3Bitmap.lod with fnt extension
+	// Warning: Do not change number of entries in this list
+	"bitmap" :
+	[
+		"BIGFONT",  // Mostly used for window titles
+		"CALLI10R", // Unused in VCMI
+		"CREDITS",  // Used for credits menu
+		"HISCORE",  // Unused in VCMI
+		"MEDFONT",  // Some titles
+		"SMALFONT", // Most of the messages
+		"TIMES08R", // Used to display amounts on creature card 
+		"TINY",     // Some text
+		"VERD10B"   // Unused in VCMI
+	],
+	
+	// True type replacements
+	// Should be in format:
+	// <replaced bitmap font name, case-sensetive> : <true type font description>
+	// "file" - file to load font from, must be in data/ directory
+	// "size" - point size of font
+	// "style" - italic and\or bold, indicates font style
+	// "blend" - if set to true, font will be antialiased
+	// "shadow" - if set to true, font will be antialiased
+	// "fallback" - if set, this H3 bitmap font will be used for strings that can be completely represented with this font
+	"trueType":
+	{
+		"BIGFONT"  : { "file" : "LiberationSerif-Bold.ttf",    "shadow" : true,  "size" : 22, "blend" : true,  "fallback" : "BIGFONT"  },
+		"CALLI10R" : { "file" : "LiberationSerif-Regular.ttf", "shadow" : true,  "size" : 10, "blend" : false, "fallback" : "CALLI10R" },
+		"CREDITS"  : { "file" : "LiberationSerif-Bold.ttf",    "shadow" : true,  "size" : 28, "blend" : false, "fallback" : "CREDITS"  },
+		"HISCORE"  : { "file" : "LiberationSerif-Regular.ttf", "shadow" : true,  "size" : 13, "blend" : false, "fallback" : "HISCORE"  },
+		"MEDFONT"  : { "file" : "LiberationSerif-Bold.ttf",    "shadow" : true,  "size" : 16, "blend" : false, "fallback" : "MEDFONT"  }, // breaks messages (from map events)
+		"SMALFONT" : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 13, "blend" : true,  "fallback" : "SMALFONT" },
+		"TIMES08R" : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TIMES08R" },
+		"TINY"     : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TINY"     },
+		"VERD10B"  : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 13, "blend" : false, "fallback" : "VERD10B"  }
+	}
+}

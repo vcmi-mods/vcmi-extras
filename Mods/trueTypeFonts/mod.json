@@ -1,0 +1,13 @@
+{
+	"name" : "True Type Fonts",
+	"description" : "Provides true type fonts that provide support for multiple languages not supported by Heroes III fonts.",
+	"version" : "1.0",
+	"author" : "Ivan",
+	"contact" : "http://vcmi.eu/",
+	"modType" : "Graphical",
+	"keepDisabled" : true,
+	"compatibility":
+	{
+		"min" : "1.2"
+	}
+}
