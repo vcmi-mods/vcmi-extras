@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.3.5",
+	"version" : "3.3.6",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.3.6" : ["RMG templates submod has been removed and added to vcmi directly"],
 		"3.3.5" : ["Added True Type Fonts mod (disabled by default)"],
 		"3.3.4" : ["Fixed graphical artifacts in battlefield actions submod"],
 		"3.3.3" : ["Added Andruid's icon for LIMITED_SHOOTING_RANGE bonus"],
