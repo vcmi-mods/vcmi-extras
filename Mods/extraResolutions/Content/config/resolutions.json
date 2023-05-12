@@ -642,6 +642,34 @@
 				"ButtonSysOptions": { "x": 1799, "y": 425, "graphic": "IAM009L.DEF", "playerColoured": 1 }, 
 				"ButtonNextHero": { "x": 1799, "y": 458, "graphic": "IAM000.DEF", "playerColoured": 1 }, 
 				"ButtonEndTurn": { "x": 1799, "y": 491, "graphic": "IAM001.DEF", "playerColoured": 1 }
+			}, 
+	
+			{ 
+				"resolution": { "x": 1920, "y": 1200 },
+				"InGameConsole": { "maxInputPerLine": 115, "maxOutputPerLine": 85 },
+				"AdvMap": { "x": 7, "y": 7, "width": 1714, "height": 1146, "smoothMove": 1,  "puzzleSepia": 1 },
+				"InfoBox": { "x": 1725, "y": 989 },
+				"gem0": { "x": 6, "y": 1108, "graphic": "agemLL.def" },
+				"gem1": { "x": 1676, "y": 1108, "graphic": "agemLR.def" },
+				"gem2": { "x": 6, "y": 6, "graphic": "agemUL.def" }, 
+				"gem3": { "x": 1676, "y": 6, "graphic": "agemUR.def" }, 
+				"background": "AdvMap1920x1200.pcx",
+				"HeroList": { "size": 23, "x": 1729, "y": 201, "movePoints": "IMOBIL.DEF", "manaPoints": "IMANA.DEF", "arrowUp": "IAM012.DEF", "arrowDown": "IAM013.DEF" },
+				"TownList": { "size": 23, "x": 1867, "y": 201, "arrowUp": "IAM014.DEF", "arrowDown": "IAM015.DEF" },
+				"Minimap": { "width": 144, "height": 144, "x": 1750, "y": 26 }, 
+				"Overview": { "pics": 4, "size": 8, "graphic": "OvCast8.pcx" },
+				"Statusbar": { "x": 8, "y": 1155, "graphic": "AdRollvr1920.pcx" }, 
+				"ResDataBar": { "x": 0, "y": 1175, "graphic": "ZResBar1920.pcx", "offsetX": 67, "offsetY": 2, "resSpace": 192, "resDateSpace": 528 }, 
+				"ButtonKingdomOv": { "x": 1799, "y": 197, "graphic": "IAM002L.DEF", "playerColoured": 1 }, 
+				"ButtonUnderground": { "x": 1799, "y": 229, "graphic": "IAM010L.DEF", "playerColoured": 1, "additionalDefs": [ "IAM003L.DEF" ] }, 
+				"ButtonQuestLog": { "x": 1799, "y": 261, "graphic": "IAM004L.DEF", "playerColoured": 1 }, 
+				"ButtonSleepWake": { "x": 1799, "y": 293, "graphic": "IAM005L.DEF", "playerColoured": 1, "additionalDefs":["IAM011L.DEF"]  }, 
+				"ButtonMoveHero": { "x": 1799, "y": 326, "graphic": "IAM006L.DEF", "playerColoured": 1 }, 
+				"ButtonSpellbook": { "x": 1799, "y": 359, "graphic": "IAM007L.DEF", "playerColoured": 1 }, 
+				"ButtonAdvOptions": { "x": 1799, "y": 392, "graphic": "IAM008L.DEF", "playerColoured": 1 }, 
+				"ButtonSysOptions": { "x": 1799, "y": 425, "graphic": "IAM009L.DEF", "playerColoured": 1 }, 
+				"ButtonNextHero": { "x": 1799, "y": 458, "graphic": "IAM000.DEF", "playerColoured": 1 }, 
+				"ButtonEndTurn": { "x": 1799, "y": 491, "graphic": "IAM001.DEF", "playerColoured": 1 }
 			}
 		]
 }
