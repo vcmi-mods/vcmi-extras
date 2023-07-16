@@ -26,14 +26,14 @@
 	// "fallback" - if set, this H3 bitmap font will be used for strings that can be completely represented with this font
 	"trueType":
 	{
-		"BIGFONT"  : { "file" : "LiberationSerif-Bold.ttf",    "shadow" : true,  "size" : 22, "blend" : true,  "fallback" : "BIGFONT"  },
-		"CALLI10R" : { "file" : "LiberationSerif-Regular.ttf", "shadow" : true,  "size" : 10, "blend" : false, "fallback" : "CALLI10R" },
-		"CREDITS"  : { "file" : "LiberationSerif-Bold.ttf",    "shadow" : true,  "size" : 28, "blend" : false, "fallback" : "CREDITS"  },
-		"HISCORE"  : { "file" : "LiberationSerif-Regular.ttf", "shadow" : true,  "size" : 13, "blend" : false, "fallback" : "HISCORE"  },
-		"MEDFONT"  : { "file" : "LiberationSerif-Bold.ttf",    "shadow" : true,  "size" : 16, "blend" : false, "fallback" : "MEDFONT"  }, // breaks messages (from map events)
-		"SMALFONT" : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 13, "blend" : true,  "fallback" : "SMALFONT" },
-		"TIMES08R" : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TIMES08R" },
-		"TINY"     : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TINY"     },
-		"VERD10B"  : { "file" : "LiberationSerif-Regular.ttf", "shadow" : false, "size" : 13, "blend" : false, "fallback" : "VERD10B"  }
+		"BIGFONT"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf",    "shadow" : true,  "size" : 22, "blend" : true,  "fallback" : "BIGFONT"  },
+		"CALLI10R" : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : true,  "size" : 10, "blend" : false, "fallback" : "CALLI10R" },
+		"CREDITS"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf",    "shadow" : true,  "size" : 28, "blend" : false, "fallback" : "CREDITS"  },
+		"HISCORE"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : true,  "size" : 13, "blend" : false, "fallback" : "HISCORE"  },
+		"MEDFONT"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf",    "shadow" : true,  "size" : 16, "blend" : false, "fallback" : "MEDFONT"  }, // breaks messages (from map events)
+		"SMALFONT" : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 13, "blend" : true,  "fallback" : "SMALFONT" },
+		"TIMES08R" : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TIMES08R" },
+		"TINY"     : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TINY"     },
+		"VERD10B"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 13, "blend" : false, "fallback" : "VERD10B"  }
 	}
 }
