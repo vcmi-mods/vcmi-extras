@@ -124,6 +124,7 @@
 			"image": "RANUNDR",
 			"position": {"x": 346, "y": 81},
 			"selected": true,
+			"imageOrder": [0, 1, 1, 3],
 			"callback": "toggleTwoLevels"
 		},
 
