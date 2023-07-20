@@ -5,21 +5,23 @@
 			"overrides": {"rect": "backgroundRect"}, //do not modify
 			"name": "background",
 			"type": "texture",
-			"image": "Bl3DCvex",
+			"image": "Bl3DCvex"
 		},
 		{
+			"name": "buttonOK",
 			"overrides": {"position": "okButtonPosition"}, //do not modify
 			"type": "button",
 			"image": "MUBCHCK",
 			"help": "core.help.560",
-			"callback": "ok",
+			"callback": "ok"
 		},
 		{
+			"name": "buttonCancel",
 			"overrides": {"position": "cancelButtonPosition"}, //do not modify
 			"type": "button",
 			"image": "MUBCANC",
 			"help": "core.help.561",
-			"callback": "cancel",
+			"callback": "cancel"
 		}
 	],
 	"variables":
