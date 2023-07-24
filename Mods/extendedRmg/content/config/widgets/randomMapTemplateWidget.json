@@ -244,6 +244,6 @@
 	],
 	"variables":
 	{
-		"defaultTemplate": "vcmi.randomMapTab.widgets.defaultTemplate"
+		"randomTemplate": "vcmi.randomMapTab.widgets.randomTemplate"
 	}
 }

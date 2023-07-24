@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.4.4",
+	"version" : "3.4.5",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.4.5" : ["Replaced defaultTemplate text property with randomTemplate"],
 		"3.4.4" : ["Added a name to OK and Cancel button in RMG teams tab, needed to fix team setings"],
 		"3.4.3" : ["Fixed underground icon on templates without underground"],
 		"3.4.2" : ["Replaced TTF fallback font in fallback submod"],
