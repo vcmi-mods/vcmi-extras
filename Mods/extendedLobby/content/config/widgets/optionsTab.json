@@ -1,0 +1,291 @@
+{
+	"items":
+	[
+		{
+			"name": "background",
+			"type": "picture",
+			"image": "TM_ADVOP",
+			"position": {"x": 0, "y": 6}
+		},
+		
+		{
+			"name": "labelTitle",
+			"type": "label",
+			"font": "big",
+			"alignment": "center",
+			"color": "yellow",
+			"text": "core.genrltxt.515",
+			"position": {"x": 222, "y": 32}
+		},
+		
+		{
+			"name": "labelSubTitle",
+			"type": "multiLineLabel",
+			"font": "small",
+			"alignment": "center",
+			"color": "white",
+			"text": "core.genrltxt.516",
+			"rect": {"x": 60, "y": 50, "w": 320, "h": 0},
+			"adoptHeight": true
+		},
+		
+		{
+			"name": "labelPlayerNameAndHandicap",
+			"type": "multiLineLabel",
+			"font": "small",
+			"alignment": "center",
+			"color": "yellow",
+			"text": "core.genrltxt.517",
+			"rect": {"x": 58, "y": 92, "w": 100, "h": 0},
+			"adoptHeight": true
+		},
+		
+		{
+			"name": "labelStartingTown",
+			"type": "multiLineLabel",
+			"font": "small",
+			"alignment": "center",
+			"color": "yellow",
+			"text": "core.genrltxt.518",
+			"rect": {"x": 163, "y": 92, "w": 70, "h": 0},
+			"adoptHeight": true
+		},
+		
+		{
+			"name": "labelStartingHero",
+			"type": "multiLineLabel",
+			"font": "small",
+			"alignment": "center",
+			"color": "yellow",
+			"text": "core.genrltxt.519",
+			"rect": {"x": 239, "y": 92, "w": 70, "h": 0},
+			"adoptHeight": true
+		},
+		
+		{
+			"name": "labelStartingBonus",
+			"type": "multiLineLabel",
+			"font": "small",
+			"alignment": "center",
+			"color": "yellow",
+			"text": "core.genrltxt.520",
+			"rect": {"x": 315, "y": 92, "w": 70, "h": 0},
+			"adoptHeight": true
+		},
+		
+		// timer
+		{
+			"name": "timerBackground",
+			"type": "picture",
+			"image": "timchebk",
+			"position": {"x": 0, "y": 530}
+		},
+		
+		{
+			"name": "chessFieldBase",
+			"type": "textInput",
+			"background": "timerField",
+			"alignment": "center",
+			"text": "00:00",
+			"rect": {"x": 54, "y": 557, "w": 84, "h": 25},
+			"offset": {"x": 0, "y": 0},
+			"callback": "parseAndSetTimer_base"
+		},
+		{
+			"name": "chessFieldTurn",
+			"type": "textInput",
+			"background": "timerField",
+			"alignment": "center",
+			"text": "00:00",
+			"rect": {"x": 137, "y": 557, "w": 84, "h": 25},
+			"offset": {"x": 0, "y": 0},
+			"callback": "parseAndSetTimer_turn"
+		},
+		{
+			"name": "chessFieldBattle",
+			"type": "textInput",
+			"background": "timerField",
+			"alignment": "center",
+			"text": "00:00",
+			"rect": {"x": 218, "y": 557, "w": 84, "h": 25},
+			"offset": {"x": 0, "y": 0},
+			"callback": "parseAndSetTimer_battle"
+		},
+		{
+			"name": "chessFieldCreature",
+			"type": "textInput",
+			"background": "timerField",
+			"alignment": "center",
+			"text": "00:00",
+			"rect": {"x": 303, "y": 557, "w": 84, "h": 25},
+			"offset": {"x": 0, "y": 0},
+			"callback": "parseAndSetTimer_creature"
+		},
+		
+		{
+			"name": "timerModeSwitch",
+			"type": "comboBox",
+			"image": "DrDoCoBk",
+			"position": {"x": 158, "y": 532},
+			"imageOrder": [0, 0, 0, 0],
+			"dropDown":
+			{
+				"items":
+				[
+					{
+						"name": "background",
+						"type": "picture",
+						"image": "List2Bk",
+						"position": {"x": 0, "y": -52}
+					},
+
+					{
+						"name": "slider",
+						"type": "slider",
+						"position": {"x": 212, "y": -52},
+						"size": 52,
+						"style": "blue",
+						"itemsVisible": 2,
+						"itemsTotal": 0,
+						"selected": 0,
+						"orientation": "vertical",
+						"callback": "sliderMove"
+					},
+
+					//now list elements
+					{ //classic timer
+						"type": "item",
+						"position": {"x": 0, "y": -52},
+						"items":
+						[
+							{
+								"type": "label",
+								"name": "labelName",
+								"font": "small",
+								"alignment": "left",
+								"color": "white",
+								"position": {"x": 4, "y": 0},
+								"text": "Classic timer"
+							},
+							{
+								"type": "picture",
+								"name": "hoverImage",
+								"visible": false,
+								"image": "List10Sl"
+							}
+						]
+					},
+					
+					{ //chess timer
+						"type": "item",
+						"position": {"x": 0, "y": -27},
+						"items":
+						[
+							{
+								"type": "label",
+								"name": "labelName",
+								"font": "small",
+								"alignment": "left",
+								"color": "white",
+								"position": {"x": 4, "y": 0},
+								"text": "Chess timer"
+							},
+							{
+								"type": "picture",
+								"name": "hoverImage",
+								"visible": false,
+								"image": "List10Sl"
+							}
+						]
+					},
+				]
+			},
+			
+			"items":
+			[
+				{
+					"name": "timer",
+					"type": "label",
+					"font": "small",
+					"alignment": "left",
+					"color": "yellow",
+					"text": "Classic timer"
+				}
+			]
+		},
+			
+		{
+			"type": "picture",
+			"image": "RmgTTBk",
+			"position": {"x": 54, "y": 532}
+		},
+		
+		{
+			"name": "labelTimer",
+			"type": "label",
+			"font": "small",
+			"alignment": "center",
+			"color": "yellow",
+			"text": "Timer:",
+			"position": {"x": 104, "y": 542}
+		},
+		
+		{
+			"name": "labelTurnDurationValue",
+			"type": "label",
+			"font": "small",
+			"alignment": "center",
+			"color": "white",
+			"text": "",
+			"position": {"x": 319, "y": 565}
+		},
+		
+		{
+			"name": "sliderTurnDuration",
+			"type": "slider",
+			"orientation": "horizontal",
+			"position": {"x": 55, "y": 557},
+			"size": 194,
+			"callback": "setTimerPreset",
+			"itemsVisible": 1,
+			"itemsTotal": 11,
+			"selected": 11,
+			"style": "blue",
+			"scrollBounds": {"x": -3, "y": -25, "w": 337, "h": 43},
+			"panningStep": 20
+		},
+	],
+	
+	"variables":
+	{
+		"timers":
+		[
+			{
+				"text": "Classic timer",
+				"showWidgets": ["labelTurnDurationValue", "sliderTurnDuration"],
+				"hideWidgets": ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
+			},
+			
+			{
+				"text": "Chess timer",
+				"showWidgets": ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
+				"hideWidgets": ["labelTurnDurationValue", "sliderTurnDuration"],
+			},
+		],
+		
+		"timerPresets" :
+		[
+			[0, 60, 0, 0],
+			[0, 120, 0, 0],
+			[0, 240, 0, 0],
+			[0, 360, 0, 0],
+			[0, 480, 0, 0],
+			[0, 600, 0, 0],
+			[0, 900, 0, 0],
+			[0, 1200, 0, 0],
+			[0, 1500, 0, 0],
+			[0, 1800, 0, 0],
+			[0, 0, 0, 0],
+		]
+	}
+}
