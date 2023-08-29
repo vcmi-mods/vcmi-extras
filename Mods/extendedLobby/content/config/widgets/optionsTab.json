@@ -213,7 +213,7 @@
 					"font": "small",
 					"alignment": "left",
 					"color": "yellow",
-					"text": "Classic timer"
+					"text": "vcmi.optionsTab.widgets.timerModeSwitch.classic"
 				}
 			]
 		},
@@ -264,13 +264,13 @@
 		"timers":
 		[
 			{
-				"text": "Classic timer",
+				"text": "vcmi.optionsTab.widgets.timerModeSwitch.classic",
 				"showWidgets": ["labelTurnDurationValue", "sliderTurnDuration"],
 				"hideWidgets": ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
 			},
 			
 			{
-				"text": "Chess timer",
+				"text": "vcmi.optionsTab.widgets.timerModeSwitch.chess",
 				"showWidgets": ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
 				"hideWidgets": ["labelTurnDurationValue", "sliderTurnDuration"],
 			},
