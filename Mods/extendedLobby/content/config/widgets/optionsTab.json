@@ -89,7 +89,8 @@
 			"text": "00:00",
 			"rect": {"x": 54, "y": 557, "w": 84, "h": 25},
 			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_base"
+			"callback": "parseAndSetTimer_base",
+			"help": "vcmi.optionsTab.widgets.chessFieldBase.help"
 		},
 		{
 			"name": "chessFieldTurn",
@@ -99,7 +100,8 @@
 			"text": "00:00",
 			"rect": {"x": 137, "y": 557, "w": 84, "h": 25},
 			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_turn"
+			"callback": "parseAndSetTimer_turn",
+			"help": "vcmi.optionsTab.widgets.chessFieldTurn.help"
 		},
 		{
 			"name": "chessFieldBattle",
@@ -109,7 +111,8 @@
 			"text": "00:00",
 			"rect": {"x": 218, "y": 557, "w": 84, "h": 25},
 			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_battle"
+			"callback": "parseAndSetTimer_battle",
+			"help": "vcmi.optionsTab.widgets.chessFieldBattle.help"
 		},
 		{
 			"name": "chessFieldCreature",
@@ -119,7 +122,8 @@
 			"text": "00:00",
 			"rect": {"x": 303, "y": 557, "w": 84, "h": 25},
 			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_creature"
+			"callback": "parseAndSetTimer_creature",
+			"help": "vcmi.optionsTab.widgets.chessFieldCreature.help"
 		},
 		
 		{
@@ -165,7 +169,7 @@
 								"alignment": "left",
 								"color": "white",
 								"position": {"x": 4, "y": 0},
-								"text": "Classic timer"
+								"text": "vcmi.optionsTab.widgets.timerModeSwitch.classic"
 							},
 							{
 								"type": "picture",
@@ -188,7 +192,7 @@
 								"alignment": "left",
 								"color": "white",
 								"position": {"x": 4, "y": 0},
-								"text": "Chess timer"
+								"text": "vcmi.optionsTab.widgets.timerModeSwitch.chess"
 							},
 							{
 								"type": "picture",
@@ -226,7 +230,7 @@
 			"font": "small",
 			"alignment": "center",
 			"color": "yellow",
-			"text": "Timer:",
+			"text": "vcmi.optionsTab.widgets.labelTimer",
 			"position": {"x": 104, "y": 542}
 		},
 		
@@ -236,7 +240,6 @@
 			"font": "small",
 			"alignment": "center",
 			"color": "white",
-			"text": "",
 			"position": {"x": 319, "y": 565}
 		},
 		
