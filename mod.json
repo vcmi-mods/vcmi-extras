@@ -5,6 +5,7 @@
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
+	"size" : 4.7,
 	"changelog" :
 	{
 		"3.5.0" : ["Old submod Extended RMG was replaced with new mod Extended Lobby"],
