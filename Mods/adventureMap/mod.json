@@ -1,0 +1,8 @@
+{
+	"name" : "Revisit object button",
+	"description" : "Adds button to revisit current object on adventure map interface",
+	"author" : "Graphics - Edeksumo, Mechanics - Ivan",
+	"contact" : "http://vcmi.eu",
+	"version" : "1.0",
+	"modType" : "Graphical"
+}
