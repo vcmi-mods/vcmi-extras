@@ -1,0 +1,10 @@
+{
+	"basepath" : "vcmiExtrasAdventureMap/",
+	"images" :
+	[
+		{ "frame" : 0, "file" : "revisit_00.png"},
+		{ "frame" : 1, "file" : "revisit_01.png"},
+		{ "frame" : 2, "file" : "revisit_02.png"},
+		{ "frame" : 3, "file" : "revisit_03.png"}
+	]
+}
