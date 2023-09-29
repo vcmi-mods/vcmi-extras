@@ -129,8 +129,8 @@
 		{
 			"name": "timerModeSwitch",
 			"type": "comboBox",
-			"image": "DrDoCoBk",
-			"position": {"x": 158, "y": 532},
+			"image": "timerField",
+			"position": {"x": 54, "y": 532},
 			"imageOrder": [0, 0, 0, 0],
 			"dropDown":
 			{
@@ -217,22 +217,6 @@
 				}
 			]
 		},
-			
-		{
-			"type": "picture",
-			"image": "RmgTTBk",
-			"position": {"x": 54, "y": 532}
-		},
-		
-		{
-			"name": "labelTimer",
-			"type": "label",
-			"font": "small",
-			"alignment": "center",
-			"color": "yellow",
-			"text": "vcmi.optionsTab.widgets.labelTimer",
-			"position": {"x": 104, "y": 542}
-		},
 		
 		{
 			"name": "labelTurnDurationValue",
@@ -256,6 +240,32 @@
 			"style": "blue",
 			"scrollBounds": {"x": -3, "y": -25, "w": 337, "h": 43},
 			"panningStep": 20
+		},
+
+		// simturns
+		{
+			"name": "simturnsDuration",
+			"type": "slider",
+			"orientation": "horizontal",
+			"position": {"x": 144, "y": 534},
+			"size": 246,
+			"callback": "setSimturnDuration",
+			"itemsVisible": 1,
+			"itemsTotal": 28,
+			"selected": 0,
+			"style": "blue",
+			"scrollBounds": {"x": 0, "y": 0, "w": 194, "h": 32},
+			"panningStep": 20
+		},
+		
+		{
+			"name": "labelSimturnsDurationValue",
+			"type": "label",
+			"font": "small",
+			"alignment": "center",
+			"color": "white",
+			"text": "",
+			"position": {"x": 270, "y": 542}
 		},
 	],
 	
