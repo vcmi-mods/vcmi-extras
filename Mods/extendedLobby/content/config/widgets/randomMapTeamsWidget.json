@@ -5,7 +5,8 @@
 			"overrides": {"rect": "backgroundRect"}, //do not modify
 			"name": "background",
 			"type": "texture",
-			"image": "Bl3DCvex"
+			"image": "DiBoxBck",
+			"color": "blue"
 		},
 		{
 			"name": "buttonOK",
