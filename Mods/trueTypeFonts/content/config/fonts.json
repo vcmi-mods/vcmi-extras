@@ -33,7 +33,7 @@
 		"MEDFONT"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf",    "shadow" : true,  "size" : 16, "blend" : false, "fallback" : "MEDFONT"  }, // breaks messages (from map events)
 		"SMALFONT" : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 13, "blend" : true,  "fallback" : "SMALFONT" },
 		"TIMES08R" : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TIMES08R" },
-		"TINY"     : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 11, "blend" : true,  "fallback" : "TINY"     },
+		"TINY"     : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 10, "blend" : true,  "fallback" : "TINY"     },
 		"VERD10B"  : { "file" : "WenQuanYi-Micro-Hei-Regular.ttf", "shadow" : false, "size" : 13, "blend" : false, "fallback" : "VERD10B"  }
 	}
 }
