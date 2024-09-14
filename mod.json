@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.5.4",
+	"version" : "3.5.5",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.5.5" : ["Adjust font size to fit in boxes"],
 		"3.5.4" : ["Added disintigrate icon; replaced king2 icon"],
 		"3.5.3" : ["Revisit object button text fix"],
 		"3.5.2" : ["Update for Extended Lobby submod with simturns control"],
