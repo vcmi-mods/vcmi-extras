@@ -220,36 +220,6 @@
 					"hotkey": "globalOptions",
 					"playerColored" : true,
 					"area": { "top" : 96, "left": 32, "width" : 32, "height" : 32 }
-				},
-				{
-					"type": "adventureMapButton",
-					"name": "buttonNextHero",
-					"image" : "vcmiExtrasAdventureMap/hero.def",
-					"help" : "core.help.301",
-					"hotkey": "adventureNextHero",
-					"playerColored" : true,
-					"area": { "top" : 128, "left": 0, "width" : 32, "height" : 32 },
-			        "exists" : { "heightMax" : 664 } //small resolution
-				},
-				{
-					"type": "adventureMapButton",
-					"name": "buttonNextHero",
-					"image" : "IAM000.DEF",
-					"help" : "core.help.301",
-					"hotkey": "adventureNextHero",
-					"playerColored" : true,
-					"area": { "top" : 128, "left": 0, "width" : 64, "height" : 32 },
-					"exists" : { "heightMin" : 664 } // high resolution
-				},
-				{
-					"type": "adventureMapButton",
-					"name": "buttonRevisit",
-					"image" : "vcmiExtrasAdventureMap/revisit.def",
-					"help" : "vcmi.adventureMap.revisitObject",
-					"hotkey": "adventureVisitObject",
-					"playerColored" : true,
-					"area": { "top" : 128, "left": 32, "width" : 32, "height" : 32 },
-			        "exists" : { "heightMax" : 664 } //small resolution
 				}
 			]
 		},
