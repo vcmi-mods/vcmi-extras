@@ -9,5 +9,9 @@
 	"bonuses" :
 	[
 		"config/bonusIcons/bonuses.json"
-	]
+	],
+	"czech" : {
+		"name" : "Bonusové ikony",
+		"description" : "Bonusové ikony pro VCMI."
+	}
 }

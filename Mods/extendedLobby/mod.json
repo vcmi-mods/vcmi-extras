@@ -1,7 +1,7 @@
 {
 	"name" : "Extended lobby options",
 	"description" : "Additional options to configure new game maps: extended RMG settings, chess timer",
-	"version" : "2.1",
+	"version" : "2.2",
 	"author" : "Nordsoft",
 	"contact" : "nordsoft@yahoo.com",
 	"modType" : "Interface",
@@ -16,6 +16,11 @@
 		"1.2": ["Adopt new translation schema"],
 		"1.3": ["Change callbacks according to latest develop changes"],
 		"2.0": ["Options tab is widget, RMG options refactoring, chess timer"],
-		"2.1": ["Added simturns widget, timers layout change"]
+		"2.1": ["Added simturns widget, timers layout change"],
+		"2.2": ["Czech translation by George King"]
+	},
+	"czech" : {
+		"name" : "Rozšířené možnosti lobby",
+		"description" : "Další možnosti pro konfiguraci nových map hry: rozšířené nastavení náhodných map, šachové hodiny."
 	}
 }

@@ -4,5 +4,9 @@
 	"author" : "Graphics - Edeksumo, Mechanics - Ivan",
 	"contact" : "http://vcmi.eu",
 	"version" : "1.0",
-	"modType" : "Graphical"
+	"modType" : "Graphical",
+	"czech" : {
+		"name" : "Tlačítko pro znovunavštívení objektu",
+		"description" : "Přidává tlačítko pro opětovnou návštěvu objektu na rozhraní dobrodružné mapy"
+	}
 }

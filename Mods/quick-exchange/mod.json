@@ -17,5 +17,9 @@
 		[
 			{"type" : "dir",  "path" : "/Sprites"}
 		]
+	},
+	"czech" : {
+		"name" : "Rychlá výměna VCMI",
+		"description" : "Rychlá výměna zdrojů."
 	}
 }

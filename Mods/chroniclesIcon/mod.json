@@ -15,5 +15,9 @@
 				"iconIndex" : 50
             }
         }
-    }
+    },
+	"czech" : {
+		"name" : "Ikony Kronik",
+		"description" : "Ikony Kronik pro VCMI."
+	}
 }
