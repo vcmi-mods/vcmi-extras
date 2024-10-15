@@ -1,13 +1,14 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.5.6",
+	"version" : "3.5.7",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
-		"3.5.6" : ["Czech translation by George King"],
+		"3.5.7" : ["Czech translation by George King"],
+		"3.5.6" : ["Add search button"],
 		"3.5.5" : ["Adjust font size to fit in boxes"],
 		"3.5.4" : ["Added disintigrate icon; replaced king2 icon"],
 		"3.5.3" : ["Revisit object button text fix"],
@@ -43,7 +44,7 @@
 	},
 	"compatibility":
 	{
-		"min" : "1.4.0"
+		"min" : "1.6.0"
 	},
 	"czech" : {
 		"name" : "Rozšíření VCMI",
