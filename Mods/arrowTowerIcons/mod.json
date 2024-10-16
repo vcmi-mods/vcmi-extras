@@ -9,5 +9,9 @@
 	"compatibility":
 	{
 	"min" : "1.1"
+	},
+	"czech" : {
+		"name" : "Ikony věže se šípy",
+		"description" : "Dvě ikony věží se šípy pro lištu iniciativy."
 	}
 }

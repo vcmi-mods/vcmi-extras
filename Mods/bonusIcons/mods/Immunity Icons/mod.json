@@ -10,6 +10,10 @@
 	[
 		"spellImmunityIcons.json",
 		"abilityImmunityIcons.json"
-	]
+	],
+	"czech" : {
+		"name" : "Ikony imunity vůči kouzlům",
+		"description" : "Ikony zobrazující imunitu vůči kouzlům pro VCMI."
+	}
 
 }

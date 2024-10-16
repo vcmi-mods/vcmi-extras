@@ -4,5 +4,9 @@
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.8.1",
-	"modType" : "Graphical"
+	"modType" : "Graphical",
+	"czech" : {
+		"name" : "Andruidovy Bonusové ikony",
+		"description" : "Bonusové ikony pro VCMI."
+	}
 }

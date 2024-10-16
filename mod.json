@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.5.6",
+	"version" : "3.5.7",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.5.7" : ["Czech translation by George King"],
 		"3.5.6" : ["Add search button"],
 		"3.5.5" : ["Adjust font size to fit in boxes"],
 		"3.5.4" : ["Added disintigrate icon; replaced king2 icon"],
@@ -31,19 +32,23 @@
 		"3.2.0" : ["Added battlefieldActions submod"],
 		"3.1.2" : ["Added three testing G+U-sized templates"],
 		"3.1.1" : ["Fixed 'doubled 8mm6' RMG template"],
-		"3.1" : ["Tweaked many RMG templates"],
-		"3.0" : ["Added extended RMG mod"],
-		"2.5" : ["Updated tower arrows mod for new format"],
-		"2.4" : ["Adder arrow tower mod"],
-		"2.3" : ["Added resolution 1366x644 fits better for iPhone"],
-		"2.2" : ["Remove Resourceful AI as submod"],
-		"2.1" : ["Added Resourceful AI as submod"],
-		"2.0" : ["Restructure of the essential files mod"],
-		"1.00" : ["Update defaultTemplates submod"]
+		"3.1"   : ["Tweaked many RMG templates"],
+		"3.0"   : ["Added extended RMG mod"],
+		"2.5"   : ["Updated tower arrows mod for new format"],
+		"2.4"   : ["Adder arrow tower mod"],
+		"2.3"   : ["Added resolution 1366x644 fits better for iPhone"],
+		"2.2"   : ["Remove Resourceful AI as submod"],
+		"2.1"   : ["Added Resourceful AI as submod"],
+		"2.0"   : ["Restructure of the essential files mod"],
+		"1.00"  : ["Update defaultTemplates submod"]
 	},
 	"compatibility":
 	{
 		"min" : "1.6.0"
+	},
+	"czech" : {
+		"name" : "Rozšíření VCMI",
+		"description" : "Dodatečné módy pro umožnění základní funkčnosti VCMI"
 	}
 }
 
