@@ -1,12 +1,13 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.5.7",
+	"version" : "3.5.8",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" :
 	{
+		"3.5.8" : ["Added compatibility to Arrow Towers Icons submod"],
 		"3.5.7" : ["Czech translation by George King"],
 		"3.5.6" : ["Add search button"],
 		"3.5.5" : ["Adjust font size to fit in boxes"],

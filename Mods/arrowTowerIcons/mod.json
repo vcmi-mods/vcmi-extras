@@ -4,12 +4,13 @@
 	"version" : "1.1",
 	"author" : "avatar, Graphic: witchking",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"modType" : "Graphical",
+	"modType" : "Compatibility",
 	"factions" : [ "config/arrowTowers" ],
 	"compatibility":
 	{
 	"min" : "1.1"
 	},
+	"depends" : [ "vcmi" ],
 	"czech" : {
 		"name" : "Ikony věže se šípy",
 		"description" : "Dvě ikony věží se šípy pro lištu iniciativy."
