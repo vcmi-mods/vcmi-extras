@@ -1,7 +1,3 @@
-//TODO: selector-based config
-// school immunities
-// LEVEL_SPELL_IMMUNITY
-
 {
 	"core:ADDITIONAL_ATTACK":
 	{
@@ -225,6 +221,11 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/DamageReductionMelee"
+			"subtypeIcons": {
+				"bonusSubtype.damageTypeMelee" : "DamageReductionMelee.bmp",
+				"bonusSubtype.damageTypeRanged" : "DamageReductionRanged.bmp",
+				"bonusSubtype.damageTypeAll" : "DamageReductionAll.bmp",
+			}
 		}
 	},
 
@@ -273,6 +274,26 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_KING3"
+			"valueIcons" : {
+				"0" : "zvs/Lib1.res/E_KING1",
+				"1" : "zvs/Lib1.res/E_KING1",
+				"2" : "zvs/Lib1.res/E_KING2",
+				"3" : "zvs/Lib1.res/E_KING3"
+			}
+		}
+	},
+	
+	"core:LEVEL_SPELL_IMMUNITY":
+	{
+		"graphics":
+		{
+			"valueIcons" : {
+				"1" : "zvs/Lib1.res/E_SPLVL1",
+				"2" : "zvs/Lib1.res/E_SPLVL2",
+				"3" : "zvs/Lib1.res/E_SPLVL3",
+				"4" : "zvs/Lib1.res/E_SPLVL4",
+				"5" : "zvs/Lib1.res/E_SPLVL5"
+			}
 		}
 	},
 	
@@ -323,6 +344,14 @@
 			"icon":  "zvs/Lib1.res/E_DWARF"
 		}
 	},
+	
+	"core:MECHANICAL":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/Mechanical"
+		}
+	},
 
 	"core:MIND_IMMUNITY":
 	{
@@ -369,6 +398,14 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/NonLiving"
+		}
+	},
+
+	"core:OPENING_BATTLE_SPELL":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_SPDFIRE"
 		}
 	},
 
@@ -473,6 +510,41 @@
 		"graphics":
 		{
 			"icon":  "zvs/Lib1.res/E_GOLEM"
+			"subtypeIcons": {
+				"spellShool.any" : "zvs/Lib1.res/E_GOLEM",
+				"spellShool.air" : "zvs/Lib1.res/E_LIGHT",
+				"spellShool.fire" : "zvs/Lib1.res/E_FIRE",
+				"spellShool.water" : "zvs/Lib1.res/E_COLD",
+				"spellShool.earth" : "zvs/Lib1.res/E_SPEATH1"
+			}
+		}
+	},
+	
+	"core:SPELL_SCHOOL_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_GOLEM"
+			"subtypeIcons": {
+				"spellShool.air" : "zvs/Lib1.res/E_SPAIR",
+				"spellShool.fire" : "zvs/Lib1.res/E_SPFIRE",
+				"spellShool.water" : "zvs/Lib1.res/E_SPWATER",
+				"spellShool.earth" : "zvs/Lib1.res/E_SPEATH"
+			}
+		}
+	},
+	
+	"core:NEGATIVE_EFFECTS_IMMUNITY":
+	{
+		"graphics":
+		{
+			"icon":  "zvs/Lib1.res/E_GOLEM"
+			"subtypeIcons": {
+				"spellShool.air" : "zvs/Lib1.res/E_SPAIR1",
+				"spellShool.fire" : "zvs/Lib1.res/E_SPFIRE1",
+				"spellShool.water" : "zvs/Lib1.res/E_SPWATER1",
+				"spellShool.earth" : "zvs/Lib1.res/E_SPEATH1"
+			}
 		}
 	},
 
@@ -480,7 +552,8 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_SPDISB" //todo: configurable use from spell handler
+			// Uses icon from spell config
+			
 		}
 	},
 

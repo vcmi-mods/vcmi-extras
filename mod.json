@@ -1,11 +1,12 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.6.2",
+	"version" : "3.7.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.7.0" : ["Updated bonus icons submod for VCMI 1.7"],
 		"3.6.2" : ["Emoji support"],
 		"3.6.1" : ["New search button by Kuririn"],
 		"3.6.0" : ["Removed deprecated true types fonts mod, due to being integrated in vcmi", "Removed unused files"],
