@@ -8,5 +8,5 @@
 	"compatibility" : {
 	    "min" : "1.6.6"
 	},
-	"modType" : "Graphics"
+	"modType" : "Interface"
 }
