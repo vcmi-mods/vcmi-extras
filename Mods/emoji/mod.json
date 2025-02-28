@@ -2,7 +2,7 @@
 	"name" : "Emoji Support",
 	"description" : "Emoji Support",
 	"author" : "Google Inc.",
-	"license" : "SIL OPEN FONT LICENSE Version 1.1",
+	"licenseName" : "SIL OPEN FONT LICENSE Version 1.1",
 	"contact" : "vcmi.eu",
 	"version" : "1.0.0",
 	"compatibility" : {
