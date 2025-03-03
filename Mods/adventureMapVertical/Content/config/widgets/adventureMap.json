@@ -516,12 +516,6 @@
 	                "image" : "AdvMap.pcx",
 	                "area": { "top": 196, "bottom" : 211, "right" : 0, "width" : 5 }
                 },
-                // Game area
-                {
-	                "type": "adventureMapGameArea",
-	                "name": "mapViewWorldView",
-	                "area": { "top": 7, "bottom" : 47, "left" : 7, "right" : 199 }
-                },
 
                 // Status bar
                 {
