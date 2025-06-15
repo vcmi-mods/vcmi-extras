@@ -1,11 +1,12 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.7.0",
+	"version" : "3.7.1",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.7.1" : ["Updated Czech translation"],
 		"3.7.0" : ["Updated bonus icons submod for VCMI 1.7"],
 		"3.6.2" : ["Emoji support"],
 		"3.6.1" : ["New search button by Kuririn"],
