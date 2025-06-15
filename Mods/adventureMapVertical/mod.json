@@ -1,0 +1,10 @@
+{
+	"name" : "Vertical layout (for portrait mode)",
+	"description" : "Vertical layout for adventuremap (for portrait mode)",
+	"author" : "",
+	"contact" : "http://vcmi.eu",
+	"version" : "1.0",
+	"modType" : "Graphical",
+	"keepDisabled" : true,
+	"depends": [ "vcmi-extras.adventureMap" ]
+}

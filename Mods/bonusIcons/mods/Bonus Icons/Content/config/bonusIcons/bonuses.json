@@ -220,11 +220,11 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/DamageReductionMelee"
+			"icon":  "zvs/Lib1.res/DamageReductionMelee",
 			"subtypeIcons": {
-				"bonusSubtype.damageTypeMelee" : "DamageReductionMelee.bmp",
-				"bonusSubtype.damageTypeRanged" : "DamageReductionRanged.bmp",
-				"bonusSubtype.damageTypeAll" : "DamageReductionAll.bmp",
+				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/DamageReductionMelee.bmp",
+				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/DamageReductionRanged.bmp",
+				"bonusSubtype.damageTypeAll" : "zvs/Lib1.res/DamageReductionAll.bmp",
 			}
 		}
 	},
@@ -273,7 +273,7 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_KING3"
+			"icon":  "zvs/Lib1.res/E_KING3",
 			"valueIcons" : {
 				"0" : "zvs/Lib1.res/E_KING1",
 				"1" : "zvs/Lib1.res/E_KING1",
@@ -509,13 +509,13 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_GOLEM"
+			"icon":  "zvs/Lib1.res/E_GOLEM",
 			"subtypeIcons": {
-				"spellShool.any" : "zvs/Lib1.res/E_GOLEM",
-				"spellShool.air" : "zvs/Lib1.res/E_LIGHT",
-				"spellShool.fire" : "zvs/Lib1.res/E_FIRE",
-				"spellShool.water" : "zvs/Lib1.res/E_COLD",
-				"spellShool.earth" : "zvs/Lib1.res/E_SPEATH1"
+				"spellSchool.any" : "zvs/Lib1.res/E_GOLEM",
+				"spellSchool.air" : "zvs/Lib1.res/E_LIGHT",
+				"spellSchool.fire" : "zvs/Lib1.res/E_FIRE",
+				"spellSchool.water" : "zvs/Lib1.res/e_spwater",
+				"spellSchool.earth" : "zvs/Lib1.res/E_SPEATH1"
 			}
 		}
 	},
@@ -524,12 +524,12 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_GOLEM"
+			"icon":  "zvs/Lib1.res/E_GOLEM",
 			"subtypeIcons": {
-				"spellShool.air" : "zvs/Lib1.res/E_SPAIR",
-				"spellShool.fire" : "zvs/Lib1.res/E_SPFIRE",
-				"spellShool.water" : "zvs/Lib1.res/E_SPWATER",
-				"spellShool.earth" : "zvs/Lib1.res/E_SPEATH"
+				"spellSchool.air" : "zvs/Lib1.res/E_SPAIR",
+				"spellSchool.fire" : "zvs/Lib1.res/E_SPFIRE",
+				"spellSchool.water" : "zvs/Lib1.res/E_SPWATER",
+				"spellSchool.earth" : "zvs/Lib1.res/E_SPEATH"
 			}
 		}
 	},
@@ -538,12 +538,12 @@
 	{
 		"graphics":
 		{
-			"icon":  "zvs/Lib1.res/E_GOLEM"
+			"icon":  "zvs/Lib1.res/E_GOLEM",
 			"subtypeIcons": {
-				"spellShool.air" : "zvs/Lib1.res/E_SPAIR1",
-				"spellShool.fire" : "zvs/Lib1.res/E_SPFIRE1",
-				"spellShool.water" : "zvs/Lib1.res/E_SPWATER1",
-				"spellShool.earth" : "zvs/Lib1.res/E_SPEATH1"
+				"spellSchool.air" : "zvs/Lib1.res/E_SPAIR1",
+				"spellSchool.fire" : "zvs/Lib1.res/E_SPFIRE1",
+				"spellSchool.water" : "zvs/Lib1.res/E_SPWATER1",
+				"spellSchool.earth" : "zvs/Lib1.res/E_SPEATH1"
 			}
 		}
 	},
