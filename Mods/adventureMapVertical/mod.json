@@ -6,5 +6,9 @@
 	"version" : "1.0",
 	"modType" : "Graphical",
 	"keepDisabled" : true,
-	"depends": [ "vcmi-extras.adventureMap" ]
+	"depends": [ "vcmi-extras.adventureMap" ],
+	"polish" : {
+		"name" : "Pionowy układ (dla trybu portretowego)",
+		"description" : "Pionowy układ mapy przygody (dla trybu portretowego)"
+	}
 }
