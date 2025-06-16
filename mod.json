@@ -6,6 +6,7 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.7.2" : ["Updated Polish translation"],
 		"3.7.1" : ["Updated Czech translation"],
 		"3.7.0" : ["Updated bonus icons submod for VCMI 1.7"],
 		"3.6.2" : ["Emoji support"],
