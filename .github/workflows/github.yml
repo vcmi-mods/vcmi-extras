@@ -15,13 +15,31 @@ jobs:
     defaults:
       run:
         shell: bash
+    env:
+      PRE_COMMIT_FILE: pre-commit.stdouterr
     steps:
         - name: Checkout repository
           uses: actions/checkout@v4
         - name: Set up Python
           uses: actions/setup-python@v5
           with:
-            python-version: '3.13' 
-            cache: 'pip'
-        - name: Validate with pre-commit
-          uses: pre-commit/action@v3.0.1
+            python-version: '3.11' 
+        - name: Cache pre-commit hooks
+          uses: actions/cache@v4
+          with:
+            path: ~/.cache/pre-commit
+            key: ${{ runner.os }}-pre-commit-hooks-${{ hashFiles('.pre-commit-config.yaml') }}
+    
+        - name: Setup pre-commit
+          run: pip3 install pre-commit
+        - name: Run pre-commit
+          id: pre-commit
+          run: |
+            # NOTE: Bash extending globing is used to exclude stdouterr files from pre-commit run
+            shopt -s extglob
+            pre-commit run \
+              --color never \
+              --show-diff-on-failure \
+              --files !(${PRE_COMMIT_FILE}) |&
+              tee "${PRE_COMMIT_FILE}"
+            shopt -u extglob
