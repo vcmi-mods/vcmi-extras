@@ -23,10 +23,5 @@ jobs:
           with:
             python-version: '3.13' 
             cache: 'pip'
-        - name: Install dependencies
-          run: |
-            python -m pip install --upgrade pip
-            pip install -r .github/requirements.txt
-        
-        - name: Validate JSON
-          run: python3 .github/validate_json.py
+        - name: Validate with pre-commit
+          uses: pre-commit/action@v3.0.1
