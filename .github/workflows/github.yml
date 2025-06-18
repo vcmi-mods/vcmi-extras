@@ -1,0 +1,32 @@
+name: Mod Validation
+
+on:
+  push:
+    branches:
+      - 'vcmi-*'
+  pull_request:
+  workflow_dispatch:
+
+
+jobs:
+  validate-json:
+    if: always()
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+        - name: Set up Python
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.13' 
+            cache: 'pip'
+        - name: Install dependencies
+          run: |
+            python -m pip install --upgrade pip
+            pip install -r .github/requirements.txt
+        
+        - name: Validate JSON
+          run: python3 .github/validate_json.py
