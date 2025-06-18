@@ -1,0 +1,6 @@
+repos: 
+  - repo: https://github.com/kamilkrz/vcmi-pre-commit
+    rev: v0.0.1
+    hooks:
+    - id: check_json_files
+      name: Check VCMI JSON files
