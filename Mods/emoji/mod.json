@@ -10,12 +10,12 @@
 	},
 	"modType" : "Interface",
 
-	"czech": {
-		"name": "Podpora emoji",
-		"description": "Přidává podporu zobrazení emoji ve hře v chatu pomocí fontu s podporou emoji."
+	"czech" : {
+		"name" : "Podpora emoji",
+		"description" : "Přidává podporu zobrazení emoji ve hře v chatu pomocí fontu s podporou emoji."
 	},
-	"polish": {
-		"name": "Obsługa emoji",
-		"description": "Dodaje obsługę wyświetlania emoji w czacie gry dzięki czcionce wspierającej emoji."
+	"polish" : {
+		"name" : "Obsługa emoji",
+		"description" : "Dodaje obsługę wyświetlania emoji w czacie gry dzięki czcionce wspierającej emoji."
 	}
 }

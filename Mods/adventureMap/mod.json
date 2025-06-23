@@ -1,17 +1,17 @@
 {
-	"name": "Revisit and Search Buttons",
-	"description": "Adds two new buttons to the adventure map interface:<br><br>• <b>Revisit</b> – allows re-entering the currently occupied object<br>• <b>Search</b> – allows finding objects within the explored area of the map<br><br>Also includes a custom hero icon.",
-	"author": "Graphics - Edeksumo, Mechanics - Ivan",
-	"contact": "http://vcmi.eu",
-	"version": "1.0",
-	"modType": "Graphical",
+	"name" : "Revisit and Search Buttons",
+	"description" : "Adds two new buttons to the adventure map interface:<br><br>• <b>Revisit</b> – allows re-entering the currently occupied object<br>• <b>Search</b> – allows finding objects within the explored area of the map<br><br>Also includes a custom hero icon.",
+	"author" : "Graphics - Edeksumo, Mechanics - Ivan",
+	"contact" : "http://vcmi.eu",
+	"version" : "1.0",
+	"modType" : "Graphical",
 
-	"czech": {
-		"name": "Tlačítka Znovunavštívit a Vyhledat",
-		"description": "Přidává dvě nová tlačítka do rozhraní dobrodružné mapy:<br><br>• <b>Znovunavštívit</b> – umožňuje znovu vstoupit do aktuálního objektu<br>• <b>Vyhledat</b> – umožňuje najít objekt v již prozkoumané části mapy<br><br>Součástí je také nová ikona hrdiny."
+	"czech" : {
+		"name" : "Tlačítka Znovunavštívit a Vyhledat",
+		"description" : "Přidává dvě nová tlačítka do rozhraní dobrodružné mapy:<br><br>• <b>Znovunavštívit</b> – umožňuje znovu vstoupit do aktuálního objektu<br>• <b>Vyhledat</b> – umožňuje najít objekt v již prozkoumané části mapy<br><br>Součástí je také nová ikona hrdiny."
 	},
-	"polish": {
-		"name": "Przyciski Ponownego Wejścia i Znajdź",
-		"description": "Dodaje dwa nowe przyciski do interfejsu mapy przygód:<br><br>• <b>Wejdź ponownie</b> – umożliwia powrót do aktualnie zajmowanego obiektu<br>• <b>Znajdź</b> – pozwala znaleźć obiekt na już odkrytej części mapy<br><br>Zawiera także nową ikonę bohatera."
+	"polish" : {
+		"name" : "Przyciski Ponownego Wejścia i Znajdź",
+		"description" : "Dodaje dwa nowe przyciski do interfejsu mapy przygód:<br><br>• <b>Wejdź ponownie</b> – umożliwia powrót do aktualnie zajmowanego obiektu<br>• <b>Znajdź</b> – pozwala znaleźć obiekt na już odkrytej części mapy<br><br>Zawiera także nową ikonę bohatera."
 	}
 }

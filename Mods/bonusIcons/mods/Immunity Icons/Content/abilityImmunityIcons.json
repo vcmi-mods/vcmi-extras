@@ -1,74 +1,74 @@
 {
 	"core:acidBreath" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_acid.bmp"
+			"iconImmune" :"abilityimmunity/imm_acid.bmp"
 		}	
 	},
 	"core:acidBreathDamage" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_acid.bmp"
+			"iconImmune" :"abilityimmunity/imm_acid.bmp"
 		}	
 	},
 	"core:stoneGaze" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_stone.bmp"
+			"iconImmune" :"abilityimmunity/imm_stone.bmp"
 		}	
 	},
 	"core:poison" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_poison.bmp"
+			"iconImmune" :"abilityimmunity/imm_poison.bmp"
 		}	
 	},
 	"core:bind" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_bind.bmp"
+			"iconImmune" :"abilityimmunity/imm_bind.bmp"
 		}	
 	},
 	"core:disease" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_disease.bmp"
+			"iconImmune" :"abilityimmunity/imm_disease.bmp"
 		}	
 	},
 	"core:paralyze" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_paralysis.bmp"
+			"iconImmune" :"abilityimmunity/imm_paralysis.bmp"
 		}	
 	},
 	"core:age" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_age.bmp"
+			"iconImmune" :"abilityimmunity/imm_age.bmp"
 		}	
 	},
 	"core:deathCloud" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_deathcloud.bmp"
+			"iconImmune" :"abilityimmunity/imm_deathcloud.bmp"
 		}	
 	},
 	"core:thunderbolt" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_lightning.bmp"
+			"iconImmune" :"abilityimmunity/imm_lightning.bmp"
 		}	
 	},
 	"core:dispelHelpful" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_dispel.bmp"
+			"iconImmune" :"abilityimmunity/imm_dispel.bmp"
 		}	
 	},
 	"core:deathStare" : {
-		"graphics":
+		"graphics" :
 		{
-			"iconImmune":"abilityimmunity/imm_death.bmp"
+			"iconImmune" :"abilityimmunity/imm_death.bmp"
 		}	
 	}
 

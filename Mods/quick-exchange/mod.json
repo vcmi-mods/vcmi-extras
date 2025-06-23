@@ -1,6 +1,6 @@
 {
 	"name" : "Quick Exchange",
-	"description": "This mod improves the heroes exchange window by adding new buttons to make swapping easier.<br><br>Adds:<br><br>• Swap all creatures button<br>• Swap all artifacts button<br>• Individual swap buttons for each creature",
+	"description" : "This mod improves the heroes exchange window by adding new buttons to make swapping easier.<br><br>Adds:<br><br>• Swap all creatures button<br>• Swap all artifacts button<br>• Individual swap buttons for each creature",
 	"version" : "1.0",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",

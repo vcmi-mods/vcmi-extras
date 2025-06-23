@@ -1,6 +1,6 @@
 {
-	"name": "Spell Immunity Bonus Icons",
-	"description": "Adds icons to indicate spell immunity or resistance on units, improving clarity during battles.",
+	"name" : "Spell Immunity Bonus Icons",
+	"description" : "Adds icons to indicate spell immunity or resistance on units, improving clarity during battles.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.6",
@@ -11,13 +11,13 @@
 		"abilityImmunityIcons.json"
 	],
 	
-	"czech": {
-		"name": "Ikony imunit vůči kouzlům",
-		"description": "Přidává ikony zobrazující imunitu nebo odolnost vůči kouzlům u jednotek, což zlepšuje přehlednost během boje."
+	"czech" : {
+		"name" : "Ikony imunit vůči kouzlům",
+		"description" : "Přidává ikony zobrazující imunitu nebo odolnost vůči kouzlům u jednotek, což zlepšuje přehlednost během boje."
 	},
-	"polish": {
-		"name": "Ikony odporności na czary",
-		"description": "Dodaje ikony przedstawiające odporność lub niewrażliwość na czary jednostek, co poprawia przejrzystość podczas walki."
+	"polish" : {
+		"name" : "Ikony odporności na czary",
+		"description" : "Dodaje ikony przedstawiające odporność lub niewrażliwość na czary jednostek, co poprawia przejrzystość podczas walki."
 	}
 
 }

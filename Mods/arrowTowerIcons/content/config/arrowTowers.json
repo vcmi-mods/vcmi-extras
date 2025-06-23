@@ -1,100 +1,100 @@
 {
-	"core:castle":
+	"core:castle" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},
-	"core:rampart":
+	"core:rampart" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},	
-	"core:tower":
+	"core:tower" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},	
-	"core:inferno":
+	"core:inferno" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},
-	"core:necropolis":
+	"core:necropolis" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},	
-	"core:dungeon":
+	"core:dungeon" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},
-	"core:stronghold":
+	"core:stronghold" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},
-	"core:fortress":
+	"core:fortress" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	},	
-	"core:conflux":
+	"core:conflux" :
 	{
-		"town":
+		"town" :
 		{
 			"siege" :
 			{
-				"towerIconSmall": "iconsSmall/towerSmall.png",
-				"towerIconLarge": "iconsBig/towerBig.png"
+				"towerIconSmall" : "iconsSmall/towerSmall.png",
+				"towerIconLarge" : "iconsBig/towerBig.png"
 			}
 		}
 	}	

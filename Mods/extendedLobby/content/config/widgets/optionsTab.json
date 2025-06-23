@@ -1,288 +1,288 @@
 {
-	"items":
+	"items" :
 	[
 		{
-			"name": "background",
-			"type": "picture",
-			"image": "TM_ADVOP",
-			"position": {"x": 0, "y": 6}
+			"name" : "background",
+			"type" : "picture",
+			"image" : "TM_ADVOP",
+			"position" : {"x" : 0, "y" : 6}
 		},
 		
 		{
-			"name": "labelTitle",
-			"type": "label",
-			"font": "big",
-			"alignment": "center",
-			"color": "yellow",
-			"text": "core.genrltxt.515",
-			"position": {"x": 222, "y": 32}
+			"name" : "labelTitle",
+			"type" : "label",
+			"font" : "big",
+			"alignment" : "center",
+			"color" : "yellow",
+			"text" : "core.genrltxt.515",
+			"position" : {"x" : 222, "y" : 32}
 		},
 		
 		{
-			"name": "labelSubTitle",
-			"type": "multiLineLabel",
-			"font": "small",
-			"alignment": "center",
-			"color": "white",
-			"text": "core.genrltxt.516",
-			"rect": {"x": 60, "y": 50, "w": 320, "h": 0},
-			"adoptHeight": true
+			"name" : "labelSubTitle",
+			"type" : "multiLineLabel",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "white",
+			"text" : "core.genrltxt.516",
+			"rect" : {"x" : 60, "y" : 50, "w" : 320, "h" : 0},
+			"adoptHeight" : true
 		},
 		
 		{
-			"name": "labelPlayerNameAndHandicap",
-			"type": "multiLineLabel",
-			"font": "small",
-			"alignment": "center",
-			"color": "yellow",
-			"text": "core.genrltxt.517",
-			"rect": {"x": 58, "y": 92, "w": 100, "h": 0},
-			"adoptHeight": true
+			"name" : "labelPlayerNameAndHandicap",
+			"type" : "multiLineLabel",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "yellow",
+			"text" : "core.genrltxt.517",
+			"rect" : {"x" : 58, "y" : 92, "w" : 100, "h" : 0},
+			"adoptHeight" : true
 		},
 		
 		{
-			"name": "labelStartingTown",
-			"type": "multiLineLabel",
-			"font": "small",
-			"alignment": "center",
-			"color": "yellow",
-			"text": "core.genrltxt.518",
-			"rect": {"x": 163, "y": 92, "w": 70, "h": 0},
-			"adoptHeight": true
+			"name" : "labelStartingTown",
+			"type" : "multiLineLabel",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "yellow",
+			"text" : "core.genrltxt.518",
+			"rect" : {"x" : 163, "y" : 92, "w" : 70, "h" : 0},
+			"adoptHeight" : true
 		},
 		
 		{
-			"name": "labelStartingHero",
-			"type": "multiLineLabel",
-			"font": "small",
-			"alignment": "center",
-			"color": "yellow",
-			"text": "core.genrltxt.519",
-			"rect": {"x": 239, "y": 92, "w": 70, "h": 0},
-			"adoptHeight": true
+			"name" : "labelStartingHero",
+			"type" : "multiLineLabel",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "yellow",
+			"text" : "core.genrltxt.519",
+			"rect" : {"x" : 239, "y" : 92, "w" : 70, "h" : 0},
+			"adoptHeight" : true
 		},
 		
 		{
-			"name": "labelStartingBonus",
-			"type": "multiLineLabel",
-			"font": "small",
-			"alignment": "center",
-			"color": "yellow",
-			"text": "core.genrltxt.520",
-			"rect": {"x": 315, "y": 92, "w": 70, "h": 0},
-			"adoptHeight": true
+			"name" : "labelStartingBonus",
+			"type" : "multiLineLabel",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "yellow",
+			"text" : "core.genrltxt.520",
+			"rect" : {"x" : 315, "y" : 92, "w" : 70, "h" : 0},
+			"adoptHeight" : true
 		},
 		
 		// timer
 		{
-			"name": "timerBackground",
-			"type": "picture",
-			"image": "timchebk",
-			"position": {"x": 0, "y": 530}
+			"name" : "timerBackground",
+			"type" : "picture",
+			"image" : "timchebk",
+			"position" : {"x" : 0, "y" : 530}
 		},
 		
 		{
-			"name": "chessFieldBase",
-			"type": "textInput",
-			"background": "timerField",
-			"alignment": "center",
-			"text": "00:00",
-			"rect": {"x": 54, "y": 557, "w": 84, "h": 25},
-			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_base",
-			"help": "vcmi.optionsTab.widgets.chessFieldBase.help"
+			"name" : "chessFieldBase",
+			"type" : "textInput",
+			"background" : "timerField",
+			"alignment" : "center",
+			"text" : "00:00",
+			"rect" : {"x" : 54, "y" : 557, "w" : 84, "h" : 25},
+			"offset" : {"x" : 0, "y" : 0},
+			"callback" : "parseAndSetTimer_base",
+			"help" : "vcmi.optionsTab.widgets.chessFieldBase.help"
 		},
 		{
-			"name": "chessFieldTurn",
-			"type": "textInput",
-			"background": "timerField",
-			"alignment": "center",
-			"text": "00:00",
-			"rect": {"x": 137, "y": 557, "w": 84, "h": 25},
-			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_turn",
-			"help": "vcmi.optionsTab.widgets.chessFieldTurn.help"
+			"name" : "chessFieldTurn",
+			"type" : "textInput",
+			"background" : "timerField",
+			"alignment" : "center",
+			"text" : "00:00",
+			"rect" : {"x" : 137, "y" : 557, "w" : 84, "h" : 25},
+			"offset" : {"x" : 0, "y" : 0},
+			"callback" : "parseAndSetTimer_turn",
+			"help" : "vcmi.optionsTab.widgets.chessFieldTurn.help"
 		},
 		{
-			"name": "chessFieldBattle",
-			"type": "textInput",
-			"background": "timerField",
-			"alignment": "center",
-			"text": "00:00",
-			"rect": {"x": 218, "y": 557, "w": 84, "h": 25},
-			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_battle",
-			"help": "vcmi.optionsTab.widgets.chessFieldBattle.help"
+			"name" : "chessFieldBattle",
+			"type" : "textInput",
+			"background" : "timerField",
+			"alignment" : "center",
+			"text" : "00:00",
+			"rect" : {"x" : 218, "y" : 557, "w" : 84, "h" : 25},
+			"offset" : {"x" : 0, "y" : 0},
+			"callback" : "parseAndSetTimer_battle",
+			"help" : "vcmi.optionsTab.widgets.chessFieldBattle.help"
 		},
 		{
-			"name": "chessFieldCreature",
-			"type": "textInput",
-			"background": "timerField",
-			"alignment": "center",
-			"text": "00:00",
-			"rect": {"x": 303, "y": 557, "w": 84, "h": 25},
-			"offset": {"x": 0, "y": 0},
-			"callback": "parseAndSetTimer_creature",
-			"help": "vcmi.optionsTab.widgets.chessFieldCreature.help"
+			"name" : "chessFieldCreature",
+			"type" : "textInput",
+			"background" : "timerField",
+			"alignment" : "center",
+			"text" : "00:00",
+			"rect" : {"x" : 303, "y" : 557, "w" : 84, "h" : 25},
+			"offset" : {"x" : 0, "y" : 0},
+			"callback" : "parseAndSetTimer_creature",
+			"help" : "vcmi.optionsTab.widgets.chessFieldCreature.help"
 		},
 		
 		{
-			"name": "timerModeSwitch",
-			"type": "comboBox",
-			"image": "timerField",
-			"position": {"x": 54, "y": 532},
-			"imageOrder": [0, 0, 0, 0],
-			"dropDown":
+			"name" : "timerModeSwitch",
+			"type" : "comboBox",
+			"image" : "timerField",
+			"position" : {"x" : 54, "y" : 532},
+			"imageOrder" : [0, 0, 0, 0],
+			"dropDown" :
 			{
-				"items":
+				"items" :
 				[
 					{
-						"name": "background",
-						"type": "picture",
-						"image": "List2Bk",
-						"position": {"x": 0, "y": -52}
+						"name" : "background",
+						"type" : "picture",
+						"image" : "List2Bk",
+						"position" : {"x" : 0, "y" : -52}
 					},
 
 					{
-						"name": "slider",
-						"type": "slider",
-						"position": {"x": 212, "y": -52},
-						"size": 52,
-						"style": "blue",
-						"itemsVisible": 2,
-						"itemsTotal": 0,
-						"selected": 0,
-						"orientation": "vertical",
-						"callback": "sliderMove"
+						"name" : "slider",
+						"type" : "slider",
+						"position" : {"x" : 212, "y" : -52},
+						"size" : 52,
+						"style" : "blue",
+						"itemsVisible" : 2,
+						"itemsTotal" : 0,
+						"selected" : 0,
+						"orientation" : "vertical",
+						"callback" : "sliderMove"
 					},
 
 					//now list elements
 					{ //classic timer
-						"type": "item",
-						"position": {"x": 0, "y": -52},
-						"items":
+						"type" : "item",
+						"position" : {"x" : 0, "y" : -52},
+						"items" :
 						[
 							{
-								"type": "label",
-								"name": "labelName",
-								"font": "small",
-								"alignment": "left",
-								"color": "white",
-								"position": {"x": 4, "y": 0},
-								"text": "vcmi.optionsTab.widgets.timerModeSwitch.classic"
+								"type" : "label",
+								"name" : "labelName",
+								"font" : "small",
+								"alignment" : "left",
+								"color" : "white",
+								"position" : {"x" : 4, "y" : 0},
+								"text" : "vcmi.optionsTab.widgets.timerModeSwitch.classic"
 							},
 							{
-								"type": "picture",
-								"name": "hoverImage",
-								"visible": false,
-								"image": "List10Sl"
+								"type" : "picture",
+								"name" : "hoverImage",
+								"visible" : false,
+								"image" : "List10Sl"
 							}
 						]
 					},
 					
 					{ //chess timer
-						"type": "item",
-						"position": {"x": 0, "y": -27},
-						"items":
+						"type" : "item",
+						"position" : {"x" : 0, "y" : -27},
+						"items" :
 						[
 							{
-								"type": "label",
-								"name": "labelName",
-								"font": "small",
-								"alignment": "left",
-								"color": "white",
-								"position": {"x": 4, "y": 0},
-								"text": "vcmi.optionsTab.widgets.timerModeSwitch.chess"
+								"type" : "label",
+								"name" : "labelName",
+								"font" : "small",
+								"alignment" : "left",
+								"color" : "white",
+								"position" : {"x" : 4, "y" : 0},
+								"text" : "vcmi.optionsTab.widgets.timerModeSwitch.chess"
 							},
 							{
-								"type": "picture",
-								"name": "hoverImage",
-								"visible": false,
-								"image": "List10Sl"
+								"type" : "picture",
+								"name" : "hoverImage",
+								"visible" : false,
+								"image" : "List10Sl"
 							}
 						]
 					},
 				]
 			},
 			
-			"items":
+			"items" :
 			[
 				{
-					"name": "timer",
-					"type": "label",
-					"font": "small",
-					"alignment": "left",
-					"color": "yellow",
-					"text": "vcmi.optionsTab.widgets.timerModeSwitch.classic"
+					"name" : "timer",
+					"type" : "label",
+					"font" : "small",
+					"alignment" : "left",
+					"color" : "yellow",
+					"text" : "vcmi.optionsTab.widgets.timerModeSwitch.classic"
 				}
 			]
 		},
 		
 		{
-			"name": "labelTurnDurationValue",
-			"type": "label",
-			"font": "small",
-			"alignment": "center",
-			"color": "white",
-			"position": {"x": 319, "y": 565}
+			"name" : "labelTurnDurationValue",
+			"type" : "label",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "white",
+			"position" : {"x" : 319, "y" : 565}
 		},
 		
 		{
-			"name": "sliderTurnDuration",
-			"type": "slider",
-			"orientation": "horizontal",
-			"position": {"x": 55, "y": 557},
-			"size": 194,
-			"callback": "setTimerPreset",
-			"itemsVisible": 1,
-			"itemsTotal": 11,
-			"selected": 11,
-			"style": "blue",
-			"scrollBounds": {"x": -3, "y": -25, "w": 337, "h": 43},
-			"panningStep": 20
+			"name" : "sliderTurnDuration",
+			"type" : "slider",
+			"orientation" : "horizontal",
+			"position" : {"x" : 55, "y" : 557},
+			"size" : 194,
+			"callback" : "setTimerPreset",
+			"itemsVisible" : 1,
+			"itemsTotal" : 11,
+			"selected" : 11,
+			"style" : "blue",
+			"scrollBounds" : {"x" : -3, "y" : -25, "w" : 337, "h" : 43},
+			"panningStep" : 20
 		},
 
 		// simturns
 		{
-			"name": "simturnsDuration",
-			"type": "slider",
-			"orientation": "horizontal",
-			"position": {"x": 144, "y": 534},
-			"size": 246,
-			"callback": "setSimturnDuration",
-			"itemsVisible": 1,
-			"itemsTotal": 28,
-			"selected": 0,
-			"style": "blue",
-			"scrollBounds": {"x": 0, "y": 0, "w": 194, "h": 32},
-			"panningStep": 20
+			"name" : "simturnsDuration",
+			"type" : "slider",
+			"orientation" : "horizontal",
+			"position" : {"x" : 144, "y" : 534},
+			"size" : 246,
+			"callback" : "setSimturnDuration",
+			"itemsVisible" : 1,
+			"itemsTotal" : 28,
+			"selected" : 0,
+			"style" : "blue",
+			"scrollBounds" : {"x" : 0, "y" : 0, "w" : 194, "h" : 32},
+			"panningStep" : 20
 		},
 		
 		{
-			"name": "labelSimturnsDurationValue",
-			"type": "label",
-			"font": "small",
-			"alignment": "center",
-			"color": "white",
-			"text": "",
-			"position": {"x": 270, "y": 542}
+			"name" : "labelSimturnsDurationValue",
+			"type" : "label",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "white",
+			"text" : "",
+			"position" : {"x" : 270, "y" : 542}
 		},
 	],
 	
-	"variables":
+	"variables" :
 	{
-		"timers":
+		"timers" :
 		[
 			{
-				"text": "vcmi.optionsTab.widgets.timerModeSwitch.classic",
-				"showWidgets": ["labelTurnDurationValue", "sliderTurnDuration"],
-				"hideWidgets": ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
+				"text" : "vcmi.optionsTab.widgets.timerModeSwitch.classic",
+				"showWidgets" : ["labelTurnDurationValue", "sliderTurnDuration"],
+				"hideWidgets" : ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
 			},
 			
 			{
-				"text": "vcmi.optionsTab.widgets.timerModeSwitch.chess",
-				"showWidgets": ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
-				"hideWidgets": ["labelTurnDurationValue", "sliderTurnDuration"],
+				"text" : "vcmi.optionsTab.widgets.timerModeSwitch.chess",
+				"showWidgets" : ["timerBackground", "chessFieldBase", "chessFieldTurn", "chessFieldBattle", "chessFieldCreature"],
+				"hideWidgets" : ["labelTurnDurationValue", "sliderTurnDuration"],
 			},
 		],
 		

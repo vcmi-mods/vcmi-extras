@@ -1,15 +1,15 @@
 {
-    "images": [
+    "images" : [
         {
-            "group": 0,
-            "frame": 0,
-            "file": "unitRg1.png"
+            "group" : 0,
+            "frame" : 0,
+            "file" : "unitRg1.png"
         },
         {
-            "group": 0,
-            "frame": 1,
-            "file": "unitRg2.png"
+            "group" : 0,
+            "frame" : 1,
+            "file" : "unitRg2.png"
         }
     ],
-    "basepath": "quick-exchange/unitRight/"
+    "basepath" : "quick-exchange/unitRight/"
 }
