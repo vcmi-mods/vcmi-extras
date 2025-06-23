@@ -222,9 +222,9 @@
 		{
 			"icon" :  "zvs/Lib1.res/DamageReductionMelee",
 			"subtypeIcons" : {
-				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/DamageReductionMelee.bmp",
-				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/DamageReductionRanged.bmp",
-				"bonusSubtype.damageTypeAll" : "zvs/Lib1.res/DamageReductionAll.bmp",
+				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/DamageReductionMelee.png",
+				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/DamageReductionRanged.png",
+				"bonusSubtype.damageTypeAll" : "zvs/Lib1.res/DamageReductionAll.png",
 			}
 		}
 	},

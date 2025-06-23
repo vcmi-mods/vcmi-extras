@@ -2,163 +2,163 @@
 	"core:blind" : {
 		"graphics" :
 		{
-			"iconImmune" :"spellimmunity/imm_blind.bmp"
+			"iconImmune" :"spellimmunity/imm_blind.png"
 		}
 		},
 		"core:antiMagic" : {
 			"graphics" :
 			{
-				"iconImmune" :"spellimmunity/imm_antimagic.bmp"
+				"iconImmune" :"spellimmunity/imm_antimagic.png"
 			}
 			},		 
 			"core:armageddon" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_armageddon.bmp"
+					"iconImmune" :"spellimmunity/imm_armageddon.png"
 				}
 			},
 			"core:destroyUndead" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_banish.bmp"
+					"iconImmune" :"spellimmunity/imm_banish.png"
 				}
 			},
 			"core:berserk" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_berserk.bmp"
+					"iconImmune" :"spellimmunity/imm_berserk.png"
 				}
 			},
 			"core:chainLightning" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_chain.bmp"
+					"iconImmune" :"spellimmunity/imm_chain.png"
 				}
 			},
 			"core:curse" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_curse.bmp"
+					"iconImmune" :"spellimmunity/imm_curse.png"
 				}
 			},
 			"core:deathRipple" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_deathripple.bmp"
+					"iconImmune" :"spellimmunity/imm_deathripple.png"
 				}
 			},
 			"core:dispel" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_dispel.bmp"
+					"iconImmune" :"spellimmunity/imm_dispel.png"
 				}
 			},
 			"core:disruptingRay" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_disrupt.bmp"
+					"iconImmune" :"spellimmunity/imm_disrupt.png"
 				}
 			},
 			"core:fireball" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_fireball.bmp"
+					"iconImmune" :"spellimmunity/imm_fireball.png"
 				}
 			},
 			"core:fireWall" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_fireWall.bmp"
+					"iconImmune" :"spellimmunity/imm_fireWall.png"
 				}
 			},
 			"core:forgetfulness" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_forget.bmp"
+					"iconImmune" :"spellimmunity/imm_forget.png"
 				}
 			},
 			"core:frostRing" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_frostring.bmp"
+					"iconImmune" :"spellimmunity/imm_frostring.png"
 				}
 			},
 			"core:hypnotize" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_hypnosis.bmp"
+					"iconImmune" :"spellimmunity/imm_hypnosis.png"
 				}
 			},
 			"core:iceBolt" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_icebolt.bmp"
+					"iconImmune" :"spellimmunity/imm_icebolt.png"
 				}
 			},
 			"core:implosion" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_implosion.bmp"
+					"iconImmune" :"spellimmunity/imm_implosion.png"
 				}
 			},
 			"core:inferno" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_inferno.bmp"
+					"iconImmune" :"spellimmunity/imm_inferno.png"
 				}
 			},
 			"core:lightningBolt" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_lightning.bmp"
+					"iconImmune" :"spellimmunity/imm_lightning.png"
 				}
 			},
 			"core:magicArrow" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_magicarrow.bmp"
+					"iconImmune" :"spellimmunity/imm_magicarrow.png"
 				}
 			},
 			"core:meteorShower" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_meteor.bmp"
+					"iconImmune" :"spellimmunity/imm_meteor.png"
 				}
 			},
 			"core:landMine" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_mine.bmp"
+					"iconImmune" :"spellimmunity/imm_mine.png"
 				}
 			},
 			"core:misfortune" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_misfortune.bmp"
+					"iconImmune" :"spellimmunity/imm_misfortune.png"
 				}
 			},
 			"core:slow" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_slow.bmp"
+					"iconImmune" :"spellimmunity/imm_slow.png"
 				}
 			},
 			"core:sorrow" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_sorrow.bmp"
+					"iconImmune" :"spellimmunity/imm_sorrow.png"
 				}
 			},
 			"core:titanBolt" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_titanbolt.bmp"
+					"iconImmune" :"spellimmunity/imm_titanbolt.png"
 				}
 			},
 			"core:weakness" : {
 				"graphics" :
 				{
-					"iconImmune" :"spellimmunity/imm_weakness.bmp"
+					"iconImmune" :"spellimmunity/imm_weakness.png"
 				}
 			}	
 }
