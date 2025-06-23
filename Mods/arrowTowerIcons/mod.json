@@ -1,21 +1,21 @@
 {
 	"name" : "Arrow Tower Icons",
-	"description" : "Two Arrow Towers icons for initiative bar.",
+	"description" : "Adds proper initiative bar icons for arrow towers during castle siege battles.",
 	"version" : "1.1",
 	"author" : "avatar, Graphic: witchking",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Compatibility",
 	"factions" : [ "config/arrowTowers" ],
 	"compatibility" : {
-	"min" : "1.1"
+		"min" : "1.1"
 	},
 	"depends" : [ "vcmi" ],
 	"czech" : {
-		"name" : "Ikony věže se šípy",
-		"description" : "Dvě ikony věží se šípy pro lištu iniciativy."
+		"name" : "Ikony střeleckých věží",
+		"description" : "Přidává správné ikony střeleckých věží do lišty iniciativy při obraně hradu."
 	},
 	"polish" : {
-		"name" : "Ikony wież strzelniczych",
-		"description" : "Dwie ikony wież strzelniczych dla paska inicjatywy."
+		"name" : "Ikony wież obronnych",
+		"description" : "Dodaje poprawne ikony wież obronnych na pasku inicjatywy podczas oblężeń zamku."
 	}
 }

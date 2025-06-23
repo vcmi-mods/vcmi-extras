@@ -1,16 +1,17 @@
 {
-	"name" : "Andruids Bonus Icons",
-	"description" : "Bonus icons for VCMI",
+	"name" : "Bonus Icons",
+	"description" : "Collection of graphical improvements for unit status in combat:<br><br>• <b>Bonus and Ability Icons</b> – adds icons for unit bonuses and abilities<br>• <b>Spell Immunity Icons</b> – shows visual indicators of spell immunity or resistance",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.8.2",
 	"modType" : "Graphical",
+	
 	"czech" : {
 		"name" : "Ikony bonusů",
-		"description" : "Ikony bonusů a schopností jednotek"
+		"description" : "Sada grafických vylepšení pro zobrazení stavu jednotek v boji:<br><br>• <b>Ikony bonusů a schopností</b> – přidává ikony bonusů a speciálních schopností jednotek<br>• <b>Ikony imunit vůči kouzlům</b> – zobrazují imunitu nebo odolnost vůči kouzlům"
 	},
 	"polish" : {
-		"name" : "Ikony bonusów Andruids",
-		"description" : "Ikony bonusów dla VCMI"
+		"name" : "Ikony bonusów",
+		"description" : "Zestaw ulepszeń graficznych dla statusu jednostek w walce:<br><br>• <b>Ikony bonusów i umiejętności</b> – dodaje ikony dla bonusów i umiejętności jednostek<br>• <b>Ikony odporności na czary</b> – pokazują odporność lub niewrażliwość na czary"
 	}
 }

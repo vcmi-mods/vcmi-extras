@@ -1,14 +1,19 @@
 {
 	"name" : "Vertical layout (for portrait mode)",
-	"description" : "Vertical layout for adventuremap (for portrait mode)",
+	"description" : "Reorganizes the user interface on the adventure map to better fit screens in portrait (vertical) orientation. Ideal for mobile devices, tablets, or vertical monitors. Elements like the hero panel, buttons, and minimap are rearranged for optimal usability.",
 	"author" : "",
 	"contact" : "http://vcmi.eu",
 	"version" : "1.0",
 	"modType" : "Graphical",
 	"keepDisabled" : true,
-	"depends": [ "vcmi-extras.adventureMap" ],
+	"depends" : [ "vcmi-extras.adventureMap" ],
+
+	"czech" : {
+		"name" : "Vertikální rozvržení (pro režim portrétu)",
+		"description" : "Přeorganizuje rozhraní na mapě dobrodružství tak, aby lépe vyhovovalo obrazovkám v režimu portrétu (vertikální orientace). Ideální pro mobilní zařízení, tablety nebo vertikální monitory. Prvky jako panel hrdiny, tlačítka a minimapa jsou nově uspořádány pro pohodlnější použití."
+	},
 	"polish" : {
 		"name" : "Pionowy układ (dla trybu portretowego)",
-		"description" : "Pionowy układ mapy przygody (dla trybu portretowego)"
+		"description" : "Przebudowuje interfejs użytkownika na mapie przygody, aby lepiej pasował do ekranów w orientacji pionowej (portretowej). Idealny dla urządzeń mobilnych, tabletów lub pionowych monitorów. Elementy takie jak panel bohatera, przyciski i minimapa są rozmieszczone na nowo dla lepszej użyteczności."
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"name" : "Extended lobby options",
-	"description" : "Additional options to configure new game maps: extended RMG settings, chess timer",
+	"description" : "Improves the game lobby with advanced RMG configuration:<br><br>• Template selection<br>• Chess timer<br>• Map size buttons for H / XH / G<br>• Support for simultaneous turns",
 	"version" : "2.2",
 	"author" : "Nordsoft",
 	"contact" : "nordsoft@yahoo.com",
@@ -19,10 +19,10 @@
 	},
 	"czech" : {
 		"name" : "Rozšířené možnosti lobby",
-		"description" : "Další možnosti pro konfiguraci nových map hry: rozšířené nastavení náhodných map, šachové hodiny."
+		"description" : "Vylepšuje herní lobby o pokročilé nastavení generátoru náhodných map:<br><br>• Výběr šablony<br>• Šachové hodiny<br>• Tlačítka pro velikosti map H / XH / G<br>• Podpora souběžných tahů"
 	},
 	"polish" : {
 		"name" : "Rozszerzone opcje lobby",
-		"description" : "Dodatkowe opcje konfiguracji nowych map gry: rozszerzone ustawienia RMG, zegar szachowy"
+		"description" : "Ulepsza lobby gry, dodając zaawansowane ustawienia generatora map:<br><br>• Wybór szablonu<br>• Zegar szachowy<br>• Przyciski rozmiarów map H / XH / G<br>• Obsługa tur jednoczesnych"
 	}
 }
