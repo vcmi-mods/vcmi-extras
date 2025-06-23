@@ -1,0 +1,15 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "unitLe1.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "unitLe2.png"
+        }
+    ],
+    "basepath": "quick-exchange/unitLeft/"
+}

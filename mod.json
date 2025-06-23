@@ -1,11 +1,12 @@
 {
 	"name" : "VCMI extras",
-	"description" : "Extra mods to enable core VCMI functionality",
-	"version" : "3.7.3",
+	"description": "Collection of enhancements and fixes for VCMI interface and gameplay:<br><br>• <b>Extended lobby options</b><br> Adds template selection, map size buttons (H/XH/G), chess timer, and support for simultaneous turns<br><br>• <b>Revisit & Search buttons</b><br> Adds buttons to revisit the current object and perform contextual searches on the adventure map<br><br>• <b>Quick Exchange</b><br> Improves the hero exchange screen with one-click swap buttons for all creatures and artifacts<br><br>• <b>Vertical layout (portrait mode)</b><br> Optimizes the adventure map interface for vertical screen orientation (portrait mode)<br><br>• <b>Bonus icons</b><br> Adds visual indicators for unit bonuses and special abilities<br><br>• <b>Spell immunity icons</b><br> Displays spell immunity icons for creatures during combat<br><br>• <b>Emoji support</b><br> Enables emoji font rendering in the in-game chat",
+	"version" : "3.7.4",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.7.4" : ["Updated Quick Exchange", "Improved descriptions", "Updated Czech translation"],
 		"3.7.3" : ["Removed battlefield actions submod due to being integrated in vcmi"],
 		"3.7.2" : ["Updated Polish translation"],
 		"3.7.1" : ["Updated Czech translation"],
@@ -40,26 +41,25 @@
 		"3.2.0" : ["Added battlefieldActions submod"],
 		"3.1.2" : ["Added three testing G+U-sized templates"],
 		"3.1.1" : ["Fixed 'doubled 8mm6' RMG template"],
-		"3.1" : ["Tweaked many RMG templates"],
-		"3.0" : ["Added extended RMG mod"],
-		"2.5" : ["Updated tower arrows mod for new format"],
-		"2.4" : ["Adder arrow tower mod"],
-		"2.3" : ["Added resolution 1366x644 fits better for iPhone"],
-		"2.2" : ["Remove Resourceful AI as submod"],
-		"2.1" : ["Added Resourceful AI as submod"],
-		"2.0" : ["Restructure of the essential files mod"],
-		"1.00" : ["Update defaultTemplates submod"]
+		"3.1"   : ["Tweaked many RMG templates"],
+		"3.0"   : ["Added extended RMG mod"],
+		"2.5"   : ["Updated tower arrows mod for new format"],
+		"2.4"   : ["Adder arrow tower mod"],
+		"2.3"   : ["Added resolution 1366x644 fits better for iPhone"],
+		"2.2"   : ["Remove Resourceful AI as submod"],
+		"2.1"   : ["Added Resourceful AI as submod"],
+		"2.0"   : ["Restructure of the essential files mod"],
+		"1.0"   : ["Update defaultTemplates submod"]
 	},
 	"compatibility" : {
 		"min" : "1.6.0"
 	},
 	"czech" : {
 		"name" : "Rozšíření VCMI",
-		"description" : "Dodatečné módy pro umožnění základní funkčnosti VCMI"
+		"description" : "Rozšíření a opravy pro rozhraní a hratelnost ve VCMI:<br><br>• <b>Rozšířené možnosti lobby</b><br> Přidává výběr šablony, tlačítka velikosti mapy (H/XH/G), šachové hodiny a podporu souběžných tahů<br><br>• <b>Tlačítka Znovunavštívit a Vyhledat</b><br> Přidává tlačítka pro opětovný vstup do aktuálního objektu a kontextové vyhledávání na mapě<br><br>• <b>Rychlá výměna</b><br> Vylepšuje okno výměny hrdinů o tlačítka pro výměnu všech jednotek a artefaktů jedním kliknutím<br><br>• <b>Vertikální rozvržení (režim portrétu)</b><br> Optimalizuje rozhraní mapy dobrodružství pro obrazovky ve svislé orientaci<br><br>• <b>Ikony bonusů</b><br> Zobrazuje vizuální indikátory bonusů a speciálních schopností jednotek<br><br>• <b>Ikony imunit vůči kouzlům</b><br> Zobrazuje ikony imunit vůči kouzlům během boje<br><br>• <b>Podpora emoji</b><br> Umožňuje zobrazení emoji ve hře (např. v chatu)"
 	},
 	"polish" : {
 		"name" : "Dodatki VCMI",
-		"description" : "Dodatkowe mody, które zapewniają dostęp do podstawowych funkcjonalności VCMI"
+		"description" : "Zestaw ulepszeń i poprawek dla interfejsu i rozgrywki w VCMI:<br><br>• <b>Rozszerzone opcje lobby</b><br> Dodaje wybór szablonu, przyciski rozmiaru mapy (H/XH/G), zegar szachowy i obsługę tur jednoczesnych<br><br>• <b>Przyciski Ponownego Wejścia i Znajdź</b><br> Dodaje przyciski umożliwiające powrót do obiektu i kontekstowe wyszukiwanie na mapie<br><br>• <b>Szybka wymiana</b><br> Ulepsza ekran wymiany bohaterów o przyciski do jednoczesnej wymiany wszystkich jednostek i artefaktów<br><br>• <b>Pionowy układ (tryb portretowy)</b><br> Optymalizuje interfejs mapy przygód dla ekranów w orientacji pionowej<br><br>• <b>Ikony bonusów</b><br> Dodaje graficzne wskaźniki bonusów i umiejętności jednostek<br><br>• <b>Ikony odporności na czary</b><br> Wyświetla ikony odporności na czary podczas walki<br><br>• <b>Obsługa emoji</b><br> Umożliwia wyświetlanie emoji w grze (np. na czacie)"
 	}
 }
-

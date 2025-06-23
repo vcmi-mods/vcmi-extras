@@ -1,0 +1,27 @@
+name: Mod Validation
+
+on:
+  push:
+    branches:
+      - 'vcmi-*'
+  pull_request:
+  workflow_dispatch:
+
+
+jobs:
+  validate-json:
+    if: always()
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        shell: bash
+    steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Install jstyleson
+          run: sudo apt install python3-jstyleson
+
+        - name: Validate JSON
+          run: python3 .github/validate_json.py
+

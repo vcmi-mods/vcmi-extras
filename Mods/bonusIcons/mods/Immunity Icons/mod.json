@@ -1,6 +1,6 @@
 {
-	"name" : "Spell Immunity Bonus Icons",
-	"description" : "Spell Immunity icons for VCMI",
+	"name": "Spell Immunity Bonus Icons",
+	"description": "Adds icons to indicate spell immunity or resistance on units, improving clarity during battles.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.6",
@@ -10,13 +10,14 @@
 		"spellImmunityIcons.json",
 		"abilityImmunityIcons.json"
 	],
-	"czech" : {
-		"name" : "Ikony imunity vůči kouzlům",
-		"description" : "Ikony zobrazující imunitu vůči kouzlům pro VCMI."
+	
+	"czech": {
+		"name": "Ikony imunit vůči kouzlům",
+		"description": "Přidává ikony zobrazující imunitu nebo odolnost vůči kouzlům u jednotek, což zlepšuje přehlednost během boje."
 	},
-	"polish" : {
-		"name" : "Ikony odporności na czary",
-		"description" : "Ikony odporności na czary dla VCMI"
+	"polish": {
+		"name": "Ikony odporności na czary",
+		"description": "Dodaje ikony przedstawiające odporność lub niewrażliwość na czary jednostek, co poprawia przejrzystość podczas walki."
 	}
 
 }

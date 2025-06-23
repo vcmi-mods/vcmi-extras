@@ -1,20 +1,20 @@
 {
-	"name" : "Bonus Icons",
-	"description" : "Bonus icons for VCMI.",
-	"author" : "Andruids",
-	"contact" : "madaosoul@gmail.com",
-	"version" : "0.81",
-	"modType" : "Graphical",
+	"name": "Bonus and Ability Icons",
+	"description": "Adds new graphical icons for various unit bonuses and abilities, enhancing visual feedback in battles and creature screens.",
+	"author": "Andruids",
+	"contact": "madaosoul@gmail.com",
+	"version": "0.81",
+	"modType": "Graphical",
 
-	"bonuses" : [
+	"bonuses": [
 		"config/bonusIcons/bonuses.json"
 	],
-	"czech" : {
-		"name" : "Bonusové ikony",
-		"description" : "Bonusové ikony pro VCMI."
+	"czech": {
+		"name": "Ikony bonusů a schopností",
+		"description": "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek."
 	},
-	"polish" : {
-		"name" : "Ikony Bonusów",
-		"description" : "Ikony bonusów dla VCMI."
+	"polish": {
+		"name": "Ikony bonusów i umiejętności",
+		"description": "Dodaje nowe graficzne ikony dla różnych bonusów i umiejętności jednostek. Poprawia czytelność podczas walki i na ekranie jednostek."
 	}
 }
