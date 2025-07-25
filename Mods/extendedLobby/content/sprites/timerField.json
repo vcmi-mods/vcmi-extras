@@ -1,12 +1,10 @@
 {
-    "sequences" :
-    [
-        {
-            "group" : 0,
-            "frames" :
-            [
-                "timerField.bmp"
-            ]
-        }
-    ]
+	"sequences" : [
+		{
+			"group" : 0,
+			"frames" : [
+				"timerField.bmp"
+			]
+		}
+	]
 }

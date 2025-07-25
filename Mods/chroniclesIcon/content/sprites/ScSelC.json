@@ -1,6 +1,8 @@
 {
-	"images" :
-	[
-		{ "frame" : 50, "file" : "chronicles/mapFormat.png"}
+	"images" : [
+		{
+			"frame" : 50,
+			"file" : "chronicles/mapFormat.png"
+		}
 	]
 }

@@ -6,7 +6,7 @@
 	"contact" : "vcmi.eu",
 	"version" : "1.0.0",
 	"compatibility" : {
-	    "min" : "1.6.6"
+		"min" : "1.6.6"
 	},
 	"modType" : "Interface"
 }
