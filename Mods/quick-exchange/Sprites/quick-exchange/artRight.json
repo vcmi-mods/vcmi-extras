@@ -1,20 +1,20 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "artRg1.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "artRg2.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "artRg3.png"
-        }
-    ],
-    "basepath": "quick-exchange/artRight/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "artRg1.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "artRg2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "artRg3.png"
+		}
+	],
+	"basepath" : "quick-exchange/artRight/"
 }
