@@ -6,7 +6,9 @@
 	"version" : "1.0",
 	"modType" : "Graphical",
 	"keepDisabled" : true,
-	"depends" : [ "vcmi-extras.adventureMap" ],
+	"depends" : [
+		"vcmi-extras.adventureMap"
+	],
 
 	"czech" : {
 		"name" : "Vertikální rozvržení (pro režim portrétu)",
