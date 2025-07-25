@@ -6,5 +6,7 @@
 	"version" : "1.0",
 	"modType" : "Graphical",
 	"keepDisabled" : true,
-	"depends": [ "vcmi-extras.adventureMap" ]
+	"depends" : [
+		"vcmi-extras.adventureMap"
+	]
 }
