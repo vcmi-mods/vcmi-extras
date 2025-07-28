@@ -267,7 +267,7 @@
 			"icon" : "zvs/Lib1.res/e_MaxDamage"
 		}
 	},
-	
+
 	"core:MECHANICAL" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/Mechanical"
