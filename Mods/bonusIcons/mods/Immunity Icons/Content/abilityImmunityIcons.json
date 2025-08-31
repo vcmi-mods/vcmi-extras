@@ -1,62 +1,75 @@
 {
 	"core:acidBreath" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_acid.png"
-		}
+		}	
 	},
 	"core:acidBreathDamage" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_acid.png"
-		}
+		}	
 	},
 	"core:stoneGaze" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_stone.png"
-		}
+		}	
 	},
 	"core:poison" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_poison.png"
-		}
+		}	
 	},
 	"core:bind" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_bind.png"
-		}
+		}	
 	},
 	"core:disease" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_disease.png"
-		}
+		}	
 	},
 	"core:paralyze" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_paralysis.png"
-		}
+		}	
 	},
 	"core:age" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_age.png"
-		}
+		}	
 	},
 	"core:deathCloud" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_deathcloud.png"
-		}
+		}	
 	},
 	"core:thunderbolt" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_lightning.png"
-		}
+		}	
 	},
 	"core:dispelHelpful" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_dispel.png"
-		}
+		}	
 	},
 	"core:deathStare" : {
-		"graphics" : {
+		"graphics" :
+		{
 			"iconImmune" : "abilityimmunity/imm_death.png"
-		}
+		}	
 	}
+
 }

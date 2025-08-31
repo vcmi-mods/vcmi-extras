@@ -5,15 +5,11 @@
 	"author" : "avatar, Graphic: witchking",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Compatibility",
-	"factions" : [
-		"config/arrowTowers"
-	],
+	"factions" : [ "config/arrowTowers" ],
 	"compatibility" : {
 		"min" : "1.1"
 	},
-	"depends" : [
-		"vcmi"
-	],
+	"depends" : [ "vcmi" ],
 	"czech" : {
 		"name" : "Ikony střeleckých věží",
 		"description" : "Přidává správné ikony střeleckých věží do lišty iniciativy při obraně hradu."

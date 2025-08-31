@@ -1,5 +1,6 @@
 {
-	"bitmap" : [
+	"bitmap" :
+	[
 		"BIGFONT",
 		"CALLI10R",
 		"CREDITS",
@@ -10,89 +11,19 @@
 		"TINY",
 		"VERD10B"
 	],
-	"trueType" : {
+	"trueType" :
+	{
 		//"Noto Emoji" font - "Noto Color Emoji" would need at least SDL3 -> not supported right now
-		"BIGFONT" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				18,
-				38,
-				57,
-				76
-			]
-		},
-		"CALLI10R" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				12,
-				24,
-				36,
-				48
-			]
-		},
-		"CREDITS" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				22,
-				44,
-				66,
-				88
-			]
-		},
-		"HISCORE" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				18,
-				36,
-				54,
-				72
-			]
-		},
-		"MEDFONT" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				13,
-				26,
-				39,
-				52
-			]
-		},
-		"SMALFONT" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				11,
-				22,
-				33,
-				44
-			]
-		},
-		"TIMES08R" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				8,
-				16,
-				24,
-				32
-			]
-		},
-		"TINY" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				9,
-				18,
-				28,
-				38
-			]
-		},
-		"VERD10B" : {
-			"file" : "NotoEmoji-Light.ttf",
-			"size" : [
-				13,
-				26,
-				39,
-				52
-			]
-		}
+		"BIGFONT"  : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 18, 38, 57, 76] },
+		"CALLI10R" : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 12, 24, 36, 48] },
+		"CREDITS"  : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 22, 44, 66, 88] },
+		"HISCORE"  : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 18, 36, 54, 72] },
+		"MEDFONT"  : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 13, 26, 39, 52] },
+		"SMALFONT" : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 11, 22, 33, 44] },
+		"TIMES08R" : { "file" : "NotoEmoji-Light.ttf",   "size" : [  8, 16, 24, 32] },
+		"TINY"     : { "file" : "NotoEmoji-Light.ttf",   "size" : [  9, 18, 28, 38] },
+		"VERD10B"  : { "file" : "NotoEmoji-Light.ttf",   "size" : [ 13, 26, 39, 52] }
 	},
 	"lowPriority" : true
 }
+

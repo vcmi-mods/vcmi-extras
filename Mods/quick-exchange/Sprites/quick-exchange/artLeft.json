@@ -1,20 +1,20 @@
 {
-	"images" : [
-		{
-			"group" : 0,
-			"frame" : 0,
-			"file" : "artLe1.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 1,
-			"file" : "artLe2.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 2,
-			"file" : "artLe3.png"
-		}
-	],
-	"basepath" : "quick-exchange/artLeft/"
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "artLe1.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "artLe2.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "artLe3.png"
+        }
+    ],
+    "basepath": "quick-exchange/artLeft/"
 }

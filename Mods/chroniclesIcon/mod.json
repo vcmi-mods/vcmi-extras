@@ -5,17 +5,17 @@
 	"contact" : "vcmi.eu",
 	"version" : "1.0.0",
 	"modType" : "Compatibility",
-	"depends" : [
+	"depends" : [ 
 		"chronicles"
 	],
 	"keepDisabled" : true,
 	"settings" : {
-		"mapFormat" : {
-			"chronicles" : {
+        "mapFormat" : {
+            "chronicles" : {
 				"iconIndex" : 50
-			}
-		}
-	},
+            }
+        }
+    },
 	"czech" : {
 		"name" : "Ikony Kronik",
 		"description" : "Ikony Kronik pro VCMI."

@@ -1,9 +1,8 @@
 {
-	"items" : [
+	"items" :
+	[
 		{
-			"overrides" : {
-				"rect" : "backgroundRect"
-			}, //do not modify
+			"overrides" : {"rect" : "backgroundRect"}, //do not modify
 			"name" : "background",
 			"type" : "texture",
 			"image" : "DiBoxBck",
@@ -11,9 +10,7 @@
 		},
 		{
 			"name" : "buttonOK",
-			"overrides" : {
-				"position" : "okButtonPosition"
-			}, //do not modify
+			"overrides" : {"position" : "okButtonPosition"}, //do not modify
 			"type" : "button",
 			"image" : "MUBCHCK",
 			"help" : "core.help.560",
@@ -21,59 +18,37 @@
 		},
 		{
 			"name" : "buttonCancel",
-			"overrides" : {
-				"position" : "cancelButtonPosition"
-			}, //do not modify
+			"overrides" : {"position" : "cancelButtonPosition"}, //do not modify
 			"type" : "button",
 			"image" : "MUBCANC",
 			"help" : "core.help.561",
 			"callback" : "cancel"
 		}
 	],
-	"variables" : {
-		"windowSize" : {
-			"x" : 80,
-			"y" : 80
-		}, //minimul size of window - actually borders
-		"cellOffset" : {
-			"x" : 40,
-			"y" : 20
-		}, //point where first cell will be created
-		"cellMargin" : {
-			"x" : 32,
-			"y" : 32
-		}, //distance between cells
-		//cell button
-		"button" : {
-			"overrides" : {
-				"position" : "point"
-			}, //do not modify
+	"variables" :
+	{
+		"windowSize" : {"x" : 80, "y" : 80}, //minimul size of window - actually borders
+		"cellOffset" : {"x" : 40, "y" : 20}, //point where first cell will be created
+		"cellMargin" : {"x" : 32, "y" : 32}, //distance between cells
+		"button" : //cell button
+		{
+			"overrides" : {"position" : "point"}, //do not modify
 			"name" : "button",
 			"type" : "toggleButton",
 			"image" : "TeamPlSl"
 		},
-		//when cell is checked
-		"flagsAnimation" : {
+		"flagsAnimation" : //when cell is checked
+		{
 			"type" : "image",
-			"position" : {
-				"x" : 8,
-				"y" : 8
-			},
+			"position" : {"x" : 8, "y" : 8},
 			"group" : 0,
 			"image" : "ITGFLAGS",
-			"overrides" : {
-				"frame" : "player_id"
-			} //do not modify
+			"overrides" : {"frame" : "player_id"} //do not modify
 		},
-		"buttonsOffset" : {
-			"ok" : {
-				"x" : 40,
-				"y" : 40
-			}, //offset for ok button
-			"cancel" : {
-				"x" : 120,
-				"y" : 40
-			} //offset for calncel button
+		"buttonsOffset" :
+		{
+			"ok" : {"x" : 40, "y" : 40}, //offset for ok button
+			"cancel" : {"x" : 120, "y" : 40} //offset for calncel button
 		}
 	}
 }

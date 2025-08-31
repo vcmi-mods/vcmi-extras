@@ -8,16 +8,10 @@
 
 	"filesystem" : {
 		"DATA/" : [
-			{
-				"type" : "dir",
-				"path" : "/Data"
-			}
+			{"type" : "dir",  "path" : "/Data"}
 		],
 		"SPRITES/" : [
-			{
-				"type" : "dir",
-				"path" : "/Sprites"
-			}
+			{"type" : "dir",  "path" : "/Sprites"}
 		]
 	},
 	"czech" : {
