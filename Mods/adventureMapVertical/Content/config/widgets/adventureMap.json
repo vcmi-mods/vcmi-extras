@@ -1,24 +1,40 @@
 {
 	"options" : {
 		// player-colored images used for background
-		"imagesPlayerColored" : [ "AdvMap.pcx" ]
+		"imagesPlayerColored" : [
+			"AdvMap.pcx"
+		]
 	},
 
-	"items" :
-	[
+	"items" : [
 		// unused area
 		{
 			"type" : "adventureMapContainer",
 			"name" : "emptyAreaFillSmall",
 			"hideWhen" : "worldViewMode",
-			"area" : { "bottom" : 0, "left" : 194, "height" : 193, "right" : 0 },
+			"area" : {
+				"bottom" : 0,
+				"left" : 194,
+				"height" : 193,
+				"right" : 0
+			},
 			"items" : [
 				{
 					"type" : "adventureMapImage",
 					"name" : "emptyAreaFillSmallImage",
 					"image" : "DiBoxBck.pcx",
-					"area" : { "top" : 0, "bottom" : 0, "left" : 0, "right" : 0 },
-					"sourceArea" : { "left" : 0, "top" : 0, "width" : 256, "height" : 256 }
+					"area" : {
+						"top" : 0,
+						"bottom" : 0,
+						"left" : 0,
+						"right" : 0
+					},
+					"sourceArea" : {
+						"left" : 0,
+						"top" : 0,
+						"width" : 256,
+						"height" : 256
+					}
 				}
 			]
 		},
@@ -27,14 +43,29 @@
 			"type" : "adventureMapContainer",
 			"name" : "emptyAreaFillSmall2",
 			"hideWhen" : "mapViewMode",
-			"area" : { "bottom" : 0, "left" : 194, "height" : 193, "right" : 0 },
+			"area" : {
+				"bottom" : 0,
+				"left" : 194,
+				"height" : 193,
+				"right" : 0
+			},
 			"items" : [
 				{
 					"type" : "adventureMapImage",
 					"name" : "emptyAreaFillSmallImage2",
 					"image" : "DiBoxBck.pcx",
-					"area" : { "top" : 0, "bottom" : 0, "left" : 0, "right" : 0 },
-					"sourceArea" : { "left" : 0, "top" : 0, "width" : 256, "height" : 256 }
+					"area" : {
+						"top" : 0,
+						"bottom" : 0,
+						"left" : 0,
+						"right" : 0
+					},
+					"sourceArea" : {
+						"left" : 0,
+						"top" : 0,
+						"width" : 256,
+						"height" : 256
+					}
 				}
 			]
 		},
@@ -44,110 +75,235 @@
 			"type" : "adventureMapImage",
 			"name" : "backgroundRightTop",
 			"image" : "AdvMap.pcx",
-			"area" : { "left" : 0, "top" : 0, "width" : 7, "height" : 52 }
+			"area" : {
+				"left" : 0,
+				"top" : 0,
+				"width" : 7,
+				"height" : 52
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundRightCenter",
 			"image" : "AdvMap.pcx",
-			"area" : { "left" : 0, "top" : 52, "width" : 7, "bottom" : 91 }
+			"area" : {
+				"left" : 0,
+				"top" : 52,
+				"width" : 7,
+				"bottom" : 91
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundRightBottom",
 			"image" : "AdvMap.pcx",
-			"area" : { "left" : 0, "bottom" : 193, "width" : 7, "height" : 91 }
+			"area" : {
+				"left" : 0,
+				"bottom" : 193,
+				"width" : 7,
+				"height" : 91
+			}
 		},
 		// Background sections - right side
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundLeftTop",
 			"image" : "AdvMap.pcx",
-			"area" : { "right" : 0, "top" : 0, "width" : 3, "height" : 52 }
+			"area" : {
+				"right" : 0,
+				"top" : 0,
+				"width" : 3,
+				"height" : 52
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundLeftCenter",
 			"image" : "AdvMap.pcx",
-			"area" : { "right" : 0, "top" : 52, "width" : 3, "bottom" : 215 }
+			"area" : {
+				"right" : 0,
+				"top" : 52,
+				"width" : 3,
+				"bottom" : 215
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundLeftBottom",
 			"image" : "AdvMap.pcx",
-			"area" : { "right" : 0, "bottom" : 193, "width" : 3, "height" : 91 }
+			"area" : {
+				"right" : 0,
+				"bottom" : 193,
+				"width" : 3,
+				"height" : 91
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundLeftTop2",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "right" : 195, "top" : 0, "width" : 4, "height" : 52 },
-			"area" : { "right" : 3, "top" : 0, "width" : 4, "height" : 52 }
+			"sourceArea" : {
+				"right" : 195,
+				"top" : 0,
+				"width" : 4,
+				"height" : 52
+			},
+			"area" : {
+				"right" : 3,
+				"top" : 0,
+				"width" : 4,
+				"height" : 52
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundLeftCenter2",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "right" : 195, "top" : 52, "width" : 4, "bottom" : 91 },
-			"area" : { "right" : 3, "top" : 52, "width" : 4, "bottom" : 215 }
+			"sourceArea" : {
+				"right" : 195,
+				"top" : 52,
+				"width" : 4,
+				"bottom" : 91
+			},
+			"area" : {
+				"right" : 3,
+				"top" : 52,
+				"width" : 4,
+				"bottom" : 215
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundLeftBottom2",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "right" : 195, "bottom" : 193, "width" : 4, "height" : 91 },
-			"area" : { "right" : 3, "bottom" : 193, "width" : 4, "height" : 91 }
+			"sourceArea" : {
+				"right" : 195,
+				"bottom" : 193,
+				"width" : 4,
+				"height" : 91
+			},
+			"area" : {
+				"right" : 3,
+				"bottom" : 193,
+				"width" : 4,
+				"height" : 91
+			}
 		},
 		// Background sections - top side
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundTopLeft",
 			"image" : "AdvMap.pcx",
-			"area" : { "left" : 7, "top" : 0, "width" : 193, "height" : 7 }
+			"area" : {
+				"left" : 7,
+				"top" : 0,
+				"width" : 193,
+				"height" : 7
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundTopCenter",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "width" : 1, "top" : 0, "right" : 400, "height" : 7 },
-			"area" : { "left" : 200, "top" : 0, "right" : 45, "height" : 7 }
+			"sourceArea" : {
+				"width" : 1,
+				"top" : 0,
+				"right" : 400,
+				"height" : 7
+			},
+			"area" : {
+				"left" : 200,
+				"top" : 0,
+				"right" : 45,
+				"height" : 7
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundTopRight",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "width" : 45, "top" : 0, "right" : 194, "height" : 7 },
-			"area" : { "width" : 45, "top" : 0, "right" : 2, "height" : 7 }
+			"sourceArea" : {
+				"width" : 45,
+				"top" : 0,
+				"right" : 194,
+				"height" : 7
+			},
+			"area" : {
+				"width" : 45,
+				"top" : 0,
+				"right" : 2,
+				"height" : 7
+			}
 		},
 		// Background sections - bottom side
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundBottomLeft",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "left" : 0, "bottom" : 0, "right" : 0, "height" : 47 },
-			"area" : { "left" : 0, "bottom" : 193, "width" : 44, "height" : 47 }
+			"sourceArea" : {
+				"left" : 0,
+				"bottom" : 0,
+				"right" : 0,
+				"height" : 47
+			},
+			"area" : {
+				"left" : 0,
+				"bottom" : 193,
+				"width" : 44,
+				"height" : 47
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundBottomCenter",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "left" : 44, "bottom" : 0, "width" : 100, "height" : 47 },
-			"area" : { "left" : 44, "bottom" : 193, "right" : 45, "height" : 47 }
+			"sourceArea" : {
+				"left" : 44,
+				"bottom" : 0,
+				"width" : 100,
+				"height" : 47
+			},
+			"area" : {
+				"left" : 44,
+				"bottom" : 193,
+				"right" : 45,
+				"height" : 47
+			}
 		},
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundBottomRight",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "width" : 45, "bottom" : 0, "right" : 194, "height" : 47 },
-			"area" : { "width" : 45, "bottom" : 193, "right" : 2, "height" : 47 }
+			"sourceArea" : {
+				"width" : 45,
+				"bottom" : 0,
+				"right" : 194,
+				"height" : 47
+			},
+			"area" : {
+				"width" : 45,
+				"bottom" : 193,
+				"right" : 2,
+				"height" : 47
+			}
 		},
 		// Background sections - side panel
 		{
 			"type" : "adventureMapImage",
 			"name" : "backgroundRightMinimap",
 			"image" : "AdvMap.pcx",
-			"sourceArea" : { "right" : 0, "top" : 0, "width" : 199, "height" : 196 },
-			"area" : { "left" : -5, "bottom" : -2, "width" : 199, "height" : 196 }
+			"sourceArea" : {
+				"right" : 0,
+				"top" : 0,
+				"width" : 199,
+				"height" : 196
+			},
+			"area" : {
+				"left" : -5,
+				"bottom" : -2,
+				"width" : 199,
+				"height" : 196
+			}
 		},
 
 		// Status bar
@@ -155,29 +311,68 @@
 			"type" : "adventureStatusBar",
 			"name" : "statusBar",
 			"image" : "DiBoxBck.pcx",
-			"area" : { "left" : 8, "bottom" : 220, "right" : 8, "height" : 18 }
+			"area" : {
+				"left" : 8,
+				"bottom" : 220,
+				"right" : 8,
+				"height" : 18
+			}
 		},
 		// Resource & Data bar
 		{
 			"type" : "adventurePlayerTexture",
 			"name" : "backgroundLeftOfResourceDateBar",
 			"image" : "DiBoxBck.pcx",
-			"area" : { "left" : 3, "bottom" : 196, "right" : 797, "height" : 21 }
+			"area" : {
+				"left" : 3,
+				"bottom" : 196,
+				"right" : 797,
+				"height" : 21
+			}
 		},
 		{
 			"type" : "adventureResourceDateBar",
 			"name" : "resourceDataBar",
 			"image" : "AResBar.pcx",
-			"area" : { "bottom" : 196, "right" : 3, "height" : 22, "width" : 794 },
-			
-			"wood"    : { "x" :  37, "y" : 3 },
-			"mercury" : { "x" : 121, "y" : 3 },
-			"ore"     : { "x" : 205, "y" : 3 },
-			"sulfur"  : { "x" : 289, "y" : 3 },
-			"crystal" : { "x" : 373, "y" : 3 },
-			"gems"    : { "x" : 457, "y" : 3 },
-			"gold"    : { "x" : 541, "y" : 3 },
-			"date"    : { "x" : 619, "y" : 3 }
+			"area" : {
+				"bottom" : 196,
+				"right" : 3,
+				"height" : 22,
+				"width" : 794
+			},
+
+			"wood" : {
+				"x" : 37,
+				"y" : 3
+			},
+			"mercury" : {
+				"x" : 121,
+				"y" : 3
+			},
+			"ore" : {
+				"x" : 205,
+				"y" : 3
+			},
+			"sulfur" : {
+				"x" : 289,
+				"y" : 3
+			},
+			"crystal" : {
+				"x" : 373,
+				"y" : 3
+			},
+			"gems" : {
+				"x" : 457,
+				"y" : 3
+			},
+			"gold" : {
+				"x" : 541,
+				"y" : 3
+			},
+			"date" : {
+				"x" : 619,
+				"y" : 3
+			}
 		},
 
 		// World view mode widgets
@@ -185,150 +380,240 @@
 			"type" : "adventureMapContainer",
 			"name" : "mapViewContainer",
 			"hideWhen" : "worldViewMode",
-			"area" : { "top" : 0, "right" : 0, "left" : 0, "bottom" : 0 },
+			"area" : {
+				"top" : 0,
+				"right" : 0,
+				"left" : 0,
+				"bottom" : 0
+			},
 			"items" : [
-		        // Adventure map buttons
-		        {
-			        "type" : "adventureMapContainer",
-			        "name" : "buttonsContainer1",
-			        "area" : { "bottom" : 1, "left" : 262, "right" : 246, "height" : 192 },
-			        "items" : [
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonKingdomOverview",
-					        "image" : "buttons/iam002.def",
-					        "help" : "core.help.293",
-					        "hotkey" : "adventureKingdomOverview",
-					        "playerColored" : true,
-					        "area" : { "top" : 32, "left" : 16, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapContainer",
-					        "hideWhen" : "mapLayerSurface",
-					        "area" : { "top" : 32, "left" : 64, "width" : 32, "height" : 32 },
-					        "items" : [
-						        {
-							        "type" : "adventureMapButton",
-							        "name" : "buttonUnderground",
-							        "image" : "buttons/iam010.def",
-							        "help" : "core.help.294",
-							        "hotkey" : "adventureToggleMapLevel",
-							        "playerColored" : true,
-							        "area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
-						        }
-					        ]
-				        },
-				        {
-					        "type" : "adventureMapContainer",
-					        "hideWhen" : "mapLayerUnderground",
-					        "area" : { "top" : 32, "left" : 64, "width" : 32, "height" : 32 },
-					        "items" : [
-						        {
-							        "type" : "adventureMapButton",
-							        "name" : "buttonSurface",
-							        "image" : "buttons/iam003.def",
-							        "help" : "core.help.294",
-							        "hotkey" : "adventureToggleMapLevel",
-							        "playerColored" : true,
-							        "area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
-						        }
-					        ]
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonQuestLog",
-					        "image" : "buttons/iam004.def",
-					        "help" : "core.help.295",
-					        "hotkey" : "adventureQuestLog",
-					        "playerColored" : true,
-					        "area" : { "top" : 80, "left" : 16, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapContainer",
-					        "hideWhen" : "heroAwake",
-					        "area" : { "top" : 80, "left" : 64, "width" : 32, "height" : 32 },
-					        "items" : [
-						        {
-							        "type" : "adventureMapButton",
-							        "name" : "buttonSleep",
-							        "image" : "buttons/iam005.def",
-							        "help" : "core.help.296",
-							        "hotkey" : "adventureSetHeroAsleep",
-							        "playerColored" : true,
-							        "area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
-						        }
-					        ]
-				        },
-				        {
-					        "type" : "adventureMapContainer",
-					        "hideWhen" : "heroSleeping",
-					        "area" : { "top" : 80, "left" : 64, "width" : 32, "height" : 32 },
-					        "items" : [
-						        {
-							        "type" : "adventureMapButton",
-							        "name" : "buttonWake",
-							        "image" : "buttons/iam011.def",
-							        "help" : "core.help.296",
-							        "hotkey" : "adventureSetHeroAwake",
-							        "playerColored" : true,
-							        "area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
-						        }
-					        ]
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonMove",
-					        "image" : "buttons/iam006.def",
-					        "help" : "core.help.297",
-					        "hotkey" : "adventureMoveHero",
-					        "playerColored" : true,
-					        "area" : { "top" : 128, "left" : 16, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonCast",
-					        "image" : "buttons/iam007.def",
-					        "help" : "core.help.298",
-					        "hotkey" : "adventureCastSpell",
-					        "playerColored" : true,
-					        "area" : { "top" : 128, "left" : 64, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonAdventureOptions",
-					        "image" : "buttons/iam008.def",
-					        "help" : "core.help.299",
-					        "hotkey" : "adventureGameOptions",
-					        "playerColored" : true,
-					        "area" : { "top" : 32, "left" : 112, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonSystemOptions",
-					        "image" : "buttons/iam009.def",
-					        "help" : "core.help.300",
-					        "hotkey" : "globalOptions",
-					        "playerColored" : true,
-					        "area" : { "top" : 80, "left" : 112, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonNextHero",
-					        "image" : "buttons/iam000.def",
-					        "help" : "core.help.301",
-					        "hotkey" : "adventureNextHero",
-					        "playerColored" : true,
-					        "area" : { "top" : 128, "left" : 112, "width" : 32, "height" : 32 }
-				        },
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonRevisit",
-					        "image" : "buttons/iam-revisit.def",
-					        "help" : "vcmi.adventureMap.revisitObject",
-					        "hotkey" : "adventureVisitObject",
-					        "playerColored" : true,
-					        "area" : { "top" : 32, "left" : 160, "width" : 32, "height" : 32 }
-				        },
+				// Adventure map buttons
+				{
+					"type" : "adventureMapContainer",
+					"name" : "buttonsContainer1",
+					"area" : {
+						"bottom" : 1,
+						"left" : 262,
+						"right" : 246,
+						"height" : 192
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonKingdomOverview",
+							"image" : "buttons/iam002.def",
+							"help" : "core.help.293",
+							"hotkey" : "adventureKingdomOverview",
+							"playerColored" : true,
+							"area" : {
+								"top" : 32,
+								"left" : 16,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "mapLayerSurface",
+							"area" : {
+								"top" : 32,
+								"left" : 64,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "buttonUnderground",
+									"image" : "buttons/iam010.def",
+									"help" : "core.help.294",
+									"hotkey" : "adventureToggleMapLevel",
+									"playerColored" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "mapLayerUnderground",
+							"area" : {
+								"top" : 32,
+								"left" : 64,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "buttonSurface",
+									"image" : "buttons/iam003.def",
+									"help" : "core.help.294",
+									"hotkey" : "adventureToggleMapLevel",
+									"playerColored" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonQuestLog",
+							"image" : "buttons/iam004.def",
+							"help" : "core.help.295",
+							"hotkey" : "adventureQuestLog",
+							"playerColored" : true,
+							"area" : {
+								"top" : 80,
+								"left" : 16,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "heroAwake",
+							"area" : {
+								"top" : 80,
+								"left" : 64,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "buttonSleep",
+									"image" : "buttons/iam005.def",
+									"help" : "core.help.296",
+									"hotkey" : "adventureSetHeroAsleep",
+									"playerColored" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "heroSleeping",
+							"area" : {
+								"top" : 80,
+								"left" : 64,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "buttonWake",
+									"image" : "buttons/iam011.def",
+									"help" : "core.help.296",
+									"hotkey" : "adventureSetHeroAwake",
+									"playerColored" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMove",
+							"image" : "buttons/iam006.def",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"area" : {
+								"top" : 128,
+								"left" : 16,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonCast",
+							"image" : "buttons/iam007.def",
+							"help" : "core.help.298",
+							"hotkey" : "adventureCastSpell",
+							"playerColored" : true,
+							"area" : {
+								"top" : 128,
+								"left" : 64,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonAdventureOptions",
+							"image" : "buttons/iam008.def",
+							"help" : "core.help.299",
+							"hotkey" : "adventureGameOptions",
+							"playerColored" : true,
+							"area" : {
+								"top" : 32,
+								"left" : 112,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonSystemOptions",
+							"image" : "buttons/iam009.def",
+							"help" : "core.help.300",
+							"hotkey" : "globalOptions",
+							"playerColored" : true,
+							"area" : {
+								"top" : 80,
+								"left" : 112,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonNextHero",
+							"image" : "buttons/iam000.def",
+							"help" : "core.help.301",
+							"hotkey" : "adventureNextHero",
+							"playerColored" : true,
+							"area" : {
+								"top" : 128,
+								"left" : 112,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisit.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"area" : {
+								"top" : 32,
+								"left" : 160,
+								"width" : 32,
+								"height" : 32
+							}
+						},
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonSearch",
@@ -336,86 +621,162 @@
 							"help" : "vcmi.adventureMap.search",
 							"hotkey" : "adventureSearch",
 							"playerColored" : true,
-							"area" : { "top" : 80, "left" : 160, "width" : 32, "height" : 32 }
+							"area" : {
+								"top" : 80,
+								"left" : 160,
+								"width" : 32,
+								"height" : 32
+							}
 						},
-				        {
-					        "type" : "adventureMapButton",
-					        "name" : "buttonEndTurn",
-					        "image" : "buttons/iam001.def",
-					        "hotkey" : "gameEndTurn",
-					        "help" : "core.help.302",
-					        "playerColored" : true,
-					        "area" : { "top" : 128, "left" : 160, "width" : 64, "height" : 32 }
-				        }
-			        ]
-		        },
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonEndTurn",
+							"image" : "buttons/iam001.def",
+							"hotkey" : "gameEndTurn",
+							"help" : "core.help.302",
+							"playerColored" : true,
+							"area" : {
+								"top" : 128,
+								"left" : 160,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
 
-		        // Hero List
-		        {
-			        "type" : "adventureMapHeroList",
-			        "name" : "heroList",
-			        "area" : { "bottom" : 0, "left" : 194, "width" : 68, "height" : 193 },
-			        "scrollUp" : {
-				        "type" : "adventureMapButton",
-				        "name" : "heroListScrollUp",
-				        "image" : "IAM012.def",
-				        "help" : "core.help.303",
-				        "area" : { "top" : 0, "left" : 2, "width" : 64, "height" : 16 }
-			        },
-			        "scrollDown" : {
-				        "type" : "adventureMapButton",
-				        "name" : "heroListScrollDown",
-				        "image" : "IAM013.def",
-				        "help" : "core.help.304",
-				        "area" : { "bottom" : 0, "left" : 2, "width" : 64, "height" : 16 }
-			        },
-			        "item" : { "top" :  16, "left" : 3, "width" : 62, "height" : 32 },
-			        "itemsOffset" : { "x" : 0, "y" : 32 },
-			        "itemsCount" : 5
-		        },
-		        // Town List
-		        {
-			        "type" : "adventureMapTownList",
-			        "name" : "townList",
-			        "area" : { "bottom" : 0, "right" : 195, "width" : 51, "height" : 193 },
-			        "scrollUp" : {
-				        "type" : "adventureMapButton",
-				        "name" : "townListScrollUp",
-				        "image" : "IAM014.def",
-				        "help" : "core.help.306",
-				        "area" : { "top" : 0, "left" : 1, "width" : 48, "height" : 16 }
-			        },
-			        "scrollDown" : {
-				        "type" : "adventureMapButton",
-				        "name" : "townListScrollDown",
-				        "image" : "IAM015.def",
-				        "help" : "core.help.307",
-				        "area" : { "bottom" : 0, "left" : 1, "width" : 48, "height" : 16 }
-			        },
-			        "item" : { "top" :  16, "left" : 2, "width" : 48, "height" : 32 },
-			        "itemsOffset" : { "x" : 0, "y" : 32 },
-			        "itemsCount" : 5
-		        },
-		        {
-			        "type" : "adventureMapContainer",
-			        "name" : "adventureInfobarContainer",
-			        "area" : { "bottom" : 0, "right" : 0, "width" : 195, "height" : 185 },
-			        "items" : [
-				        // Infobar
-				        {
-					        "type" : "adventureMapImage",
-					        "name" : "backgroundRightInfobar",
-					        "image" : "AdvMap.pcx",
-					        "area" : { "top" : 0, "bottom" : 0, "left" : 0, "right" : 0 },
-					        "sourceArea" : { "bottom" : 25, "right" : 0, "width" : 195, "height" : 185 }
-				        },
-				        {
-					        "type" : "adventureInfobar",
-					        "name" : "infoBar",
-					        "area" : { "bottom" : 19, "right" : 19, "width" : 175, "height" : 168 }
-				        }
-			        ]
-		        }
+				// Hero List
+				{
+					"type" : "adventureMapHeroList",
+					"name" : "heroList",
+					"area" : {
+						"bottom" : 0,
+						"left" : 194,
+						"width" : 68,
+						"height" : 193
+					},
+					"scrollUp" : {
+						"type" : "adventureMapButton",
+						"name" : "heroListScrollUp",
+						"image" : "IAM012.def",
+						"help" : "core.help.303",
+						"area" : {
+							"top" : 0,
+							"left" : 2,
+							"width" : 64,
+							"height" : 16
+						}
+					},
+					"scrollDown" : {
+						"type" : "adventureMapButton",
+						"name" : "heroListScrollDown",
+						"image" : "IAM013.def",
+						"help" : "core.help.304",
+						"area" : {
+							"bottom" : 0,
+							"left" : 2,
+							"width" : 64,
+							"height" : 16
+						}
+					},
+					"item" : {
+						"top" : 16,
+						"left" : 3,
+						"width" : 62,
+						"height" : 32
+					},
+					"itemsOffset" : {
+						"x" : 0,
+						"y" : 32
+					},
+					"itemsCount" : 5
+				},
+				// Town List
+				{
+					"type" : "adventureMapTownList",
+					"name" : "townList",
+					"area" : {
+						"bottom" : 0,
+						"right" : 195,
+						"width" : 51,
+						"height" : 193
+					},
+					"scrollUp" : {
+						"type" : "adventureMapButton",
+						"name" : "townListScrollUp",
+						"image" : "IAM014.def",
+						"help" : "core.help.306",
+						"area" : {
+							"top" : 0,
+							"left" : 1,
+							"width" : 48,
+							"height" : 16
+						}
+					},
+					"scrollDown" : {
+						"type" : "adventureMapButton",
+						"name" : "townListScrollDown",
+						"image" : "IAM015.def",
+						"help" : "core.help.307",
+						"area" : {
+							"bottom" : 0,
+							"left" : 1,
+							"width" : 48,
+							"height" : 16
+						}
+					},
+					"item" : {
+						"top" : 16,
+						"left" : 2,
+						"width" : 48,
+						"height" : 32
+					},
+					"itemsOffset" : {
+						"x" : 0,
+						"y" : 32
+					},
+					"itemsCount" : 5
+				},
+				{
+					"type" : "adventureMapContainer",
+					"name" : "adventureInfobarContainer",
+					"area" : {
+						"bottom" : 0,
+						"right" : 0,
+						"width" : 195,
+						"height" : 185
+					},
+					"items" : [
+						// Infobar
+						{
+							"type" : "adventureMapImage",
+							"name" : "backgroundRightInfobar",
+							"image" : "AdvMap.pcx",
+							"area" : {
+								"top" : 0,
+								"bottom" : 0,
+								"left" : 0,
+								"right" : 0
+							},
+							"sourceArea" : {
+								"bottom" : 25,
+								"right" : 0,
+								"width" : 195,
+								"height" : 185
+							}
+						},
+						{
+							"type" : "adventureInfobar",
+							"name" : "infoBar",
+							"area" : {
+								"bottom" : 19,
+								"right" : 19,
+								"width" : 175,
+								"height" : 168
+							}
+						}
+					]
+				}
 			]
 		},
 
@@ -423,14 +784,29 @@
 			"type" : "adventureMapContainer",
 			"name" : "worldViewContainer",
 			"hideWhen" : "mapViewMode",
-			"area" : { "height" : 337, "left" : 382, "width" : 188, "bottom" : 22 },
+			"area" : {
+				"height" : 337,
+				"left" : 382,
+				"width" : 188,
+				"bottom" : 22
+			},
 			"items" : [
 				{
 					"type" : "adventureMapImage",
 					"name" : "worldViewBackground",
 					"image" : "VWorld.pcx",
-					"area" : { "left" : 0, "right" : 0, "top" : 165, "height" : 172 },
-					"sourceArea" : { "left" : 1, "right" : 1, "top" : 165, "bottom" : 44 }
+					"area" : {
+						"left" : 0,
+						"right" : 0,
+						"top" : 165,
+						"height" : 172
+					},
+					"sourceArea" : {
+						"left" : 1,
+						"right" : 1,
+						"top" : 165,
+						"bottom" : 44
+					}
 				},
 				// World view - mines icons
 				{
@@ -439,7 +815,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 5,
 					"perPlayer" : 19,
-					"area" : { "top" : 183, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 183,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -447,7 +828,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 6,
 					"perPlayer" : 19,
-					"area" : { "top" : 203, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 203,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -455,7 +841,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 7,
 					"perPlayer" : 19,
-					"area" : { "top" : 223, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 223,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -463,7 +854,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 8,
 					"perPlayer" : 19,
-					"area" : { "top" : 243, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 243,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -471,7 +867,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 9,
 					"perPlayer" : 19,
-					"area" : { "top" : 263, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 263,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -479,7 +880,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 10,
 					"perPlayer" : 19,
-					"area" : { "top" : 283, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 283,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -487,9 +893,14 @@
 					"image" : "VwSymbol.def",
 					"index" : 11,
 					"perPlayer" : 19,
-					"area" : { "top" : 303, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 303,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
-				
+
 				// World view - resources icons
 				{
 					"type" : "adventureMapIcon",
@@ -497,7 +908,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 12,
 					"perPlayer" : 19,
-					"area" : { "top" : 183, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 183,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -505,7 +921,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 13,
 					"perPlayer" : 19,
-					"area" : { "top" : 203, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 203,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -513,7 +934,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 14,
 					"perPlayer" : 19,
-					"area" : { "top" : 223, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 223,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -521,7 +947,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 15,
 					"perPlayer" : 19,
-					"area" : { "top" : 243, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 243,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -529,7 +960,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 16,
 					"perPlayer" : 19,
-					"area" : { "top" : 263, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 263,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -537,7 +973,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 17,
 					"perPlayer" : 19,
-					"area" : { "top" : 283, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 283,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -545,7 +986,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 18,
 					"perPlayer" : 19,
-					"area" : { "top" : 303, "left" : 154, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 303,
+						"left" : 154,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 
 				{
@@ -554,34 +1000,54 @@
 					"font" : "calisto",
 					"alignment" : "center",
 					"color" : "white",
-					"items" :
-					[
+					"items" : [
 						{
-							"position" : {"x" : 101, "y" : 198},
+							"position" : {
+								"x" : 101,
+								"y" : 198
+							},
 							"text" : "core.genrltxt.619"
 						},
 						{
-							"position" : {"x" : 101, "y" : 218},
+							"position" : {
+								"x" : 101,
+								"y" : 218
+							},
 							"text" : "core.genrltxt.620"
 						},
 						{
-							"position" : {"x" : 101, "y" : 238},
+							"position" : {
+								"x" : 101,
+								"y" : 238
+							},
 							"text" : "core.genrltxt.621"
 						},
 						{
-							"position" : {"x" : 101, "y" : 258},
+							"position" : {
+								"x" : 101,
+								"y" : 258
+							},
 							"text" : "core.genrltxt.622"
 						},
 						{
-							"position" : {"x" : 101, "y" : 278},
+							"position" : {
+								"x" : 101,
+								"y" : 278
+							},
 							"text" : "core.genrltxt.623"
 						},
 						{
-							"position" : {"x" : 101, "y" : 298},
+							"position" : {
+								"x" : 101,
+								"y" : 298
+							},
 							"text" : "core.genrltxt.624"
 						},
 						{
-							"position" : {"x" : 101, "y" : 318},
+							"position" : {
+								"x" : 101,
+								"y" : 318
+							},
 							"text" : "core.genrltxt.625"
 						}
 					]
@@ -592,7 +1058,10 @@
 					"font" : "calisto",
 					"alignment" : "left",
 					"color" : "white",
-					"position" : {"x" : 7, "y" : 173},
+					"position" : {
+						"x" : 7,
+						"y" : 173
+					},
 					"text" : "core.genrltxt.617"
 				},
 				{
@@ -601,7 +1070,10 @@
 					"font" : "calisto",
 					"alignment" : "right",
 					"color" : "white",
-					"position" : {"x" : 185, "y" : 190},
+					"position" : {
+						"x" : 185,
+						"y" : 190
+					},
 					"text" : "core.genrltxt.618"
 				}
 			]
@@ -611,35 +1083,65 @@
 			"type" : "adventureMapContainer",
 			"name" : "worldViewContainer3",
 			"hideWhen" : "mapViewMode",
-			"area" : { "height" : 170, "left" : 194, "width" : 188, "bottom" : 23 },
+			"area" : {
+				"height" : 170,
+				"left" : 194,
+				"width" : 188,
+				"bottom" : 23
+			},
 			"items" : [
 				{
 					"type" : "adventureMapImage",
 					"name" : "worldViewBackground2",
 					"image" : "VWorld.pcx",
-					"area" : { "left" : 0, "right" : 0, "top" : 0, "height" : 163 },
-					"sourceArea" : { "left" : 1, "right" : 1, "top" : 2, "height" : 163 }
+					"area" : {
+						"left" : 0,
+						"right" : 0,
+						"top" : 0,
+						"height" : 163
+					},
+					"sourceArea" : {
+						"left" : 1,
+						"right" : 1,
+						"top" : 2,
+						"height" : 163
+					}
 				},
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom1",
 					"image" : "VWMAG1.def",
 					"hotkey" : "adventureViewWorld1",
-					"area" : { "top" : 23, "left" : 1, "width" : 60, "height" : 32 }
+					"area" : {
+						"top" : 23,
+						"left" : 1,
+						"width" : 60,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom2",
 					"image" : "VWMAG2.def",
 					"hotkey" : "adventureViewWorld2",
-					"area" : { "top" : 23, "left" : 64, "width" : 60, "height" : 32 }
+					"area" : {
+						"top" : 23,
+						"left" : 64,
+						"width" : 60,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom4",
 					"image" : "VWMAG4.def",
 					"hotkey" : "adventureViewWorld4",
-					"area" : { "top" : 23, "left" : 128, "width" : 60, "height" : 32 }
+					"area" : {
+						"top" : 23,
+						"left" : 128,
+						"width" : 60,
+						"height" : 32
+					}
 				},
 				// World view - objects icons
 				{
@@ -648,7 +1150,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 0,
 					"perPlayer" : 19,
-					"area" : { "top" : 59, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 59,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -656,7 +1163,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 1,
 					"perPlayer" : 19,
-					"area" : { "top" : 79, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 79,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -664,7 +1176,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 2,
 					"perPlayer" : 19,
-					"area" : { "top" : 99, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 99,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -672,7 +1189,12 @@
 					"image" : "VwSymbol.def",
 					"index" : 3,
 					"perPlayer" : 19,
-					"area" : { "top" : 119, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 119,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapIcon",
@@ -680,16 +1202,24 @@
 					"image" : "VwSymbol.def",
 					"index" : 4,
 					"perPlayer" : 19,
-					"area" : { "top" : 139, "left" : 5, "width" : 32, "height" : 32 }
+					"area" : {
+						"top" : 139,
+						"left" : 5,
+						"width" : 32,
+						"height" : 32
+					}
 				},
-				
+
 				{
 					"name" : "worldViewLabelTitle",
 					"type" : "label",
 					"font" : "big",
 					"alignment" : "center",
 					"color" : "yellow",
-					"position" : {"x" : 94, "y" : 11},
+					"position" : {
+						"x" : 94,
+						"y" : 11
+					},
 					"text" : "core.genrltxt.611"
 				},
 				{
@@ -698,26 +1228,40 @@
 					"font" : "calisto",
 					"alignment" : "left",
 					"color" : "white",
-					"items" :
-					[
+					"items" : [
 						{
-							"position" : {"x" : 43, "y" : 66},
+							"position" : {
+								"x" : 43,
+								"y" : 66
+							},
 							"text" : "core.genrltxt.612"
 						},
 						{
-							"position" : {"x" : 43, "y" : 86},
+							"position" : {
+								"x" : 43,
+								"y" : 86
+							},
 							"text" : "core.genrltxt.613"
 						},
 						{
-							"position" : {"x" : 43, "y" : 106},
+							"position" : {
+								"x" : 43,
+								"y" : 106
+							},
 							"text" : "core.genrltxt.614"
 						},
 						{
-							"position" : {"x" : 43, "y" : 126},
+							"position" : {
+								"x" : 43,
+								"y" : 126
+							},
 							"text" : "core.genrltxt.615"
 						},
 						{
-							"position" : {"x" : 43, "y" : 146},
+							"position" : {
+								"x" : 43,
+								"y" : 146
+							},
 							"text" : "core.genrltxt.616"
 						}
 					]
@@ -729,12 +1273,22 @@
 			"type" : "adventureMapContainer",
 			"name" : "worldViewContainer2",
 			"hideWhen" : "mapViewMode",
-			"area" : { "height" : 381, "right" : 5, "width" : 190, "bottom" : 5 },
+			"area" : {
+				"height" : 381,
+				"right" : 5,
+				"width" : 190,
+				"bottom" : 5
+			},
 			"items" : [
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "mapLayerSurface",
-					"area" : { "top" : 343, "left" : 79, "width" : 32, "height" : 32 },
+					"area" : {
+						"top" : 343,
+						"left" : 79,
+						"width" : 32,
+						"height" : 32
+					},
 					"items" : [
 						{
 							"type" : "adventureMapButton",
@@ -742,7 +1296,12 @@
 							"image" : "buttons/iam003.def",
 							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
-							"area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
 						}
 					]
 				},
@@ -752,12 +1311,22 @@
 					"borderColor" : "gold",
 					"image" : "VWPUZ.def",
 					"hotkey" : "adventureViewPuzzle",
-					"area" : { "top" : 343, "left" : 5, "width" : 66, "height" : 32 }
+					"area" : {
+						"top" : 343,
+						"left" : 5,
+						"width" : 66,
+						"height" : 32
+					}
 				},
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "mapLayerUnderground",
-					"area" : { "top" : 343, "left" : 79, "width" : 32, "height" : 32 },
+					"area" : {
+						"top" : 343,
+						"left" : 79,
+						"width" : 32,
+						"height" : 32
+					},
 					"items" : [
 						{
 							"type" : "adventureMapButton",
@@ -765,7 +1334,12 @@
 							"image" : "buttons/iam010.def",
 							"playerColored" : true,
 							"hotkey" : "adventureToggleMapLevel",
-							"area" : { "top" : 0, "left" : 0, "width" : 32, "height" : 32 }
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
 						}
 					]
 				},
@@ -775,7 +1349,12 @@
 					"borderColor" : "gold",
 					"image" : "IOKAY32.def",
 					"hotkey" : "adventureExitWorldView",
-					"area" : { "top" : 343, "left" : 119, "width" : 66, "height" : 32 }
+					"area" : {
+						"top" : 343,
+						"left" : 119,
+						"width" : 66,
+						"height" : 32
+					}
 				}
 			]
 		},
@@ -784,14 +1363,24 @@
 		{
 			"type" : "adventureMapGameArea",
 			"name" : "mapView",
-			"area" : { "top" : 7, "bottom" : 240, "left" : 7, "right" : 7 }
+			"area" : {
+				"top" : 7,
+				"bottom" : 240,
+				"left" : 7,
+				"right" : 7
+			}
 		},
-		
+
 		// Minimap
 		{
 			"type" : "adventureMinimap",
 			"name" : "minimap",
-			"area" : { "bottom" : 24, "left" : 24, "width" : 144, "height" : 144 }
+			"area" : {
+				"bottom" : 24,
+				"left" : 24,
+				"width" : 144,
+				"height" : 144
+			}
 		},
 
 		// GEMS - set of images with different image for each player
@@ -799,7 +1388,12 @@
 			"type" : "adventureMapContainer",
 			"name" : "overlayGemTopLeft",
 			"overlay" : true,
-			"area" : { "left" : 6, "top" : 6, "width" : 46, "height" : 46 },
+			"area" : {
+				"left" : 6,
+				"top" : 6,
+				"width" : 46,
+				"height" : 46
+			},
 			"items" : [
 				{
 					"type" : "adventureMapIcon",
@@ -807,7 +1401,12 @@
 					"image" : "agemUL.def",
 					"index" : 0,
 					"perPlayer" : 1,
-					"area" : { "left" : 0, "top" : 0, "right" : 0, "bottom" : 0 }
+					"area" : {
+						"left" : 0,
+						"top" : 0,
+						"right" : 0,
+						"bottom" : 0
+					}
 				}
 			]
 		},
@@ -815,7 +1414,12 @@
 			"type" : "adventureMapContainer",
 			"name" : "overlayGemTopRight",
 			"overlay" : true,
-			"area" : { "right" : 6, "top" : 6, "width" : 46, "height" : 46 },
+			"area" : {
+				"right" : 6,
+				"top" : 6,
+				"width" : 46,
+				"height" : 46
+			},
 			"items" : [
 				{
 					"type" : "adventureMapIcon",
@@ -823,7 +1427,12 @@
 					"image" : "agemUR.def",
 					"index" : 0,
 					"perPlayer" : 1,
-					"area" : { "left" : 0, "top" : 0, "right" : 0, "bottom" : 0 }
+					"area" : {
+						"left" : 0,
+						"top" : 0,
+						"right" : 0,
+						"bottom" : 0
+					}
 				}
 			]
 		},
@@ -831,7 +1440,12 @@
 			"type" : "adventureMapContainer",
 			"name" : "overlayGemBottomLeft",
 			"overlay" : true,
-			"area" : { "left" : 6, "bottom" : 240, "width" : 46, "height" : 46 },
+			"area" : {
+				"left" : 6,
+				"bottom" : 240,
+				"width" : 46,
+				"height" : 46
+			},
 			"items" : [
 				{
 					"type" : "adventureMapIcon",
@@ -839,7 +1453,12 @@
 					"image" : "agemLL.def",
 					"index" : 0,
 					"perPlayer" : 1,
-					"area" : { "left" : 0, "top" : 0, "right" : 0, "bottom" : 0 }
+					"area" : {
+						"left" : 0,
+						"top" : 0,
+						"right" : 0,
+						"bottom" : 0
+					}
 				}
 			]
 		},
@@ -847,7 +1466,12 @@
 			"type" : "adventureMapContainer",
 			"name" : "overlayGemBottomRight",
 			"overlay" : true,
-			"area" : { "right" : 6, "bottom" : 240, "width" : 46, "height" : 46 },
+			"area" : {
+				"right" : 6,
+				"bottom" : 240,
+				"width" : 46,
+				"height" : 46
+			},
 			"items" : [
 				{
 					"type" : "adventureMapIcon",
@@ -855,7 +1479,12 @@
 					"image" : "agemLR.def",
 					"index" : 0,
 					"perPlayer" : 1,
-					"area" : { "left" : 0, "top" : 0, "right" : 0, "bottom" : 0 }
+					"area" : {
+						"left" : 0,
+						"top" : 0,
+						"right" : 0,
+						"bottom" : 0
+					}
 				}
 			]
 		}
