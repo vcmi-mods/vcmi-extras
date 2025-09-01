@@ -1,9 +1,21 @@
 {
 	"basepath" : "iam-anchor/",
 	"images" : [
-		{ "frame" : 0, "file" : "1.png" },
-		{ "frame" : 1, "file" : "2.png" },
-		{ "frame" : 2, "file" : "3.png" },
-		{ "frame" : 3, "file" : "4.png" }
+		{
+			"frame" : 0,
+			"file" : "1.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "2.png"
+		},
+		{
+			"frame" : 2,
+			"file" : "3.png"
+		},
+		{
+			"frame" : 3,
+			"file" : "4.png"
+		}
 	]
 }
