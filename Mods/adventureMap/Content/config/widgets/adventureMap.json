@@ -178,11 +178,14 @@
 				"width" : 64,
 				"height" : 192
 			},
+			"exists" : {
+				"heightMax" : 864
+			},
 			"items" : [
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonKingdomOverview",
-					"image" : "IAM002.DEF",
+					"image" : "buttons/iam002.def",
 					"help" : "core.help.293",
 					"hotkey" : "adventureKingdomOverview",
 					"playerColored" : true,
@@ -206,7 +209,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonUnderground",
-							"image" : "IAM010.DEF",
+							"image" : "buttons/iam010.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
@@ -232,7 +235,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonSurface",
-							"image" : "IAM003.DEF",
+							"image" : "buttons/iam003.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
@@ -248,7 +251,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonQuestLog",
-					"image" : "IAM004.DEF",
+					"image" : "buttons/iam004.def",
 					"help" : "core.help.295",
 					"hotkey" : "adventureQuestLog",
 					"playerColored" : true,
@@ -272,7 +275,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonSleep",
-							"image" : "IAM005.DEF",
+							"image" : "buttons/iam005.def",
 							"help" : "core.help.296",
 							"hotkey" : "adventureSetHeroAsleep",
 							"playerColored" : true,
@@ -298,7 +301,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonWake",
-							"image" : "IAM011.DEF",
+							"image" : "buttons/iam011.def",
 							"help" : "core.help.296",
 							"hotkey" : "adventureSetHeroAwake",
 							"playerColored" : true,
@@ -314,7 +317,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonMove",
-					"image" : "IAM006.DEF",
+					"image" : "buttons/iam006.def",
 					"help" : "core.help.297",
 					"hotkey" : "adventureMoveHero",
 					"playerColored" : true,
@@ -328,7 +331,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonCast",
-					"image" : "IAM007.DEF",
+					"image" : "buttons/iam007.def",
 					"help" : "core.help.298",
 					"hotkey" : "adventureCastSpell",
 					"playerColored" : true,
@@ -342,7 +345,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonAdventureOptions",
-					"image" : "IAM008.DEF",
+					"image" : "buttons/iam008.def",
 					"help" : "core.help.299",
 					"hotkey" : "adventureGameOptions",
 					"playerColored" : true,
@@ -356,7 +359,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonSystemOptions",
-					"image" : "IAM009.DEF",
+					"image" : "buttons/iam009.def",
 					"help" : "core.help.300",
 					"hotkey" : "globalOptions",
 					"playerColored" : true,
@@ -369,10 +372,216 @@
 				}
 			]
 		},
-		// Adventure map buttons for small (600-664) vertical resolution
+
+		// Adventure map buttons (900+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
 			"name" : "buttonsContainer2",
+			"hideWhen" : "worldViewMode",
+			"area" : {
+				"top" : 196,
+				"right" : 57,
+				"width" : 64,
+				"height" : 222
+			},
+			"exists" : {
+				"heightMin" : 864
+			},
+			"items" : [
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonKingdomOverview",
+					"image" : "buttons/iam002L.def",
+					"help" : "core.help.293",
+					"hotkey" : "adventureKingdomOverview",
+					"playerColored" : true,
+					"area" : {
+						"top" : 0,
+						"left" : 0,
+						"width" : 62,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "mapLayerSurface",
+					"area" : {
+						"top" : 32,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonUnderground",
+							"image" : "buttons/iam010L.def",
+							"help" : "core.help.294",
+							"hotkey" : "adventureToggleMapLevel",
+							"playerColored" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "mapLayerUnderground",
+					"area" : {
+						"top" : 32,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonSurface",
+							"image" : "buttons/iam003L.def",
+							"help" : "core.help.294",
+							"hotkey" : "adventureToggleMapLevel",
+							"playerColored" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonQuestLog",
+					"image" : "buttons/iam004L.def",
+					"help" : "core.help.295",
+					"hotkey" : "adventureQuestLog",
+					"playerColored" : true,
+					"area" : {
+						"top" : 64,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroAwake",
+					"area" : {
+						"top" : 96,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonSleep",
+							"image" : "buttons/iam005L.def",
+							"help" : "core.help.296",
+							"hotkey" : "adventureSetHeroAsleep",
+							"playerColored" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroSleeping",
+					"area" : {
+						"top" : 96,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonWake",
+							"image" : "buttons/iam011L.def",
+							"help" : "core.help.296",
+							"hotkey" : "adventureSetHeroAwake",
+							"playerColored" : true,
+							"area" : {
+								"top" : 96,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonMove",
+					"image" : "buttons/iam006L.def",
+					"help" : "core.help.297",
+					"hotkey" : "adventureMoveHero",
+					"playerColored" : true,
+					"area" : {
+						"top" : 128,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonCast",
+					"image" : "buttons/iam007L.def",
+					"help" : "core.help.298",
+					"hotkey" : "adventureCastSpell",
+					"playerColored" : true,
+					"area" : {
+						"top" : 160,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonAdventureOptions",
+					"image" : "buttons/iam008L.def",
+					"help" : "core.help.299",
+					"hotkey" : "adventureGameOptions",
+					"playerColored" : true,
+					"area" : {
+						"top" : 192,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonSystemOptions",
+					"image" : "buttons/iam009L.def",
+					"help" : "core.help.300",
+					"hotkey" : "globalOptions",
+					"playerColored" : true,
+					"area" : {
+						"top" : 224,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				}
+			]
+		},
+		// Adventure map buttons for small (600-664) vertical resolution
+		{
+			"type" : "adventureMapContainer",
+			"name" : "buttonsContainer3",
 			"hideWhen" : "worldViewMode",
 			"area" : {
 				"top" : 196,
@@ -387,7 +596,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonNextHero",
-					"image" : "vcmiExtrasAdventureMap/hero.def",
+					"image" : "buttons/iam000.def",
 					"help" : "core.help.301",
 					"hotkey" : "adventureNextHero",
 					"playerColored" : true,
@@ -415,7 +624,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonEndTurn",
-					"image" : "IAM001.DEF",
+					"image" : "buttons/iam001L.def",
 					"hotkey" : "gameEndTurn",
 					"help" : "core.help.302",
 					"playerColored" : true,
@@ -428,10 +637,11 @@
 				}
 			]
 		},
+
 		// Adventure map buttons for large (664+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
-			"name" : "buttonsContainer3",
+			"name" : "buttonsContainer4",
 			"hideWhen" : "worldViewMode",
 			"area" : {
 				"top" : 196,
@@ -440,13 +650,14 @@
 				"height" : 224
 			},
 			"exists" : {
-				"heightMin" : 664
+				"heightMin" : 664,
+				"heightMax" : 864
 			},
 			"items" : [
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonRevisit",
-					"image" : "vcmiExtrasAdventureMap/revisit.def",
+					"image" : "buttons/iam-revisit.def",
 					"help" : "vcmi.adventureMap.revisitObject",
 					"hotkey" : "adventureVisitObject",
 					"playerColored" : true,
@@ -460,7 +671,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonSearch",
-					"image" : "vcmiExtrasAdventureMap/search.def",
+					"image" : "buttons/iam-search.def",
 					"help" : "vcmi.adventureMap.search",
 					"hotkey" : "adventureSearch",
 					"playerColored" : true,
@@ -474,7 +685,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonNextHero",
-					"image" : "IAM000.DEF",
+					"image" : "buttons/iam000L.def",
 					"help" : "core.help.301",
 					"hotkey" : "adventureNextHero",
 					"playerColored" : true,
@@ -488,12 +699,86 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonEndTurn",
-					"image" : "IAM001.DEF",
+					"image" : "buttons/iam001L.def",
 					"hotkey" : "gameEndTurn",
 					"help" : "core.help.302",
 					"playerColored" : true,
 					"area" : {
 						"top" : 192,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				}
+			]
+		},
+
+		// Adventure map buttons for large (900+) vertical resolution
+		{
+			"type" : "adventureMapContainer",
+			"name" : "buttonsContainer5",
+			"hideWhen" : "worldViewMode",
+			"area" : {
+				"top" : 452,
+				"right" : 57,
+				"width" : 64,
+				"height" : 256
+			},
+			"exists" : {
+				"heightMin" : 864
+			},
+			"items" : [
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonRevisit",
+					"image" : "buttons/iam-revisitL.def",
+					"help" : "vcmi.adventureMap.revisitObject",
+					"hotkey" : "adventureVisitObject",
+					"playerColored" : true,
+					"area" : {
+						"top" : 0,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonSearch",
+					"image" : "buttons/iam-searchL.def",
+					"help" : "vcmi.adventureMap.search",
+					"hotkey" : "adventureSearch",
+					"playerColored" : true,
+					"area" : {
+						"top" : 32,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonNextHero",
+					"image" : "buttons/iam000L.def",
+					"help" : "core.help.301",
+					"hotkey" : "adventureNextHero",
+					"playerColored" : true,
+					"area" : {
+						"top" : 64,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					}
+				},
+				{
+					"type" : "adventureMapButton",
+					"name" : "buttonEndTurn",
+					"image" : "buttons/iam001L.def",
+					"hotkey" : "gameEndTurn",
+					"help" : "core.help.302",
+					"playerColored" : true,
+					"area" : {
+						"top" : 96,
 						"left" : 0,
 						"width" : 64,
 						"height" : 32
@@ -580,7 +865,7 @@
 					"scrollUp" : {
 						"type" : "adventureMapButton",
 						"name" : "heroListScrollUp",
-						"image" : "IAM012.DEF",
+						"image" : "IAM012.def",
 						"help" : "core.help.303",
 						"area" : {
 							"top" : 0,
@@ -592,7 +877,7 @@
 					"scrollDown" : {
 						"type" : "adventureMapButton",
 						"name" : "heroListScrollDown",
-						"image" : "IAM013.DEF",
+						"image" : "IAM013.def",
 						"help" : "core.help.304",
 						"area" : {
 							"bottom" : 0,
@@ -626,7 +911,7 @@
 					"scrollUp" : {
 						"type" : "adventureMapButton",
 						"name" : "townListScrollUp",
-						"image" : "IAM014.DEF",
+						"image" : "IAM014.def",
 						"help" : "core.help.306",
 						"area" : {
 							"top" : 0,
@@ -638,7 +923,7 @@
 					"scrollDown" : {
 						"type" : "adventureMapButton",
 						"name" : "townListScrollDown",
-						"image" : "IAM015.DEF",
+						"image" : "IAM015.def",
 						"help" : "core.help.307",
 						"area" : {
 							"bottom" : 0,
@@ -694,10 +979,11 @@
 				}
 			]
 		},
+
 		// Town / Hero lists for large (664+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
-			"name" : "listContainerLarge",
+			"name" : "listContainerLarge1",
 			"hideWhen" : "worldViewMode",
 			"area" : {
 				"top" : 196,
@@ -706,7 +992,8 @@
 				"height" : 260
 			},
 			"exists" : {
-				"heightMin" : 664
+				"heightMin" : 664,
+				"heightMax" : 864
 			},
 			"items" : [
 				{
@@ -770,8 +1057,32 @@
 						"width" : 68,
 						"height" : 257
 					},
+					"scrollUp" : {
+						"type" : "adventureMapButton",
+						"name" : "heroListScrollUp",
+						"image" : "IAM012.def",
+						"help" : "core.help.303",
+						"area" : {
+							"top" : 0,
+							"left" : 2,
+							"width" : 64,
+							"height" : 16
+						}
+					},
+					"scrollDown" : {
+						"type" : "adventureMapButton",
+						"name" : "heroListScrollDown",
+						"image" : "IAM013.def",
+						"help" : "core.help.304",
+						"area" : {
+							"bottom" : 0,
+							"left" : 2,
+							"width" : 64,
+							"height" : 16
+						}
+					},
 					"item" : {
-						"top" : 1,
+						"top" : 17,
 						"left" : 3,
 						"width" : 62,
 						"height" : 32
@@ -780,7 +1091,7 @@
 						"x" : 0,
 						"y" : 32
 					},
-					"itemsCount" : 8
+					"itemsCount" : 7
 				},
 				// Town List
 				{
@@ -795,7 +1106,7 @@
 					"scrollUp" : {
 						"type" : "adventureMapButton",
 						"name" : "townListScrollUp",
-						"image" : "IAM014.DEF",
+						"image" : "IAM014.def",
 						"help" : "core.help.306",
 						"area" : {
 							"top" : 0,
@@ -807,7 +1118,7 @@
 					"scrollDown" : {
 						"type" : "adventureMapButton",
 						"name" : "townListScrollDown",
-						"image" : "IAM015.DEF",
+						"image" : "IAM015.def",
 						"help" : "core.help.307",
 						"area" : {
 							"bottom" : 0,
@@ -848,9 +1159,188 @@
 				}
 			]
 		},
+
+		// Town / Hero lists for large (900+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
-			"name" : "emptyAreaFillLarge",
+			"name" : "listContainerLarge2",
+			"hideWhen" : "worldViewMode",
+			"area" : {
+				"top" : 196,
+				"right" : 0,
+				"width" : 193,
+				"height" : 483
+			},
+			"exists" : {
+				"heightMin" : 864
+			},
+			"items" : [
+				{
+					"type" : "adventureMapImage",
+					"name" : "backgroundHeroListBorderRight",
+					"image" : "AdvMap.pcx",
+					"area" : {
+						"top" : 0,
+						"bottom" : 0,
+						"right" : 121,
+						"width" : 6
+					},
+					"sourceArea" : {
+						"top" : 196,
+						"bottom" : 210,
+						"right" : 121,
+						"width" : 6
+					}
+				},
+				{
+					"type" : "adventureMapImage",
+					"name" : "backgroundTownListBorderLeft",
+					"image" : "AdvMap.pcx",
+					"area" : {
+						"top" : 0,
+						"bottom" : 0,
+						"right" : 53,
+						"width" : 4
+					},
+					"sourceArea" : {
+						"top" : 196,
+						"bottom" : 210,
+						"right" : 53,
+						"width" : 4
+					}
+				},
+				{
+					"type" : "adventureMapImage",
+					"name" : "backgroundBelowHeroTownList",
+					"image" : "AdvMap.pcx",
+					"area" : {
+						"right" : 0,
+						"left" : 0,
+						"bottom" : 0,
+						"height" : 3
+					},
+					"sourceArea" : {
+						"bottom" : 209,
+						"height" : 3,
+						"right" : 0,
+						"width" : 193
+					}
+				},
+				// Hero List
+				{
+					"type" : "adventureMapHeroList",
+					"name" : "heroList",
+					"area" : {
+						"top" : 0,
+						"right" : 125,
+						"width" : 68,
+						"height" : 480
+					},
+					"scrollUp" : {
+						"type" : "adventureMapButton",
+						"name" : "heroListScrollUp",
+						"image" : "IAM012.def",
+						"help" : "core.help.303",
+						"area" : {
+							"top" : 0,
+							"left" : 2,
+							"width" : 64,
+							"height" : 16
+						}
+					},
+					"scrollDown" : {
+						"type" : "adventureMapButton",
+						"name" : "heroListScrollDown",
+						"image" : "IAM013.def",
+						"help" : "core.help.304",
+						"area" : {
+							"bottom" : 0,
+							"left" : 2,
+							"width" : 64,
+							"height" : 16
+						}
+					},
+					"item" : {
+						"top" : 17,
+						"left" : 3,
+						"width" : 62,
+						"height" : 32
+					},
+					"itemsOffset" : {
+						"x" : 0,
+						"y" : 32
+					},
+					"itemsCount" : 14
+				},
+				// Town List
+				{
+					"type" : "adventureMapTownList",
+					"name" : "townList",
+					"area" : {
+						"top" : 0,
+						"right" : 3,
+						"width" : 51,
+						"height" : 480
+					},
+					"scrollUp" : {
+						"type" : "adventureMapButton",
+						"name" : "townListScrollUp",
+						"image" : "IAM014.def",
+						"help" : "core.help.306",
+						"area" : {
+							"top" : 0,
+							"left" : 1,
+							"width" : 48,
+							"height" : 16
+						}
+					},
+					"scrollDown" : {
+						"type" : "adventureMapButton",
+						"name" : "townListScrollDown",
+						"image" : "IAM015.def",
+						"help" : "core.help.307",
+						"area" : {
+							"bottom" : 0,
+							"left" : 1,
+							"width" : 48,
+							"height" : 16
+						}
+					},
+					"item" : {
+						"top" : 16,
+						"left" : 1,
+						"width" : 48,
+						"height" : 32
+					},
+					"itemsOffset" : {
+						"x" : 0,
+						"y" : 32
+					},
+					"itemsCount" : 14
+				},
+				// Fill empty area below buttons
+				{
+					"type" : "adventureMapImage",
+					"name" : "backgroundBelowButtons",
+					"image" : "DiBoxBck.pcx",
+					"area" : {
+						"top" : 384,
+						"bottom" : 3,
+						"right" : 57,
+						"width" : 64
+					},
+					"sourceArea" : {
+						"left" : 0,
+						"top" : 0,
+						"width" : 256,
+						"height" : 256
+					}
+				}
+			]
+		},
+		{
+			"type" : "adventureMapContainer",
+			"name" : "emptyAreaFillLarge1",
 			"hideWhen" : "worldViewMode",
 			"area" : {
 				"top" : 456,
@@ -859,7 +1349,8 @@
 				"bottom" : 210
 			},
 			"exists" : {
-				"heightMin" : 664
+				"heightMin" : 664,
+				"heightMax" : 864
 			},
 			"items" : [
 				{
@@ -881,6 +1372,41 @@
 				}
 			]
 		},
+		// 900+
+		{
+			"type" : "adventureMapContainer",
+			"name" : "emptyAreaFillLarge2",
+			"hideWhen" : "worldViewMode",
+			"area" : {
+				"top" : 680,
+				"right" : 3,
+				"width" : 190,
+				"bottom" : 210
+			},
+			"exists" : {
+				"heightMin" : 864
+			},
+			"items" : [
+				{
+					"type" : "adventureMapImage",
+					"name" : "emptyAreaFillLargeImage",
+					"image" : "DiBoxBck.pcx",
+					"area" : {
+						"top" : 0,
+						"bottom" : 0,
+						"left" : 0,
+						"right" : 0
+					},
+					"sourceArea" : {
+						"left" : 0,
+						"top" : 0,
+						"width" : 256,
+						"height" : 256
+					}
+				}
+			]
+		},
+
 		{
 			"type" : "adventureMapContainer",
 			"name" : "adventureInfobarContainer",
@@ -1022,7 +1548,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom1",
-					"image" : "VWMAG1.DEF",
+					"image" : "VWMAG1.def",
 					"hotkey" : "adventureViewWorld1",
 					"area" : {
 						"top" : 23,
@@ -1034,7 +1560,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom2",
-					"image" : "VWMAG2.DEF",
+					"image" : "VWMAG2.def",
 					"hotkey" : "adventureViewWorld2",
 					"area" : {
 						"top" : 23,
@@ -1046,7 +1572,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom4",
-					"image" : "VWMAG4.DEF",
+					"image" : "VWMAG4.def",
 					"hotkey" : "adventureViewWorld4",
 					"area" : {
 						"top" : 23,
@@ -1068,7 +1594,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "worldViewSurface",
-							"image" : "IAM003.DEF",
+							"image" : "buttons/iam003.def",
 							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
 							"area" : {
@@ -1084,7 +1610,7 @@
 					"type" : "adventureMapButton",
 					"name" : "worldViewPuzzle",
 					"borderColor" : "gold",
-					"image" : "VWPUZ.DEF",
+					"image" : "VWPUZ.def",
 					"hotkey" : "adventureViewPuzzle",
 					"area" : {
 						"top" : 343,
@@ -1106,7 +1632,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "worldViewUnderground",
-							"image" : "IAM010.DEF",
+							"image" : "buttons/iam010.def",
 							"playerColored" : true,
 							"hotkey" : "adventureToggleMapLevel",
 							"area" : {
@@ -1122,7 +1648,7 @@
 					"type" : "adventureMapButton",
 					"name" : "worldViewExit",
 					"borderColor" : "gold",
-					"image" : "IOKAY32.DEF",
+					"image" : "IOKAY32.def",
 					"hotkey" : "adventureExitWorldView",
 					"area" : {
 						"top" : 343,

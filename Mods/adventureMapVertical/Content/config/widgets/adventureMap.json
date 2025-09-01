@@ -401,7 +401,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonKingdomOverview",
-							"image" : "IAM002.DEF",
+							"image" : "buttons/iam002.def",
 							"help" : "core.help.293",
 							"hotkey" : "adventureKingdomOverview",
 							"playerColored" : true,
@@ -425,7 +425,7 @@
 								{
 									"type" : "adventureMapButton",
 									"name" : "buttonUnderground",
-									"image" : "IAM010.DEF",
+									"image" : "buttons/iam010.def",
 									"help" : "core.help.294",
 									"hotkey" : "adventureToggleMapLevel",
 									"playerColored" : true,
@@ -451,7 +451,7 @@
 								{
 									"type" : "adventureMapButton",
 									"name" : "buttonSurface",
-									"image" : "IAM003.DEF",
+									"image" : "buttons/iam003.def",
 									"help" : "core.help.294",
 									"hotkey" : "adventureToggleMapLevel",
 									"playerColored" : true,
@@ -467,7 +467,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonQuestLog",
-							"image" : "IAM004.DEF",
+							"image" : "buttons/iam004.def",
 							"help" : "core.help.295",
 							"hotkey" : "adventureQuestLog",
 							"playerColored" : true,
@@ -491,7 +491,7 @@
 								{
 									"type" : "adventureMapButton",
 									"name" : "buttonSleep",
-									"image" : "IAM005.DEF",
+									"image" : "buttons/iam005.def",
 									"help" : "core.help.296",
 									"hotkey" : "adventureSetHeroAsleep",
 									"playerColored" : true,
@@ -517,7 +517,7 @@
 								{
 									"type" : "adventureMapButton",
 									"name" : "buttonWake",
-									"image" : "IAM011.DEF",
+									"image" : "buttons/iam011.def",
 									"help" : "core.help.296",
 									"hotkey" : "adventureSetHeroAwake",
 									"playerColored" : true,
@@ -533,7 +533,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonMove",
-							"image" : "IAM006.DEF",
+							"image" : "buttons/iam006.def",
 							"help" : "core.help.297",
 							"hotkey" : "adventureMoveHero",
 							"playerColored" : true,
@@ -547,7 +547,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonCast",
-							"image" : "IAM007.DEF",
+							"image" : "buttons/iam007.def",
 							"help" : "core.help.298",
 							"hotkey" : "adventureCastSpell",
 							"playerColored" : true,
@@ -561,7 +561,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonAdventureOptions",
-							"image" : "IAM008.DEF",
+							"image" : "buttons/iam008.def",
 							"help" : "core.help.299",
 							"hotkey" : "adventureGameOptions",
 							"playerColored" : true,
@@ -575,7 +575,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonSystemOptions",
-							"image" : "IAM009.DEF",
+							"image" : "buttons/iam009.def",
 							"help" : "core.help.300",
 							"hotkey" : "globalOptions",
 							"playerColored" : true,
@@ -589,7 +589,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonNextHero",
-							"image" : "vcmiExtrasAdventureMap/hero.def",
+							"image" : "buttons/iam000.def",
 							"help" : "core.help.301",
 							"hotkey" : "adventureNextHero",
 							"playerColored" : true,
@@ -603,7 +603,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonRevisit",
-							"image" : "vcmiExtrasAdventureMap/revisit.def",
+							"image" : "buttons/iam-revisit.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
 							"playerColored" : true,
@@ -617,7 +617,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonSearch",
-							"image" : "vcmiExtrasAdventureMap/search.def",
+							"image" : "buttons/iam-search.def",
 							"help" : "vcmi.adventureMap.search",
 							"hotkey" : "adventureSearch",
 							"playerColored" : true,
@@ -631,7 +631,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "buttonEndTurn",
-							"image" : "IAM001.DEF",
+							"image" : "buttons/iam001.def",
 							"hotkey" : "gameEndTurn",
 							"help" : "core.help.302",
 							"playerColored" : true,
@@ -658,7 +658,7 @@
 					"scrollUp" : {
 						"type" : "adventureMapButton",
 						"name" : "heroListScrollUp",
-						"image" : "IAM012.DEF",
+						"image" : "IAM012.def",
 						"help" : "core.help.303",
 						"area" : {
 							"top" : 0,
@@ -670,7 +670,7 @@
 					"scrollDown" : {
 						"type" : "adventureMapButton",
 						"name" : "heroListScrollDown",
-						"image" : "IAM013.DEF",
+						"image" : "IAM013.def",
 						"help" : "core.help.304",
 						"area" : {
 							"bottom" : 0,
@@ -704,7 +704,7 @@
 					"scrollUp" : {
 						"type" : "adventureMapButton",
 						"name" : "townListScrollUp",
-						"image" : "IAM014.DEF",
+						"image" : "IAM014.def",
 						"help" : "core.help.306",
 						"area" : {
 							"top" : 0,
@@ -716,7 +716,7 @@
 					"scrollDown" : {
 						"type" : "adventureMapButton",
 						"name" : "townListScrollDown",
-						"image" : "IAM015.DEF",
+						"image" : "IAM015.def",
 						"help" : "core.help.307",
 						"area" : {
 							"bottom" : 0,
@@ -1110,7 +1110,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom1",
-					"image" : "VWMAG1.DEF",
+					"image" : "VWMAG1.def",
 					"hotkey" : "adventureViewWorld1",
 					"area" : {
 						"top" : 23,
@@ -1122,7 +1122,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom2",
-					"image" : "VWMAG2.DEF",
+					"image" : "VWMAG2.def",
 					"hotkey" : "adventureViewWorld2",
 					"area" : {
 						"top" : 23,
@@ -1134,7 +1134,7 @@
 				{
 					"type" : "adventureMapButton",
 					"name" : "worldViewZoom4",
-					"image" : "VWMAG4.DEF",
+					"image" : "VWMAG4.def",
 					"hotkey" : "adventureViewWorld4",
 					"area" : {
 						"top" : 23,
@@ -1293,7 +1293,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "worldViewSurface",
-							"image" : "IAM003.DEF",
+							"image" : "buttons/iam003.def",
 							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
 							"area" : {
@@ -1309,7 +1309,7 @@
 					"type" : "adventureMapButton",
 					"name" : "worldViewPuzzle",
 					"borderColor" : "gold",
-					"image" : "VWPUZ.DEF",
+					"image" : "VWPUZ.def",
 					"hotkey" : "adventureViewPuzzle",
 					"area" : {
 						"top" : 343,
@@ -1331,7 +1331,7 @@
 						{
 							"type" : "adventureMapButton",
 							"name" : "worldViewUnderground",
-							"image" : "IAM010.DEF",
+							"image" : "buttons/iam010.def",
 							"playerColored" : true,
 							"hotkey" : "adventureToggleMapLevel",
 							"area" : {
@@ -1347,7 +1347,7 @@
 					"type" : "adventureMapButton",
 					"name" : "worldViewExit",
 					"borderColor" : "gold",
-					"image" : "IOKAY32.DEF",
+					"image" : "IOKAY32.def",
 					"hotkey" : "adventureExitWorldView",
 					"area" : {
 						"top" : 343,
