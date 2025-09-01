@@ -712,7 +712,7 @@
 				}
 			]
 		},
-		
+
 		// Adventure map buttons for large (900+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
@@ -979,7 +979,7 @@
 				}
 			]
 		},
-		
+
 		// Town / Hero lists for large (664+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
@@ -1159,7 +1159,7 @@
 				}
 			]
 		},
-		
+
 		// Town / Hero lists for large (900+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
@@ -1406,7 +1406,7 @@
 				}
 			]
 		},
-		
+
 		{
 			"type" : "adventureMapContainer",
 			"name" : "adventureInfobarContainer",
