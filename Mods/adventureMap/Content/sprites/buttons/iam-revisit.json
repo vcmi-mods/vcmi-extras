@@ -1,5 +1,5 @@
 {
-	"basepath" : "buttons/iam010/",
+	"basepath" : "buttons/iam-revisit/",
 	"images" : [
 		{ "frame" : 0, "file" : "1.png" },
 		{ "frame" : 1, "file" : "2.png" },
