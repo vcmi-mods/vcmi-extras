@@ -465,6 +465,32 @@
 							]
 						},
 						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "mapLayerOther",
+							"area" : {
+								"top" : 32,
+								"left" : 64,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "worldViewOther",
+									"image" : "buttons/iam-layers.def",
+									"help" : "core.help.294",
+									"hotkey" : "adventureToggleMapLevel",
+									"playerColored" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
 							"type" : "adventureMapButton",
 							"name" : "buttonQuestLog",
 							"image" : "buttons/iam004.def",
@@ -1292,8 +1318,8 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewSurface",
-							"image" : "buttons/iam003.def",
+							"name" : "worldViewUnderground",
+							"image" : "buttons/iam010.def",
 							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
 							"area" : {
@@ -1330,8 +1356,33 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewUnderground",
-							"image" : "buttons/iam010.def",
+							"name" : "worldViewSurface",
+							"image" : "buttons/iam003.def",
+							"playerColored" : true,
+							"hotkey" : "adventureToggleMapLevel",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "mapLayerOther",
+					"area" : {
+						"top" : 343,
+						"left" : 79,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "worldViewOther",
+							"image" : "buttons/iam-layers.def",
 							"playerColored" : true,
 							"hotkey" : "adventureToggleMapLevel",
 							"area" : {
