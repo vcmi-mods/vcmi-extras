@@ -249,18 +249,28 @@
 					]
 				},
 				{
-					"type": "adventureMapContainer",
+					"type" : "adventureMapContainer",
 					"hideWhen" : "mapLayerOther",
-					"area": { "top" : 0, "left": 32, "width" : 32, "height" : 32 },
+					"area" : {
+						"top" : 0,
+						"left" : 32,
+						"width" : 32,
+						"height" : 32
+					},
 					"items" : [
 						{
-							"type": "adventureMapButton",
-							"name": "worldViewOther",
+							"type" : "adventureMapButton",
+							"name" : "worldViewOther",
 							"image" : "buttons/iam-layers.def",
 							"help" : "core.help.294",
-							"hotkey": "adventureToggleMapLevel",
+							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
-							"area": { "top" : 0, "left": 0, "width" : 32, "height" : 32 }
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
 						}
 					]
 				},
@@ -471,18 +481,28 @@
 					]
 				},
 				{
-					"type": "adventureMapContainer",
+					"type" : "adventureMapContainer",
 					"hideWhen" : "mapLayerOther",
-					"area": { "top" : 32, "left": 0, "width" : 64, "height" : 32 },
+					"area" : {
+						"top" : 32,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
 					"items" : [
 						{
-							"type": "adventureMapButton",
-							"name": "worldViewOther",
+							"type" : "adventureMapButton",
+							"name" : "worldViewOther",
 							"image" : "buttons/iam-layersL.def",
 							"help" : "core.help.294",
-							"hotkey": "adventureToggleMapLevel",
+							"hotkey" : "adventureToggleMapLevel",
 							"playerColored" : true,
-							"area": { "top" : 0, "left": 0, "width" : 64, "height" : 32 }
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
 						}
 					]
 				},
@@ -744,7 +764,7 @@
 				}
 			]
 		},
-		
+
 		// Adventure map buttons for large (900+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
@@ -1011,7 +1031,7 @@
 				}
 			]
 		},
-		
+
 		// Town / Hero lists for large (664+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
@@ -1191,7 +1211,7 @@
 				}
 			]
 		},
-		
+
 		// Town / Hero lists for large (900+) vertical resolution
 		{
 			"type" : "adventureMapContainer",
@@ -1438,7 +1458,7 @@
 				}
 			]
 		},
-		
+
 		{
 			"type" : "adventureMapContainer",
 			"name" : "adventureInfobarContainer",
