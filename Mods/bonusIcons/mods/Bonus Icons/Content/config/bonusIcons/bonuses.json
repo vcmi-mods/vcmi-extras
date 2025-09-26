@@ -166,7 +166,7 @@
 		{
 			"icon" :  "zvs/Lib1.res/FIRSTSTRIKE",
 			"subtypeIcons" : {
-				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/FIRSTSTRIKE",
+				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/firststrike_ranged",
 				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/FIRSTSTRIKE"
 			}			
 		}
@@ -335,12 +335,12 @@
 		{
 			"icon" :  "zvs/Lib1.res/neutralluck",
 			"valueIcons" : {
-				"1" : "zvs/Lib1.res/e_luck",
-				"2" : "zvs/Lib1.res/e_luck",
-				"3" : "zvs/Lib1.res/e_luck",
+				"1" : "zvs/Lib1.res/positiveluck",
+				"2" : "zvs/Lib1.res/positiveluck2",
+				"3" : "zvs/Lib1.res/positiveluck3",
 				"-1" : "zvs/Lib1.res/negativeluck",
-				"-2" : "zvs/Lib1.res/negativeluck",
-				"-3" : "zvs/Lib1.res/negativeluck"
+				"-2" : "zvs/Lib1.res/negativeluck2",
+				"-3" : "zvs/Lib1.res/negativeluck3"
 			}			
 		}
 	},	
@@ -399,12 +399,12 @@
 		{
 			"icon" :  "zvs/Lib1.res/e_moral",
 			"valueIcons" : {
-				"1" : "zvs/Lib1.res/e_morale",
-				"2" : "zvs/Lib1.res/e_morale",
-				"3" : "zvs/Lib1.res/e_morale",
+				"1" : "zvs/Lib1.res/e_minot",
+				"2" : "zvs/Lib1.res/e_minot2",
+				"3" : "zvs/Lib1.res/e_minot3",
 				"-1" : "zvs/Lib1.res/negativemorale",
-				"-2" : "zvs/Lib1.res/negativemorale",
-				"-3" : "zvs/Lib1.res/negativemorale"
+				"-2" : "zvs/Lib1.res/negativemorale2",
+				"-3" : "zvs/Lib1.res/negativemorale3"
 			}			
 		}
 	},	
@@ -413,18 +413,26 @@
 	{
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/placeholder",
+			"icon" :  "zvs/Lib1.res/vulnerabilityOffensiveSpells",
 			"subtypeIcons" : {
-				"bonusSubtype.ightningBolt" : "zvs/Lib1.res/placeholder",
-				"spell.meteorShower" : "zvs/Lib1.res/placeholder",
-//				"spell.lightningBolt" : "zvs/Lib1.res/placeholder",
-				"spell.chainLightning" : "zvs/Lib1.res/placeholder",
-				"spell.armageddon" : "zvs/Lib1.res/placeholder",
-				"spell.fireball" : "zvs/Lib1.res/md_fireball",
-				"spell.inferno" : "zvs/Lib1.res/placeholder",
-				"spell.fireShield" : "zvs/Lib1.res/placeholder",
-				"spell.iceBolt" : "zvs/Lib1.res/placeholder",
-				"spell.frostRing" : "zvs/Lib1.res/placeholder"
+				"bonusSubtype.spell.titanBolt" : "zvs/Lib1.res/vulnerabletitanslb",
+				"spell.meteorShower" : "zvs/Lib1.res/vulnerabilitymeteorshower",
+				"spell.lightningBolt" : "zvs/Lib1.res/vulnerablelightningbolt",
+				"spell.chainLightning" : "zvs/Lib1.res/vulnerablechainlightning",
+				"spell.armageddon" : "zvs/Lib1.res/vulnerablearmageddon",
+				"spell.fireball" : "zvs/Lib1.res/vulnerablefireball",
+				"spell.inferno" : "zvs/Lib1.res/vulnerableinferno",
+				"spell.fireShield" : "zvs/Lib1.res/vulnerabilityfireshield",
+				"spell.iceBolt" : "zvs/Lib1.res/vulnerabilityiceboltray",
+				"spell.frostRing" : "zvs/Lib1.res/vulnerablefrostring",
+				"spell.magicArrow" : "zvs/Lib1.res/vulnerabilitymagicarrow",
+				"spell.landMineTrigger" : "zvs/Lib1.res/vulnerabilitylandmine",
+				"spell.implosion" : "zvs/Lib1.res/vulnerabilityimplosion",
+				"spell.fireWallTrigger" : "zvs/Lib1.res/vulnerabilityfirewall",
+				"spell.destroyUndead" : "zvs/Lib1.res/vulnerabilitydestroyundead",
+				"spell.deathRipple" : "zvs/Lib1.res/vulnerabilitydeathripple",
+				"spell.acidBreathDamage" : "zvs/Lib1.res/vulnerabilityacid",
+				"spell.sacrifice" : "zvs/Lib1.res/vulnerabilitysacrifice"
 			}
 		}
 	},	
@@ -469,13 +477,19 @@
 
 	"core:NO_TERRAIN_PENALTY":
 	{
-//		"hidden": true,
-//		"blockDescriptionPropagation": true
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/placeholder",
+			"icon" :  "zvs/Lib1.res/terrainbonus",
 			"subtypeIcons" : {
-				"terrain.sand" : "zvs/Lib1.res/placeholder"
+				"terrain.sand" : "zvs/Lib1.res/nomads",
+				"terrain.dirt" : "zvs/Lib1.res/terrainbonusdirt0",
+				"terrain.grass" : "zvs/Lib1.res/terrainbonusgrass0",
+				"terrain.lava" : "zvs/Lib1.res/terrainbonuslava0",
+				"terrain.rough" : "zvs/Lib1.res/terrainbonusrough0",
+				"terrain.snow" : "zvs/Lib1.res/terrainbonussnow0",
+				"terrain.swamp" : "zvs/Lib1.res/terrainbonusswamp0",
+				"terrain.underground" : "zvs/Lib1.res/terrainbonusunderground0",
+				"terrain.water" : "zvs/Lib1.res/terrainbonuswater0"
 			}			
 		}
 	},
@@ -500,7 +514,7 @@
 	{
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/E_SPDFIRE"
+			"icon" :  "zvs/Lib1.res/openingbattlespell"
 		}
 	},
 
@@ -572,7 +586,7 @@
 	{
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/darkfog2.png"
+			"icon" :  "zvs/Lib1.res/turnintobonedragon.png"
 		}		
 	},	
 	
@@ -614,11 +628,11 @@
 		{
 			"icon" :  "zvs/Lib1.res/E_GOLEM",
 			"subtypeIcons" : {
-				"spellSchool.any" : "zvs/Lib1.res/E_GOLEM",
-				"spellSchool.air" : "zvs/Lib1.res/E_LIGHT",
-				"spellSchool.fire" : "zvs/Lib1.res/E_FIRE",
-				"spellSchool.water" : "zvs/Lib1.res/e_spwater",
-				"spellSchool.earth" : "zvs/Lib1.res/E_SPEATH1"
+				"spellSchool.any" : "zvs/Lib1.res/damage_reduction_magic",
+				"spellSchool.air" : "zvs/Lib1.res/damage_reduction_air",
+				"spellSchool.fire" : "zvs/Lib1.res/damage_reduction_fire",
+				"spellSchool.water" : "zvs/Lib1.res/damage_reduction_water",
+				"spellSchool.earth" : "zvs/Lib1.res/damage_reduction_earth"
 			}
 		}
 	},
@@ -627,12 +641,12 @@
 	{
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/E_GOLEM",
+			"icon" :  "zvs/Lib1.res/e_spdisb",
 			"subtypeIcons" : {
-				"spellSchool.air" : "zvs/Lib1.res/E_SPAIR",
-				"spellSchool.fire" : "zvs/Lib1.res/E_SPFIRE",
-				"spellSchool.water" : "zvs/Lib1.res/E_SPWATER",
-				"spellSchool.earth" : "zvs/Lib1.res/E_SPEATH"
+				"spellSchool.air" : "zvs/Lib1.res/immuneair",
+				"spellSchool.fire" : "zvs/Lib1.res/immunefire",
+				"spellSchool.water" : "zvs/Lib1.res/immunewater",
+				"spellSchool.earth" : "zvs/Lib1.res/immuneearth"
 			}
 		}
 	},
@@ -714,7 +728,7 @@
 	{
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/E_RETAIL1"
+			"icon" :  "zvs/Lib1.res/E_RETAIL2"
 		}
 	},
 
@@ -722,11 +736,11 @@
 	{
 		"graphics" :
 		{
-			"icon" :  "zvs/Lib1.res/placeholder",
+			"icon" :  "zvs/Lib1.res/visions2rogue",
 			"subtypeIcons" : {
-				"bonusSubtype.visionsMonsters" : "zvs/Lib1.res/placeholder",
-				"bonusSubtype.visionsMonsters" : "zvs/Lib1.res/placeholder",
-				"bonusSubtype.visionsMonsters" : "zvs/Lib1.res/placeholder"
+				"bonusSubtype.visionsMonsters" : "zvs/Lib1.res/visions0",
+				"bonusSubtype.visionsHeroes" : "zvs/Lib1.res/visions2",
+				"bonusSubtype.visionsTowns" : "zvs/Lib1.res/visions3"
 			}
 		}
 	},	

@@ -1,0 +1,46 @@
+{
+	"core:catapult" :
+	{
+		"abilities" :
+		{
+			"siegeWeapon" :
+			{
+				"icon" :  "zvs/Lib1.res/catapult0"
+			}
+		}
+	},
+	"core:ballista" :
+	{
+		"abilities" :
+		{
+			"siegeWeapon" :
+			{
+				"icon" :  "zvs/Lib1.res/ballista"
+			}
+		}
+	},
+	"core:firstAidTent" :
+	{
+		"abilities":
+		{
+			"siegeWeapon" :
+			{
+				"icon" :  "zvs/Lib1.res/tent"
+			}
+		}
+	},
+	"core:ammoCart" :
+	{
+		"abilities": 
+		{
+			"siegeWeapon" :
+			{
+				"icon" :  "zvs/Lib1.res/cart" // dodatkowo dodac mozna bonus pusty z plikiem "ammocart"
+			},
+			"inactive" :
+			{
+				"icon" :  "zvs/Lib1.res/inactive"
+			}
+		}
+	}
+}

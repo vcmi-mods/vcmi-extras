@@ -1,12 +1,10 @@
 {
-    "sequences" :
-    [
-        {
-            "group" : 0,
-            "frames" :
-            [
-                "DrDoCoBk.png"
-            ]
-        }
-    ]
+	"sequences" : [
+		{
+			"group" : 0,
+			"frames" : [
+				"DrDoCoBk.png"
+			]
+		}
+	]
 }
