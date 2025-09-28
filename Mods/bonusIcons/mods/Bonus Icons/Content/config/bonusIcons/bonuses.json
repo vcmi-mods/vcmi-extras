@@ -179,7 +179,7 @@
 			"icon" :  "zvs/Lib1.res/E_FEAR",
 			"valueIcons" : {
 				"0" : "zvs/Lib1.res/E_FEARL",
-				"10" : "zvs/Lib1.res/E_FEAR",
+				"10" : "zvs/Lib1.res/E_FEAR"
 			}			
 		}
 	},
@@ -232,7 +232,7 @@
 			"subtypeIcons" : {
 				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/DamageReductionMelee.png",
 				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/DamageReductionRanged.png",
-				"bonusSubtype.damageTypeAll" : "zvs/Lib1.res/DamageReductionAll.png",
+				"bonusSubtype.damageTypeAll" : "zvs/Lib1.res/DamageReductionAll.png"
 			}
 		}
 	},
