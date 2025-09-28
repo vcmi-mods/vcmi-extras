@@ -11,7 +11,7 @@
 	],
 	"spells" : [
 		"config/spells/summonDemon.json"
-	],	
+	],
 	"creatures" : [
 		"config/creatures/castle.json",
 		"config/creatures/conflux.json",
@@ -24,8 +24,7 @@
 		"config/creatures/special.json",
 		"config/creatures/stronghold.json",
 		"config/creatures/tower.json"
-		
-	],	
+	],
 	"czech" : {
 		"name" : "Ikony bonusů a schopností",
 		"description" : "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek."
