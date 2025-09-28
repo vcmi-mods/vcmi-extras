@@ -1,234 +1,179 @@
 {
-	"core:ADDITIONAL_ATTACK" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DOUBLE"
+	"core:ADDITIONAL_ATTACK" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DOUBLE"
 		}
 	},
 
-	"core:ADDITIONAL_RETALIATION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_RETAIL1"
+	"core:ADDITIONAL_RETALIATION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_RETAIL1"
 		}
 	},
 
-	"core:ATTACKS_ALL_ADJACENT" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_ROUND"
+	"core:ATTACKS_ALL_ADJACENT" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_ROUND"
 		}
 	},
 
-	"core:BLOCKS_RANGED_RETALIATION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/RANGEDBLOCK"
+	"core:BLOCKS_RANGED_RETALIATION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/RANGEDBLOCK"
 		}
 	},
 
-	"core:BLOCKS_RETALIATION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_RETAIL"
+	"core:BLOCKS_RETALIATION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_RETAIL"
 		}
 	},
 
-	"core:CATAPULT" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/Catapult"
+	"core:CATAPULT" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/Catapult"
 		}
 	},
 
-	"core:CHANGES_SPELL_COST_FOR_ALLY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_MANA"
+	"core:CHANGES_SPELL_COST_FOR_ALLY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_MANA"
 		}
 	},
 
-	"core:CHANGES_SPELL_COST_FOR_ENEMY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/MagicDamper"
+	"core:CHANGES_SPELL_COST_FOR_ENEMY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/MagicDamper"
 		}
 	},
 
-	"core:CHARGE_IMMUNITY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/ChargeImmune"
+	"core:CHARGE_IMMUNITY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/ChargeImmune"
 		}
 	},
 
-	"core:DEATH_STARE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DEATH"
+	"core:DEATH_STARE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DEATH"
 		}
 	},
 
-	"core:DEFENSIVE_STANCE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DEFBON"
+	"core:DEFENSIVE_STANCE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DEFBON"
 		}
 	},
 
-	"core:DESTRUCTION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/DESTROYER"
-		}
-	},
-	
-	"core:DISINTEGRATE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/DISINTEGRATE"
-		}
-
-	},
-	
-	"core:DOUBLE_DAMAGE_CHANCE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DBLOW"
+	"core:DESTRUCTION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/DESTROYER"
 		}
 	},
 
-	"core:DRAGON_NATURE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DRAGON"
+	"core:DISINTEGRATE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/DISINTEGRATE"
 		}
 	},
 
-	"core:ENCHANTER" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_CAST1"
+	"core:DOUBLE_DAMAGE_CHANCE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DBLOW"
 		}
 	},
 
-	"core:ENCHANTED" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_BLESS"
+	"core:DRAGON_NATURE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DRAGON"
 		}
 	},
 
-	"core:ENEMY_ATTACK_REDUCTION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_RATT"
+	"core:ENCHANTER" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_CAST1"
 		}
 	},
 
-	"core:ENEMY_DEFENCE_REDUCTION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_RDEF"
+	"core:ENCHANTED" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_BLESS"
 		}
 	},
 
-	"core:FIRE_SHIELD" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/FireShield"
+	"core:ENEMY_ATTACK_REDUCTION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_RATT"
 		}
 	},
 
-	"core:FIRST_STRIKE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/FIRSTSTRIKE",
+	"core:ENEMY_DEFENCE_REDUCTION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_RDEF"
+		}
+	},
+
+	"core:FIRE_SHIELD" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/FireShield"
+		}
+	},
+
+	"core:FIRST_STRIKE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/FIRSTSTRIKE",
 			"subtypeIcons" : {
 				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/firststrike_ranged",
 				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/FIRSTSTRIKE"
-			}			
+			}
 		}
 	},
 
-	"core:FEARFUL" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_FEAR",
+	"core:FEARFUL" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_FEAR",
 			"valueIcons" : {
 				"0" : "zvs/Lib1.res/E_FEARL",
 				"10" : "zvs/Lib1.res/E_FEAR"
-			}			
+			}
 		}
 	},
 
-//	"core:FEARLESS" :
-//	{
-//		"graphics" :
-//		{
-//			"icon" :  "zvs/Lib1.res/E_FEARL"
-//		}
-//	},
+	//	"core:FEARLESS" :
+	//	{
+	//		"graphics" :
+	//		{
+	//			"icon" :  "zvs/Lib1.res/E_FEARL"
+	//		}
+	//	},
 
-	"core:FEROCITY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/Ferocity"
+	"core:FEROCITY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/Ferocity"
 		}
 	},
 
-	"core:FLYING" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_FLY"
+	"core:FLYING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_FLY"
 		}
 	},
 
-	"core:FREE_SHOOTING" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_SHOOTA"
+	"core:FREE_SHOOTING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_SHOOTA"
 		}
 	},
 
-	"core:GARGOYLE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/Gargoyle"
+	"core:GARGOYLE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/Gargoyle"
 		}
 	},
 
-	"core:GENERAL_DAMAGE_REDUCTION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/DamageReductionMelee",
+	"core:GENERAL_DAMAGE_REDUCTION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/DamageReductionMelee",
 			"subtypeIcons" : {
 				"bonusSubtype.damageTypeMelee" : "zvs/Lib1.res/DamageReductionMelee.png",
 				"bonusSubtype.damageTypeRanged" : "zvs/Lib1.res/DamageReductionRanged.png",
@@ -237,51 +182,39 @@
 		}
 	},
 
-	"core:HATE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_HATE"
+	"core:HATE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_HATE"
 		}
 	},
 
-	"core:HEALER" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/Healer"
+	"core:HEALER" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/Healer"
 		}
 	},
 
-	"core:HP_REGENERATION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_TROLL"
-		}
-	},
-	
-	"core:INVINCIBLE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/INVINCIBLE"
-		}
-	}, 
-	
-	"core:JOUSTING" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_CHAMP"
+	"core:HP_REGENERATION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_TROLL"
 		}
 	},
 
-	"core:KING" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_KING3",
+	"core:INVINCIBLE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/INVINCIBLE"
+		}
+	},
+
+	"core:JOUSTING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_CHAMP"
+		}
+	},
+
+	"core:KING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_KING3",
 			"valueIcons" : {
 				"0" : "zvs/Lib1.res/E_KING1",
 				"1" : "zvs/Lib1.res/E_KING1",
@@ -290,11 +223,9 @@
 			}
 		}
 	},
-	
-	"core:LEVEL_SPELL_IMMUNITY" :
-	{
-		"graphics" :
-		{
+
+	"core:LEVEL_SPELL_IMMUNITY" : {
+		"graphics" : {
 			"valueIcons" : {
 				"1" : "zvs/Lib1.res/E_SPLVL1",
 				"2" : "zvs/Lib1.res/E_SPLVL2",
@@ -304,36 +235,28 @@
 			}
 		}
 	},
-	
-	"core:LIFE_DRAIN" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/DrainLife"
+
+	"core:LIFE_DRAIN" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/DrainLife"
 		}
 	},
 
-	"core:LIMITED_SHOOTING_RANGE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/LIM_SHOOT"
+	"core:LIMITED_SHOOTING_RANGE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/LIM_SHOOT"
 		}
 	},
-	
-	"core:LIVING":
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/living"
-		}		
-	},	
-	
-	"core:LUCK":
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/neutralluck",
+
+	"core:LIVING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/living"
+		}
+	},
+
+	"core:LUCK" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/neutralluck",
 			"valueIcons" : {
 				"1" : "zvs/Lib1.res/positiveluck",
 				"2" : "zvs/Lib1.res/positiveluck2",
@@ -341,63 +264,49 @@
 				"-1" : "zvs/Lib1.res/negativeluck",
 				"-2" : "zvs/Lib1.res/negativeluck2",
 				"-3" : "zvs/Lib1.res/negativeluck3"
-			}			
-		}
-	},	
-
-	"core:MANA_CHANNELING" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/ManaChannel"
-		}
-	},
-	
-	"core:MANA_DRAIN" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/ManaDrain"
+			}
 		}
 	},
 
-	"core:MAGIC_MIRROR" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/MagicMirror"
+	"core:MANA_CHANNELING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/ManaChannel"
 		}
 	},
 
-	"core:MAGIC_RESISTANCE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DWARF"
-		}
-	},
-	
-	"core:MECHANICAL" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/Mechanical"
+	"core:MANA_DRAIN" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/ManaDrain"
 		}
 	},
 
-	"core:MIND_IMMUNITY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_MIND"
+	"core:MAGIC_MIRROR" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/MagicMirror"
 		}
 	},
-	
-	"core:MORALE":
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/e_moral",
+
+	"core:MAGIC_RESISTANCE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DWARF"
+		}
+	},
+
+	"core:MECHANICAL" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/Mechanical"
+		}
+	},
+
+	"core:MIND_IMMUNITY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_MIND"
+		}
+	},
+
+	"core:MORALE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/e_moral",
 			"valueIcons" : {
 				"1" : "zvs/Lib1.res/e_minot",
 				"2" : "zvs/Lib1.res/e_minot2",
@@ -405,15 +314,13 @@
 				"-1" : "zvs/Lib1.res/negativemorale",
 				"-2" : "zvs/Lib1.res/negativemorale2",
 				"-3" : "zvs/Lib1.res/negativemorale3"
-			}			
+			}
 		}
-	},	
+	},
 
-	"core:MORE_DAMAGE_FROM_SPELL" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/vulnerabilityOffensiveSpells",
+	"core:MORE_DAMAGE_FROM_SPELL" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/vulnerabilityOffensiveSpells",
 			"subtypeIcons" : {
 				"bonusSubtype.spell.titanBolt" : "zvs/Lib1.res/vulnerabletitanslb",
 				"spell.meteorShower" : "zvs/Lib1.res/vulnerabilitymeteorshower",
@@ -435,13 +342,11 @@
 				"spell.sacrifice" : "zvs/Lib1.res/vulnerabilitysacrifice"
 			}
 		}
-	},	
-	
-	"core:NEGATIVE_EFFECTS_IMMUNITY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_SPAIR1",
+	},
+
+	"core:NEGATIVE_EFFECTS_IMMUNITY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_SPAIR1",
 			"subtypeIcons" : {
 				"spellSchool.air" : "zvs/Lib1.res/E_SPAIR1",
 				"spellSchool.fire" : "zvs/Lib1.res/E_SPFIRE1",
@@ -449,37 +354,29 @@
 				"spellSchool.earth" : "zvs/Lib1.res/E_SPEATH1"
 			}
 		}
-	},	
-
-	"core:NO_DISTANCE_PENALTY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_DIST"
-		}
 	},
-	
-	"core:NO_MELEE_PENALTY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_MELEE"
+
+	"core:NO_DISTANCE_PENALTY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_DIST"
 		}
 	},
 
-	"core:NO_MORALE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_MORAL"
+	"core:NO_MELEE_PENALTY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_MELEE"
 		}
 	},
 
-	"core:NO_TERRAIN_PENALTY":
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/terrainbonus",
+	"core:NO_MORALE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_MORAL"
+		}
+	},
+
+	"core:NO_TERRAIN_PENALTY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/terrainbonus",
 			"subtypeIcons" : {
 				"terrain.sand" : "zvs/Lib1.res/nomads",
 				"terrain.dirt" : "zvs/Lib1.res/terrainbonusdirt0",
@@ -490,143 +387,109 @@
 				"terrain.swamp" : "zvs/Lib1.res/terrainbonusswamp0",
 				"terrain.underground" : "zvs/Lib1.res/terrainbonusunderground0",
 				"terrain.water" : "zvs/Lib1.res/terrainbonuswater0"
-			}			
-		}
-	},
-	
-	"core:NO_WALL_PENALTY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_OBST"
+			}
 		}
 	},
 
-	"core:NON_LIVING" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/NonLiving"
+	"core:NO_WALL_PENALTY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_OBST"
 		}
 	},
 
-	"core:OPENING_BATTLE_SPELL" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/openingbattlespell"
+	"core:NON_LIVING" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/NonLiving"
 		}
 	},
 
-	"core:RANDOM_SPELLCASTER" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/RandomBoost"
-		}
-	},
-	
-	"core:RANGED_RETALIATION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/RANGEDCOUNTER"
+	"core:OPENING_BATTLE_SPELL" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/openingbattlespell"
 		}
 	},
 
-	"core:RECEPTIVE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_NOFRIM"
-		}
-	},
-	
-	"core:REBIRTH" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_REBIRTH"
+	"core:RANDOM_SPELLCASTER" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/RandomBoost"
 		}
 	},
 
-	"core:RETURN_AFTER_STRIKE" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_HARPY"
+	"core:RANGED_RETALIATION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/RANGEDCOUNTER"
 		}
 	},
 
-	"core:REVENGE" :
-	{
-		"graphics" :
-		{
+	"core:RECEPTIVE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_NOFRIM"
+		}
+	},
+
+	"core:REBIRTH" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_REBIRTH"
+		}
+	},
+
+	"core:RETURN_AFTER_STRIKE" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_HARPY"
+		}
+	},
+
+	"core:REVENGE" : {
+		"graphics" : {
 			"icon" : "zvs/Lib1.res/Revenge"
 		}
 	},
 
-	"core:SHOOTER" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_SHOOT"
+	"core:SHOOTER" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_SHOOT"
 		}
 	},
 
-	"core:SHOOTS_ALL_ADJACENT" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/AREASHOT"
-		}
-	},
-	
-	"core:SKELETON_TRANSFORMER_TARGET":
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/turnintobonedragon.png"
-		}		
-	},	
-	
-	"core:SOUL_STEAL" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_SUMMON2"
-		}
-	},
-	
-	"core:SPELLCASTER" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_CASTER"
+	"core:SHOOTS_ALL_ADJACENT" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/AREASHOT"
 		}
 	},
 
-	"core:SPELL_AFTER_ATTACK" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_CAST"
+	"core:SKELETON_TRANSFORMER_TARGET" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/turnintobonedragon.png"
 		}
 	},
 
-	"core:SPELL_BEFORE_ATTACK" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_CAST2"
+	"core:SOUL_STEAL" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_SUMMON2"
 		}
 	},
 
-	"core:SPELL_DAMAGE_REDUCTION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_GOLEM",
+	"core:SPELLCASTER" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_CASTER"
+		}
+	},
+
+	"core:SPELL_AFTER_ATTACK" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_CAST"
+		}
+	},
+
+	"core:SPELL_BEFORE_ATTACK" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_CAST2"
+		}
+	},
+
+	"core:SPELL_DAMAGE_REDUCTION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_GOLEM",
 			"subtypeIcons" : {
 				"spellSchool.any" : "zvs/Lib1.res/damage_reduction_magic",
 				"spellSchool.air" : "zvs/Lib1.res/damage_reduction_air",
@@ -636,12 +499,10 @@
 			}
 		}
 	},
-	
-	"core:SPELL_SCHOOL_IMMUNITY" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/e_spdisb",
+
+	"core:SPELL_SCHOOL_IMMUNITY" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/e_spdisb",
 			"subtypeIcons" : {
 				"spellSchool.air" : "zvs/Lib1.res/immuneair",
 				"spellSchool.fire" : "zvs/Lib1.res/immunefire",
@@ -651,106 +512,80 @@
 		}
 	},
 
-	"core:SPELL_IMMUNITY" :
-	{
-		"graphics" :
-		{
+	"core:SPELL_IMMUNITY" : {
+		"graphics" : {
 			// Uses icon from spell config
-			
 		}
 	},
 
-	"core:SPELL_LIKE_ATTACK" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_SPDFIRE"
+	"core:SPELL_LIKE_ATTACK" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_SPDFIRE"
 		}
 	},
 
-	"core:SPELL_RESISTANCE_AURA" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_UNIC"
+	"core:SPELL_RESISTANCE_AURA" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_UNIC"
 		}
 	},
 
-	"core:SUMMON_GUARDIANS" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/SUMMONGUARDS"
+	"core:SUMMON_GUARDIANS" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/SUMMONGUARDS"
 		}
 	},
 
-	"core:TWO_HEX_ATTACK_BREATH" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_BREATH"
+	"core:TWO_HEX_ATTACK_BREATH" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_BREATH"
 		}
 	},
 
-	"core:PRISM_HEX_ATTACK_BREATH" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/PrismBreath"
+	"core:PRISM_HEX_ATTACK_BREATH" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/PrismBreath"
 		}
 	},
 
-	"core:THREE_HEADED_ATTACK" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/ThreeHeaded"
-		}
-	},
-	
-	"core:TRANSMUTATION" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_SGTYPE"
+	"core:THREE_HEADED_ATTACK" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/ThreeHeaded"
 		}
 	},
 
-	"core:UNDEAD" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_UNDEAD"
-		}
-	},
-	
-	"core:UNLIMITED_RETALIATIONS" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/E_RETAIL2"
+	"core:TRANSMUTATION" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_SGTYPE"
 		}
 	},
 
-	"core:VISIONS" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/visions2rogue",
+	"core:UNDEAD" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_UNDEAD"
+		}
+	},
+
+	"core:UNLIMITED_RETALIATIONS" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/E_RETAIL2"
+		}
+	},
+
+	"core:VISIONS" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/visions2rogue",
 			"subtypeIcons" : {
 				"bonusSubtype.visionsMonsters" : "zvs/Lib1.res/visions0",
 				"bonusSubtype.visionsHeroes" : "zvs/Lib1.res/visions2",
 				"bonusSubtype.visionsTowns" : "zvs/Lib1.res/visions3"
 			}
 		}
-	},	
-	
-	"core:WIDE_BREATH" :
-	{
-		"graphics" :
-		{
-			"icon" :  "zvs/Lib1.res/MEGABREATH"
+	},
+
+	"core:WIDE_BREATH" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/MEGABREATH"
 		}
 	}
 }
-
