@@ -1,0 +1,269 @@
+{
+	"core:pixie" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly4"
+			}
+		}
+	},
+	"core:sprite" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly4"
+			}
+		}
+	},
+	"core:airElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"lightingVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablelightningbolt"
+			},
+			"chainLightingVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablechainlightning"
+			},
+			"armageddonVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablearmageddon"
+			},
+			"oppositeEarth" : {
+				"icon" : "zvs/Lib1.res/hateearth"
+			},
+			"oppositeMagma" : {
+				"icon" : "zvs/Lib1.res/hatemagma"
+			},
+			"dummyVulnerablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilityair",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Lightning Bolt, Chain Lightning and Titan's Lightning Bolt."
+			}
+		}
+	},
+	"core:stormElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/protair2"
+			},
+			"lightingVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablelightningbolt"
+			},
+			"chainLightingVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablechainlightning"
+			},
+			"armageddonVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablearmageddon"
+			},
+			"oppositeEarth" : {
+				"icon" : "zvs/Lib1.res/hateearth"
+			},
+			"oppositeMagma" : {
+				"icon" : "zvs/Lib1.res/hatemagma"
+			},
+			"dummyVulnerablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilityair",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Lightning Bolt, Chain Lightning and Titan's Lightning Bolt."
+			}
+		}
+	},
+	"core:waterElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"fireballVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablefireball"
+			},
+			"infernoVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerableinferno"
+			},
+			"armageddonVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablearmageddon"
+			},
+			"fireShieldVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerabilityfireshield"
+			},
+			"fireWallVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerabilityfirewall"
+			},
+			"oppositeFire" : {
+				"icon" : "zvs/Lib1.res/hatefire"
+			},
+			"oppositeEnergy" : {
+				"icon" : "zvs/Lib1.res/hateenergy"
+			},
+			"dummyVulnerablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilityfire",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball, and Inferno."
+			}
+		}
+	},
+	"core:iceElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/protwater2"
+			},
+			"fireballVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablefireball"
+			},
+			"infernoVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerableinferno"
+			},
+			"armageddonVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablearmageddon"
+			},
+			"fireShieldVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerabilityfireshield"
+			},
+			"fireWallVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerabilityfirewall"
+			},
+			"oppositeFire" : {
+				"icon" : "zvs/Lib1.res/hatefire"
+			},
+			"oppositeEnergy" : {
+				"icon" : "zvs/Lib1.res/hateenergy"
+			},
+			"dummyVulneablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilityfire",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball, and Inferno."
+			}
+		}
+	},
+	"core:fireElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"iceBoltVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerabilityiceboltray"
+			},
+			"frostRingVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablefrostring"
+			},
+			"oppositeWater" : {
+				"icon" : "zvs/Lib1.res/hatewater"
+			},
+			"oppositeIce" : {
+				"icon" : "zvs/Lib1.res/hateice"
+			},
+			"dummyVulneablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Ice Bolt and Frost Ring."
+			}
+		}
+	},
+	"core:energyElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"energizes" : {
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/protfire2"
+			},
+			"iceBoltVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerabilityiceboltray"
+			},
+			"frostRingVulnerablity" : {
+				"icon" : "zvs/Lib1.res/vulnerablefrostring"
+			},
+			"oppositeWater" : {
+				"icon" : "zvs/Lib1.res/hatewater"
+			},
+			"oppositeIce" : {
+				"icon" : "zvs/Lib1.res/hateice"
+			},
+			"dummyVulneablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Ice Bolt and Frost Ring."
+			}
+		}
+	},
+	"core:earthElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"meteorShowerVulnerability" : {
+				"icon" : "zvs/Lib1.res/vulnerabilitymeteorshower"
+			},
+			"oppositeAir" : {
+				"icon" : "zvs/Lib1.res/hateair"
+			},
+			"oppositeStorm" : {
+				"icon" : "zvs/Lib1.res/hatestorm"
+			},
+			"dummyVulneablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilityearth",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Meteor Shower."
+			}
+		}
+	},
+	"core:magmaElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			},
+			"spellcaster" : {
+				"icon" : "zvs/Lib1.res/protearth2"
+			},
+			"meteorShowerVulnerability" : {
+				"icon" : "zvs/Lib1.res/vulnerabilitymeteorshower"
+			},
+			"oppositeAir" : {
+				"icon" : "zvs/Lib1.res/hateair"
+			},
+			"oppositeStorm" : {
+				"icon" : "zvs/Lib1.res/hatestorm"
+			},
+			"dummyVulneablityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/vulnerabilityearth",
+				"description" : "{Spells Vulnerablity}\nDouble damage from Meteor Shower."
+			}
+		}
+	},
+	"core:psychicElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			}
+		}
+	},
+	"core:magicElemental" : {
+		"abilities" : {
+			"nonLiving" : {
+				"icon" : "zvs/Lib1.res/NonLivingelemental"
+			}
+		}
+	},
+	"core:firebird" : {
+		"abilities" : {
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathfirebird"
+			}
+		}
+	},
+	"core:phoenix" : {
+		"abilities" : {
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathphoenix"
+			}
+		}
+	}
+}

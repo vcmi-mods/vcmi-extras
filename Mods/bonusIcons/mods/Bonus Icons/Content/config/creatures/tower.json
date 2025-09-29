@@ -1,0 +1,64 @@
+{
+	"core:stoneGargoyle" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			}
+		}
+	},
+	"core:obsidianGargoyle" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			}
+		}
+	},
+	"core:ironGolem" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/e_golem_iron"
+			}
+		}
+	},
+	"core:stoneGolem" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/e_golem_iron"
+			}
+		}
+	},
+	"core:genie" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly3.png"
+			},
+			"hateEfreet" : {
+				"icon" : "zvs/Lib1.res/hategenies1"
+			},
+			"hateEfreetSultans" : {
+				"icon" : "zvs/Lib1.res/hatesultans1"
+			}
+		}
+	},
+	"core:masterGenie" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly3.png"
+			},
+			"hateEfreet" : {
+				"icon" : "zvs/Lib1.res/hategenies1"
+			},
+			"hateEfreetSultans" : {
+				"icon" : "zvs/Lib1.res/hatemastergenies"
+			}
+		}
+	},
+
+	"core:titan" : {
+		"abilities" : {
+			"hateBlackDragons" : {
+				"icon" : "zvs/Lib1.res/hatetitan2"
+			}
+		}
+	}
+}

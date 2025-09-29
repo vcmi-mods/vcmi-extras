@@ -1,0 +1,37 @@
+{
+	"core:ogreMage" : {
+		"abilities" : {
+			"castsBloodlust" : {
+				"icon" : "zvs/Lib1.res/bloodlust2"
+			}
+		}
+	},
+	"core:thunderbird" : {
+		"abilities" : {
+			"thunderOnAttack" : {
+				"icon" : "zvs/Lib1.res/thunderbird"
+			}
+		}
+	},
+	"core:cyclopKing" : {
+		"abilities" : {
+			"canShootWallsTimes" : {
+				"icon" : "zvs/Lib1.res/catapult2"
+			}
+		}
+	},
+	"core:behemoth" : {
+		"abilities" : {
+			"reduceDefence" : {
+				"icon" : "zvs/Lib1.res/e_rdef0"
+			}
+		}
+	},
+	"core:ancientBehemoth" : {
+		"abilities" : {
+			"reduceDefence" : {
+				"icon" : "zvs/Lib1.res/e_rdef"
+			}
+		}
+	}
+}

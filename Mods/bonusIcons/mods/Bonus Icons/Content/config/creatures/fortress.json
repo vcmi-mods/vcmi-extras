@@ -1,0 +1,70 @@
+{
+	"core:serpentFly" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly7"
+			},
+			"dispellHelpful" : {
+				"icon" : "zvs/Lib1.res/dispelattack"
+			}
+		}
+	},
+	"core:fireDragonFly" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly7"
+			},
+			"dispellHelpful" : {
+				"icon" : "zvs/Lib1.res/dispelattack"
+			},
+			"castWeakness" : {
+				"icon" : "zvs/Lib1.res/weaknessattack"
+			}
+		}
+	},
+	"core:basilisk" : {
+		"abilities" : {
+			"petrify" : {
+				"icon" : "zvs/Lib1.res/basiliskpetrify1"
+			}
+		}
+	},
+	"core:greaterBasilisk" : {
+		"abilities" : {
+			"petrify" : {
+				"icon" : "zvs/Lib1.res/basiliskpetrify2"
+			}
+		}
+	},
+	"core:wyvern" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			}
+		}
+	},
+	"core:wyvernMonarch" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"poison" : {
+				"icon" : "zvs/Lib1.res/poison"
+			}
+		}
+	},
+	"core:hydra" : {
+		"abilities" : {
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/hydra0"
+			}
+		}
+	},
+	"core:chaosHydra" : {
+		"abilities" : {
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/hydra"
+			}
+		}
+	}
+}
