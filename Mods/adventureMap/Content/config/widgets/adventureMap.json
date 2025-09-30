@@ -355,20 +355,58 @@
 					]
 				},
 				{
-					"type" : "adventureMapButton",
-					"name" : "buttonMove",
-					"image" : "buttons/iam006.def",
-					"help" : "core.help.297",
-					"hotkey" : "adventureMoveHero",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam006",
-					"generateSmall" : true,
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroGround",
 					"area" : {
 						"top" : 64,
 						"left" : 0,
 						"width" : 32,
 						"height" : 32
-					}
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMoveHorse",
+							"image" : "buttons/iam006.def",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam006",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroBoat",
+					"area" : {
+						"top" : 64,
+						"left" : 0,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMoveBoat",
+							"image" : "buttons/iam-boat",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-boat",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
 				},
 				{
 					"type" : "adventureMapButton",
@@ -517,7 +555,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther",
+							"name" : "worldViewOtherBig",
 							"image" : "buttons/iam-layersL.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
@@ -532,6 +570,13 @@
 						}
 					]
 				},
+				
+				// Add later
+				// world view
+				// replay / market place
+				// puzzle
+				// dig
+				
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonQuestLog",
@@ -602,19 +647,58 @@
 					]
 				},
 				{
-					"type" : "adventureMapButton",
-					"name" : "buttonMove",
-					"image" : "buttons/iam006L.def",
-					"help" : "core.help.297",
-					"hotkey" : "adventureMoveHero",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam006",
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroGround",
 					"area" : {
 						"top" : 128,
 						"left" : 0,
 						"width" : 64,
 						"height" : 32
-					}
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMoveHorse",
+							"image" : "buttons/iam006L.def",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam006",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroBoat",
+					"area" : {
+						"top" : 128,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMoveBoat",
+							"image" : "buttons/iam-boatL",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-boat",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
 				},
 				{
 					"type" : "adventureMapButton",

@@ -405,6 +405,8 @@
 							"help" : "core.help.293",
 							"hotkey" : "adventureKingdomOverview",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam002",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 32,
 								"left" : 16,
@@ -429,6 +431,8 @@
 									"help" : "core.help.294",
 									"hotkey" : "adventureToggleMapLevel",
 									"playerColored" : true,
+									"generateFromBaseImage" : "iam010",
+									"generateSmall" : true,
 									"area" : {
 										"top" : 0,
 										"left" : 0,
@@ -455,6 +459,8 @@
 									"help" : "core.help.294",
 									"hotkey" : "adventureToggleMapLevel",
 									"playerColored" : true,
+									"generateFromBaseImage" : "iam003",
+									"generateSmall" : true,
 									"area" : {
 										"top" : 0,
 										"left" : 0,
@@ -481,6 +487,8 @@
 									"help" : "core.help.294",
 									"hotkey" : "adventureToggleMapLevel",
 									"playerColored" : true,
+									"generateFromBaseImage" : "iam-layers",
+									"generateSmall" : true,
 									"area" : {
 										"top" : 0,
 										"left" : 0,
@@ -497,6 +505,8 @@
 							"help" : "core.help.295",
 							"hotkey" : "adventureQuestLog",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam004",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 80,
 								"left" : 16,
@@ -521,6 +531,8 @@
 									"help" : "core.help.296",
 									"hotkey" : "adventureSetHeroAsleep",
 									"playerColored" : true,
+									"generateFromBaseImage" : "iam005",
+									"generateSmall" : true,
 									"area" : {
 										"top" : 0,
 										"left" : 0,
@@ -547,6 +559,64 @@
 									"help" : "core.help.296",
 									"hotkey" : "adventureSetHeroAwake",
 									"playerColored" : true,
+									"generateFromBaseImage" : "iam011",
+									"generateSmall" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "heroGround",
+							"area" : {
+								"top" : 128,
+								"left" : 16,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "buttonMoveHorse",
+									"image" : "buttons/iam006L.def",
+									"help" : "core.help.297",
+									"hotkey" : "adventureMoveHero",
+									"playerColored" : true,
+									"generateFromBaseImage" : "iam006",
+									"generateSmall" : true,
+									"area" : {
+										"top" : 0,
+										"left" : 0,
+										"width" : 32,
+										"height" : 32
+									}
+								}
+							]
+						},
+						{
+							"type" : "adventureMapContainer",
+							"hideWhen" : "heroBoat",
+							"area" : {
+								"top" : 128,
+								"left" : 16,
+								"width" : 32,
+								"height" : 32
+							},
+							"items" : [
+								{
+									"type" : "adventureMapButton",
+									"name" : "buttonMoveBoat",
+									"image" : "buttons/iam-boatL",
+									"help" : "core.help.297",
+									"hotkey" : "adventureMoveHero",
+									"playerColored" : true,
+									"generateFromBaseImage" : "iam-boat",
+									"generateSmall" : true,
 									"area" : {
 										"top" : 0,
 										"left" : 0,
@@ -558,25 +628,13 @@
 						},
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonMove",
-							"image" : "buttons/iam006.def",
-							"help" : "core.help.297",
-							"hotkey" : "adventureMoveHero",
-							"playerColored" : true,
-							"area" : {
-								"top" : 128,
-								"left" : 16,
-								"width" : 32,
-								"height" : 32
-							}
-						},
-						{
-							"type" : "adventureMapButton",
 							"name" : "buttonCast",
 							"image" : "buttons/iam007.def",
 							"help" : "core.help.298",
 							"hotkey" : "adventureCastSpell",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam007",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 128,
 								"left" : 64,
@@ -591,6 +649,8 @@
 							"help" : "core.help.299",
 							"hotkey" : "adventureGameOptions",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam008",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 32,
 								"left" : 112,
@@ -605,6 +665,8 @@
 							"help" : "core.help.300",
 							"hotkey" : "globalOptions",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam009",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 80,
 								"left" : 112,
@@ -619,6 +681,8 @@
 							"help" : "core.help.301",
 							"hotkey" : "adventureNextHero",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam000",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 128,
 								"left" : 112,
@@ -633,6 +697,8 @@
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 32,
 								"left" : 160,
@@ -647,6 +713,8 @@
 							"help" : "vcmi.adventureMap.search",
 							"hotkey" : "adventureSearch",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam-search",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 80,
 								"left" : 160,
@@ -661,6 +729,8 @@
 							"hotkey" : "gameEndTurn",
 							"help" : "core.help.302",
 							"playerColored" : true,
+							"generateFromBaseImage" : "iam001",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 128,
 								"left" : 160,
