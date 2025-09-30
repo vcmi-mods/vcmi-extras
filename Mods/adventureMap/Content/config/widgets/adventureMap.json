@@ -570,13 +570,13 @@
 						}
 					]
 				},
-				
+
 				// Add later
 				// world view
 				// replay / market place
 				// puzzle
 				// dig
-				
+
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonQuestLog",
