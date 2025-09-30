@@ -266,7 +266,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther",
+							"name" : "worldViewOther1",
 							"image" : "buttons/iam-layers.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
@@ -372,6 +372,7 @@
 							"hotkey" : "adventureMoveHero",
 							"playerColored" : true,
 							"generateFromBaseImage" : "iam006",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 0,
 								"left" : 0,
@@ -399,6 +400,7 @@
 							"hotkey" : "adventureMoveHero",
 							"playerColored" : true,
 							"generateFromBaseImage" : "iam-boat",
+							"generateSmall" : true,
 							"area" : {
 								"top" : 0,
 								"left" : 0,
@@ -555,7 +557,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOtherBig",
+							"name" : "worldViewOther2",
 							"image" : "buttons/iam-layersL.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
@@ -1844,7 +1846,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther",
+							"name" : "worldViewOther3",
 							"image" : "buttons/iam-layers.def",
 							"playerColored" : true,
 							"generateFromBaseImage" : "iam-layers",
