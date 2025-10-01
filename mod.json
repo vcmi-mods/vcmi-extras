@@ -166,8 +166,11 @@
 		"min" : "1.6.0"
 	},
 	"czech" : {
-		"name" : "Rozšíření VCMI",
-		"description" : "Rozšíření a opravy pro rozhraní a hratelnost ve VCMI:<br><br>• <b>Rozšířené možnosti lobby</b><br> Přidává výběr šablony, tlačítka velikosti mapy (H/XH/G), šachové hodiny a podporu souběžných tahů<br><br>• <b>Tlačítka Znovunavštívit a Vyhledat</b><br> Přidává tlačítka pro opětovný vstup do aktuálního objektu a kontextové vyhledávání na mapě<br><br>• <b>Rychlá výměna</b><br> Vylepšuje okno výměny hrdinů o tlačítka pro výměnu všech jednotek a artefaktů jedním kliknutím<br><br>• <b>Vertikální rozvržení (režim portrétu)</b><br> Optimalizuje rozhraní mapy dobrodružství pro obrazovky ve svislé orientaci<br><br>• <b>Ikony bonusů</b><br> Zobrazuje vizuální indikátory bonusů a speciálních schopností jednotek<br><br>• <b>Ikony imunit vůči kouzlům</b><br> Zobrazuje ikony imunit vůči kouzlům během boje<br><br>• <b>Podpora emoji</b><br> Umožňuje zobrazení emoji ve hře (např. v chatu)"
+		"name" : "VCMI Extras",
+		"description" : "Rozšíření a opravy pro rozhraní a hratelnost ve VCMI:<br><br>• <b>Rozšířené možnosti lobby</b><br> Přidává výběr šablony, tlačítka velikosti mapy (H/XH/G), šachové hodiny a podporu souběžných tahů<br><br>• <b>Tlačítka Znovunavštívit a Vyhledat</b><br> Přidává tlačítka pro opětovný vstup do aktuálního objektu a kontextové vyhledávání na mapě<br><br>• <b>Rychlá výměna</b><br> Vylepšuje okno výměny hrdinů o tlačítka pro výměnu všech jednotek a artefaktů jedním kliknutím<br><br>• <b>Vertikální rozvržení (režim portrétu)</b><br> Optimalizuje rozhraní mapy dobrodružství pro obrazovky ve svislé orientaci<br><br>• <b>Ikony bonusů</b><br> Zobrazuje vizuální indikátory bonusů a speciálních schopností jednotek<br><br>• <b>Ikony imunit vůči kouzlům</b><br> Zobrazuje ikony imunit vůči kouzlům během boje<br><br>• <b>Podpora emoji</b><br> Umožňuje zobrazení emoji ve hře (např. v chatu)",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Dodatki VCMI",
