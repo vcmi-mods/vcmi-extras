@@ -3,7 +3,7 @@
 	"description" : "Adds new graphical icons for various unit bonuses and abilities, enhancing visual feedback in battles and creature screens.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.81",
+	"version" : "0.82",
 	"modType" : "Graphical",
 
 	"bonuses" : [
@@ -27,7 +27,10 @@
 	],
 	"czech" : {
 		"name" : "Ikony bonusů a schopností",
-		"description" : "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek."
+		"description" : "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Ikony bonusów i umiejętności",

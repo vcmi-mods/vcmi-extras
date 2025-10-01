@@ -1,0 +1,11 @@
+{
+	"creatures.core.ammoCart.bonus.inactive" : "{Neaktivní}\nEfekty vozíku se střelivem jsou pasivní a nefigurují v pořadí tahů.",
+	"creatures.core.ammoCart.bonus.siegeWeapon" : "{Vozík se střelivem}\nPoskytuje neomezený počet výstřelů pro jednotky s útokem na dálku",
+	"creatures.core.ballista.bonus.siegeWeapon" : "{Balista}\nVálečný stroj, který střílí na nepřátelské oddíly.",
+	"creatures.core.catapult.bonus.siegeWeapon" : "{Katapult}\nVálečný stroj k ničení hradeb, bran a věží.",
+	"creatures.core.firstAidTent.bonus.heals" : "{Stan první pomoci}\nLéčí část životů jednotky v přátelském oddílu.",
+	"creatures.core.firstAidTent.bonus.siegeWeapon" : "{Stan první pomoci}\nVálečný stroj, který je v rámci kola na řadě jako poslední.",
+	"creatures.core.halfling.bonus.lucky" : "{Štěstí}\nŠtěstí hobita nikdy neklesne pod +1",
+	"creatures.core.minotaur.bonus.fearless" : "{Morálka}\nMorálka minotaura nikdy neklesne pod +1",
+	"creatures.core.minotaurKing.bonus.fearless" : "{Morálka}\nMorálka krále minotaurů nikdy neklesne pod +1"
+}
