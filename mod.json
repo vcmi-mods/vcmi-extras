@@ -7,7 +7,7 @@
 	"changelog" : {
 		"3.8.1" : [
 			"Added maximum damage icon"
-     ],
+		],
 		"3.8.0" : [
 			"Fixed issue with Bonus icons submod on Android and Linux",
 			"Improved all adventure button icons"
