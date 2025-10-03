@@ -1,13 +1,26 @@
 {
 	"name" : "VCMI extras",
 	"description" : "Collection of enhancements and fixes for VCMI interface and gameplay:<br><br>• <b>Extended lobby options</b><br> Adds template selection, map size buttons (H/XH/G), chess timer, and support for simultaneous turns<br><br>• <b>Revisit & Search buttons</b><br> Adds buttons to revisit the current object and perform contextual searches on the adventure map<br><br>• <b>Quick Exchange</b><br> Improves the hero exchange screen with one-click swap buttons for all creatures and artifacts<br><br>• <b>Vertical layout (portrait mode)</b><br> Optimizes the adventure map interface for vertical screen orientation (portrait mode)<br><br>• <b>Bonus icons</b><br> Adds visual indicators for unit bonuses and special abilities<br><br>• <b>Spell immunity icons</b><br> Displays spell immunity icons for creatures during combat<br><br>• <b>Emoji support</b><br> Enables emoji font rendering in the in-game chat",
-	"version" : "3.7.7",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
-		"3.7.7" : [
+		"3.8.1" : [
 			"Added maximum damage icon"
+     ],
+		"3.8.0" : [
+			"Fixed issue with Bonus icons submod on Android and Linux",
+			"Improved all adventure button icons"
+		],
+		"3.7.9" : [
+			"More creatures' abilities icon (by Kurek, Andruids and Ben Yan)"
+		],
+		"3.7.8" : [
+			"Added Chinese description"
+		],
+		"3.7.7" : [
+			"Added reworked Adventure map buttons in 32x32 and 64x32",
+			"Added new Adventure map buttons layout for vertical resolution 900+"
 		],
 		"3.7.6" : [
 			"Small graphical fixes and corrections"
@@ -155,11 +168,18 @@
 		"min" : "1.6.0"
 	},
 	"czech" : {
-		"name" : "Rozšíření VCMI",
-		"description" : "Rozšíření a opravy pro rozhraní a hratelnost ve VCMI:<br><br>• <b>Rozšířené možnosti lobby</b><br> Přidává výběr šablony, tlačítka velikosti mapy (H/XH/G), šachové hodiny a podporu souběžných tahů<br><br>• <b>Tlačítka Znovunavštívit a Vyhledat</b><br> Přidává tlačítka pro opětovný vstup do aktuálního objektu a kontextové vyhledávání na mapě<br><br>• <b>Rychlá výměna</b><br> Vylepšuje okno výměny hrdinů o tlačítka pro výměnu všech jednotek a artefaktů jedním kliknutím<br><br>• <b>Vertikální rozvržení (režim portrétu)</b><br> Optimalizuje rozhraní mapy dobrodružství pro obrazovky ve svislé orientaci<br><br>• <b>Ikony bonusů</b><br> Zobrazuje vizuální indikátory bonusů a speciálních schopností jednotek<br><br>• <b>Ikony imunit vůči kouzlům</b><br> Zobrazuje ikony imunit vůči kouzlům během boje<br><br>• <b>Podpora emoji</b><br> Umožňuje zobrazení emoji ve hře (např. v chatu)"
+		"name" : "VCMI Extras",
+		"description" : "Rozšíření a opravy pro rozhraní a hratelnost ve VCMI:<br><br>• <b>Rozšířené možnosti lobby</b><br> Přidává výběr šablony, tlačítka velikosti mapy (H/XH/G), šachové hodiny a podporu souběžných tahů<br><br>• <b>Tlačítka Znovunavštívit a Vyhledat</b><br> Přidává tlačítka pro opětovný vstup do aktuálního objektu a kontextové vyhledávání na mapě<br><br>• <b>Rychlá výměna</b><br> Vylepšuje okno výměny hrdinů o tlačítka pro výměnu všech jednotek a artefaktů jedním kliknutím<br><br>• <b>Vertikální rozvržení (režim portrétu)</b><br> Optimalizuje rozhraní mapy dobrodružství pro obrazovky ve svislé orientaci<br><br>• <b>Ikony bonusů</b><br> Zobrazuje vizuální indikátory bonusů a speciálních schopností jednotek<br><br>• <b>Ikony imunit vůči kouzlům</b><br> Zobrazuje ikony imunit vůči kouzlům během boje<br><br>• <b>Podpora emoji</b><br> Umožňuje zobrazení emoji ve hře (např. v chatu)",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Dodatki VCMI",
 		"description" : "Zestaw ulepszeń i poprawek dla interfejsu i rozgrywki w VCMI:<br><br>• <b>Rozszerzone opcje lobby</b><br> Dodaje wybór szablonu, przyciski rozmiaru mapy (H/XH/G), zegar szachowy i obsługę tur jednoczesnych<br><br>• <b>Przyciski Ponownego Wejścia i Znajdź</b><br> Dodaje przyciski umożliwiające powrót do obiektu i kontekstowe wyszukiwanie na mapie<br><br>• <b>Szybka wymiana</b><br> Ulepsza ekran wymiany bohaterów o przyciski do jednoczesnej wymiany wszystkich jednostek i artefaktów<br><br>• <b>Pionowy układ (tryb portretowy)</b><br> Optymalizuje interfejs mapy przygód dla ekranów w orientacji pionowej<br><br>• <b>Ikony bonusów</b><br> Dodaje graficzne wskaźniki bonusów i umiejętności jednostek<br><br>• <b>Ikony odporności na czary</b><br> Wyświetla ikony odporności na czary podczas walki<br><br>• <b>Obsługa emoji</b><br> Umożliwia wyświetlanie emoji w grze (np. na czacie)"
+	},
+	"chinese" : {
+		"name" : "VCMI附加内容",
+		"description" : "VCMI界面和游戏性的增强和修复集合（推荐安装）：<br><br>• <b>扩展的等候室选项</b><br> 添加了模板选择、地图大小按钮（H/XH/G）、棋盘计时器以及同时行动的支持<br><br>• <b>返回和搜索按钮</b><br> 增加了返回当前对象和在冒险地图上执行上下文搜索的按钮<br><br>• <b>快速交换</b><br> 通过单击交换按钮改进了英雄交换界面，适用于所有生物和神器<br><br>• <b>垂直布局（纵向模式）</b><br> 优化了冒险地图界面，适用于纵向屏幕方向（纵向模式）<br><br>• <b>奖励图标</b><br> 为单位奖励和特殊能力添加了视觉指示器<br><br>• <b>法术免疫图标</b><br> 战斗中为生物显示法术免疫图标<br><br>• <b>表情符号支持</b><br> 在游戏聊天中启用表情符号字体渲染"
 	}
 }

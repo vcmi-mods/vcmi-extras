@@ -1,0 +1,46 @@
+{
+	"core:catapult" : {
+		"abilities" : {
+			"siegeWeapon" : {
+				"icon" : "zvs/Lib1.res/catapult0",
+				"description" : "{Catapult}\nWar machine used to attack and destroy walls, gates and towers."
+			}
+		}
+	},
+	"core:ballista" : {
+		"abilities" : {
+			"siegeWeapon" : {
+				"icon" : "zvs/Lib1.res/ballista",
+				"description" : "{Ballista}\nA missile weapon that shoots projectiles towards enemy troops."
+			}
+		}
+	},
+	"core:firstAidTent" : {
+		"abilities" : {
+			"siegeWeapon" : {
+				"icon" : "zvs/Lib1.res/tent",
+				"description" : "{First Aid Tent}\nWar machine that acts last at the combat round."
+			},
+			"heals" : {
+				"description" : "{First Aid Tent}\nHeals some hit points of the top creature of an allied stack."
+			}
+		}
+	},
+	"core:ammoCart" : {
+		"abilities" : {
+			"siegeWeapon" : {
+				"icon" : "zvs/Lib1.res/cart",
+				"description" : "{Ammo Cart}\nProvides unlimited shots for creatures with ranged attacks until destroy."
+			},
+			"dummyIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/ammocart",
+				"description" : "{Ammo Cart}\nProvides unlimited shots for war machines with ranged attacks until destroy."
+			},
+			"inactive" : {
+				"icon" : "zvs/Lib1.res/inactive",
+				"description" : "{Not active}\nAmmo cart effects are passive and excluded from turn order."
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"creatures.core.airElemental.bonus.dummyVulnerablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzel Armagedon, Blesk, Kulový blesk a Titánův blesk.",
+	"creatures.core.ammoCart.bonus.dummyIcon" : "{Vozík se střelivem}\nPoskytuje neomezený počet výstřelů pro válečné stroje s útokem na dálku.",
+	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{Krystaly}\nNa začátku nového týdne vygeneruje 3 krystaly navíc.",
+	"creatures.core.earthElemental.bonus.dummyVulneablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzla Pád meteoritů.",
+	"creatures.core.enchanter.bonus.dummyabilityIcon" : "{Zaklínač}\nMůže seslat několik kouzel ještě před svým tahem.",
+	"creatures.core.energyElemental.bonus.dummyVulneablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzel Ledový šíp a Mrazící kruh.",
+	"creatures.core.fireElemental.bonus.dummyVulneablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzel Ledový šíp a Mrazící kruh.",
+	"creatures.core.halfling.bonus.dummyluckyicon" : "{Štěstí}\nŠtěstí hobita nikdy neklesne pod +1",
+	"creatures.core.iceElemental.bonus.dummyVulneablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzel Armageddon, Ohnivá koule a Peklo.",
+	"creatures.core.magmaElemental.bonus.dummyVulneablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzla Pád meteoritů.",
+	"creatures.core.minotaur.bonus.dummyMoraleIcon" : "{Morálka}\nMorálka minotaura nikdy neklesne pod +1",
+	"creatures.core.minotaurKing.bonus.dummyMoraleIcon" : "{Morálka}\nMorálka krále minotaurů nikdy neklesne pod +1",
+	"creatures.core.stormElemental.bonus.dummyVulnerablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzel Armagedon, Blesk, Kulový blesk a Titánův blesk.",
+	"creatures.core.waterElemental.bonus.dummyVulnerablityIcon" : "{Kouzelná zranitelnost}\nUtrpí dvojnásobné zranění od kouzel Armagedon, Ohnivá koule a Peklo."
+}

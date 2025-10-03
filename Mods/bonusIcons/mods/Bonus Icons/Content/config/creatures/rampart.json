@@ -1,0 +1,70 @@
+{
+	"core:battleDwarf" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/dwarfupg"
+			}
+		}
+	},
+	"core:grandElf" : {
+		"abilities" : {
+			"doubleShot" : {
+				"icon" : "zvs/Lib1.res/doubleshoot"
+			}
+		}
+	},
+	"core:dendroidGuard" : {
+		"abilities" : {
+			"binds" : {
+				"icon" : "zvs/Lib1.res/sticky"
+			}
+		}
+	},
+	"core:dendroidSoldier" : {
+		"abilities" : {
+			"binds" : {
+				"icon" : "zvs/Lib1.res/sticky"
+			}
+		}
+	},
+	"core:unicorn" : {
+		"abilities" : {
+			"blinds" : {
+				"icon" : "zvs/Lib1.res/blindattack"
+			},
+			"spellResistAura" : {
+				"icon" : "zvs/Lib1.res/e_unic"
+			}
+		}
+	},
+	"core:warUnicorn" : {
+		"abilities" : {
+			"blinds" : {
+				"icon" : "zvs/Lib1.res/blindattack"
+			},
+			"spellResistAura" : {
+				"icon" : "zvs/Lib1.res/e_unic"
+			}
+		}
+	},
+	"core:greenDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathgreen"
+			}
+		}
+	},
+	"core:goldDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathgold"
+			}
+		}
+	}
+}

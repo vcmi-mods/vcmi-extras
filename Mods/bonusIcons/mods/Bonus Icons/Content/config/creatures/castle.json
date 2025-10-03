@@ -1,0 +1,38 @@
+{
+	"core:marksman" : {
+		"abilities" : {
+			"extraAttack" : {
+				"icon" : "zvs/Lib1.res/doubleshoot"
+			}
+		}
+	},
+	"core:angel" : {
+		"abilities" : {
+			"raisesMorale" : {
+				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			},
+			"hateDevils" : {
+				"icon" : "zvs/Lib1.res/hateangels"
+			},
+			"hateArchDevils" : {
+				"icon" : "zvs/Lib1.res/hatearchangels"
+			}
+		}
+	},
+	"core:archangel" : {
+		"abilities" : {
+			"resurrects" : {
+				"icon" : "zvs/Lib1.res/resurrect3"
+			},
+			"raisesMorale" : {
+				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			},
+			"hateDevils" : {
+				"icon" : "zvs/Lib1.res/hateangels"
+			},
+			"hateArchDevils" : {
+				"icon" : "zvs/Lib1.res/hatearchangels"
+			}
+		}
+	}
+}

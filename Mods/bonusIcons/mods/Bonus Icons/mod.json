@@ -3,15 +3,34 @@
 	"description" : "Adds new graphical icons for various unit bonuses and abilities, enhancing visual feedback in battles and creature screens.",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.81",
+	"version" : "0.82",
 	"modType" : "Graphical",
 
 	"bonuses" : [
 		"config/bonusIcons/bonuses.json"
 	],
+	"spells" : [
+		"config/spells/summonDemon.json"
+	],
+	"creatures" : [
+		"config/creatures/castle.json",
+		"config/creatures/conflux.json",
+		"config/creatures/dungeon.json",
+		"config/creatures/fortress.json",
+		"config/creatures/inferno.json",
+		"config/creatures/necropolis.json",
+		"config/creatures/neutral.json",
+		"config/creatures/rampart.json",
+		"config/creatures/special.json",
+		"config/creatures/stronghold.json",
+		"config/creatures/tower.json"
+	],
 	"czech" : {
 		"name" : "Ikony bonusů a schopností",
-		"description" : "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek."
+		"description" : "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Ikony bonusów i umiejętności",

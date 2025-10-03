@@ -1,0 +1,152 @@
+{
+	"core:goldGolem" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/e_golem_gold"
+			}
+		}
+	},
+	"core:diamondGolem" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "zvs/Lib1.res/e_golem_diamond"
+			}
+		}
+	},
+	"core:azureDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathazure"
+			}
+		}
+	},
+	"core:crystalDragon" : {
+		"abilities" : {
+			"dummycrystalIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/resourcescrystal",
+				"description" : "{Crystallogenic}\nGenerates additional 3 crystals on new week."
+			},
+			"crystals" : {
+				"icon" : "zvs/Lib1.res/resourcescrystal"
+			}
+		}
+	},
+	"core:fairieDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly7"
+			},
+			"castsMagicArrow" : {
+				"icon" : "zvs/Lib1.res/magicarrow2"
+			},
+			"castsIceBolt" : {
+				"icon" : "zvs/Lib1.res/icebolt2"
+			},
+			"castsLightningBolt" : {
+				"icon" : "zvs/Lib1.res/lightningbolt2"
+			},
+			"castsChainLightning" : {
+				"icon" : "zvs/Lib1.res/chainlightning2"
+			},
+			"castsFrostRing" : {
+				"icon" : "zvs/Lib1.res/frostring2"
+			},
+			"castsFireball" : {
+				"icon" : "zvs/Lib1.res/fireball2"
+			},
+			"castsInferno" : {
+				"icon" : "zvs/Lib1.res/inferno2"
+			},
+			"castsMeteorShower" : {
+				"icon" : "zvs/Lib1.res/meteorshower2"
+			}
+		}
+	},
+	"core:rustDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathrust"
+			},
+			"acidBreath" : {
+				"icon" : "zvs/Lib1.res/acidattack"
+			},
+			"reduceDefence" : {
+				"icon" : "zvs/Lib1.res/acidattack"
+			}
+		}
+	},
+	"core:enchanter" : {
+		"abilities" : {
+			"dummyabilityIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/e_cast1",
+				"description" : "{.Enchanter.}\nCan cast multiple spells before its turn."
+			},
+			"castsHaste" : {
+				"icon" : "zvs/Lib1.res/haste3"
+			},
+			"castsSlow" : {
+				"icon" : "zvs/Lib1.res/slow3"
+			},
+			"castsStoneSkin" : {
+				"icon" : "zvs/Lib1.res/stoneskin3"
+			},
+			"castsBless" : {
+				"icon" : "zvs/Lib1.res/bless3"
+			},
+			"castsWeakness" : {
+				"icon" : "zvs/Lib1.res/weakness3"
+			},
+			"castsAirShield" : {
+				"icon" : "zvs/Lib1.res/airshield3"
+			}
+		}
+	},
+	"core:halfling" : {
+		"abilities" : {
+			"lucky" : {
+				"icon" : "zvs/Lib1.res/positiveluck",
+				"description" : "{Positive luck}\nHalfling's luck cannot be decreased below +1"
+			},
+			"dummyluckyicon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/positiveluck",
+				"description" : "{Positive luck}\nHalfling's luck cannot be decreased below +1"
+			}
+		}
+	},
+	"core:mummy" : {
+		"abilities" : {
+			"castCurse" : {
+				"icon" : "zvs/Lib1.res/curseattack"
+			}
+		}
+	},
+	"core:nomad" : {
+		"abilities" : {
+			"sandWalker" : {
+				"icon" : "zvs/Lib1.res/nomads"
+			}
+		}
+	},
+	"core:rogue" : {
+		"abilities" : {
+			"visionsMonsters" : {
+				"icon" : "zvs/Lib1.res/visions1" //LUB visions0 LUB visions2rogue
+			},
+			"visionsHeroes" : {
+				"icon" : "zvs/Lib1.res/visions2"
+			},
+			"visionsTowns" : {
+				"icon" : "zvs/Lib1.res/visions3"
+			}
+		}
+	}
+}

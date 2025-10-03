@@ -1,0 +1,88 @@
+{
+	"core:zombieLord" : {
+		"abilities" : {
+			"castDisease" : {
+				"icon" : "zvs/Lib1.res/diseaseattack"
+			}
+		}
+	},
+	"core:wight" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly3"
+			}
+		}
+	},
+	"core:wraith" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly3"
+			}
+		}
+	},
+	"core:vampire" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			}
+		}
+	},
+	"core:vampireLord" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			}
+		}
+	},
+	"core:lich" : {
+		"abilities" : {
+			"deathCloud" : {
+				"icon" : "zvs/Lib1.res/deathcloudattack"
+			}
+		}
+	},
+	"core:powerLich" : {
+		"abilities" : {
+			"deathCloud" : {
+				"icon" : "zvs/Lib1.res/deathcloudattack"
+			}
+		}
+	},
+	"core:blackKnight" : {
+		"abilities" : {
+			"curses" : {
+				"icon" : "zvs/Lib1.res/curseattack"
+			}
+		}
+	},
+	"core:dreadKnight" : {
+		"abilities" : {
+			"curses" : {
+				"icon" : "zvs/Lib1.res/curseattack"
+			}
+		}
+	},
+	"core:boneDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"decreaseMorale" : {
+				"icon" : "zvs/Lib1.res/bonusnegativemorale"
+			}
+		}
+	},
+	"core:ghostDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"age" : {
+				"icon" : "zvs/Lib1.res/ageattack"
+			},
+			"decreaseMorale" : {
+				"icon" : "zvs/Lib1.res/bonusnegativemorale"
+			}
+		}
+	}
+}

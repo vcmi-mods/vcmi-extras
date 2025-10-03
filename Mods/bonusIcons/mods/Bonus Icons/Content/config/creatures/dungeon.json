@@ -1,0 +1,96 @@
+{
+	"core:troglodyte" : {
+		"abilities" : {
+			"petrifyImmunity" : {
+				"icon" : "zvs/Lib1.res/immturntostone"
+			}
+		}
+	},
+	"core:infernalTroglodyte" : {
+		"abilities" : {
+			"petrifyImmunity" : {
+				"icon" : "zvs/Lib1.res/immturntostone"
+			}
+		}
+	},
+	"core:medusa" : {
+		"abilities" : {
+			"petrification" : {
+				"icon" : "zvs/Lib1.res/turntostone0"
+			}
+		}
+	},
+	"core:medusaQueen" : {
+		"abilities" : {
+			"petrification" : {
+				"icon" : "zvs/Lib1.res/turntostone0"
+			}
+		}
+	},
+	"core:minotaur" : {
+		"abilities" : {
+			"fearless" : {
+				"icon" : "zvs/Lib1.res/e_minot",
+				"description" : "{Positive morale}\nMinotaur's morale cannot be decreased below +1"
+			},
+			"dummyMoraleIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/e_minot",
+				"description" : "{Positive morale}\nMinotaur's morale cannot be decreased below +1"
+			}
+		}
+	},
+	"core:minotaurKing" : {
+		"abilities" : {
+			"fearless" : {
+				"icon" : "zvs/Lib1.res/e_minot",
+				"description" : "{Positive morale}\nMinotaur's morale cannot be decreased below +1"
+			},
+			"dummyMoraleIcon" : {
+				"type" : "NONE",
+				"icon" : "zvs/Lib1.res/e_minot",
+				"description" : "{Positive morale}\nMinotaur King's morale cannot be decreased below +1"
+			}
+		}
+	},
+	"core:manticore" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			}
+		}
+	},
+	"core:scorpicore" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"paralize" : {
+				"icon" : "zvs/Lib1.res/paralysisattack"
+			}
+		}
+	},
+	"core:redDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathred"
+			}
+		}
+	},
+	"core:blackDragon" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly2"
+			},
+			"twoHexAttackBreath" : {
+				"icon" : "zvs/Lib1.res/e_breathblack"
+			},
+			"hateTitans" : {
+				"icon" : "zvs/Lib1.res/hateblackdragons"
+			}
+		}
+	}
+}

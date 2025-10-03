@@ -1,0 +1,81 @@
+{
+	"core:magog" : {
+		"abilities" : {
+			"fireball" : {
+				"icon" : "zvs/Lib1.res/magogattack"
+			}
+		}
+	},
+	"core:cerberus" : {
+		"abilities" : {
+			"threeHeads" : {
+				"icon" : "zvs/Lib1.res/cerberus"
+			}
+		}
+	},
+	"core:pitLord" : {
+		"abilities" : {
+			"resurrects" : {
+				"icon" : "zvs/Lib1.res/E_SUMMON"
+			}
+		}
+	},
+	"core:efreet" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"hateGenies" : {
+				"icon" : "zvs/Lib1.res/hateefreets1"
+			},
+			"hateMasterGenies" : {
+				"icon" : "zvs/Lib1.res/hatesultans1"
+			}
+		}
+	},
+	"core:efreetSultan" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"hateGenies" : {
+				"icon" : "zvs/Lib1.res/hateefreets1"
+			},
+			"hateMasterGenies" : {
+				"icon" : "zvs/Lib1.res/hatesultans1"
+			}
+		}
+	},
+	"core:devil" : {
+		"abilities" : {
+			"teleports" : {
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"decreaseLuck" : {
+				"icon" : "zvs/Lib1.res/misfortuneaura"
+			},
+			"hateAngels" : {
+				"icon" : "zvs/Lib1.res/hatedevils1"
+			},
+			"hateArchAngels" : {
+				"icon" : "zvs/Lib1.res/hatearchdevils"
+			}
+		}
+	},
+	"core:archDevil" : {
+		"abilities" : {
+			"teleports" : {
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"decreaseLuck" : {
+				"icon" : "zvs/Lib1.res/misfortuneaura"
+			},
+			"hateAngels" : {
+				"icon" : "zvs/Lib1.res/hatedevils1"
+			},
+			"hateArchAngels" : {
+				"icon" : "zvs/Lib1.res/hatearchdevils"
+			}
+		}
+	}
+}
