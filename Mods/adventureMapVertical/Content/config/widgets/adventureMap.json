@@ -409,7 +409,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 32,
-								"left" : 16,
+								"left" : 10,
 								"width" : 32,
 								"height" : 32
 							}
@@ -419,7 +419,7 @@
 							"hideWhen" : "mapLayerSurface",
 							"area" : {
 								"top" : 32,
-								"left" : 64,
+								"left" : 58,
 								"width" : 32,
 								"height" : 32
 							},
@@ -447,7 +447,7 @@
 							"hideWhen" : "mapLayerUnderground",
 							"area" : {
 								"top" : 32,
-								"left" : 64,
+								"left" : 58,
 								"width" : 32,
 								"height" : 32
 							},
@@ -475,14 +475,14 @@
 							"hideWhen" : "mapLayerOther",
 							"area" : {
 								"top" : 32,
-								"left" : 64,
+								"left" : 58,
 								"width" : 32,
 								"height" : 32
 							},
 							"items" : [
 								{
 									"type" : "adventureMapButton",
-									"name" : "worldViewOther",
+									"name" : "worldViewOther1",
 									"image" : "buttons/iam-layers.def",
 									"help" : "core.help.294",
 									"hotkey" : "adventureToggleMapLevel",
@@ -509,7 +509,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 80,
-								"left" : 16,
+								"left" : 10,
 								"width" : 32,
 								"height" : 32
 							}
@@ -519,7 +519,7 @@
 							"hideWhen" : "heroAwake",
 							"area" : {
 								"top" : 80,
-								"left" : 64,
+								"left" : 58,
 								"width" : 32,
 								"height" : 32
 							},
@@ -547,7 +547,7 @@
 							"hideWhen" : "heroSleeping",
 							"area" : {
 								"top" : 80,
-								"left" : 64,
+								"left" : 58,
 								"width" : 32,
 								"height" : 32
 							},
@@ -575,7 +575,7 @@
 							"hideWhen" : "heroGround",
 							"area" : {
 								"top" : 128,
-								"left" : 16,
+								"left" : 10,
 								"width" : 32,
 								"height" : 32
 							},
@@ -603,7 +603,7 @@
 							"hideWhen" : "heroBoat",
 							"area" : {
 								"top" : 128,
-								"left" : 16,
+								"left" : 10,
 								"width" : 32,
 								"height" : 32
 							},
@@ -637,7 +637,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 128,
-								"left" : 64,
+								"left" : 58,
 								"width" : 32,
 								"height" : 32
 							}
@@ -653,7 +653,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 32,
-								"left" : 112,
+								"left" : 106,
 								"width" : 32,
 								"height" : 32
 							}
@@ -669,7 +669,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 80,
-								"left" : 112,
+								"left" : 106,
 								"width" : 32,
 								"height" : 32
 							}
@@ -685,7 +685,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 128,
-								"left" : 112,
+								"left" : 106,
 								"width" : 32,
 								"height" : 32
 							}
@@ -701,7 +701,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 32,
-								"left" : 160,
+								"left" : 154,
 								"width" : 32,
 								"height" : 32
 							}
@@ -717,7 +717,7 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 80,
-								"left" : 160,
+								"left" : 154,
 								"width" : 32,
 								"height" : 32
 							}
@@ -733,7 +733,71 @@
 							"generateSmall" : true,
 							"area" : {
 								"top" : 128,
-								"left" : 160,
+								"left" : 154,
+								"width" : 64,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonPuzzle",
+							"image" : "buttons/iam-puzzle.def",
+							"hotkey" : "adventureViewPuzzle",
+							"help" : "core.help.371",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-puzzle",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 32,
+								"left" : 202,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMarket",
+							"image" : "buttons/iam-market.def",
+							"hotkey" : "adventureMarketplace",
+							"help" : "core.help.594",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-market",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 80,
+								"left" : 202,
+								"width" : 32,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonWorld",
+							"image" : "buttons/iam-world.def",
+							"hotkey" : "adventureViewWorld",
+							"help" : "core.help.370",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-world",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 128,
+								"left" : 202,
+								"width" : 64,
+								"height" : 32
+							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonDig",
+							"image" : "buttons/iam-dig.def",
+							"hotkey" : "adventureDigGrail",
+							"help" : "core.help.373",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-dig",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 32,
+								"left" : 250,
 								"width" : 64,
 								"height" : 32
 							}
@@ -1451,7 +1515,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther",
+							"name" : "worldViewOther2",
 							"image" : "buttons/iam-layers.def",
 							"playerColored" : true,
 							"hotkey" : "adventureToggleMapLevel",
