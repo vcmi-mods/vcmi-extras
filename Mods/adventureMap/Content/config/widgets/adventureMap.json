@@ -1648,9 +1648,8 @@
 		},
 		// Resource & Data bar
 		{
-			"type" : "adventurePlayerTexture",
-			"name" : "backgroundLeftOfResourceDateBar",
-			"image" : "DiBoxBck.pcx",
+			"type" : "adventureResourceAdditional",
+			"name" : "resourceAdditional",
 			"area" : {
 				"left" : 3,
 				"bottom" : 4,
