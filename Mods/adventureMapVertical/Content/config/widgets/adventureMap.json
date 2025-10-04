@@ -801,6 +801,22 @@
 								"width" : 64,
 								"height" : 32
 							}
+						},
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonLobby",
+							"image" : "buttons/iam-lobby.def",
+							"hotkey" : "mainMenuLobby",
+							"help" : "core.help.557",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-lobby",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 80,
+								"left" : 250,
+								"width" : 64,
+								"height" : 32
+							}
 						}
 					]
 				},
