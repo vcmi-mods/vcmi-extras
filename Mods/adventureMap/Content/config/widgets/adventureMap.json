@@ -1564,7 +1564,7 @@
 			"name" : "emptyAreaFillLarge2",
 			"hideWhen" : "worldViewMode",
 			"area" : {
-				"top" : 680,
+				"top" : 679,
 				"right" : 3,
 				"width" : 190,
 				"bottom" : 210
