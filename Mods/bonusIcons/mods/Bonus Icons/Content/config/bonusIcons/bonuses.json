@@ -328,7 +328,7 @@
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/vulnerabilityOffensiveSpells",
 			"subtypeIcons" : {
-				"bonusSubtype.spell.titanBolt" : "zvs/Lib1.res/vulnerabletitanslb",
+				"spell.titanBolt" : "zvs/Lib1.res/vulnerabletitanslb",
 				"spell.meteorShower" : "zvs/Lib1.res/vulnerabilitymeteorshower",
 				"spell.lightningBolt" : "zvs/Lib1.res/vulnerablelightningbolt",
 				"spell.chainLightning" : "zvs/Lib1.res/vulnerablechainlightning",
