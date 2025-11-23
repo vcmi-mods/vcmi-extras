@@ -1,7 +1,7 @@
 {
 	"name" : "Extended lobby options",
 	"description" : "Improves the game lobby with advanced RMG configuration:<br><br>• Template selection<br>• Chess timer<br>• Map size buttons for H / XH / G<br>• Support for simultaneous turns",
-	"version" : "2.2",
+	"version" : "2.3",
 	"author" : "Nordsoft",
 	"contact" : "nordsoft@yahoo.com",
 	"modType" : "Interface",
@@ -29,7 +29,19 @@
 		],
 		"2.2" : [
 			"Czech translation by George King"
+		],
+		"2.3" : [
+			"Added missing help and add custom button"
 		]
+	},
+	"translations" : {
+	    "core.help.201.help": "Create a extra large map",
+	    "vcmi.lobby.randomSize.HG.help": "Create a huge map",
+	    "vcmi.lobby.randomSize.XH.help": "Create a extra huge map",
+	    "vcmi.lobby.randomSize.C.help": "Create a custom size map",
+	    "vcmi.lobby.randomSize.HG.hover": "",
+	    "vcmi.lobby.randomSize.XH.hover": "",
+	    "vcmi.lobby.randomSize.C.hover": ""
 	},
 	"czech" : {
 		"name" : "Rozšířené možnosti lobby",
@@ -38,5 +50,18 @@
 	"polish" : {
 		"name" : "Rozszerzone opcje lobby",
 		"description" : "Ulepsza lobby gry, dodając zaawansowane ustawienia generatora map:<br><br>• Wybór szablonu<br>• Zegar szachowy<br>• Przyciski rozmiarów map H / XH / G<br>• Obsługa tur jednoczesnych"
+	},
+	"german" : {
+		"name" : "Erweiterte Lobby-Optionen",
+		"description" : "Verbessert die Spiel-Lobby mit erweiterter RMG-Konfiguration:<br><br>• Vorlagenauswahl<br>• Schach-Uhr<br>• Karten-Größen-Buttons für H / XH / G<br>• Unterstützung für simultane Züge",
+		"translations" : {
+		    "core.help.201.help": "Eine extragroße Karte erstellen",
+		    "vcmi.lobby.randomSize.HG.help": "Eine riesige Karte erstellen",
+		    "vcmi.lobby.randomSize.XH.help": "Eine extrariesige Karte erstellen",
+		    "vcmi.lobby.randomSize.C.help": "Eine Karte, mit benutzerdefinierter Größe erstellen",
+		    "vcmi.lobby.randomSize.HG.hover": "",
+		    "vcmi.lobby.randomSize.XH.hover": "",
+		    "vcmi.lobby.randomSize.C.hover": ""
+		}
 	}
 }

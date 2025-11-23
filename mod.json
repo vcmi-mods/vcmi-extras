@@ -2,10 +2,13 @@
 	"name" : "VCMI extras",
 	"description" : "Collection of enhancements and fixes for VCMI interface and gameplay:<br><br>• <b>Extended lobby options</b><br> Adds template selection, map size buttons (H/XH/G), chess timer, and support for simultaneous turns<br><br>• <b>Revisit & Search buttons</b><br> Adds buttons to revisit the current object and perform contextual searches on the adventure map<br><br>• <b>Quick Exchange</b><br> Improves the hero exchange screen with one-click swap buttons for all creatures and artifacts<br><br>• <b>Vertical layout (portrait mode)</b><br> Optimizes the adventure map interface for vertical screen orientation (portrait mode)<br><br>• <b>Bonus icons</b><br> Adds visual indicators for unit bonuses and special abilities<br><br>• <b>Spell immunity icons</b><br> Displays spell immunity icons for creatures during combat<br><br>• <b>Emoji support</b><br> Enables emoji font rendering in the in-game chat",
 	"author" : "VCMI Team",
-	"version" : "3.8.2",
+	"version" : "3.8.3",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.8.3" : [
+			"Lobby: Added missing help and add custom button"
+		],
 		"3.8.2" : [
 			"Added new buttons to vertical layout"
 		],
