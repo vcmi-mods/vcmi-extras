@@ -457,6 +457,7 @@
 				{
 					"type" : "toggleButton",
 					"image" : "RanSizHG",
+					"help" : "vcmi.lobby.randomSize.HG",
 					"imageOrder" : [
 						0,
 						1,
@@ -472,6 +473,7 @@
 				{
 					"type" : "toggleButton",
 					"image" : "RanSizXH",
+					"help" : "vcmi.lobby.randomSize.XH",
 					"imageOrder" : [
 						0,
 						1,
@@ -486,7 +488,8 @@
 
 				{
 					"type" : "toggleButton",
-					"image" : "RanSizGT",
+					"image" : "RanSizC",
+					"help" : "vcmi.lobby.randomSize.C",
 					"imageOrder" : [
 						0,
 						1,
@@ -507,6 +510,7 @@
 			"name" : "buttonTwoLevels",
 			"type" : "toggleButton",
 			"image" : "RANUNDR",
+			"help" : "core.help.202",
 			"position" : {
 				"x" : 346,
 				"y" : 81
