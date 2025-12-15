@@ -593,5 +593,11 @@
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/MEGABREATH"
 		}
-	}
+	},
+
+	"core:DAMAGE_RECEIVED_CAP" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/damagecap"
+		}
+  }
 }
