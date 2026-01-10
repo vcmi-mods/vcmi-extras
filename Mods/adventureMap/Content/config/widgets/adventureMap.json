@@ -266,7 +266,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther1",
+							"name" : "buttonLayerOther",
 							"image" : "buttons/iam-layers.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
@@ -557,7 +557,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther2",
+							"name" : "buttonLayerOther",
 							"image" : "buttons/iam-layersL.def",
 							"help" : "core.help.294",
 							"hotkey" : "adventureToggleMapLevel",
@@ -1907,7 +1907,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "worldViewOther3",
+							"name" : "worldViewOther",
 							"image" : "buttons/iam-layers.def",
 							"playerColored" : true,
 							"generateFromBaseImage" : "iam-layers",
