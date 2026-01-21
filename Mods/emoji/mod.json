@@ -10,6 +10,10 @@
 	},
 	"modType" : "Interface",
 
+	"chinese" : {
+		"name" : "Emoji支持",
+		"description" : "通过使用兼容emoji的字体来添加对游戏内聊天中的emoji显示的支持。"
+	},
 	"czech" : {
 		"name" : "Podpora emoji",
 		"description" : "Přidává podporu zobrazení emoji ve hře v chatu pomocí fontu s podporou emoji."

@@ -6,6 +6,10 @@
 	"version" : "0.8.3",
 	"modType" : "Graphical",
 
+	"chinese" : {
+		"name" : "增益图标",
+		"description" : "战斗中单位状态的图形改进合集：<br><br>• <b>增益与技能图标</b> – 为单位的增益和技能添加图标<br>• <b>法术免疫图标</b> – 显示单位的法术免疫或抗性"
+	},
 	"czech" : {
 		"name" : "Ikony bonusů",
 		"description" : "Sada grafických vylepšení pro zobrazení stavu jednotek v boji:<br><br>• <b>Ikony bonusů a schopností</b> – přidává ikony bonusů a speciálních schopností jednotek<br>• <b>Ikony imunit vůči kouzlům</b> – zobrazují imunitu nebo odolnost vůči kouzlům"

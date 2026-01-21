@@ -43,6 +43,19 @@
 	    "vcmi.lobby.randomSize.XH.hover": "",
 	    "vcmi.lobby.randomSize.C.hover": ""
 	},
+	"chinese" : {
+		"name" : "扩展大厅选项",
+		"description" : "使用进阶的随机地图配置来增强游戏大厅功能：<br><br>• 模板选择<br>• 国际象棋计时器<br>• 巨大（H） / 超巨（XH） / 极巨（G） 的地图尺寸按钮<br>• 支持同步回合",
+		"translations" : {
+	    "core.help.201.help": "生成特大地图",
+	    "vcmi.lobby.randomSize.HG.help": "生成巨大地图",
+	    "vcmi.lobby.randomSize.XH.help": "生成超巨地图",
+	    "vcmi.lobby.randomSize.C.help": "生成自定义尺寸地图",
+	    "vcmi.lobby.randomSize.HG.hover": "",
+	    "vcmi.lobby.randomSize.XH.hover": "",
+	    "vcmi.lobby.randomSize.C.hover": ""
+		}
+	},
 	"czech" : {
 		"name" : "Rozšířené možnosti lobby",
 		"description" : "Vylepšuje herní lobby o pokročilé nastavení generátoru náhodných map:<br><br>• Výběr šablony<br>• Šachové hodiny<br>• Tlačítka pro velikosti map H / XH / G<br>• Podpora souběžných tahů"

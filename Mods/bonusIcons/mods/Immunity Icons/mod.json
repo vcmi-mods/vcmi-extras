@@ -11,6 +11,10 @@
 		"abilityImmunityIcons.json"
 	],
 
+	"chinese" : {
+		"name" : "法术免疫图标",
+		"description" : "为单位增加法术免疫或抗性图标，提升战斗时的信息清晰度。"
+	},
 	"czech" : {
 		"name" : "Ikony imunit vůči kouzlům",
 		"description" : "Přidává ikony zobrazující imunitu nebo odolnost vůči kouzlům u jednotek, což zlepšuje přehlednost během boje."

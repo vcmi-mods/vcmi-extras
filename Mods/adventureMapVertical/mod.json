@@ -10,6 +10,10 @@
 		"vcmi-extras.adventureMap"
 	],
 
+	"chinese" : {
+		"name" : "垂直布局（竖屏模式）",
+		"description" : "重新排布冒险地图的用户界面，以更好地适应竖屏显示。适用于手机、平板或纵向显示器。英雄面板、按钮和小地图等界面元素均经过优化布局，以提升操作体验。"
+	},
 	"czech" : {
 		"name" : "Vertikální rozvržení (pro režim portrétu)",
 		"description" : "Přeorganizuje rozhraní na mapě dobrodružství tak, aby lépe vyhovovalo obrazovkám v režimu portrétu (vertikální orientace). Ideální pro mobilní zařízení, tablety nebo vertikální monitory. Prvky jako panel hrdiny, tlačítka a minimapa jsou nově uspořádány pro pohodlnější použití."
