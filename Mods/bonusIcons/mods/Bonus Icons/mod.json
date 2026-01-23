@@ -25,6 +25,13 @@
 		"config/creatures/stronghold.json",
 		"config/creatures/tower.json"
 	],
+    "chinese" : {
+		"name" : "增益与技能图标",
+		"description" : "为多种单位的增益和技能添加新图标，增强正在战斗和生物界面中的视觉效果。",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
 	"czech" : {
 		"name" : "Ikony bonusů a schopností",
 		"description" : "Přidává nové grafické ikony pro různé bonusy a schopnosti jednotek. Zlepšuje vizuální přehlednost v bitvách a na obrazovce jednotek.",

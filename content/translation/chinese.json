@@ -1,0 +1,19 @@
+{
+	"creatures.core.airElemental.bonus.dummyVulnerablityIcon" : "{法术易伤}\n受到末日审判、霹雳闪电，连锁闪电和泰坦之箭的伤害翻倍。",
+	"creatures.core.ammoCart.bonus.dummyIcon" : "{补给车}\n在被摧毁前为远程攻击的战争机器提供无限弹药。",
+	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{水晶生成}\n每周开始时额外产生3个水晶。",
+	"creatures.core.earthElemental.bonus.dummyVulneablityIcon" : "{法术易伤}\n受到流星火雨的伤害翻倍。",
+	"creatures.core.enchanter.bonus.dummyabilityIcon" : "{施法者}\n在其回合开始时可以施放多种法术。",
+	"creatures.core.energyElemental.bonus.dummyVulneablityIcon" : "{法术易伤}\n受到霹雳寒冰和寒冰魔环的伤害翻倍。",
+	"creatures.core.fireElemental.bonus.dummyVulneablityIcon" : "{法术易伤}\n受到霹雳寒冰和寒冰魔环的伤害翻倍。",
+	"creatures.core.halfling.bonus.dummyluckyicon" : "{幸运}\n投石矮人的幸运无法被降低至+1以下。",
+	"creatures.core.iceElemental.bonus.dummyVulneablityIcon" : "{法术易伤}\n受到末日审判，连珠火球和地狱烈焰的伤害翻倍。",
+	"creatures.core.magmaElemental.bonus.dummyVulneablityIcon" : "{法术易伤}\n受到流星火雨的伤害翻倍。",
+	"creatures.core.minotaur.bonus.dummyMoraleIcon" : "{士气高涨}\n牛头怪的士气无法被降低至+1以下。",
+	"creatures.core.minotaurKing.bonus.dummyMoraleIcon" : "{士气高涨}\n牛头王的士气无法被降低至+1以下。",
+	"creatures.core.stormElemental.bonus.dummyVulnerablityIcon" : "{法术易伤}\n受到末日审判、霹雳闪电，连锁闪电和泰坦之箭的伤害翻倍。",
+	"creatures.core.waterElemental.bonus.dummyVulnerablityIcon" : "{法术易伤}\n受到末日审判，连珠火球和地狱烈焰的伤害翻倍。",
+	"vcmi.lobby.randomSize.C.help" : "生成自定义尺寸地图",
+	"vcmi.lobby.randomSize.HG.help" : "生成巨大地图",
+	"vcmi.lobby.randomSize.XH.help" : "生成超巨地图"
+}

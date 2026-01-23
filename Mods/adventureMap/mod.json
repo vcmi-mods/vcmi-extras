@@ -5,7 +5,11 @@
 	"contact" : "http://vcmi.eu",
 	"version" : "1.0",
 	"modType" : "Graphical",
-
+    
+	"chinese" : {
+		"name" : "原地访问和搜索按钮",
+		"description" : "在冒险地图界面添加两个新按钮：<br><br>• <b>原地访问</b> – 允许重新进入当前占据的物体<br>• <b>搜索</b> – 允许在地图已探索区域查找物体<br><br>也引入一个自定义英雄按钮。"
+	},
 	"czech" : {
 		"name" : "Tlačítka Znovunavštívit a Vyhledat",
 		"description" : "Přidává dvě nová tlačítka do rozhraní dobrodružné mapy:<br><br>• <b>Znovunavštívit</b> – umožňuje znovu vstoupit do aktuálního objektu<br>• <b>Vyhledat</b> – umožňuje najít objekt v již prozkoumané části mapy<br><br>Součástí je také nová ikona hrdiny."

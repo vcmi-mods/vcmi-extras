@@ -1,0 +1,11 @@
+{
+	"creatures.core.ammoCart.bonus.inactive" : "{无法行动}\n补给车的效果是被动的，不加入回合行动条。",
+	"creatures.core.ammoCart.bonus.siegeWeapon" : "{补给车}\n在被摧毁前为远程攻击的生物提供无限弹药。",
+	"creatures.core.ballista.bonus.siegeWeapon" : "{弩车}\n一种向敌方部队发射投射物的远程武器。",
+	"creatures.core.catapult.bonus.siegeWeapon" : "{投石车}\n用于攻击并摧毁城墙，城门和箭塔的战争机器。",
+    "creatures.core.firstAidTent.bonus.heals" : "{急救帐篷}\n为受到伤害的友方生物治疗一部分生命值。",
+	"creatures.core.firstAidTent.bonus.siegeWeapon" : "{急救帐篷}\n在战斗回合最后轮次行动的战争机器。",
+	"creatures.core.halfling.bonus.lucky" : "{{幸运}\n投石矮人的幸运无法被降低至+1以下。",
+	"creatures.core.minotaur.bonus.fearless" : "{士气高涨}\n牛头怪的士气无法被降低至+1以下。",
+	"creatures.core.minotaurKing.bonus.fearless" : "{士气高涨}\n牛头王的士气无法被降低至+1以下。"
+}

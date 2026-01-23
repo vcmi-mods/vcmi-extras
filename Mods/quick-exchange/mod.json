@@ -20,6 +20,10 @@
 			}
 		]
 	},
+    "chinese" : {
+		"name" : "快速交换",
+		"description" : "本模组增强了英雄交换窗口，新增按钮使交换操作更便捷。<br><br>添加：<br><br>• 交换所有生物按钮<br>• 交换所有宝物按钮<br>• 为每个生物提供单独的交换按钮"
+	},
 	"czech" : {
 		"name" : "Rychlá výměna",
 		"description" : "Tato modifikace vylepšuje okno výměny hrdinů přidáním nových tlačítek pro snazší přesouvání.<br><br>Přidává:<br><br>• Tlačítko pro výměnu všech jednotek<br>• Tlačítko pro výměnu všech artefaktů<br>• Tlačítka pro výměnu jednotlivých jednotek"
