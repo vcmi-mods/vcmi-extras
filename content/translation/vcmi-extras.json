@@ -1,0 +1,19 @@
+{
+	"creatures.core.airElemental.bonus.dummyVulnerablityIcon" : "{Büyü Hassasiyeti}\nArmageddon, Yıldırım Çakması, Zincir Yıldırım ve Titan'ın Yıldırım Çakması'ndan iki kat hasar alır.",
+	"creatures.core.ammoCart.bonus.dummyIcon" : "{Mühimmat Arabası}\nYok edilene kadar menzilli saldırılara sahip savaş makinelerine sınırsız atış sağlar.",
+	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{Crystallogenic}\nYeni haftada ek 3 kristal üretir.",
+	"creatures.core.earthElemental.bonus.dummyVulneablityIcon" : "{Büyü Hassasiyeti}\nMeteor Yağmuru'ndan iki kat hasar alır.",
+	"creatures.core.enchanter.bonus.dummyabilityIcon" : "{.Enchanter.}\nSırası gelmeden önce birden fazla büyü yapabilir.",
+	"creatures.core.energyElemental.bonus.dummyVulneablityIcon" : "{Büyü Hassasiyeti}\nBuz Ok ve Don Yüzüğü'nden iki kat hasar alır.",
+	"creatures.core.fireElemental.bonus.dummyVulneablityIcon" : "{Büyü Hassasiyeti}\nBuz Ok ve Don Yüzüğü'nden iki kat hasar alır.",
+	"creatures.core.halfling.bonus.dummyluckyicon" : "{Pozitif şans}\nHalfling'in şansı +1'in altına düşemez",
+	"creatures.core.iceElemental.bonus.dummyVulneablityIcon" : "{Büyü Hassasiyeti}\nArmageddon, Ateş Topu ve Cehennem'den iki kat hasar alır.",
+	"creatures.core.magmaElemental.bonus.dummyVulneablityIcon" : "{Büyü Hassasiyeti}\nMeteor Yağmuru'ndan iki kat hasar alır.",
+	"creatures.core.minotaur.bonus.dummyMoraleIcon" : "{Olumlu moral}\nMinotaur'un morali +1'in altına düşemez",
+	"creatures.core.minotaurKing.bonus.dummyMoraleIcon" : "{Olumlu moral}\nMinotaur Kralı'nın morali +1'in altına düşemez",
+	"creatures.core.stormElemental.bonus.dummyVulnerablityIcon" : "{Büyü Hassasiyeti}\nArmageddon, Yıldırım Çakması, Zincir Yıldırım ve Titan'ın Yıldırım Çakması'ndan iki kat hasar alır.",
+	"creatures.core.waterElemental.bonus.dummyVulnerablityIcon" : "{Büyü Hassasiyeti}\nArmageddon, Ateş Topu ve Cehennem'den iki kat hasar alır.",
+	"vcmi.lobby.randomSize.C.help" : "Özel boyutlu harita oluştur",
+	"vcmi.lobby.randomSize.HG.help" : "Büyük bir harita oluştur",
+	"vcmi.lobby.randomSize.XH.help" : "Ekstra büyük bir harita oluştur"
+}
