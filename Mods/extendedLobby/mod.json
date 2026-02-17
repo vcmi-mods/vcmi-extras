@@ -62,7 +62,7 @@
 		"translations" : {
 			"core.help.201.help" : "Vytvořit mimořádně velkou mapu",
 			"vcmi.lobby.randomSize.HG.help" : "Vytvořit obří mapu",
-			"vcmi.lobby.randomSize.XH.help" : "Vytvořit mimořádně obří mapu"
+			"vcmi.lobby.randomSize.XH.help" : "Vytvořit mimořádně obří mapu",
 			"vcmi.lobby.randomSize.C.help" : "Vytvořit mapu vlastní velikosti",
 			"vcmi.lobby.randomSize.HG.hover" : "",
 			"vcmi.lobby.randomSize.XH.hover" : "",
