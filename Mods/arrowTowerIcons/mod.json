@@ -14,7 +14,7 @@
 	"depends" : [
 		"vcmi"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "箭塔图标",
 		"description" : "为守城战中的箭塔增加正确的回合顺序图标。."
 	},

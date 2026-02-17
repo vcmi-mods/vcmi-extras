@@ -5,7 +5,9 @@
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.82",
 	"modType" : "Graphical",
-	"softDepends" : ["vcmi"],
+	"softDepends" : [
+		"vcmi"
+	],
 	"bonuses" : [
 		"config/bonusIcons/bonuses.json"
 	],
@@ -25,7 +27,7 @@
 		"config/creatures/stronghold.json",
 		"config/creatures/tower.json"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "增益与技能图标",
 		"description" : "为多种单位的增益和技能添加新图标，增强正在战斗和生物界面中的视觉效果。",
 		"translations" : [
