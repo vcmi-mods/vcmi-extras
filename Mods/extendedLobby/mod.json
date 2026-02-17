@@ -1,6 +1,6 @@
 {
 	"name" : "Extended lobby options",
-	"description" : "Improves the game lobby with advanced RMG configuration:<br><br>• Template selection<br>• Chess timer<br>• Map size buttons for H / XH / G<br>• Support for simultaneous turns",
+	"description" : "Improves the game lobby with advanced RMG configuration:<br><br>• Template selection<br>• Chess timer<br>• Map size buttons for H / XH / C<br>• Support for simultaneous turns",
 	"version" : "2.3",
 	"author" : "Nordsoft",
 	"contact" : "nordsoft@yahoo.com",
@@ -45,7 +45,7 @@
 	},
 	"chinese" : {
 		"name" : "扩展大厅选项",
-		"description" : "使用进阶的随机地图配置来增强游戏大厅功能：<br><br>• 模板选择<br>• 国际象棋计时器<br>• 巨大（H） / 超巨（XH） / 极巨（G） 的地图尺寸按钮<br>• 支持同步回合",
+		"description" : "使用进阶的随机地图配置来增强游戏大厅功能：<br><br>• 模板选择<br>• 国际象棋计时器<br>• 巨大（H） / 超巨（XH） / 极巨（C） 的地图尺寸按钮<br>• 支持同步回合",
 		"translations" : {
 			"core.help.201.help" : "生成特大地图",
 			"vcmi.lobby.randomSize.HG.help" : "生成巨大地图",
@@ -58,15 +58,24 @@
 	},
 	"czech" : {
 		"name" : "Rozšířené možnosti lobby",
-		"description" : "Vylepšuje herní lobby o pokročilé nastavení generátoru náhodných map:<br><br>• Výběr šablony<br>• Šachové hodiny<br>• Tlačítka pro velikosti map H / XH / G<br>• Podpora souběžných tahů"
+		"description" : "Vylepšuje herní lobby o pokročilé nastavení generátoru náhodných map:<br><br>• Výběr šablony<br>• Šachové hodiny<br>• Tlačítka pro velikosti map H / XH / C<br>• Podpora souběžných tahů",
+		"translations" : {
+			"core.help.201.help" : "Vytvořit mimořádně velkou mapu",
+			"vcmi.lobby.randomSize.HG.help" : "Vytvořit obří mapu",
+			"vcmi.lobby.randomSize.XH.help" : "Vytvořit mimořádně obří mapu"
+			"vcmi.lobby.randomSize.C.help" : "Vytvořit mapu vlastní velikosti",
+			"vcmi.lobby.randomSize.HG.hover" : "",
+			"vcmi.lobby.randomSize.XH.hover" : "",
+			"vcmi.lobby.randomSize.C.hover" : ""
+		}
 	},
 	"polish" : {
 		"name" : "Rozszerzone opcje lobby",
-		"description" : "Ulepsza lobby gry, dodając zaawansowane ustawienia generatora map:<br><br>• Wybór szablonu<br>• Zegar szachowy<br>• Przyciski rozmiarów map H / XH / G<br>• Obsługa tur jednoczesnych"
+		"description" : "Ulepsza lobby gry, dodając zaawansowane ustawienia generatora map:<br><br>• Wybór szablonu<br>• Zegar szachowy<br>• Przyciski rozmiarów map H / XH / C<br>• Obsługa tur jednoczesnych"
 	},
 	"german" : {
 		"name" : "Erweiterte Lobby-Optionen",
-		"description" : "Verbessert die Spiel-Lobby mit erweiterter RMG-Konfiguration:<br><br>• Vorlagenauswahl<br>• Schach-Uhr<br>• Karten-Größen-Buttons für H / XH / G<br>• Unterstützung für simultane Züge",
+		"description" : "Verbessert die Spiel-Lobby mit erweiterter RMG-Konfiguration:<br><br>• Vorlagenauswahl<br>• Schach-Uhr<br>• Karten-Größen-Buttons für H / XH / C<br>• Unterstützung für simultane Züge",
 		"translations" : {
 			"core.help.201.help" : "Eine extragroße Karte erstellen",
 			"vcmi.lobby.randomSize.HG.help" : "Eine riesige Karte erstellen",
