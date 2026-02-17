@@ -863,36 +863,36 @@
 					}
 				},
 				{
-					"type": "adventureMapButton",
-					"name": "buttonQuickSave",
+					"type" : "adventureMapButton",
+					"name" : "buttonQuickSave",
 					"image" : "buttons/iam-quicksave.def",
-					"hotkey": "adventureQuickSave",
+					"hotkey" : "adventureQuickSave",
 					"help" : "vcmi.adventureMap.quickSave",
 					"playerColored" : true,
 					"generateFromBaseImage" : "iam-quicksave",
 					"generateSmall" : true,
-					"area": {
+					"area" : {
 						"top" : 160,
-						"left": 0,
+						"left" : 0,
 						"width" : 32,
 						"height" : 32
-				}
+					}
 				},
 				{
-					"type": "adventureMapButton",
-					"name": "buttonQuickLoad",
+					"type" : "adventureMapButton",
+					"name" : "buttonQuickLoad",
 					"image" : "buttons/iam-quickload.def",
-					"hotkey": "adventureQuickLoad",
+					"hotkey" : "adventureQuickLoad",
 					"help" : "vcmi.adventureMap.quickLoad",
 					"playerColored" : true,
 					"generateFromBaseImage" : "iam-quickload",
 					"generateSmall" : true,
-					"area": {
+					"area" : {
 						"top" : 160,
-						"left": 32,
+						"left" : 32,
 						"width" : 32,
 						"height" : 32
-				}
+					}
 				},
 				{
 					"type" : "adventureMapButton",
@@ -973,34 +973,34 @@
 					}
 				},
 				{
-					"type": "adventureMapButton",
-					"name": "buttonQuickSave",
+					"type" : "adventureMapButton",
+					"name" : "buttonQuickSave",
 					"image" : "buttons/iam-quicksaveL.def",
-					"hotkey": "adventureQuickSave",
+					"hotkey" : "adventureQuickSave",
 					"help" : "vcmi.adventureMap.quickSave",
 					"playerColored" : true,
 					"generateFromBaseImage" : "iam-quicksave",
-					"area": {
+					"area" : {
 						"top" : 64,
-						"left": 0,
+						"left" : 0,
 						"width" : 64,
 						"height" : 32
 					}
 				},
 				{
-					"type": "adventureMapButton",
-					"name": "buttonQuickLoad",
+					"type" : "adventureMapButton",
+					"name" : "buttonQuickLoad",
 					"image" : "buttons/iam-quickloadL.def",
-					"hotkey": "adventureQuickLoad",
+					"hotkey" : "adventureQuickLoad",
 					"help" : "vcmi.adventureMap.quickLoad",
 					"playerColored" : true,
 					"generateFromBaseImage" : "iam-quickload",
-					"area": {
+					"area" : {
 						"top" : 96,
-						"left": 0,
+						"left" : 0,
 						"width" : 64,
 						"height" : 32
-				}
+					}
 				},
 				{
 					"type" : "adventureMapButton",
