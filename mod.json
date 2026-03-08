@@ -215,7 +215,7 @@
 		]
 	},
 	"turkish" : {
-		"name" : "VCMI Ekstra",
+		"name" : "VCMI Ekstraları",
 		"description" : "VCMI'da arayüz ve oynanış için genişletmeler ve düzeltmeler:<br><br>• <b>Genişletilmiş lobi seçenekleri</b><br> Şablon seçimi, harita boyutu düğmeleri (H/XH/C), satranç saati ve eşzamanlı hamle desteği eklenmiştir<br><br>• <b>Yeniden Ziyaret Et ve Ara düğmeleri</b><br> Mevcut nesneye yeniden girmek ve haritada bağlamsal arama yapmak için düğmeler ekler<br><br>• <b>Hızlı Değiştirme</b><br> Kahraman değiştirme penceresini, tüm birimleri ve eserleri tek tıklamayla değiştirmek için düğmelerle geliştirir<br><br>• <b>Dikey düzen (portre modu)</b><br> Macera haritası arayüzünü dikey ekranlar için optimize eder<br><br>• <b>Bonus simgeleri</b><br> Birimlerin bonus ve özel yeteneklerini gösteren görsel göstergeler ekler<br><br>• <b>Büyü bağışıklığı simgeleri</b><br> Savaş sırasında büyü bağışıklığı simgelerini ekler<br><br>• <b>Emoji desteği</b><br> Oyunda (örneğin sohbette) emoji görüntülenmesini sağlar",
 		"translations" : [
 			"translation/turkish.json"
