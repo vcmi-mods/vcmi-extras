@@ -1,7 +1,7 @@
 {
 	"creatures.core.airElemental.bonus.dummyVulnerablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Armageddon, Blitzstrahl und -Salve und Titanen-Blitzstrahl.",
 	"creatures.core.ammoCart.bonus.dummyIcon" : "{Munitionskarre}\nStellt unendlich Munition für Fernkampfeineiten bereit bis sie zerstört wird.",
-	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{Kristall-Erzeugung}\nGeneriert zusätzliche +3 Kristalle bei Beginn einer neuen Woche.",
+	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{Kristall-Erzeugung}\nGeneriert zusätzliche +3 Kristalle zu Beginn einer neuen Woche.",
 	"creatures.core.earthElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Meteorregen.",
 	"creatures.core.enchanter.bonus.dummyabilityIcon" : "{Verzauberer}\nKann verschiedene Zauber zum Zugbeginn aussprechen.",
 	"creatures.core.energyElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Eisstrahl und Frostring.",
