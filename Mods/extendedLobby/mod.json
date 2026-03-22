@@ -75,7 +75,7 @@
 	},
 	"german" : {
 		"name" : "Erweiterte Lobby-Optionen",
-		"description" : "Verbessert die Spiel-Lobby mit erweiterter RMG-Konfiguration:<br><br>• Vorlagenauswahl<br>• Schach-Uhr<br>• Karten-Größen-Buttons für H / XH / C<br>• Unterstützung für simultane Züge",
+		"description" : "Verbessert die Spiel-Lobby mit erweiterter RMG-Konfiguration:<br/><br/>• Vorlagenauswahl<br/>• Schach-Uhr<br/>• Kartengrößen-Buttons für H / XH / C<br/>• Unterstützung für simultane Züge",
 		"translations" : {
 			"core.help.201.help" : "Eine extragroße Karte erstellen",
 			"vcmi.lobby.randomSize.HG.help" : "Eine riesige Karte erstellen",
