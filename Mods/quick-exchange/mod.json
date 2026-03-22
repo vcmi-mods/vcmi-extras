@@ -31,5 +31,9 @@
 	"polish" : {
 		"name" : "Szybka wymiana",
 		"description" : "Ten mod ulepsza okno wymiany bohaterów, dodając nowe przyciski ułatwiające przenoszenie.<br<br>>Dodaje:<br><br>• Przycisk wymiany wszystkich jednostek<br>• Przycisk wymiany wszystkich artefaktów<br>• Przyciski wymiany poszczególnych jednostek"
+	},
+	"german" : {
+		"name" : "Schnellaustausch",
+		"description" : "Diese Mod verbessert das Helden-Tauschfenster indem sie neue Buttons hinzufügt, die das Austauschen vereinfachen.<br/><br/>Fügt folgende Buttons hinzu:<br/><br/>• Tausche alle Truppen<br/>• Tausche alle Artefakte<br/>• Buttons zum Austasch einzelner Kreaturentrupps.",
 	}
 }

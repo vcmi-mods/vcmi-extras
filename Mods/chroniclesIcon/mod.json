@@ -27,5 +27,9 @@
 	"polish" : {
 		"name" : "Ikony Kronik",
 		"description" : "Ikony Kronik dla VCMI"
+	},
+	"german" : {
+		"name" : "Chronicles Icons",
+		"description" : "Chronicles Icons für VCMI.",
 	}
 }

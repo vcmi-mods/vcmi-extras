@@ -25,5 +25,9 @@
 	"polish" : {
 		"name" : "Ikony wież obronnych",
 		"description" : "Dodaje poprawne ikony wież obronnych na pasku inicjatywy podczas oblężeń zamku."
+	},
+	"german" : {
+		"name" : "Geschützturm-Icons",
+		"description" : "Verbessert die Icons für Geschütztürme während einer Stadtbelagerung."
 	}
 }

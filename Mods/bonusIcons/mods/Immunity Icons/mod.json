@@ -22,5 +22,10 @@
 	"polish" : {
 		"name" : "Ikony odporności na czary",
 		"description" : "Dodaje ikony przedstawiające odporność lub niewrażliwość na czary jednostek, co poprawia przejrzystość podczas walki."
+	},
+	"german" : {
+		"name" : "Zauberimmunität-Symbole",
+		"description" : "Fügt Symbole für die Zauberimmunität und -resistenz von Kreaturen hinzu um die Übersichtlichkeit im Kampf zu verbessern."
 	}
+
 }

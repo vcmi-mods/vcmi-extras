@@ -1,0 +1,11 @@
+{
+	"creatures.core.ammoCart.bonus.inactive" : "{Inaktiv}\nNimmt nicht am Kampf teil. Die Effekte der Munitionskarre sind passiv.",
+	"creatures.core.ammoCart.bonus.siegeWeapon" : "{Munitionskarre}\nStellt unendlich Munition für Fernkampfeineiten bereit bis sie zerstört wird.",
+	"creatures.core.ballista.bonus.siegeWeapon" : "{Balliste}\nFernkampf-Kriegsmaschine, die Bolzen auf Feinde abfeuert.",
+	"creatures.core.catapult.bonus.siegeWeapon" : "{Katapult}\nKriegsmaschine zum Angreifen und Zerstören von Mauern, Toren und Geschütztürmen.",
+	"creatures.core.firstAidTent.bonus.heals" : "{Erste Hilfe-Zelt}\nHeilt Gesundheit der ersten Einheit eines verbündeten Trupps.",
+	"creatures.core.firstAidTent.bonus.siegeWeapon" : "{Erste Hilfe-Zelt}\nKriegsmaschine, die am Ende der Kampfrunde agiert.",
+	"creatures.core.halfling.bonus.lucky" : "{Positives Glück}\nDas Glück des Halblings kann nicht unter +1 reduziert werden.",
+	"creatures.core.minotaur.bonus.fearless" : "{Positive Moral}\nDie Moral des Minotauren kann nicht unter +1 reduziert werden.",
+	"creatures.core.minotaurKing.bonus.fearless" : "{Positive Moral}\nDie Moral des Minotaurenkönigs kann nicht unter +1 reduziert werden."
+}

@@ -220,5 +220,12 @@
 		"translations" : [
 			"translation/turkish.json"
 		]
+	},
+	"german" : {
+		"name" : "VCMI Extras",
+		"description" : "Eine Sammlung von Korrekturen und Verbesserungen der VCMI Spieloberfläche und Gameplay:<br/><br/>• <b>Erweiterte Lobby-Optionen</b><br/> Fügt Vorlagenauswahl, Kartengrößen-Buttons &#40;H/XH/C&#41;, Schach-Uhr und Unterstützung für simultane Züge hinzu<br/><br/>• <b>Wiederbesuch- und Suchfunktion-Buttons</b><br/> Erweiteret die Abenteuerkarten-Oberfläche mit Buttons zum Wiederbesuch des derzeit besuchten Objekts und einer Suchfunktion<br/><br/>• <b>Schnellaustausch</b><br/> Erweitert das Helden-Austausch-Fenster um Buttons um das Tauschen der gesamten Armee oder Artefakte mit einem Klick zu ermöglichen<br/><br/>• <b>Vertikales Layout &#40;Portrait-Modus&#41;</b><br/> Optimiert die Abenteuerkarten-Oberfläche wenn das vertikale Layout &#40;Portrait-Modus&#41; benutzt wird<br/><br/>• <b>Zusatzsymbole</b><br/> Fügt weitere Symbole für die Fähigkeiten der Kreaturen hinzu:<br/><br/>• <b>Zauberimmunität</b><br/> Zeigt während des Kampfes Symbole für die Zauberimmunitäten verschiedener Kreaturen an<br/><br/>• <b>Emoji-Unterstützung</b><br/> Erlaubt die Anzeige von Emojis im Ingame-Chat.",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }
