@@ -113,12 +113,12 @@
 		"abilities" : {
 			"lucky" : {
 				"icon" : "zvs/Lib1.res/positiveluck",
-				"description" : "{Positive luck}\nHalfling's luck cannot be decreased below +1"
+				"description" : "{Positive Luck}\nHalfling's luck cannot be decreased below +1."
 			},
 			"dummyluckyicon" : {
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/positiveluck",
-				"description" : "{Positive luck}\nHalfling's luck cannot be decreased below +1"
+				"description" : "{Positive Luck}\nHalfling's luck cannot be decreased below +1."
 			}
 		}
 	},
