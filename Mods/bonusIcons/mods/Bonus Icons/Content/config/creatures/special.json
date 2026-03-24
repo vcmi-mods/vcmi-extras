@@ -19,7 +19,7 @@
 		"abilities" : {
 			"siegeWeapon" : {
 				"icon" : "zvs/Lib1.res/tent",
-				"description" : "{First Aid Tent}\nWar machine that acts last at the combat round."
+				"description" : "{First Aid Tent}\nWar machine that acts last in the combat round."
 			},
 			"heals" : {
 				"description" : "{First Aid Tent}\nHeals some hit points of the top creature of an allied stack."
@@ -30,16 +30,16 @@
 		"abilities" : {
 			"siegeWeapon" : {
 				"icon" : "zvs/Lib1.res/cart",
-				"description" : "{Ammo Cart}\nProvides unlimited shots for creatures with ranged attacks until destroy."
+				"description" : "{Ammo Cart}\nProvides unlimited shots for creatures with ranged attacks until destroyed."
 			},
 			"dummyIcon" : {
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/ammocart",
-				"description" : "{Ammo Cart}\nProvides unlimited shots for war machines with ranged attacks until destroy."
+				"description" : "{Ammo Cart}\nProvides unlimited shots for war machines with ranged attacks until destroyed."
 			},
 			"inactive" : {
 				"icon" : "zvs/Lib1.res/inactive",
-				"description" : "{Not active}\nAmmo cart effects are passive and excluded from turn order."
+				"description" : "{Not Active}\nAmmo Cart is excluded from the turn order and its effects are passive."
 			}
 		}
 	}

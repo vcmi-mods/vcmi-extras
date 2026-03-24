@@ -37,6 +37,8 @@
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/vulnerabilityair",
 				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Lightning Bolt, Chain Lightning and Titan's Lightning Bolt."
+				// suggestion to make it fit in the box:
+				// "description" : "{Spells Vulnerablity (+100%)}\nLightning Bolt, Chain Lightning, Armageddon and Titan's Lightning Bolt."
 			}
 		}
 	},
@@ -67,6 +69,8 @@
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/vulnerabilityair",
 				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Lightning Bolt, Chain Lightning and Titan's Lightning Bolt."
+				// suggestion to make it fit in the box:
+				// "description" : "{Spells Vulnerablity (+100%)}\nLightning Bolt, Chain Lightning, Armageddon and Titan's Lightning Bolt."
 			}
 		}
 	},
@@ -99,7 +103,7 @@
 			"dummyVulnerablityIcon" : {
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire",
-				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball, and Inferno."
+				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball and Inferno."
 			}
 		}
 	},
@@ -135,7 +139,7 @@
 			"dummyVulneablityIcon" : {
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire",
-				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball, and Inferno."
+				"description" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball and Inferno."
 			}
 		}
 	},
