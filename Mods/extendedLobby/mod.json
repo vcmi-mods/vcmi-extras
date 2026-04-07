@@ -47,9 +47,9 @@
 		"vcmi.lobby.randomSize.HG.hover" : "",
 		"vcmi.lobby.randomSize.XH.hover" : "",
 		"vcmi.lobby.randomSize.C.hover" : "",
-		"vcmi.lobby.mapSize.H" : "View all huge maps",
-		"vcmi.lobby.mapSize.XH" : "View all extra huge maps",
-		"vcmi.lobby.mapSize.G" : "View all gigantic maps"
+		"vcmi.lobby.mapSize.H.help" : "View all huge maps",
+		"vcmi.lobby.mapSize.XH.help" : "View all extra huge maps",
+		"vcmi.lobby.mapSize.G.help" : "View all gigantic maps"
 	},
 	"chinese" : {
 		"name" : "扩展大厅选项",
@@ -76,9 +76,9 @@
 			"vcmi.lobby.randomSize.HG.hover" : "",
 			"vcmi.lobby.randomSize.XH.hover" : "",
 			"vcmi.lobby.randomSize.C.hover" : "",
-			"vcmi.lobby.mapSize.H" : "Ukaž všechny obří mapy (H)",
-			"vcmi.lobby.mapSize.XH" : "Ukaž všechny mimořádně obří mapy (XH)",
-			"vcmi.lobby.mapSize.G" : "Ukaž všechny gigantické mapy (G)"
+			"vcmi.lobby.mapSize.H.help" : "Ukaž všechny obří mapy (H)",
+			"vcmi.lobby.mapSize.XH.help" : "Ukaž všechny mimořádně obří mapy (XH)",
+			"vcmi.lobby.mapSize.G.help" : "Ukaž všechny gigantické mapy (G)"
 		}
 	},
 	"polish" : {
