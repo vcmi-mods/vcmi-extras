@@ -39,7 +39,7 @@
 		{
 			"size" : 180,
 			"image" : "SCHGBUT.DEF",
-			"help" : "core.help.57",
+			"help" : "vcmi.lobby.mapSize.H",
 			"position" : {
 				"x" : 207,
 				"y" : 46
@@ -48,7 +48,7 @@
 		{
 			"size" : 216,
 			"image" : "SCXHBUT.DEF",
-			"help" : "core.help.57",
+			"help" : "vcmi.lobby.mapSize.XH",
 			"position" : {
 				"x" : 254,
 				"y" : 46
@@ -57,7 +57,7 @@
 		{
 			"size" : 252,
 			"image" : "SCGTBUT.DEF",
-			"help" : "core.help.57",
+			"help" : "vcmi.lobby.mapSize.G",
 			"position" : {
 				"x" : 301,
 				"y" : 46
