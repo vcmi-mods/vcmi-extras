@@ -640,7 +640,7 @@
 							"playerColored" : true,
 							"generateFromBaseImage" : "iam011",
 							"area" : {
-								"top" : 96,
+								"top" : 0,
 								"left" : 0,
 								"width" : 64,
 								"height" : 32
