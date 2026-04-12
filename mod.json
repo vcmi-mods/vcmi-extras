@@ -6,10 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
-    "3.9.2" : [
+		"3.9.2" : [
 			"Added S-G + C buttons for random map selection",
 			"Added S-G button for scenario selection"
-    ],
+		],
 		"3.9.1" : [
 			"Wake hero button position fix"
 		],
