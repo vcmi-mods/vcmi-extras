@@ -17,5 +17,9 @@
 	"polish" : {
 		"name" : "Przyciski Ponownego Wejścia i Znajdź",
 		"description" : "Dodaje dwa nowe przyciski do interfejsu mapy przygód:<br><br>• <b>Wejdź ponownie</b> – umożliwia powrót do aktualnie zajmowanego obiektu<br>• <b>Znajdź</b> – pozwala znaleźć obiekt na już odkrytej części mapy<br><br>Zawiera także nową ikonę bohatera."
+	},
+	"german" : {
+		"name" : "Wiederbesuch- und Suchfunktion-Buttons",
+		"description" : "Erweiteret die Abenteuerkartenoberfläche mit zwei neuen Buttons:<br/><br/>• <b>Wiederbesuch</b> – erlaubt den erneuten Besuch des Objekts auf dem Euer Held gerade steht.<br/>• <b>Suchen</b> – erlaubt es Objekte im aufgedecken Bereich der Karte zu finden<br/><br/>Verbessert außerdem die Symbole für die Heldenoptionen.",
 	}
 }

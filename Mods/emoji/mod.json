@@ -21,5 +21,9 @@
 	"polish" : {
 		"name" : "Obsługa emoji",
 		"description" : "Dodaje obsługę wyświetlania emoji w czacie gry dzięki czcionce wspierającej emoji."
+	},
+	"german" : {
+		"name" : "Emoji-Unterstützung",
+		"description" : "Erlaubt die Anzeige von Emojis im Ingame-Chat durch einen Emoji-kompatiblen Font."
 	}
 }

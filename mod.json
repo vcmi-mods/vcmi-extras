@@ -2,13 +2,16 @@
 	"name" : "VCMI extras",
 	"description" : "Collection of enhancements and fixes for VCMI interface and gameplay:<br><br>• <b>Extended lobby options</b><br> Adds template selection, map size buttons (H/XH/C), chess timer, and support for simultaneous turns<br><br>• <b>Revisit & Search buttons</b><br> Adds buttons to revisit the current object and perform contextual searches on the adventure map<br><br>• <b>Quick Exchange</b><br> Improves the hero exchange screen with one-click swap buttons for all creatures and artifacts<br><br>• <b>Vertical layout (portrait mode)</b><br> Optimizes the adventure map interface for vertical screen orientation (portrait mode)<br><br>• <b>Bonus icons</b><br> Adds visual indicators for unit bonuses and special abilities<br><br>• <b>Spell immunity icons</b><br> Displays spell immunity icons for creatures during combat<br><br>• <b>Emoji support</b><br> Enables emoji font rendering in the in-game chat",
 	"author" : "VCMI Team",
-	"version" : "3.9.1",
+	"version" : "3.9.2",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
-		"3.9.1" : [
+    "3.9.2" : [
 			"Added S-G + C buttons for random map selection",
 			"Added S-G button for scenario selection"
+    ],
+		"3.9.1" : [
+			"Wake hero button position fix"
 		],
 		"3.9.0" : [
 			"Updated quick trade screen"
@@ -223,6 +226,13 @@
 		"description" : "VCMI'da arayüz ve oynanış için genişletmeler ve düzeltmeler:<br><br>• <b>Genişletilmiş lobi seçenekleri</b><br> Şablon seçimi, harita boyutu düğmeleri (H/XH/C), satranç saati ve eşzamanlı hamle desteği eklenmiştir<br><br>• <b>Yeniden Ziyaret Et ve Ara düğmeleri</b><br> Mevcut nesneye yeniden girmek ve haritada bağlamsal arama yapmak için düğmeler ekler<br><br>• <b>Hızlı Değiştirme</b><br> Kahraman değiştirme penceresini, tüm birimleri ve eserleri tek tıklamayla değiştirmek için düğmelerle geliştirir<br><br>• <b>Dikey düzen (portre modu)</b><br> Macera haritası arayüzünü dikey ekranlar için optimize eder<br><br>• <b>Bonus simgeleri</b><br> Birimlerin bonus ve özel yeteneklerini gösteren görsel göstergeler ekler<br><br>• <b>Büyü bağışıklığı simgeleri</b><br> Savaş sırasında büyü bağışıklığı simgelerini ekler<br><br>• <b>Emoji desteği</b><br> Oyunda (örneğin sohbette) emoji görüntülenmesini sağlar",
 		"translations" : [
 			"translation/turkish.json"
+		]
+	},
+	"german" : {
+		"name" : "VCMI Extras",
+		"description" : "Eine Sammlung von Korrekturen und Verbesserungen der VCMI Spieloberfläche und Gameplay:<br/><br/>• <b>Erweiterte Lobby-Optionen</b><br/> Fügt Vorlagenauswahl, Kartengrößen-Buttons &#40;H/XH/C&#41;, Schach-Uhr und Unterstützung für simultane Züge hinzu<br/><br/>• <b>Wiederbesuch- und Suchfunktion-Buttons</b><br/> Erweiteret die Abenteuerkarten-Oberfläche mit Buttons zum Wiederbesuch des derzeit besuchten Objekts und einer Suchfunktion<br/><br/>• <b>Schnellaustausch</b><br/> Erweitert das Helden-Austausch-Fenster um Buttons um das Tauschen der gesamten Armee oder Artefakte mit einem Klick zu ermöglichen<br/><br/>• <b>Vertikales Layout &#40;Portrait-Modus&#41;</b><br/> Optimiert die Abenteuerkarten-Oberfläche wenn das vertikale Layout &#40;Portrait-Modus&#41; benutzt wird<br/><br/>• <b>Zusatzsymbole</b><br/> Fügt weitere Symbole für die Fähigkeiten der Kreaturen hinzu:<br/><br/>• <b>Zauberimmunität</b><br/> Zeigt während des Kampfes Symbole für die Zauberimmunitäten verschiedener Kreaturen an<br/><br/>• <b>Emoji-Unterstützung</b><br/> Erlaubt die Anzeige von Emojis im Ingame-Chat.",
+		"translations" : [
+			"translation/german.json"
 		]
 	}
 }

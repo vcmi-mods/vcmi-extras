@@ -44,5 +44,12 @@
 	"polish" : {
 		"name" : "Ikony bonusów i umiejętności",
 		"description" : "Dodaje nowe graficzne ikony dla różnych bonusów i umiejętności jednostek. Poprawia czytelność podczas walki i na ekranie jednostek."
+	},
+	"german" : {
+		"name" : "Bonus- und Fähigkeitssymbole",
+		"description" : "Fügt neue Symbole für Boni und Fähigkeiten von Kreaturen hinzu um die Übersichtlichkeit im Kampf und dem Kreatureninformations-Fenster zu verbessern.",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }

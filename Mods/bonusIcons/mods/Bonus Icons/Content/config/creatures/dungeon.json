@@ -31,12 +31,12 @@
 		"abilities" : {
 			"fearless" : {
 				"icon" : "zvs/Lib1.res/e_minot",
-				"description" : "{Positive morale}\nMinotaur's morale cannot be decreased below +1"
+				"description" : "{Positive Morale}\nMinotaur's morale cannot be decreased below +1."
 			},
 			"dummyMoraleIcon" : {
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/e_minot",
-				"description" : "{Positive morale}\nMinotaur's morale cannot be decreased below +1"
+				"description" : "{Positive Morale}\nMinotaur's morale cannot be decreased below +1."
 			}
 		}
 	},
@@ -44,12 +44,12 @@
 		"abilities" : {
 			"fearless" : {
 				"icon" : "zvs/Lib1.res/e_minot",
-				"description" : "{Positive morale}\nMinotaur's morale cannot be decreased below +1"
+				"description" : "{Positive Morale}\nMinotaur King's morale cannot be decreased below +1."
 			},
 			"dummyMoraleIcon" : {
 				"type" : "NONE",
 				"icon" : "zvs/Lib1.res/e_minot",
-				"description" : "{Positive morale}\nMinotaur King's morale cannot be decreased below +1"
+				"description" : "{Positive Morale}\nMinotaur King's morale cannot be decreased below +1."
 			}
 		}
 	},

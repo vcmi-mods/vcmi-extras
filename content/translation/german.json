@@ -1,0 +1,19 @@
+{
+	"creatures.core.airElemental.bonus.dummyVulnerablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Armageddon, Blitzstrahl und -Salve und Titanen-Blitzstrahl.",
+	"creatures.core.ammoCart.bonus.dummyIcon" : "{Munitionskarre}\nStellt unendlich Munition für Kriegsgeräte bereit bis sie zerstört wird.",
+	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{Kristall-Erzeugung}\nGeneriert zusätzliche +3 Kristalle zu Beginn einer neuen Woche.",
+	"creatures.core.earthElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Meteorregen.",
+	"creatures.core.enchanter.bonus.dummyabilityIcon" : "{Verzauberer}\nKann verschiedene Zauber zum Zugbeginn aussprechen.",
+	"creatures.core.energyElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Eisstrahl und Frostring.",
+	"creatures.core.fireElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Eisstrahl und Frostring.",
+	"creatures.core.halfling.bonus.dummyluckyicon" : "{Positives Glück}\nDas Glück des Halblings kann nicht unter +1 reduziert werden.",
+	"creatures.core.iceElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Armageddon, Fireball und Inferno.",
+	"creatures.core.magmaElemental.bonus.dummyVulneablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Meteorregen.",
+	"creatures.core.minotaur.bonus.dummyMoraleIcon" : "{Positive Moral}\nDie Moral des Minotauren kann nicht unter +1 reduziert werden.",
+	"creatures.core.minotaurKing.bonus.dummyMoraleIcon" : "{Positive Moral}\nDie Moral des Minotaurenkönigs kann nicht unter +1 reduziert werden.",
+	"creatures.core.stormElemental.bonus.dummyVulnerablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Armageddon, Blitzstrahl und -Salve und Titanen-Blitzstrahl.",
+	"creatures.core.waterElemental.bonus.dummyVulnerablityIcon" : "{Zauberanfälligkeit}\nDoppelter Schaden durch Armageddon, Feuerball und Inferno.",
+	"vcmi.lobby.randomSize.C.help" : "Eine Karte, mit benutzerdefinierter Größe erstellen",
+	"vcmi.lobby.randomSize.HG.help" : "Eine riesige Karte erstellen",
+	"vcmi.lobby.randomSize.XH.help" : "Eine extrariesige Karte erstellen"
+}
