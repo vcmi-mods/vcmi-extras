@@ -254,6 +254,12 @@
 		}
 	},
 
+	"core:LONG_WEAPON" : {
+		"graphics" : {
+			"icon" : "zvs/Lib1.res/longweapon"
+		}
+	},
+
 	"core:LUCK" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/neutralluck",
