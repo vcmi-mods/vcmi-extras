@@ -2,10 +2,13 @@
 	"name" : "VCMI extras",
 	"description" : "Collection of enhancements and fixes for VCMI interface and gameplay:<br><br>• <b>Extended lobby options</b><br> Adds template selection, map size buttons (H/XH/C), chess timer, and support for simultaneous turns<br><br>• <b>Revisit & Search buttons</b><br> Adds buttons to revisit the current object and perform contextual searches on the adventure map<br><br>• <b>Quick Exchange</b><br> Improves the hero exchange screen with one-click swap buttons for all creatures and artifacts<br><br>• <b>Vertical layout (portrait mode)</b><br> Optimizes the adventure map interface for vertical screen orientation (portrait mode)<br><br>• <b>Bonus icons</b><br> Adds visual indicators for unit bonuses and special abilities<br><br>• <b>Spell immunity icons</b><br> Displays spell immunity icons for creatures during combat<br><br>• <b>Emoji support</b><br> Enables emoji font rendering in the in-game chat",
 	"author" : "VCMI Team",
-	"version" : "3.9.1",
+	"version" : "3.9.2",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.9.2" : [
+			"Added japanese"
+		],
 		"3.9.1" : [
 			"Wake hero button position fix"
 		],
@@ -229,6 +232,13 @@
 		"description" : "Eine Sammlung von Korrekturen und Verbesserungen der VCMI Spieloberfläche und Gameplay:<br/><br/>• <b>Erweiterte Lobby-Optionen</b><br/> Fügt Vorlagenauswahl, Kartengrößen-Buttons &#40;H/XH/C&#41;, Schach-Uhr und Unterstützung für simultane Züge hinzu<br/><br/>• <b>Wiederbesuch- und Suchfunktion-Buttons</b><br/> Erweiteret die Abenteuerkarten-Oberfläche mit Buttons zum Wiederbesuch des derzeit besuchten Objekts und einer Suchfunktion<br/><br/>• <b>Schnellaustausch</b><br/> Erweitert das Helden-Austausch-Fenster um Buttons um das Tauschen der gesamten Armee oder Artefakte mit einem Klick zu ermöglichen<br/><br/>• <b>Vertikales Layout &#40;Portrait-Modus&#41;</b><br/> Optimiert die Abenteuerkarten-Oberfläche wenn das vertikale Layout &#40;Portrait-Modus&#41; benutzt wird<br/><br/>• <b>Zusatzsymbole</b><br/> Fügt weitere Symbole für die Fähigkeiten der Kreaturen hinzu:<br/><br/>• <b>Zauberimmunität</b><br/> Zeigt während des Kampfes Symbole für die Zauberimmunitäten verschiedener Kreaturen an<br/><br/>• <b>Emoji-Unterstützung</b><br/> Erlaubt die Anzeige von Emojis im Ingame-Chat.",
 		"translations" : [
 			"translation/german.json"
+		]
+	},
+	"japanese" : {
+		"name" : "VCMIの追加コンテンツ",
+		"description" : "VCMIのインターフェースおよびゲームプレイに関する機能強化と修正のまとめ：<br><br>• <b>ロビーオプションの拡張</b><br> テンプレート選択、マップサイズボタン（H/XH/C）、チェスタイマー、同時ターン対応を追加<br><br>• <b>再訪問＆検索ボタン</b><br> 現在のオブジェクトを再訪問するボタンと、アドベンチャーマップ上でコンテキスト検索を実行するボタンを追加<br><br>• <b>クイック交換</b><br> すべてのクリーチャーおよびアーティファクト用のワンクリック交換ボタンを追加し、ヒーロー交換画面を改善<br><br>• <b>縦向きレイアウト（ポートレートモード）</b><br> 縦向き画面（ポートレートモード）向けにアドベンチャーマップのインターフェースを最適化<br><br>• <b>ボーナスアイコン</b><br> ユニットのボーナスや特殊能力を示す視覚的なインジケーターを追加<br><br>• <b>呪文耐性アイコン</b><br> 戦闘中にクリーチャーの呪文耐性アイコンを表示<br><br>• <b>絵文字対応</b><br> ゲーム内チャットでの絵文字フォントの表示を有効化",
+		"translations" : [
+			"translation/japanese.json"
 		]
 	}
 }
