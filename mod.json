@@ -6,12 +6,12 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
-    "3.9.3" : [
+		"3.9.3" : [
 			"Added S-G + C buttons for random map selection",
 			"Added S-G button for scenario selection",
-      "Added LONG_WEAPON bonus icon",
-      "Fixed some pixels on Underground and Sleep adventure icons"
-    ],
+			"Added LONG_WEAPON bonus icon",
+			"Fixed some pixels on Underground and Sleep adventure icons"
+		],
 		"3.9.2" : [
 			"Added japanese"
 		],
