@@ -1,0 +1,50 @@
+{
+	"basepath" : "ScnrMpSz/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "Scnr036.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "Scnr072.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "Scnr108.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "Scnr144.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "Scnr180.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "Scnr216.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "Scnr252.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "ScnrCus.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "ScnrAll.png"
+		}
+	]
+}

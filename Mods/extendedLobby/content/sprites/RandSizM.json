@@ -1,0 +1,25 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "scbt_men.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "scbt_mes.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "scbt_med.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "scbt_mer.png"
+		}
+	],
+	"basepath" : "RandSizM/"
+}

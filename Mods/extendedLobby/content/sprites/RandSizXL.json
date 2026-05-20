@@ -1,0 +1,25 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "scbt_xln.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "scbt_xls.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "scbt_xld.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "scbt_xlr.png"
+		}
+	],
+	"basepath" : "RandSizXL/"
+}

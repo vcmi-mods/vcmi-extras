@@ -1,0 +1,25 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "scbt_hgn.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "scbt_hgs.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "scbt_hgd.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "scbt_hgr.png"
+		}
+	],
+	"basepath" : "RandSizH/"
+}

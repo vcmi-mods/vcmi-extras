@@ -392,7 +392,7 @@
 				{
 					"index" : 0,
 					"type" : "toggleButton",
-					"image" : "RANSIZS",
+					"image" : "RandSizS",
 					"help" : "core.help.198",
 					"imageOrder" : [
 						0,
@@ -408,7 +408,7 @@
 
 				{
 					"type" : "toggleButton",
-					"image" : "RANSIZM",
+					"image" : "RandSizM",
 					"help" : "core.help.199",
 					"imageOrder" : [
 						0,
@@ -417,14 +417,14 @@
 						3
 					],
 					"position" : {
-						"x" : 42,
+						"x" : 37,
 						"y" : 0
 					}
 				},
 
 				{
 					"type" : "toggleButton",
-					"image" : "RANSIZL",
+					"image" : "RandSizL",
 					"help" : "core.help.200",
 					"imageOrder" : [
 						0,
@@ -433,14 +433,14 @@
 						3
 					],
 					"position" : {
-						"x" : 84,
+						"x" : 74,
 						"y" : 0
 					}
 				},
 
 				{
 					"type" : "toggleButton",
-					"image" : "RANSIZX",
+					"image" : "RandSizXL",
 					"help" : "core.help.201",
 					"imageOrder" : [
 						0,
@@ -449,14 +449,14 @@
 						3
 					],
 					"position" : {
-						"x" : 126,
+						"x" : 111,
 						"y" : 0
 					}
 				},
 
 				{
 					"type" : "toggleButton",
-					"image" : "RanSizHG",
+					"image" : "RandSizH",
 					"help" : "vcmi.lobby.randomSize.HG",
 					"imageOrder" : [
 						0,
@@ -465,14 +465,14 @@
 						3
 					],
 					"position" : {
-						"x" : 168,
+						"x" : 148,
 						"y" : 0
 					}
 				},
 
 				{
 					"type" : "toggleButton",
-					"image" : "RanSizXH",
+					"image" : "RandSizXH",
 					"help" : "vcmi.lobby.randomSize.XH",
 					"imageOrder" : [
 						0,
@@ -481,14 +481,30 @@
 						3
 					],
 					"position" : {
-						"x" : 210,
+						"x" : 185,
 						"y" : 0
 					}
 				},
 
 				{
 					"type" : "toggleButton",
-					"image" : "RanSizC",
+					"image" : "RandSizG",
+					"help" : "vcmi.lobby.randomSize.G",
+					"imageOrder" : [
+						0,
+						1,
+						1,
+						3
+					],
+					"position" : {
+						"x" : 222,
+						"y" : 0
+					}
+				},
+
+				{
+					"type" : "toggleButton",
+					"image" : "RandSizC",
 					"help" : "vcmi.lobby.randomSize.C",
 					"imageOrder" : [
 						0,
@@ -497,7 +513,7 @@
 						3
 					],
 					"position" : {
-						"x" : 252,
+						"x" : 259,
 						"y" : 0
 					}
 				}
@@ -509,10 +525,10 @@
 		{
 			"name" : "buttonTwoLevels",
 			"type" : "toggleButton",
-			"image" : "RANUNDR",
+			"image" : "RANDUND",
 			"help" : "core.help.202",
 			"position" : {
-				"x" : 346,
+				"x" : 350,
 				"y" : 81
 			},
 			"selected" : true,

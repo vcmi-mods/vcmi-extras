@@ -1,0 +1,116 @@
+{
+	"items" : [
+		{
+			"name" : "labelMapSizes",
+			"type" : "label",
+			"font" : "small",
+			"alignment" : "center",
+			"color" : "yellow",
+			"text" : "",
+			"position" : {
+				"x" : 87,
+				"y" : 62
+			}
+		},
+		{
+			"name" : "groupMapSizeFilters",
+			"type" : "toggleGroup",
+			"position" : {
+				"x" : 0,
+				"y" : 0
+			},
+			"selected" : 0,
+			"callback" : "filterMapSize",
+			"items" : [
+				{
+					"type" : "toggleButton",
+					"index" : 36,
+					"image" : "SCSMBUT.DEF",
+					"help" : "core.help.54",
+					"hotkey" : "mapsSizeS",
+					"position" : {
+						"x" : 21,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 72,
+					"image" : "SCMDBUT.DEF",
+					"help" : "core.help.55",
+					"hotkey" : "mapsSizeM",
+					"position" : {
+						"x" : 66,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 108,
+					"image" : "SCLGBUT.DEF",
+					"help" : "core.help.56",
+					"hotkey" : "mapsSizeL",
+					"position" : {
+						"x" : 112,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 144,
+					"image" : "SCXLBUT.DEF",
+					"help" : "core.help.57",
+					"hotkey" : "mapsSizeXl",
+					"position" : {
+						"x" : 160,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 180,
+					"image" : "SCHGBUT.DEF",
+					"help" : "vcmi.lobby.mapSize.H",
+					"hotkey" : "mapsSizeH",
+					"position" : {
+						"x" : 207,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 216,
+					"image" : "SCXHBUT.DEF",
+					"help" : "vcmi.lobby.mapSize.XH",
+					"hotkey" : "mapsSizeXh",
+					"position" : {
+						"x" : 254,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 252,
+					"image" : "SCGTBUT.DEF",
+					"help" : "vcmi.lobby.mapSize.G",
+					"hotkey" : "mapsSizeG",
+					"position" : {
+						"x" : 301,
+						"y" : 46
+					}
+				},
+				{
+					"type" : "toggleButton",
+					"index" : 0,
+					"image" : "SCALBUT.DEF",
+					"help" : "core.help.58",
+					"hotkey" : "mapsSizeAll",
+					"position" : {
+						"x" : 346,
+						"y" : 46
+					}
+				}
+			]
+		}
+	]
+}

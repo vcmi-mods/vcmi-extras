@@ -1,0 +1,25 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "RanUndrn.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "RanUndrs.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "RanUndrh.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "RanUndrh.pcx.png"
+		}
+	],
+	"basepath" : "RandUnd/"
+}
