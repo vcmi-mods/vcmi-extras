@@ -411,6 +411,34 @@
 					]
 				},
 				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroAirship",
+					"area" : {
+						"top" : 64,
+						"left" : 0,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMoveBoat",
+							"image" : "buttons/iam-airship",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-airship",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
 					"type" : "adventureMapButton",
 					"name" : "buttonCast",
 					"image" : "buttons/iam007.def",
@@ -687,12 +715,39 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonMoveBoat",
+							"name" : "buttonMoveAirship",
 							"image" : "buttons/iam-boatL",
 							"help" : "core.help.297",
 							"hotkey" : "adventureMoveHero",
 							"playerColored" : true,
 							"generateFromBaseImage" : "iam-boat",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroAirship",
+					"area" : {
+						"top" : 128,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonMoveAirship",
+							"image" : "buttons/iam-airshipL",
+							"help" : "core.help.297",
+							"hotkey" : "adventureMoveHero",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-airship",
 							"area" : {
 								"top" : 0,
 								"left" : 0,
@@ -780,22 +835,66 @@
 						"height" : 32
 					}
 				},
+
+
 				{
-					"type" : "adventureMapButton",
-					"name" : "buttonRevisit",
-					"image" : "buttons/iam-revisit.def",
-					"help" : "vcmi.adventureMap.revisitObject",
-					"hotkey" : "adventureVisitObject",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-revisit",
-					"generateSmall" : true,
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroGround",
 					"area" : {
 						"top" : 128,
 						"left" : 32,
 						"width" : 32,
 						"height" : 32
-					}
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisit.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
 				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroAirship",
+					"area" : {
+						"top" : 128,
+						"left" : 32,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonDisembark",
+							"image" : "buttons/iam-anchor.def",
+							"help" : "vcmi.adventureMap.disembark",
+							"hotkey" : "adventureDisembark",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-anchor",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+
+
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonEndTurn",
@@ -831,20 +930,60 @@
 			},
 			"items" : [
 				{
-					"type" : "adventureMapButton",
-					"name" : "buttonRevisit",
-					"image" : "buttons/iam-revisit.def",
-					"help" : "vcmi.adventureMap.revisitObject",
-					"hotkey" : "adventureVisitObject",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-revisit",
-					"generateSmall" : true,
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroGround",
 					"area" : {
 						"top" : 128,
 						"left" : 32,
 						"width" : 32,
 						"height" : 32
-					}
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisit.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroAirship",
+					"area" : {
+						"top" : 128,
+						"left" : 32,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonDisembark",
+							"image" : "buttons/iam-anchor.def",
+							"help" : "vcmi.adventureMap.disembark",
+							"hotkey" : "adventureDisembark",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-anchor",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
 				},
 				{
 					"type" : "adventureMapButton",
@@ -943,19 +1082,58 @@
 			},
 			"items" : [
 				{
-					"type" : "adventureMapButton",
-					"name" : "buttonRevisit",
-					"image" : "buttons/iam-revisitL.def",
-					"help" : "vcmi.adventureMap.revisitObject",
-					"hotkey" : "adventureVisitObject",
-					"playerColored" : true,
-					"generateFromBaseImage" : "iam-revisit",
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroGround",
 					"area" : {
 						"top" : 0,
 						"left" : 0,
 						"width" : 64,
 						"height" : 32
-					}
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisitL.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroAirship",
+					"area" : {
+						"top" : 0,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonDisembark",
+							"image" : "buttons/iam-anchorL.def",
+							"help" : "vcmi.adventureMap.disembark",
+							"hotkey" : "adventureDisembark",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-anchor",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
 				},
 				{
 					"type" : "adventureMapButton",
