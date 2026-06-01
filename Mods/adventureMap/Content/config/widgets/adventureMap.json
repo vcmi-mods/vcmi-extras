@@ -835,7 +835,6 @@
 						"height" : 32
 					}
 				},
-
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "heroGround",
@@ -892,7 +891,6 @@
 						}
 					]
 				},
-
 				{
 					"type" : "adventureMapButton",
 					"name" : "buttonEndTurn",
