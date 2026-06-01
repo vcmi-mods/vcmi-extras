@@ -836,7 +836,6 @@
 					}
 				},
 
-
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "heroGround",
@@ -893,7 +892,6 @@
 						}
 					]
 				},
-
 
 				{
 					"type" : "adventureMapButton",
