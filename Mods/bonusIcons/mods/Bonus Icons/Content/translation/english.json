@@ -1,0 +1,11 @@
+{
+	"creatures.core.ammoCart.bonus.inactive" : "{Not Active}\nAmmo Cart is excluded from the turn order and its effects are passive.",
+	"creatures.core.ammoCart.bonus.siegeWeapon" : "{Ammo Cart}\nProvides unlimited shots for creatures with ranged attacks until destroyed.",
+	"creatures.core.ballista.bonus.siegeWeapon" : "{Ballista}\nA missile weapon that shoots projectiles towards enemy troops.",
+	"creatures.core.catapult.bonus.siegeWeapon" : "{Catapult}\nWar machine used to attack and destroy walls, gates and towers.",
+	"creatures.core.firstAidTent.bonus.heals" : "{First Aid Tent}\nHeals some hit points of the top creature of an allied stack.",
+	"creatures.core.firstAidTent.bonus.siegeWeapon" : "{First Aid Tent}\nWar machine that acts last in the combat round.",
+	"creatures.core.halfling.bonus.lucky" : "{Positive Luck}\nHalfling's luck cannot be decreased below +1.",
+	"creatures.core.minotaur.bonus.fearless" : "{Positive Morale}\nMinotaur's morale cannot be decreased below +1.",
+	"creatures.core.minotaurKing.bonus.fearless" : "{Positive Morale}\nMinotaur King's morale cannot be decreased below +1."
+}
