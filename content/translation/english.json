@@ -1,0 +1,23 @@
+{
+	"creatures.core.airElemental.bonus.dummyVulnerablityIcon" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Lightning Bolt, Chain Lightning and Titan's Lightning Bolt.",
+	"creatures.core.ammoCart.bonus.dummyIcon" : "{Ammo Cart}\nProvides unlimited shots for war machines with ranged attacks until destroyed.",
+	"creatures.core.crystalDragon.bonus.dummycrystalIcon" : "{Crystallogenic}\nGenerates additional 3 crystals on new week.",
+	"creatures.core.earthElemental.bonus.dummyVulneablityIcon" : "{Spells Vulnerablity}\nDouble damage from Meteor Shower.",
+	"creatures.core.enchanter.bonus.dummyabilityIcon" : "{.Enchanter.}\nCan cast multiple spells before its turn.",
+	"creatures.core.energyElemental.bonus.dummyVulneablityIcon" : "{Spells Vulnerablity}\nDouble damage from Ice Bolt and Frost Ring.",
+	"creatures.core.fireElemental.bonus.dummyVulneablityIcon" : "{Spells Vulnerablity}\nDouble damage from Ice Bolt and Frost Ring.",
+	"creatures.core.halfling.bonus.dummyluckyicon" : "{Positive Luck}\nHalfling's luck cannot be decreased below +1.",
+	"creatures.core.iceElemental.bonus.dummyVulneablityIcon" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball and Inferno.",
+	"creatures.core.magmaElemental.bonus.dummyVulneablityIcon" : "{Spells Vulnerablity}\nDouble damage from Meteor Shower.",
+	"creatures.core.minotaur.bonus.dummyMoraleIcon" : "{Positive Morale}\nMinotaur's morale cannot be decreased below +1.",
+	"creatures.core.minotaurKing.bonus.dummyMoraleIcon" : "{Positive Morale}\nMinotaur King's morale cannot be decreased below +1.",
+	"creatures.core.stormElemental.bonus.dummyVulnerablityIcon" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Lightning Bolt, Chain Lightning and Titan's Lightning Bolt.",
+	"creatures.core.waterElemental.bonus.dummyVulnerablityIcon" : "{Spells Vulnerablity}\nDouble damage from Armageddon, Fireball and Inferno.",
+	"vcmi.lobby.mapSize.G.help" : "View all gigantic maps",
+	"vcmi.lobby.mapSize.H.help" : "View all huge maps",
+	"vcmi.lobby.mapSize.XH.help" : "View all extra huge maps",
+	"vcmi.lobby.randomSize.C.help" : "Create a custom size map",
+	"vcmi.lobby.randomSize.G.help" : "Create a gigantic map",
+	"vcmi.lobby.randomSize.HG.help" : "Create a huge map",
+	"vcmi.lobby.randomSize.XH.help" : "Create a extra huge map"
+}
