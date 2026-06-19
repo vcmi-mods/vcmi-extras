@@ -422,7 +422,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonMoveBoat",
+							"name" : "buttonMoveAirship",
 							"image" : "buttons/iam-airship",
 							"help" : "core.help.297",
 							"hotkey" : "adventureMoveHero",
