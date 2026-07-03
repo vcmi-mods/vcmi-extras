@@ -863,6 +863,35 @@
 						}
 					]
 				},
+
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroBoat",
+					"area" : {
+						"top" : 128,
+						"left" : 32,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisit.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "heroAirship",
@@ -928,6 +957,35 @@
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "heroGround",
+					"area" : {
+						"top" : 128,
+						"left" : 32,
+						"width" : 32,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisit.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"generateSmall" : true,
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 32,
+								"height" : 32
+							}
+						}
+					]
+				},
+
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroBoat",
 					"area" : {
 						"top" : 128,
 						"left" : 32,
@@ -1080,6 +1138,34 @@
 				{
 					"type" : "adventureMapContainer",
 					"hideWhen" : "heroGround",
+					"area" : {
+						"top" : 0,
+						"left" : 0,
+						"width" : 64,
+						"height" : 32
+					},
+					"items" : [
+						{
+							"type" : "adventureMapButton",
+							"name" : "buttonRevisit",
+							"image" : "buttons/iam-revisitL.def",
+							"help" : "vcmi.adventureMap.revisitObject",
+							"hotkey" : "adventureVisitObject",
+							"playerColored" : true,
+							"generateFromBaseImage" : "iam-revisit",
+							"area" : {
+								"top" : 0,
+								"left" : 0,
+								"width" : 64,
+								"height" : 32
+							}
+						}
+					]
+				},
+
+				{
+					"type" : "adventureMapContainer",
+					"hideWhen" : "heroBoat",
 					"area" : {
 						"top" : 0,
 						"left" : 0,
