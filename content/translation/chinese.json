@@ -13,7 +13,11 @@
 	"creatures.core.minotaurKing.bonus.dummyMoraleIcon" : "{士气高涨}\n牛头王的士气无法被降低至+1以下。",
 	"creatures.core.stormElemental.bonus.dummyVulnerablityIcon" : "{法术易伤}\n受到末日审判、霹雳闪电，连锁闪电和泰坦之箭的伤害翻倍。",
 	"creatures.core.waterElemental.bonus.dummyVulnerablityIcon" : "{法术易伤}\n受到末日审判，连珠火球和地狱烈焰的伤害翻倍。",
+	"vcmi.lobby.mapSize.G.help" : "查看所有极巨地图",
+	"vcmi.lobby.mapSize.H.help" : "查看所有巨大地图",
+	"vcmi.lobby.mapSize.XH.help" : "查看所有超巨地图",
 	"vcmi.lobby.randomSize.C.help" : "生成自定义尺寸地图",
+	"vcmi.lobby.randomSize.G.help" : "生成极巨地图",
 	"vcmi.lobby.randomSize.HG.help" : "生成巨大地图",
 	"vcmi.lobby.randomSize.XH.help" : "生成超巨地图"
 }
