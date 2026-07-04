@@ -62,18 +62,18 @@
 			"core.help.201.help" : "生成特大地图",
 			"vcmi.lobby.randomSize.HG.help" : "生成巨大地图",
 			"vcmi.lobby.randomSize.XH.help" : "生成超巨地图",
-            "vcmi.lobby.randomSize.G.help" : "生成极巨地图",
+			"vcmi.lobby.randomSize.G.help" : "生成极巨地图",
 			"vcmi.lobby.randomSize.C.help" : "生成自定义尺寸地图",
 			"vcmi.lobby.randomSize.HG.hover" : "",
 			"vcmi.lobby.randomSize.XH.hover" : "",
-            "vcmi.lobby.randomSize.G.hover" : "",
+			"vcmi.lobby.randomSize.G.hover" : "",
 			"vcmi.lobby.randomSize.C.hover" : "",
-            "vcmi.lobby.mapSize.H.help" : "查看所有巨大地图",
-            "vcmi.lobby.mapSize.XH.help" : "查看所有超巨地图",
-            "vcmi.lobby.mapSize.G.help" : "查看所有极巨地图",
-            "vcmi.lobby.mapSize.H.hover" : "",
-            "vcmi.lobby.mapSize.XH.hover" : "",
-            "vcmi.lobby.mapSize.G.hover" : ""
+			"vcmi.lobby.mapSize.H.help" : "查看所有巨大地图",
+			"vcmi.lobby.mapSize.XH.help" : "查看所有超巨地图",
+			"vcmi.lobby.mapSize.G.help" : "查看所有极巨地图",
+			"vcmi.lobby.mapSize.H.hover" : "",
+			"vcmi.lobby.mapSize.XH.hover" : "",
+			"vcmi.lobby.mapSize.G.hover" : ""
 		}
 	},
 	"czech" : {
