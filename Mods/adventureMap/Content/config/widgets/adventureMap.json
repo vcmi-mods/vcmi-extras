@@ -715,7 +715,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonMoveAirship",
+							"name" : "buttonMoveBoat",
 							"image" : "buttons/iam-boatL",
 							"help" : "core.help.297",
 							"hotkey" : "adventureMoveHero",
@@ -847,7 +847,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonRevisit",
+							"name" : "buttonRevisit1",
 							"image" : "buttons/iam-revisit.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
@@ -876,7 +876,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonRevisit",
+							"name" : "buttonRevisit2",
 							"image" : "buttons/iam-revisit.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
@@ -966,7 +966,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonRevisit",
+							"name" : "buttonRevisit1",
 							"image" : "buttons/iam-revisit.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
@@ -995,7 +995,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonRevisit",
+							"name" : "buttonRevisit2",
 							"image" : "buttons/iam-revisit.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
@@ -1147,7 +1147,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonRevisit",
+							"name" : "buttonRevisit1",
 							"image" : "buttons/iam-revisitL.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
@@ -1175,7 +1175,7 @@
 					"items" : [
 						{
 							"type" : "adventureMapButton",
-							"name" : "buttonRevisit",
+							"name" : "buttonRevisit2",
 							"image" : "buttons/iam-revisitL.def",
 							"help" : "vcmi.adventureMap.revisitObject",
 							"hotkey" : "adventureVisitObject",
