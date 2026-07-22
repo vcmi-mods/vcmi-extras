@@ -220,7 +220,10 @@
 	},
 	"polish" : {
 		"name" : "Dodatki VCMI",
-		"description" : "Zestaw ulepszeń i poprawek dla interfejsu i rozgrywki w VCMI:<br><br>• <b>Rozszerzone opcje lobby</b><br> Dodaje wybór szablonu, przyciski rozmiaru mapy (H / XH / G / C), zegar szachowy i obsługę tur jednoczesnych<br><br>• <b>Przyciski Ponownego Wejścia i Znajdź</b><br> Dodaje przyciski umożliwiające powrót do obiektu i kontekstowe wyszukiwanie na mapie<br><br>• <b>Szybka wymiana</b><br> Ulepsza ekran wymiany bohaterów o przyciski do jednoczesnej wymiany wszystkich jednostek i artefaktów<br><br>• <b>Pionowy układ (tryb portretowy)</b><br> Optymalizuje interfejs mapy przygód dla ekranów w orientacji pionowej<br><br>• <b>Ikony bonusów</b><br> Dodaje graficzne wskaźniki bonusów i umiejętności jednostek<br><br>• <b>Ikony odporności na czary</b><br> Wyświetla ikony odporności na czary podczas walki<br><br>• <b>Obsługa emoji</b><br> Umożliwia wyświetlanie emoji w grze (np. na czacie)"
+		"description" : "Zestaw ulepszeń i poprawek dla interfejsu i rozgrywki w VCMI:<br><br>• <b>Rozszerzone opcje lobby</b><br> Dodaje wybór szablonu, przyciski rozmiaru mapy (H / XH / G / C), zegar szachowy i obsługę tur jednoczesnych<br><br>• <b>Przyciski Ponownego Wejścia i Znajdź</b><br> Dodaje przyciski umożliwiające powrót do obiektu i kontekstowe wyszukiwanie na mapie<br><br>• <b>Szybka wymiana</b><br> Ulepsza ekran wymiany bohaterów o przyciski do jednoczesnej wymiany wszystkich jednostek i artefaktów<br><br>• <b>Pionowy układ (tryb portretowy)</b><br> Optymalizuje interfejs mapy przygód dla ekranów w orientacji pionowej<br><br>• <b>Ikony bonusów</b><br> Dodaje graficzne wskaźniki bonusów i umiejętności jednostek<br><br>• <b>Ikony odporności na czary</b><br> Wyświetla ikony odporności na czary podczas walki<br><br>• <b>Obsługa emoji</b><br> Umożliwia wyświetlanie emoji w grze (np. na czacie)",
+		"translations" : [
+			"translation/polish.json"
+		]
 	},
 	"chinese" : {
 		"name" : "VCMI附加内容",
