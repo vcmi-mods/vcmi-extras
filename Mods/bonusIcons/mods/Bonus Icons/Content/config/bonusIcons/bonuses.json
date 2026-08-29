@@ -53,21 +53,24 @@
 		}
 	},
 
-	"core:DEATH_STARE" : {
+	"COMBAT_EVENT_TRIGGER" : {
 		"graphics" : {
-			"icon" : "zvs/Lib1.res/E_DEATH"
+			"subtypeIcons" : {
+				"script.deathStare" : "zvs/Lib1.res/E_DEATH",
+				"script.destruction" : "zvs/Lib1.res/DESTROYER",
+				"script.enchanted" : "zvs/Lib1.res/E_BLESS",
+				"script.fireShield" : "zvs/Lib1.res/FireShield",
+				"script.lifeDrain" : "zvs/Lib1.res/DrainLife",
+				"script.soulSteal" : "zvs/Lib1.res/E_SUMMON2",
+				"script.summonGuardians" : "zvs/Lib1.res/SUMMONGUARDS",
+				"script.transmutation" : "zvs/Lib1.res/E_SGTYPE"
+			}
 		}
 	},
 
 	"core:DEFENSIVE_STANCE" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/E_DEFBON"
-		}
-	},
-
-	"core:DESTRUCTION" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/DESTROYER"
 		}
 	},
 
@@ -95,12 +98,6 @@
 		}
 	},
 
-	"core:ENCHANTED" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/E_BLESS"
-		}
-	},
-
 	"core:ENEMY_ATTACK_REDUCTION" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/E_RATT"
@@ -110,12 +107,6 @@
 	"core:ENEMY_DEFENCE_REDUCTION" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/E_RDEF"
-		}
-	},
-
-	"core:FIRE_SHIELD" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/FireShield"
 		}
 	},
 
@@ -233,12 +224,6 @@
 				"4" : "zvs/Lib1.res/E_SPLVL4",
 				"5" : "zvs/Lib1.res/E_SPLVL5"
 			}
-		}
-	},
-
-	"core:LIFE_DRAIN" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/DrainLife"
 		}
 	},
 
@@ -475,12 +460,6 @@
 		}
 	},
 
-	"core:SOUL_STEAL" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/E_SUMMON2"
-		}
-	},
-
 	"core:SPELLCASTER" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/E_CASTER"
@@ -542,12 +521,6 @@
 		}
 	},
 
-	"core:SUMMON_GUARDIANS" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/SUMMONGUARDS"
-		}
-	},
-
 	"core:TWO_HEX_ATTACK_BREATH" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/E_BREATH"
@@ -563,12 +536,6 @@
 	"core:THREE_HEADED_ATTACK" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/ThreeHeaded"
-		}
-	},
-
-	"core:TRANSMUTATION" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/E_SGTYPE"
 		}
 	},
 
