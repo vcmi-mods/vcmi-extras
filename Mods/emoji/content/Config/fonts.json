@@ -13,7 +13,7 @@
 	"trueType" : {
 		//"Noto Emoji" font - "Noto Color Emoji" would need at least SDL3 -> not supported right now
 		"BIGFONT" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				18,
 				38,
@@ -22,7 +22,7 @@
 			]
 		},
 		"CALLI10R" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				12,
 				24,
@@ -31,7 +31,7 @@
 			]
 		},
 		"CREDITS" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				22,
 				44,
@@ -40,7 +40,7 @@
 			]
 		},
 		"HISCORE" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				18,
 				36,
@@ -49,7 +49,7 @@
 			]
 		},
 		"MEDFONT" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				13,
 				26,
@@ -58,7 +58,7 @@
 			]
 		},
 		"SMALFONT" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				11,
 				22,
@@ -67,7 +67,7 @@
 			]
 		},
 		"TIMES08R" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				8,
 				16,
@@ -76,7 +76,7 @@
 			]
 		},
 		"TINY" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				9,
 				18,
@@ -85,7 +85,7 @@
 			]
 		},
 		"VERD10B" : {
-			"file" : "NotoEmoji-Light.ttf",
+			"file" : "NotoColorEmoji-Regular.ttf",
 			"size" : [
 				13,
 				26,
