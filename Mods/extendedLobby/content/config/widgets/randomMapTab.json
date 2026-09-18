@@ -864,6 +864,7 @@
 		},
 
 		{
+			"name" : "dirtRoadPreview",
 			"type" : "animation",
 			"position" : {
 				"x" : 117,
@@ -889,6 +890,7 @@
 		},
 
 		{
+			"name" : "gravelRoadPreview",
 			"type" : "animation",
 			"position" : {
 				"x" : 217,
@@ -914,6 +916,7 @@
 		},
 
 		{
+			"name" : "cobblestoneRoadPreview",
 			"type" : "animation",
 			"position" : {
 				"x" : 317,
