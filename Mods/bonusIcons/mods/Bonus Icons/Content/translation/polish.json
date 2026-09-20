@@ -1,1 +1,11 @@
-{}
+{
+    "creatures.core.ammoCart.bonus.inactive": "{Nieaktywn}\nWóz z amunicją jest wyłączony z kolejkowania, a jego efekty działają pasywnie.",
+    "creatures.core.ammoCart.bonus.siegeWeapon": "{Wóz z amunicją}\nZapewnia nieograniczoną liczbę strzałów jednostkom, dopóki nie zostanie zniszczony.",
+    "creatures.core.ballista.bonus.siegeWeapon": "{Balista}\nBroń miotająca wystrzeliwująca pociski w kierunku wrogich oddziałów.",
+    "creatures.core.catapult.bonus.siegeWeapon": "{Katapulta}\nMachina wojenna służąca do atakowania i niszczenia murów, bram oraz wież.",
+    "creatures.core.firstAidTent.bonus.heals": "{Namiot medyka}\nLeczy część punktów życia pierwszej jednostki w sprzymierzonym oddziale.",
+    "creatures.core.firstAidTent.bonus.siegeWeapon": "{Namiot medyka}\nMachina wojenna, która działa jako ostatnia w rundzie walki.",
+    "creatures.core.halfling.bonus.lucky": "{Pozytywne szczęście}\nSzczęście Niziołków nie może spaść poniżej +1.",
+    "creatures.core.minotaur.bonus.fearless": "{Pozytywne morale}\nMorale Minotaurów nie może spaść poniżej +1.",
+    "creatures.core.minotaurKing.bonus.fearless": "{Pozytywne Morale}\nMorale Królewskiego minotaura nigdy nie spadnie poniżej +1."
+}
