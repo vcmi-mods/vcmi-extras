@@ -1,1 +1,11 @@
-{}
+{
+    "creatures.core.ammoCart.bonus.inactive": "{Неактивний}\nВізок боєприпасів виключено з черговості ходів; його ефекти діють пасивно.",
+    "creatures.core.ammoCart.bonus.siegeWeapon": "{Візок боєприпасів}\nНадає істотам зі стрілецькими атаками необмежений боєзапас, доки його не буде знищено.",
+    "creatures.core.ballista.bonus.siegeWeapon": "{Баліста}\nСтрілецька бойова машина, що випускає снаряди у ворожі загони.",
+    "creatures.core.catapult.bonus.siegeWeapon": "{Катапульта}\nБойова машина для атаки й руйнування стін, брам і веж.",
+    "creatures.core.firstAidTent.bonus.heals": "{Намет допомоги}\nВідновлює частину здоров’я верхньої істоти в дружньому загоні.",
+    "creatures.core.firstAidTent.bonus.siegeWeapon": "{Намет допомоги}\nБойова машина, яка ходить останньою в бойовому раунді.",
+    "creatures.core.halfling.bonus.lucky": "{Щасливчик}\nУдача напіврослика не може бути зменшена нижче +1.",
+    "creatures.core.minotaur.bonus.fearless": "{Незламна мораль}\nМораль мінотавра не може бути зменшена нижче +1.",
+    "creatures.core.minotaurKing.bonus.fearless": "{Незламна мораль}\nМораль Короля мінотаврів не може бути зменшена нижче +1."
+}
