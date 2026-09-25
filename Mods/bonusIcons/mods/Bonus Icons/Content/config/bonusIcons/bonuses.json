@@ -61,6 +61,7 @@
 				"script.enchanted" : "zvs/Lib1.res/E_BLESS",
 				"script.fireShield" : "zvs/Lib1.res/FireShield",
 				"script.lifeDrain" : "zvs/Lib1.res/DrainLife",
+				"script.rebirth" : "zvs/Lib1.res/E_REBIRTH",
 				"script.soulSteal" : "zvs/Lib1.res/E_SUMMON2",
 				"script.summonGuardians" : "zvs/Lib1.res/SUMMONGUARDS",
 				"script.transmutation" : "zvs/Lib1.res/E_SGTYPE"
@@ -421,12 +422,6 @@
 	"core:RECEPTIVE" : {
 		"graphics" : {
 			"icon" : "zvs/Lib1.res/E_NOFRIM"
-		}
-	},
-
-	"core:REBIRTH" : {
-		"graphics" : {
-			"icon" : "zvs/Lib1.res/E_REBIRTH"
 		}
 	},
 
