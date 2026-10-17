@@ -1,1 +1,11 @@
-{}
+{
+    "creatures.core.ammoCart.bonus.inactive": "{Không hoạt động}\nHòm tiếp tế không có thứ tự lượt và các hiệu ứng của nó.",
+    "creatures.core.ammoCart.bonus.siegeWeapon": "{Hòm tiếp tế}\nCung cấp phát bắn không giới hạn cho cỗ máy chiến đấu và các đơn vị bắn xa.",
+    "creatures.core.ballista.bonus.siegeWeapon": "{Máy bắn tên}\nMột loại vũ khí dùng để bắn tên về phía quân địch.",
+    "creatures.core.catapult.bonus.siegeWeapon": "{Máy bắn đá}\nDùng để tấn công và phá hủy tường thành, cổng thành và chòi canh.",
+    "creatures.core.firstAidTent.bonus.heals": "{Lều cứu thương}\nHồi máu cho đơn vị đầu tiên trong đạo quân đồng minh.",
+    "creatures.core.firstAidTent.bonus.siegeWeapon": "{Lều cứu thương}\nHành động cuối mỗi lượt.",
+    "creatures.core.halfling.bonus.lucky": "{May mắn tích cực}\nMay mắn của Halfling không thể giảm xuống dưới +1.",
+    "creatures.core.minotaur.bonus.fearless": "{Nhuệ khí tích cực}\nNhuệ khí của Minotaur không thể giảm xuống dưới +1.",
+    "creatures.core.minotaurKing.bonus.fearless": "{Nhuệ khí tích cực}\nNhuệ khí của Minotaur King không thể giảm xuống dưới +1."
+}
