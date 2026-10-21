@@ -2,10 +2,13 @@
 	"name" : "VCMI extras",
 	"description" : "Collection of enhancements and fixes for VCMI interface and gameplay:<br><br>• <b>Extended lobby options</b><br> Adds template selection, map size buttons (H / XH / G / C), chess timer, and support for simultaneous turns<br><br>• <b>Revisit & Search buttons</b><br> Adds buttons to revisit the current object and perform contextual searches on the adventure map<br><br>• <b>Quick Exchange</b><br> Improves the hero exchange screen with one-click swap buttons for all creatures and artifacts<br><br>• <b>Vertical layout (portrait mode)</b><br> Optimizes the adventure map interface for vertical screen orientation (portrait mode)<br><br>• <b>Bonus icons</b><br> Adds visual indicators for unit bonuses and special abilities<br><br>• <b>Spell immunity icons</b><br> Displays spell immunity icons for creatures during combat<br><br>• <b>Emoji support</b><br> Enables emoji font rendering in the in-game chat",
 	"author" : "VCMI Team",
-	"version" : "3.9.4",
+	"version" : "3.9.5",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Graphical",
 	"changelog" : {
+		"3.9.5" : [
+			"Add Vietnamese translation by Hunter8x"
+		],
 		"3.9.4" : [
 			"Added missing translation key for G map size"
 		],
@@ -259,6 +262,8 @@
 		]
 	},
 	"vietnamese" : {
+		"name" : "VCMI Extras",
+		"description" : "Tập hợp các cải tiến và sửa lỗi cho giao diện, đồng thời nâng cao trải nghiệm chơi VCMI:<br><br>• <b>Mở rộng tùy chọn sảnh chờ</b><br> Thêm lựa chọn template, các nút chọn kích thước bản đồ (H / XH / G / C), bộ đếm thời gian và hỗ trợ lượt đi đồng thời<br><br>• <b>Nút xem lại và tìm kiếm</b><br> Thêm nút để xem lại đối tượng mà tướng đang đứng và nút tìm kiếm đối tượng trên bản đồ<br><br>• <b>Trao đổi nhanh</b><br> Cải thiện giao diện trao đổi tướng với các nút trao đổi nhanh toàn bộ quân đội và báu vật<br><br>• <b>Chế độ màn hình dọc</b><br> Tối ưu giao diện bản đồ cho màn hình dọc<br><br>• <b>Biểu tượng bonus</b><br> Bổ sung biểu tượng cho các chỉ số và kỹ năng đặc biệt của các đơn vị<br><br>• <b>Biểu tượng miễn nhiễm phép</b><br> Hiển thị biểu tượng miễn nhiễm hoặc kháng phép của đơn vị trong trận đấu<br><br>• <b>Bổ sung Emoji</b><br> Cho phép hiển thị Emoji trong khung chat của trò chơi",
 		"translations" : [
 			"translation/vietnamese.json"
 		]
