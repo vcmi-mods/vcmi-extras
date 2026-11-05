@@ -262,5 +262,10 @@
 		"translations" : [
 			"translation/vietnamese.json"
 		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }
